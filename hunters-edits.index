@@ -10,7 +10,5 @@
 	</info>
 	<files>
 		<file name="hunters-edits.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/main/hunters-edits/hunters-edits.xml" />
-
-		<obsolete name="hunters-edits.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/main/hunters-edits/hunters-edits.xml" />
 	</files>
 </index>
