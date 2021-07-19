@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-
+  <!--example-->
   <element name="Example Dwarf" type="Sub Race" source="Aurora: Examples" id="ID_EXAMPLE_SUBRACE_EXAMPLE_DWARF">
     <supports>Dwarf</supports>
     <description>
@@ -12,6 +12,7 @@
     </rules>
   </element>
 
+  <!--feats-->
   <element name="Shadow Touched" type="Feat" source="hunters-edits" id="ID_HUNTER_HUNTERSEDITS_FEAT_SHADOW_TOUCHED">
 		<description>
 			<p>You learn how to bend shadows from your experience with the Shadowfell. You gain the following benefits:</p>
@@ -28,6 +29,25 @@
 			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" />
 			<select type="Spell" name="1st-level Spell, Shadow Touched" supports="1,(Illusion||Necromancy)" />
 		</rules>
+	</element>
+
+  <!--items-->
+  <element name="Circlet of Barbed Vision" type="Magic Item" source="hunters-edits" id="ID_HUNTER_HE_MAGIC_ITEM_CIRCLET_OF_BARBED_VISION">
+		<description>
+			<p>While wearing this circlet, the wearer's Charisma score decreases by 2. They also have advantage on initiative rolls. When making an attack roll, the wearer can use their reaction to gain a +5 bonus to the roll. They make this choice after they see the roll, but before the DM says whether the attack hits or misses. The wearer cannot use this ability again until they finish a short or long rest.</p>
+		</description>
+    <stat name="charisma" value="-2" />
+    <sheet alt="Barbed Vision" usage="1/Long Rest">
+			<description>You have advantage on initiative rolls. When making an attack roll, use your reaction to gain a +5 bonus to the roll. </description>
+		</sheet>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">head</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Plot</set>
+		</setters>
 	</element>
 
 </elements>
