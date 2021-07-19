@@ -25,8 +25,7 @@
 		<description>
 			<p>While wearing this circlet, the wearer's Charisma score decreases by 2. They also have advantage on initiative rolls. When making an attack roll, the wearer can use their reaction to gain a +5 bonus to the roll. They make this choice after they see the roll, but before the DM says whether the attack hits or misses. The wearer cannot use this ability again until they finish a short or long rest.</p>
 		</description>
-    <stat name="charisma" value="-2" />
-    <sheet alt="Barbed Vision" usage="1/Long Rest">
+    <sheet action="reaction" usage="1/Long Rest">
 			<description>You have advantage on initiative rolls. When making an attack roll, use your reaction to gain a +5 bonus to the roll. </description>
 		</sheet>
 		<setters>
@@ -35,8 +34,13 @@
 			<set name="weight" lb="0">0 lb.</set>
 			<set name="slot">head</set>
 			<set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
 			<set name="rarity">Plot</set>
 		</setters>
+    <rules>
+      <stat name="charisma" value="-2" />
+    </rules>
 	</element>
 
 </elements>
+
