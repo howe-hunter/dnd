@@ -12,4 +12,22 @@
     </rules>
   </element>
 
+  <element name="Shadow Touched" type="Feat" source="hunters-edits" id="ID_HUNTER_HUNTERSEDITS_FEAT_SHADOW_TOUCHED">
+		<description>
+			<p>You learn how to bend shadows from your experience with the Shadowfell. You gain the following benefits:</p>
+			<ul>
+				<li>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
+				<li>You learn the invisibility spell and one 1st-level spell of your choice. The 1st-level spell must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can’t cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells’ spellcasting ability is the ability increased by this feat.</li>
+			</ul>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You can cast your chosen spells without expending a spell slot. You can also cast these spells using spell slots you have of the appropriate level.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase, Shadow Touched" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" />
+			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" />
+			<select type="Spell" name="1st-level Spell, Shadow Touched" supports="1,(Illusion||Necromancy)" />
+		</rules>
+	</element>
+
 </elements>
