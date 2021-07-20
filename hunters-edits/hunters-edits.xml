@@ -44,6 +44,21 @@
     </rules>
 	</element>
 
+  <element name="Jim's Missile Defense System" type="Magic Item" source="hunters-edits" id="ID_HUNTER_HE_MAGIC_ITEM_JIMS_MISSILE_DEFENSE">
+		<description>
+			<p>As a bonus action, three (or however many are remaining for the day) twisting, whistling, hypoallergenic, gluten-free darts of magical force appear in a triangle floating behind your head. When an enemy gets within ten feet of you, you may target them with 1-3 missiles. Make a ranged spell attack for each missile. On a hit, the missile does 2d4 force damage. If the attack roll scores a critical, the missile does 5d4 force damage instead of the 4d4 force that you would normally get on a critical. If any of the attack roll is a natural one, all missiles turn around and hit the caster for 3 force damage per missile. Regains all missiles at dawn. Missiles can not trigger on your turn. Missiles only trigger when someone enters the radius, starting within the zone or teleporting in do not activate missiles.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">head</set>
+			<set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+			<set name="rarity">Plot</set>
+		</setters>
+	</element>
+
   <!--spells-->
   <element name="Shadow Whip" type="Spell" source="hunters-edits" id="ID_HE_SPELL_SHADOW_WHIP">
       <supports>Druid, Artificer</supports>
