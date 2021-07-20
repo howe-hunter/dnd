@@ -515,5 +515,115 @@
   			<extend>ID_PHB_SPELL_FLAME_STRIKE</extend>
   		</spellcasting>
   	</element>
+<!--subclasses===========================================================================================================================-->
+    <element name="Path of the Beast" type="Archetype" source="hunters-edits" id="ID_HH_HE_ARCHETYPE_PATH_OF_THE_BEAST">
+		<supports>Primal Path</supports>
+		<description>
+			<p>Barbarians who walk the Path of Beast draw their rage from a bestial spark burning within their souls. That beast howls to be released and bursts forth in the throes of rage.</p>
+			<p class="indent">Those who tread this path might be inhabited by a primal spirit or descended from shapeshifters. You can choose the origin of your feral might or determine it randomly by rolling on the Origin of the Beast table.</p>
+			<h5 class="caption">ORIGIN OF THE BEAST</h5>
+			<table>
+				<thead>
+					<tr><td class="col-10">d4</td><td>Origin</td></tr>
+				</thead>
+				<tr><td>1</td><td>One of your parents is a lycanthrope, and you’ve inherited some of the curse.</td></tr>
+				<tr><td>2</td><td>You are descended from a legendary druid, a fact manifested by your ability to partially change shape.</td></tr>
+				<tr><td>3</td><td>A fey spirit gifted you with the ability to adopt different bestial aspects.</td></tr>
+				<tr><td>4</td><td>An ancient animal spirit dwells within you, allowing you to walk this path.</td></tr>
+			</table>
+			<div element="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST" />
+			<div element="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_BESTIAL_SOUL" />
+			<div element="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_INFECTIOUS_FURY" />
+			<div element="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_CALL_THE_HUNT" />
+		</description>
+		<sheet display="false">
+			<description>You draw their rage from a bestial spark burning within their souls.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST" level="3" />
+			<grant type="Archetype Feature" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_BESTIAL_SOUL" level="6" />
+			<grant type="Archetype Feature" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_INFECTIOUS_FURY" level="10" />
+			<grant type="Archetype Feature" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_CALL_THE_HUNT" level="14" />
+		</rules>
+	</element>
+	<element name="Form of the Beast" type="Archetype Feature" source="hunters-edits" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST">
+		<description>
+			<p><em>3rd-level Path of the Beast feature</em></p>
+			<p>Starting when you choose this path at 3rd level, when you enter your rage, you can transform, revealing the bestial power within you. Until the rage ends, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal. You choose the weapon’s form each time you rage:</p>
+			<ul class="unstyled">
+				<li><strong>Bite.</strong> Your mouth transforms into a bestial muzzle or great mandibles (your choice). It deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with this bite, you regain a number of hit points equal to your proficiency bonus, provided you have less than half your hit points when you hit.</li>
+				<li><strong>Claws.</strong> Each of your hands transforms into a claw, which you can use as a weapon if it’s empty. It deals 1d6 slashing damage on a hit. Once on each of your turns when you attack with a claw using the Attack action, you can make one additional claw attack as part of the same action.</li>
+				<li><strong>Tail.</strong> You grow a lashing, spiny tail, which deals 1d8 piercing damage on a hit and has the reach property. If a creature you can see within 10 feet of you hits you with an attack roll, you can use your reaction to swipe your tail and roll a d8, applying a bonus to your AC equal to the number rolled, potentially causing the attack to miss you.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>When you enter your rage, you can transform. Until the rage ends, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal. You manifest a natural melee weapon each time you rage:
+			Bite. Your bite deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with your bite, you regain {{proficiency}} hp, if you are at half health or lower.
+			Claws. Your claws deal 1d6 slashing damage on a hit. When you take the Attack action on your turn and make an attack with your claws, you can make one additional attack using your claws as part of the same action.
+			Tail. Your tail deals 1d8 piercing damage on a hit and has the reach property. If a creature you can see within 10 feet of you hits you with an attack roll, you can use your reaction to swipe your tail and roll a d8, applying a bonus to your AC equal to the number rolled, potentially causing the attack to miss you.</description>
+		</sheet>
+		<rules>
+			<stat name="form of the beast:hp" value="1" bonus="base" />
+			<stat name="form of the beast:hp" value="constitution:modifier" bonus="base" />
+		</rules>
+	</element>
+	<element name="Bestial Soul" type="Archetype Feature" source="hunters-edits" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_BESTIAL_SOUL">
+		<description>
+			<p><em>6th-level Path of the Beast feature</em></p>
+			<p>The feral spirit within you grows in power, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+			<p class="indent">You can also call on the feral spirit to help you adapt to your surroundings. When you finish a short or long rest, choose one of the following benefits, which lasts until you finish a short or long rest:</p>
+			<ul>
+				<li>You gain a swimming speed equal to your walking speed, and you can breathe underwater.</li>
+				<li>You gain a climbing speed equal to your walking speed, and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</li>
+				<li>When you jump, you can make a Strength (Athletics) check and extend your jump by a number of feet equal to the check’s total. You can make this special check only once per turn.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+			When you finish a short or long rest, choose one of the following benefits, which lasts until you finish a short or long rest:
+			You gain a swimming speed of {{speed}}ft, and you can breathe underwater.
+			You gain a climbing speed of {{speed}}ft, and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+			When you jump, you can make a Athletics check and extend your jump by a number of feet equal to the check’s total. You can make this special check only once per turn.</description>
+		</sheet>
+	</element>
+	<element name="Infectious Fury" type="Archetype Feature" source="hunters-edits" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_INFECTIOUS_FURY">
+		<description>
+			<p><em>10th-level Path of the Beast feature</em></p>
+			<p>When you hit a creature with your natural weapons while you are raging, the spirit within you can curse your target with rabid fury. The target must succeed on a Wisdom saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or suffer one of the following effects (your choice):</p>
+			<ul>
+				<li>The target must use its reaction to make a melee attack against another creature of your choice that you can see.</li>
+				<li>Target takes 2d12 psychic damage.</li>
+			</ul>
+			<p class="indent">You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="{{infectious fury:usage}}/Long Rest">
+			<description>When you hit a creature with your natural weapons while you are raging, the spirit within you can curse your target with rabid fury. The target must succeed on a DC {{infectious fury:dc}} Wisdom save or suffer one of the following effects:
+			The target must use its reaction to make a melee attack against another creature of your choice that you can see.
+			Target takes 2d12 psychic damage.</description>
+		</sheet>
+		<rules>
+			<stat name="infectious fury:dc" value="8" />
+			<stat name="infectious fury:dc" value="proficiency" />
+			<stat name="infectious fury:dc" value="constitution:modifier" />
+			<stat name="infectious fury:usage" value="1" bonus="base" />
+			<stat name="infectious fury:usage" value="constitution:modifier" bonus="base" />
+		</rules>
+	</element>
+	<element name="Call the Hunt" type="Archetype Feature" source="hunters-edits" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_CALL_THE_HUNT">
+		<description>
+			<p><em>14th-level Path of the Beast feature</em></p>
+			<p>The beast within grows so powerful that you can spread its ferocity to your allies. When you enter your rage, you can choose a number of willing creatures you can see within 30 feet of you equal to your Constitution modifier (minimum of one creature). Until your rage ends, the chosen creatures gain the Reckless Attack feature and you have advantage on saving throws against being frightened. You also gain 5 temporary hit points for each creature that accepts the benefit.</p>
+			<p class="indent">You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="{{call the hunt:usage}}/Long Rest">
+			<description>When you enter your rage, you can choose {{call the hunt:creatures}} willing creatures you can see within 30 feet of you. Until your rage ends, the chosen creatures gain the Reckless Attack feature and you have advantage on saving throws against being frightened. You also gain 5 temporary hit points for each creature that accepts the benefit.</description>
+		</sheet>
+		<rules>
+			<stat name="call the hunt:creatures" value="1" bonus="base" />
+			<stat name="call the hunt:creatures" value="constitution:modifier" bonus="base" />
+			<stat name="call the hunt:usage" value="1" bonus="base" />
+			<stat name="call the hunt:usage" value="constitution:modifier" bonus="base" />
+		</rules>
+	</element>
 <!--end===========================================================================================================================-->
 </elements>
