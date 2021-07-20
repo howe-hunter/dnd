@@ -110,7 +110,6 @@
   			<select type="Proficiency" name="Tool Proficiency, Druid of Ravnica" supports="Gaming Set" />
   			<select type="Language" name="Language, Druid of Ravnica" supports="ID_LANGUAGE_CELESTIAL|ID_LANGUAGE_DRACONIC|ID_LANGUAGE_GOBLIN|ID_GGTR_LANGUAGE_MINOTAUR" />
   			<grant type="Background Feature" id="ID_HE_BACKGROUND_FEATURE_DRUID_OF_RAVNICA_PYROMANIAC" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
-  			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
   			<grant type="Background Feature" id="ID_HE_BACKGROUND_FEATURE_DRUID_OF_RAVNICA_PYROMANIAC_SPELLS" />
   			<select name="Personality Trait" type="List" number="2">
   				<item id="1">Your love for nature and its versatility inspires you to find new uses for its materials, you love scavenging natural materials for your crafts.</item>
