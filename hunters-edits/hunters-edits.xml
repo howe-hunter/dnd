@@ -87,8 +87,7 @@
     </element>
 
   <!--backgrounds===========================================================================================================================-->
-  <elements>
-  	<element name="Druid of Ravnica" type="Background" source="hunters-edits" id="ID_HE_BACKGROUND_DRUID_OF_RAVNICA">
+  <element name="Druid of Ravnica" type="Background" source="hunters-edits" id="ID_HE_BACKGROUND_DRUID_OF_RAVNICA">
   		<description>
   			<p>As a Druid of Ravnica, you have found yourself a long way from home with no certainties of ever returing.</p>
   			<ul class="unstyled">
@@ -193,6 +192,5 @@
   			<extend>ID_PHB_SPELL_FLAME_STRIKE</extend>
   		</spellcasting>
   	</element>
-  </elements>
 
 </elements>
