@@ -6,7 +6,7 @@
     <supports> Druid </supports>
   </append>
 
-<!--feats-->
+  <!--feats===========================================================================================================================-->
   <element name="Shadow Touched" type="Feat" source="hunters-edits" id="ID_HUNTER_HUNTERSEDITS_FEAT_SHADOW_TOUCHED">
 		<description>
 			<p>You learn how to bend shadows from your experience with the Shadowfell. You gain the following benefits:</p>
@@ -63,6 +63,40 @@
 			<set name="rarity">Plot</set>
 		</setters>
 	</element>
+
+  <element name="Ondros' Clubs" type="Weapon" source="hunters-edits" id="ID_HE_WEAPON_ONDROS_CLUBS">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_CLUBS</supports>
+		<description>
+			<p> Ondros used to wield a quarterstaff on his travels. That staff is long since broken and now serves as these two clubs. Adorned with years of experience and use, these clubs have served Ondros well and could tell a lifetime worth of stories.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="bludgeoning">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB</set>
+      <set name="stackable">true</set>
+		</setters>
+
+    <element name="Ondros' Pistols" type="Weapon" source="hunters-edits" id="ID_HE_WEAPON_ONDROS_PISTOLS">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING</supports>
+		<description>
+      <p> Ondros has taken to collecting the pistols off of his notable enemies. Whether it was the novelty of the new technology or knowing that he doesn't know how to use them, Ondros seems driven to hoarding these metal contraptions.</p>
+    </description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">250</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">30/90</set>
+			<set name="damage" type="piercing">1d10</set>
+			<set name="proficiency">ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL</set>
+      <set name="stackable">true</set>
+			<!-- <set name="ammunition">ID_WOTC_DMG_ITEM_BULLET</set> -->
+		</setters>
+	</element>
+
 
   <!--spells===========================================================================================================================-->
   <element name="Shadow Whip" type="Spell" source="hunters-edits" id="ID_HE_SPELL_SHADOW_WHIP">
