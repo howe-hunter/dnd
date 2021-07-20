@@ -6,6 +6,7 @@
 
 * Download and install aurora builder from [Aurora Builder](https://aurorabuilder.com/)
 * Download and update the additional files section from [Additional Content](https://www.aurorabuilder.com/content)
+* Turn off ***Automatic Updates*** in *Application Settings > Data Files* to avoid error messages
 
 
 ### Import existing Character files
