@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 
-<!--appends-->
+<!--appends===========================================================================================================================-->
   <append id="ID_PHB_SPELL_ENLARGE_REDUCE">
     <supports> Druid </supports>
   </append>
@@ -25,7 +25,7 @@
 		</rules>
 	</element>
 
-  <!--items-->
+  <!--items===========================================================================================================================-->
   <element name="Circlet of Barbed Vision" type="Magic Item" source="hunters-edits" id="ID_HUNTER_HE_MAGIC_ITEM_CIRCLET_OF_BARBED_VISION">
 		<description>
 			<p>While wearing this circlet, the wearer's Charisma score decreases by 2. They also have advantage on initiative rolls. When making an attack roll, the wearer can use their reaction to gain a +5 bonus to the roll. They make this choice after they see the roll, but before the DM says whether the attack hits or misses. The wearer cannot use this ability again until they finish a short or long rest.</p>
@@ -64,7 +64,7 @@
 		</setters>
 	</element>
 
-  <!--spells-->
+  <!--spells===========================================================================================================================-->
   <element name="Shadow Whip" type="Spell" source="hunters-edits" id="ID_HE_SPELL_SHADOW_WHIP">
       <supports>Druid, Artificer</supports>
       <description>
@@ -85,5 +85,114 @@
         <set name="isRitual">false</set>
       </setters>
     </element>
+
+  <!--backgrounds===========================================================================================================================-->
+  <elements>
+  	<element name="Druid of Ravnica" type="Background" source="hunters-edits" id="ID_HE_BACKGROUND_DRUID_OF_RAVNICA">
+  		<description>
+  			<p>As a Druid of Ravnica, you have found yourself a long way from home with no certainties of ever returing.</p>
+  			<ul class="unstyled">
+  				<li><strong>Skill Proficiencies:</strong> Athletics, Intimidation</li>
+  				<li><strong>Tool Proficiencies:</strong> One type of gaming set</li>
+  				<li><strong>Languages:</strong> Choose one of Celestial, Draconic, Goblin, or Minotaur</li>
+  				<li><strong>Equipment:</strong> Your wits and whatever you were able to hold onto between shipwrecks.</li>
+  			</ul>
+  			<div element="ID_HE_BACKGROUND_FEATURE_DRUID_OF_RAVNICA_PYROMANIAC" />
+  			<div element="ID_HE_BACKGROUND_FEATURE_DRUID_OF_RAVNICA_PYROMANIAC_SPELLS" />
+  			<h5>SUGGESTED CHARACTERISTICS</h5>
+  			<p> Coming from a land of peace, where nature reigns, never forget your connection to home.</p>
+  		</description>
+  		<setters>
+  			<set name="short">Athletics, Intimidation, Language</set>
+  		</setters>
+  		<rules>
+  			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+  			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+  			<select type="Proficiency" name="Tool Proficiency, Druid of Ravnica" supports="Gaming Set" />
+  			<select type="Language" name="Language, Druid of Ravnica" supports="ID_LANGUAGE_CELESTIAL|ID_LANGUAGE_DRACONIC|ID_LANGUAGE_GOBLIN|ID_GGTR_LANGUAGE_MINOTAUR" />
+  			<grant type="Background Feature" id="ID_HE_BACKGROUND_FEATURE_DRUID_OF_RAVNICA_PYROMANIAC" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+  			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+  			<grant type="Background Feature" id="ID_HE_BACKGROUND_FEATURE_DRUID_OF_RAVNICA_PYROMANIAC_SPELLS" />
+  			<select name="Personality Trait" type="List" number="2">
+  				<item id="1">Your love for nature and its versatility inspires you to find new uses for its materials, you love scavenging natural materials for your crafts.</item>
+  				<item id="2">...</item>
+  				<item id="3">...</item>
+  				<item id="4">...</item>
+  				<item id="5">...</item>
+  				<item id="6">...</item>
+  				<item id="7">...</item>
+  				<item id="8">...</item>
+  			</select>
+  			<select name="Ideal" type="List">
+  				<item id="1">I must protect what I care about, but life on the run has made me wary for my own survival. (Chaotic) </item>
+  				<item id="2">...</item>
+  				<item id="3">...</item>
+  				<item id="4">...</item>
+  				<item id="5">...</item>
+  				<item id="6">...</item>
+  			</select>
+  			<select name="Bond" type="List">
+  				<item id="1">The last few years have felt like several lifetimes, I have become accustomed to loosing friends.</item>
+  				<item id="2">...</item>
+  				<item id="3">...</item>
+  				<item id="4">...</item>
+  				<item id="5">...</item>
+  				<item id="6">...</item>
+  			</select>
+  			<select name="Flaw" type="List">
+  				<item id="1">My time on the run has made me forget about the past.</item>
+  				<item id="2">...</item>
+  				<item id="3">...</item>
+  				<item id="4">...</item>
+  				<item id="5">...</item>
+  				<item id="6">...</item>
+  			</select>
+  		</rules>
+  	</element>
+  	<element name="Feature: Pyromaniac" type="Background Feature" source="hunters-edits" id="ID_HE_BACKGROUND_FEATURE_DRUID_OF_RAVNICA_PYROMANIAC">
+  		<supports>Background Feature, Primary</supports>
+  		<description>
+  			<p>You have long enjoyed the power and curiosity of flame. Acting both predictibly and erratic the nature of flame has always loomed in the back of your mind. Over many years your have sought to learn more about the primordial nature of fire itself granting you limited number of extra fire spells to your available spell list.</p>
+  		</description>
+  		<sheet alt="Pyromaniac">
+  			<description>You have long enjoyed the power and curiosity of flame. Acting both predictibly and erratic the nature of flame has always loomed in the back of your mind. Over many years your have sought to learn more about the primordial nature of fire itself granting you limited number of extra fire spells to your available spell list.</description>
+  		</sheet>
+  	</element>
+  	<element name="Pyromaniac Spells" type="Background Feature" source="hunters-edits" id="ID_HE_BACKGROUND_FEATURE_DRUID_OF_RAVNICA_PYROMANIAC_SPELLS">
+  		<description>
+  			<p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+  			<p>For you, the spells on the Pyromaniac Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)</p>
+  			<h5>Boros Guild Spells</h5>
+  			<table>
+  				<thead>
+  					<tr><td>Spell Level</td><td>Spells</td></tr>
+  				</thead>
+  				<tr><td>Cantrip</td><td><em>fire bolt, sacred flame</em></td></tr>
+  				<tr><td>1st</td><td><em>guiding bolt, heroism</em></td></tr>
+  				<tr><td>2nd</td><td><em>aid, scorching ray</em></td></tr>
+  				<tr><td>3rd</td><td><em>beacon of hope, blinding smite</em></td></tr>
+  				<tr><td>4th</td><td><em>death ward, wall of fire</em></td></tr>
+  				<tr><td>5th</td><td><em>flame strike</em></td></tr>
+  			</table>
+  			<p class="indent">Your magic often features dramatic bursts of flame or radiance. When you cast beneficial spells on your allies, they appear momentarily surrounded with halos of bright fire.</p>
+  		</description>
+  		<sheet>
+  			<description>Your magic often features dramatic bursts of flame or radiance. When you cast beneficial spells on your allies, they appear momentarily surrounded with halos of bright fire.</description>
+  		</sheet>
+  		<spellcasting all="true" extend="true">
+  			<extend>ID_PHB_SPELL_FIRE_BOLT</extend>
+  			<extend>ID_PHB_SPELL_SACRED_FLAME</extend>
+  			<extend>ID_PHB_SPELL_GUIDING_BOLT</extend>
+  			<extend>ID_PHB_SPELL_HEROISM</extend>
+  			<extend>ID_PHB_SPELL_AID</extend>
+  			<extend>ID_PHB_SPELL_SCORCHING_RAY</extend>
+  			<extend>ID_PHB_SPELL_BEACON_OF_HOPE</extend>
+  			<extend>ID_PHB_SPELL_BLINDING_SMITE</extend>
+  			<extend>ID_PHB_SPELL_DEATH_WARD</extend>
+  			<extend>ID_PHB_SPELL_WALL_OF_FIRE</extend>
+  			<extend>ID_PHB_SPELL_FLAME_STRIKE</extend>
+  		</spellcasting>
+  	</element>
+  </elements>
 
 </elements>
