@@ -25,7 +25,8 @@
 		<description>
 			<p>While wearing this circlet, the wearer's Charisma score decreases by 2. They also have advantage on initiative rolls. When making an attack roll, the wearer can use their reaction to gain a +5 bonus to the roll. They make this choice after they see the roll, but before the DM says whether the attack hits or misses. The wearer cannot use this ability again until they finish a short or long rest.</p>
 		</description>
-    <sheet usage="1/Long Rest">
+    <!--sheet note still broken-->
+    <sheet alt="Barbed Vision">
 			<description>You have advantage on initiative rolls. When making an attack roll, use your reaction to gain a +5 bonus to the roll.</description>
 		</sheet>
 		<setters>
@@ -42,5 +43,27 @@
       <grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
     </rules>
 	</element>
+
+  <!--spells-->
+  <element name="Shadow Whip" type="Spell" source="hunters-edits" id="ID_HE_SPELL_SHADOW_WHIP">
+      <supports>Druid, Artificer</supports>
+      <description>
+        <p>You create a long, shadow- like whip emanating from your right hand that lashes out at a creature in range. Make a melee spell attack against the target. If the attack hits, the creature takes 1d8 necrotic damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you.</p>
+      </description>
+      <setters>
+        <set name="keywords"></set>
+        <set name="level">0</set>
+        <set name="school">Transmutation</set>
+        <set name="time">1 action</set>
+        <set name="duration">Instantaneous</set>
+        <set name="range">30 feet</set>
+        <set name="hasVerbalComponent">true</set>
+        <set name="hasSomaticComponent">true</set>
+        <set name="hasMaterialComponent">true</set>
+        <set name="materialComponent">the stem of a plant with thorns</set>
+        <set name="isConcentration">false</set>
+        <set name="isRitual">false</set>
+      </setters>
+    </element>
 
 </elements>
