@@ -361,7 +361,7 @@
 	</element>
   <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFELF_STRENGTH">
 		<compendium display="false" />
-		<supports>Half-Elf</supports>
+		<supports>Shifter</supports>
 		<description>
 			<p>Your Strength score increases by 1.</p>
 		</description>
@@ -371,7 +371,7 @@
 	</element>
 	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFELF_DEXTERITY">
 		<compendium display="false" />
-		<supports>Half-Elf</supports>
+		<supports>Shifter</supports>
 		<description>
 			<p>Your Dexterity score increases by 1.</p>
 		</description>
@@ -381,7 +381,7 @@
 	</element>
 	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFELF_CONSTITUTION">
 		<compendium display="false" />
-		<supports>Half-Elf</supports>
+		<supports>Shifter</supports>
 		<description>
 			<p>Your Constitution score increases by 1.</p>
 		</description>
@@ -391,7 +391,7 @@
 	</element>
 	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFELF_INTELLIGENCE">
 		<compendium display="false" />
-		<supports>Half-Elf</supports>
+		<supports>Shifter</supports>
 		<description>
 			<p>Your Intelligence score increases by 1.</p>
 		</description>
@@ -401,7 +401,7 @@
 	</element>
 	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFELF_WISDOM">
 		<compendium display="false" />
-		<supports>Half-Elf</supports>
+		<supports>Shifter</supports>
 		<description>
 			<p>Your Wisdom score increases by 1.</p>
 		</description>
