@@ -184,7 +184,7 @@
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
       <stat name="dexterity" value="1" />
 			<grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_SHIFTER_SHIFTING" />
-      <grant type="Language" id="ID_HH_HE_LANGUAGE_QUORI" />
+      <grant type="Language" id="ID_WOTC_ERLW_LANGUAGE_QUORI" />
       <select type="Language" name="Language, Shifter" number="2" supports="Standard||Exotic" />
 			<select type="Sub Race" name="Shifter Subrace" supports="Shifter" />
 		</rules>
