@@ -183,6 +183,7 @@
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
       <stat name="dexterity" value="1" />
+      			<select type="Racial Trait" name="Ability Score Increase, Shifter" supports="Shifter" number="2" />
 			<grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_SHIFTER_SHIFTING" />
       <grant type="Language" id="ID_WOTC_ERLW_LANGUAGE_QUORI" />
       <select type="Language" name="Language, Shifter" number="2" supports="Standard||Exotic" />
@@ -213,8 +214,7 @@
 		</description>
 		<sheet alt="Beasthide Shifter" display="false" />
 		<rules>
-      <select type="Racial Trait" name="Ability Score Increase, Shifter" supports="Beasthide" number="2" />
-			<grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_BEASTHIDE_NATURAL_ATHLETE" />
+      <grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_BEASTHIDE_NATURAL_ATHLETE" />
 			<grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_BEASTHIDE_SHIFTING_FEATURE" />
 		</rules>
 	</element>
@@ -248,8 +248,7 @@
 		</description>
 		<sheet alt="Longtooth Shifter" display="false" />
 		<rules>
-      <select type="Racial Trait" name="Ability Score Increase, Shifter" supports="Longtooth" number="2" />
-			<grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_LONGTOOTH_FIERCE" />
+      <grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_LONGTOOTH_FIERCE" />
 			<grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_LONGTOOTH_SHIFTING_FEATURE" />
 		</rules>
 	</element>
@@ -283,9 +282,7 @@
 		</description>
 		<sheet alt="Swiftstride Shifter" display="false" />
 		<rules>
-      <select type="Racial Trait" name="Ability Score Increase, Shifter" supports="Swiftstride" number="1" />
-      <select type="Racial Trait" name="Ability Score Increase, Shifter" supports="Swiftstride" number="1" />
-			<grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_SWIFTSTRIDE_GRACEFUL" />
+      <grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_SWIFTSTRIDE_GRACEFUL" />
 			<grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_SWIFTSTRIDE_SHIFTING_FEATURE" />
       <grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_SWIFTSTRIDE_SWIFT_STRIDE" />
 		</rules>
@@ -331,8 +328,7 @@
 		</description>
 		<sheet alt="Wildhunt Shifter" display="false" />
 		<rules>
-      <select type="Racial Trait" name="Ability Score Increase, Shifter" supports="Wildhunt" number="2" />
-			<grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_WILDHUNT_NATURAL_TRACKER" />
+      <grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_WILDHUNT_NATURAL_TRACKER" />
 			<grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_WILDHUNT_SHIFTING_FEATURE" />
 		</rules>
 	</element>
@@ -362,6 +358,56 @@
 		<sheet>
 			<description>While shifted, you have advantage on Wisdom checks.</description>
 		</sheet>
+	</element>
+  <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFELF_STRENGTH">
+		<compendium display="false" />
+		<supports>Half-Elf</supports>
+		<description>
+			<p>Your Strength score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="strength" value="1"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFELF_DEXTERITY">
+		<compendium display="false" />
+		<supports>Half-Elf</supports>
+		<description>
+			<p>Your Dexterity score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="dexterity" value="1"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFELF_CONSTITUTION">
+		<compendium display="false" />
+		<supports>Half-Elf</supports>
+		<description>
+			<p>Your Constitution score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="constitution" value="1"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFELF_INTELLIGENCE">
+		<compendium display="false" />
+		<supports>Half-Elf</supports>
+		<description>
+			<p>Your Intelligence score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="intelligence" value="1"/>
+		</rules>
+	</element>
+	<element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_HALFELF_WISDOM">
+		<compendium display="false" />
+		<supports>Half-Elf</supports>
+		<description>
+			<p>Your Wisdom score increases by 1.</p>
+		</description>
+		<rules>
+			<stat name="wisdom" value="1"/>
+		</rules>
 	</element>
 <!--backgrounds===========================================================================================================================-->
   <!--Druid of Ravnica-->
