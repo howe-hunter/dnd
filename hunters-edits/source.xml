@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="sources.xml" url="" />
+		</update>
+	</info>
+	<element name="hunters-edits" type="Source" source="hunters-edits" id="ID_HUNTER_SOURCE_HUNTERS_EDITS">
+		<description>hunter's personal tweaks and fixes for The Isles of Eight Campaign 2021.</description>
+		<setters>
+			<set name="abbreviation">HE</set>
+			<set name="url">https://github.com/howe-hunter</set>
+			<set name="image">https://i.pinimg.com/originals/90/ab/9c/90ab9c8f65bee7053a1bd4ace9f8cb06.jpg</set>
+			<set name="author" abbreviation="HE" url="https://github.com/howe-hunter">howe-hunter</set>
+			<set name="release">0.0.1</set>
+		</setters>
+	</element>
+</elements>
