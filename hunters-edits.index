@@ -4,7 +4,7 @@
 		<name>hunters-edits</name>
 		<description>hunter's personal tweaks and fixes for The Isles of Eight Campaign 2021.</description>
 		<author url="https://github.com/howe-hunter">howe-hunter</author>
-		<update version="0.6.1">
+		<update version="0.7.0">
 			<file name="hunters-edits.index" url="https://raw.githubusercontent.com/howe-hunter/dnd/main/hunters-edits.index" />
 		</update>
 	</info>
