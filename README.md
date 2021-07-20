@@ -11,10 +11,10 @@
 ### Import existing Character files
 
 * Navigate to \Documents\5e Character Builder\
-* Paste your .dnd5e file into this folder
+* Paste your ***.dnd5e*** file into this folder
 * Download your custom character .png portraits and ally icons
-* Paste the portrait .png into \Documents\5e Character Builder\portraits\
-* Paste the ally .png into \Documents\5e Character Builder\gallery\
+* Paste the portrait ***.png*** into \Documents\5e Character Builder\portraits\
+* Paste the ally ***.png*** into \Documents\5e Character Builder\gallery\
 
 
 ### Installing/Updating *hunters-edits* Content
