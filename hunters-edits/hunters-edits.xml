@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 
+<!--appends-->
+  <append id="ID_PHB_SPELL_ENLARGE_REDUCE">
+    <supports> Druid </supports>
+  </append>
+
 <!--feats-->
   <element name="Shadow Touched" type="Feat" source="hunters-edits" id="ID_HUNTER_HUNTERSEDITS_FEAT_SHADOW_TOUCHED">
 		<description>
