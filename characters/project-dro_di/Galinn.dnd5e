@@ -8,7 +8,7 @@
 	</information>
 	<!-- display data -->
 	<display-properties favorite="false">
-		<name>Sondra</name>
+		<name>Galinn Quickclaw</name>
 		<race>Swiftstride Shifter</race>
 		<class>Barbarian</class>
 		<archetype>
@@ -25,26 +25,23 @@
 	<!-- build data -->
 	<build>
 		<input>
-			<name>Sondra</name>
+			<name>Galinn Quickclaw</name>
 			<gender>Female</gender>
 			<player-name>Hunter</player-name>
 			<experience>6500</experience>
 			<attacks>
 				<description><![CDATA[]]></description>
-				<attack identifier="95ebd78d-87de-44da-9969-0d17e832c3a0" name="Shortsword" range="5 ft" attack="+7 vs AC" damage="1d6+4 piercing" displayed="true" ability="Dexterity">
+				<attack identifier="95ebd78d-87de-44da-9969-0d17e832c3a0" name="Shortsword (2)" range="5 ft" attack="+7 vs AC" damage="1d6+4 piercing" displayed="true" ability="Dexterity">
 					<description><![CDATA[Finesse, Light]]></description>
 				</attack>
-				<attack identifier="593c2465-a594-4e2e-8a54-165b6032f6c3" name="Dagger" range="20/60" attack="+7 vs AC" damage="1d4+4 piercing" displayed="true" ability="Dexterity">
+				<attack identifier="593c2465-a594-4e2e-8a54-165b6032f6c3" name="Dagger (4)" range="20/60" attack="+7 vs AC" damage="1d4+4 piercing" displayed="true" ability="Dexterity">
 					<description><![CDATA[Finesse, Light, Thrown]]></description>
 				</attack>
-				<attack identifier="b2855489-ac15-4c64-a60f-7ce8444f7f98" name="Pistol" range="30/90" attack="+7 vs AC" damage="1d10+4 piercing" displayed="true" ability="Dexterity">
+				<attack identifier="b2855489-ac15-4c64-a60f-7ce8444f7f98" name="Pistol (3)" range="30/90" attack="+7 vs AC" damage="1d10+4 piercing" displayed="true" ability="Dexterity">
 					<description><![CDATA[Ammunition, Loading]]></description>
 				</attack>
 				<attack identifier="7b7dbf88-1e45-47a1-b6c9-38bf83107a11" name="Rifle, Hunting" range="80/240" attack="+7 vs AC" damage="2d10+4 piercing" displayed="true" ability="Dexterity">
 					<description><![CDATA[Ammunition, Reload, Two-Handed]]></description>
-				</attack>
-				<attack identifier="8930b71a-d4fd-4363-bf8b-f2d32a958ae9" name="Whip" range="5 ft" attack="+7 vs AC" damage="1d4+4 slashing" displayed="true" ability="Dexterity">
-					<description><![CDATA[Finesse, Reach]]></description>
 				</attack>
 			</attacks>
 			<backstory><![CDATA[You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life.
@@ -223,9 +220,7 @@ A gladiator is as much an entertainer as any minstrel or circus performer, train
 					</element>
 					<element type="Class Feature" name="Ability Score Improvement" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT">
 						<element type="Class Feature" name="Improvement Option (Barbarian 4)" requiredLevel="4" checksum="f705fdef" registered="ID_INTERNAL_CLASS_FEATURE_FEAT_4_BARBARIAN">
-							<element type="Feat" name="Feat (BARBARIAN 4)" requiredLevel="4" checksum="ed96698a" registered="ID_WOTC_UA20200713_FEAT_FIGHTING_INITIATE">
-								<element type="Class Feature" name="Fighting Style, Fighting Initiate" requiredLevel="1" checksum="0aa486b6" registered="ID_WOTC_UA_CLASS_FEATURE_FIGHTINGSTYLE_MARINER" />
-							</element>
+							<element type="Feat" name="Feat (BARBARIAN 4)" requiredLevel="4" checksum="ed96698a" registered="ID_PHB_FEAT_MOBILE" />
 						</element>
 					</element>
 					<element type="Class Feature" name="Extra Attack" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK" />
@@ -258,6 +253,9 @@ A gladiator is as much an entertainer as any minstrel or circus performer, train
 			<element type="Level" name="3" id="ID_LEVEL_3" />
 			<element type="Level" name="4" id="ID_LEVEL_4" />
 			<element type="Level" name="5" id="ID_LEVEL_5" />
+			<element type="Item" name="Additional Proficiency, Skill Proficiency (Intimidation)" id="ID_PHB_INTERNAL_ITEM_PROFICIENCY_PROXY_PROFICIENCY_SKILL_INTIMIDATION">
+				<element type="Proficiency" name="Intimidation" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+			</element>
 		</elements>
 		<defenses>
 			<conditional>
@@ -307,9 +305,32 @@ A gladiator is as much an entertainer as any minstrel or circus performer, train
 			<storage name="#1" />
 			<storage name="#2" />
 			<item identifier="5dcdfb52-23c0-4a0f-8a25-4b95be11deee" name="Shield" id="ID_WOTC_GEAR_SHIELD">
+				<equipped location="Secondary Hand">true</equipped>
 				<details card="true">
 					<name>
 					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="95ebd78d-87de-44da-9969-0d17e832c3a0" name="Shortsword" id="ID_WOTC_PHB_WEAPON_SHORTSWORD">
+				<equipped location="Primary Hand">true</equipped>
+				<details card="true">
+					<name>Shortsword (2)</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="2f4876c8-e129-4cdb-988a-15678b38022d" name="Dagger" id="ID_WOTC_PHB_WEAPON_DAGGER">
+				<details card="true">
+					<name>Dagger (4)</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="b2855489-ac15-4c64-a60f-7ce8444f7f98" name="Pistol" id="ID_WOTC_DMG_WEAPON_PISTOL">
+				<details card="true">
+					<name>Pistol (3)</name>
 					<notes>
 					</notes>
 				</details>
@@ -322,58 +343,9 @@ A gladiator is as much an entertainer as any minstrel or circus performer, train
 					</notes>
 				</details>
 			</item>
-			<item identifier="8930b71a-d4fd-4363-bf8b-f2d32a958ae9" name="Whip" id="ID_WOTC_PHB_WEAPON_WHIP">
-				<equipped location="Primary Hand">true</equipped>
-				<details card="true">
-					<name>
-					</name>
-					<notes>
-					</notes>
-				</details>
-			</item>
-			<item identifier="95ebd78d-87de-44da-9969-0d17e832c3a0" name="Shortsword" id="ID_WOTC_PHB_WEAPON_SHORTSWORD">
-				<equipped location="Secondary Hand">true</equipped>
-				<details card="true">
-					<name>
-					</name>
-					<notes>
-					</notes>
-				</details>
-			</item>
-			<item identifier="7809d144-2518-4557-9d59-4dddcc8efd31" name="Chakram" id="ID_AW_OOTD_WEAPON_CHAKRAM">
-				<details card="true">
-					<name>
-					</name>
-					<notes>
-					</notes>
-				</details>
-			</item>
-			<item identifier="2f4876c8-e129-4cdb-988a-15678b38022d" name="Dagger" id="ID_WOTC_PHB_WEAPON_DAGGER">
-				<details card="true">
-					<name>
-					</name>
-					<notes>
-					</notes>
-				</details>
-			</item>
-			<item identifier="b2855489-ac15-4c64-a60f-7ce8444f7f98" name="Pistol" id="ID_WOTC_DMG_WEAPON_PISTOL">
-				<details card="true">
-					<name>
-					</name>
-					<notes>
-					</notes>
-				</details>
-			</item>
-			<item identifier="12c76d9e-f6ef-4716-b3e9-dfb922a431d2" name="Pistol" id="ID_WOTC_DMG_WEAPON_PISTOL">
-				<details card="true">
-					<name>
-					</name>
-					<notes>
-					</notes>
-				</details>
-			</item>
-			<item identifier="4c429441-e145-45d6-b15f-d88d1ec760c9" name="Explorer’s Pack" id="ID_WOTC_ITEM_EXPLORERS_PACK">
-				<details card="true">
+			<item identifier="c37da3e7-036a-4dcb-9942-538904e414e5" name="Additional Proficiency, Skill Proficiency (Intimidation)" id="ID_PHB_INTERNAL_ITEM_PROFICIENCY_PROXY_PROFICIENCY_SKILL_INTIMIDATION" hidden="true">
+				<equipped>true</equipped>
+				<details card="false">
 					<name>
 					</name>
 					<notes>
@@ -381,7 +353,7 @@ A gladiator is as much an entertainer as any minstrel or circus performer, train
 				</details>
 			</item>
 		</equipment>
-		<sum element-count="126">
+		<sum element-count="127">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
 			<element type="Option" id="ID_WOTC_DMG_OPTION_FIREARMS" />
@@ -417,12 +389,13 @@ A gladiator is as much an entertainer as any minstrel or circus performer, train
 			<element type="Alignment" id="ID_ALIGNMENT_CHAOTIC_NEUTRAL" />
 			<element type="Level" id="ID_LEVEL_2" />
 			<element type="Level" id="ID_LEVEL_3" />
-			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_SHORTSWORD" />
-			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_WHIP" />
 			<element type="Level" id="ID_LEVEL_4" />
 			<element type="Level" id="ID_LEVEL_5" />
-			<element type="Feat" id="ID_WOTC_UA20200713_FEAT_FIGHTING_INITIATE" />
-			<element type="Class Feature" id="ID_WOTC_UA_CLASS_FEATURE_FIGHTINGSTYLE_MARINER" />
+			<element type="Feat" id="ID_PHB_FEAT_MOBILE" />
+			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROFICIENCY_PROXY_PROFICIENCY_SKILL_INTIMIDATION" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
+			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_SHORTSWORD" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_BARBARIAN" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />

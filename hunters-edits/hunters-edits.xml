@@ -4,6 +4,9 @@
   <append id="ID_PHB_SPELL_ENLARGE_REDUCE">
     <supports> Druid </supports>
   </append>
+  <append id="ID_WOTC_PHB_CLASS_BARBARIAN">
+    <select type="Proficiency" name="Skill Proficiency (Barbarian, Level 3)" number="1" supports="Skill,Barbarian" level="3" />
+  </append>
 <!--feats===========================================================================================================================-->
   <element name="Shadow Touched" type="Feat" source="hunters-edits" id="ID_HUNTER_HUNTERSEDITS_FEAT_SHADOW_TOUCHED">
 		<description>
