@@ -4,6 +4,7 @@
   <append id="ID_PHB_SPELL_ENLARGE_REDUCE">
     <supports> Druid </supports>
   </append>
+  <!--broken-->
   <append id="ID_WOTC_PHB_CLASS_BARBARIAN">
     <select type="Proficiency" name="Skill Proficiency (Barbarian, Level 3)" number="1" supports="Skill,Barbarian" level="3" />
   </append>
@@ -31,7 +32,7 @@
 		<description>
 			<p>While wearing this circlet, the wearer's Charisma score decreases by 2. They also have advantage on initiative rolls. When making an attack roll, the wearer can use their reaction to gain a +5 bonus to the roll. They make this choice after they see the roll, but before the DM says whether the attack hits or misses. The wearer cannot use this ability again until they finish a short or long rest.</p>
 		</description>
-    <!--sheet note still broken-->
+    <!--broken-->
     <sheet alt="Barbed Vision">
 			<description>You have advantage on initiative rolls. When making an attack roll, use your reaction to gain a +5 bonus to the roll.</description>
 		</sheet>

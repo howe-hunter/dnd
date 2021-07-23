@@ -8,7 +8,7 @@
 	</information>
 	<!-- display data -->
 	<display-properties favorite="false">
-		<name>Galinn Quickclaw</name>
+		<name>galinn quickclaw</name>
 		<race>Swiftstride Shifter</race>
 		<class>Barbarian</class>
 		<archetype>
@@ -25,7 +25,7 @@
 	<!-- build data -->
 	<build>
 		<input>
-			<name>Galinn Quickclaw</name>
+			<name>galinn quickclaw</name>
 			<gender>Female</gender>
 			<player-name>Hunter</player-name>
 			<experience>6500</experience>
@@ -34,7 +34,7 @@
 				<attack identifier="95ebd78d-87de-44da-9969-0d17e832c3a0" name="Shortsword (2)" range="5 ft" attack="+7 vs AC" damage="1d6+4 piercing" displayed="true" ability="Dexterity">
 					<description><![CDATA[Finesse, Light]]></description>
 				</attack>
-				<attack identifier="593c2465-a594-4e2e-8a54-165b6032f6c3" name="Dagger (4)" range="20/60" attack="+7 vs AC" damage="1d4+4 piercing" displayed="true" ability="Dexterity">
+				<attack identifier="" name="Dagger (4)" range="20/60" attack="+7 vs AC" damage="1d4+4 piercing" displayed="true">
 					<description><![CDATA[Finesse, Light, Thrown]]></description>
 				</attack>
 				<attack identifier="b2855489-ac15-4c64-a60f-7ce8444f7f98" name="Pistol (3)" range="30/90" attack="+7 vs AC" damage="1d10+4 piercing" displayed="true" ability="Dexterity">
@@ -230,7 +230,7 @@ A gladiator is as much an entertainer as any minstrel or circus performer, train
 					<element type="Proficiency" name="Musical Intrument (Entertainer)" requiredLevel="1" checksum="f6faf1a6" registered="ID_WOTC_OGA_PROFICIENCY_TOOL_PROFICIENCY_WHISTLE_STICK" />
 					<element type="Background Variant" name="Variant Entertainer" requiredLevel="1" checksum="706fd7ed" registered="ID_WOTC_PHB_BACKGROUND_VARIANT_GLADIATOR" />
 					<element type="Background Feature" name="Variant Feature" requiredLevel="1" checksum="04b684e8" registered="" />
-					<element type="List" name="Entertainer Routines" requiredLevel="1" checksum="83bd6440" isList="true" registered="3">Fire-eater</element>
+					<element type="List" name="Entertainer Routines" requiredLevel="1" checksum="83bd6440" isList="true" registered="10">Tumbler</element>
 					<element type="List" name="Personality Trait" requiredLevel="1" number="1" checksum="b026641d" isList="true" registered="8">I change my mood or my mind as quickly as I change key in a song.</element>
 					<element type="List" name="Personality Trait" requiredLevel="1" number="2" checksum="292f35a7" isList="true" registered="5">I love a good insult, even one directed at me.</element>
 					<element type="List" name="Ideal" requiredLevel="1" checksum="40a43933" isList="true" registered="5">People. I like seeing the smiles on people’s faces when I perform. That’s all that matters. (Neutral)</element>
@@ -390,12 +390,12 @@ A gladiator is as much an entertainer as any minstrel or circus performer, train
 			<element type="Level" id="ID_LEVEL_2" />
 			<element type="Level" id="ID_LEVEL_3" />
 			<element type="Level" id="ID_LEVEL_4" />
-			<element type="Level" id="ID_LEVEL_5" />
 			<element type="Feat" id="ID_PHB_FEAT_MOBILE" />
-			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROFICIENCY_PROXY_PROFICIENCY_SKILL_INTIMIDATION" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+			<element type="Level" id="ID_LEVEL_5" />
 			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_SHORTSWORD" />
+			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROFICIENCY_PROXY_PROFICIENCY_SKILL_INTIMIDATION" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_BARBARIAN" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
