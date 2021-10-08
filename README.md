@@ -1,5 +1,5 @@
 # dnd
-***Dungeons & Dragons 5th Edition custom content, characters, and files organized for use with Aurora Builder and Roll20***
+***Dungeons & Dragons 5th Edition custom content, characters, and files organized for use with Aurora Builder, Roll20, and Obsidian***
 
 
 ### Aurora Builder Tool (windows only)
