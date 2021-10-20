@@ -31,20 +31,20 @@
 			<experience>14000</experience>
 			<attacks>
 				<description><![CDATA[]]></description>
+				<attack identifier="67c0a8e7-bda9-4daf-b74b-0b1993ab24ad" name="Longsword (Hex)" range="5 ft" attack="+7 vs AC" damage="1d8+4 slashing" displayed="true" ability="Strength">
+					<description><![CDATA[Versatile]]></description>
+				</attack>
 			</attacks>
 			<backstory><![CDATA[You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You’re far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society.
 
 Although your capabilities are not much different from those of a burglar or smuggler, you learned and practiced them in a very different context: as an espionage agent. You might have been an officially sanctioned agent of the crown, or perhaps you sold the secrets you uncovered to the highest bidder.]]></backstory>
 			<background-trinket>
 			</background-trinket>
-			<background-traits>
-			</background-traits>
-			<background-ideals>
-			</background-ideals>
-			<background-bonds>
-			</background-bonds>
-			<background-flaws>
-			</background-flaws>
+			<background-traits>I don’t pay attention to the risks in a situation. Never tell me the odds.
+I blow up at the slightest insult.</background-traits>
+			<background-ideals>Freedom. Chains are meant to be broken, as are those who would forge them. (Chaotic)</background-ideals>
+			<background-bonds>I’m trying to pay off an old debt I owe to a generous benefactor.</background-bonds>
+			<background-flaws>When faced with a choice between money and my friends, I usually choose the money.</background-flaws>
 			<background>
 				<feature name="Criminal Contact">
 					<description><![CDATA[You have a reliable and trustworthy contact who acts as your liaison to a network of other criminals. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you.]]></description>
@@ -93,7 +93,7 @@ Although your capabilities are not much different from those of a burglar or smu
 			<wisdom>14</wisdom>
 			<charisma>15</charisma>
 		</abilities>
-		<elements level-count="6" registered-count="37">
+		<elements level-count="6" registered-count="39">
 			<element type="Option" name="Average Hit Points" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
@@ -208,12 +208,13 @@ Although your capabilities are not much different from those of a burglar or smu
 						<element type="Spell" name="Cantrip (Warlock)" requiredLevel="4" checksum="f4ed6b65" registered="ID_SCAG_SPELL_GREEN_FLAME_BLADE" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="1" checksum="7bd8212f" registered="ID_PHB_SPELL_WRATHFUL_SMITE" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="2" checksum="b2ec3a22" registered="ID_PHB_SPELL_SHIELD" />
-						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="2" checksum="05a06989" registered="ID_PHB_SPELL_ARMS_OF_HADAR" />
+						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="2" checksum="05a06989" registered="ID_PHB_SPELL_HELLISH_REBUKE" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="3" checksum="2f8851eb" registered="ID_XGTE_SPELL_SHADOW_BLADE" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="4" checksum="f950f8c5" registered="ID_PHB_SPELL_MISTY_STEP" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="5" checksum="d378c0a7" registered="ID_PHB_SPELL_COUNTERSPELL" />
 						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="6" checksum="ad008801" registered="ID_XGTE_SPELL_SUMMON_LESSER_DEMONS" />
 					</element>
+					<element type="Grants" name="Multiclassing Prerequisite" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 					<element type="Class Feature" name="Eldritch Invocations" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS">
 						<element type="Class Feature" name="Eldritch Invocation (Level 2)" requiredLevel="2" number="1" checksum="002d5a0f" registered="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE" />
 						<element type="Class Feature" name="Eldritch Invocation (Level 2)" requiredLevel="2" number="2" checksum="99240bb5" registered="ID_WOTC_XGTE_CLASS_FEATURE_ELDRITCH_INVOCATION_CLOAK_OF_FLIES" />
@@ -229,18 +230,17 @@ Although your capabilities are not much different from those of a burglar or smu
 							</element>
 						</element>
 					</element>
-					<element type="Grants" name="Multiclassing Prerequisite" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 				</element>
 				<element type="Background" name="Background" requiredLevel="1" checksum="6a621392" registered="ID_BACKGROUND_CRIMINAL">
 					<element type="Proficiency" name="Gaming Set (Criminal)" requiredLevel="1" checksum="72b1cf74" registered="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET" />
 					<element type="Background Variant" name="Variant Criminal" requiredLevel="1" checksum="77fb9d88" registered="ID_WOTC_PHB_BACKGROUND_VARIANT_CRIMINAL_SPY" />
 					<element type="Background Feature" name="Variant Feature" requiredLevel="1" checksum="a79c8a05" registered="" />
 					<element type="List" name="Criminal Specialty" requiredLevel="1" checksum="8201f945" isList="true" registered="6">Hired killer</element>
-					<element type="List" name="Personality Trait" requiredLevel="1" number="1" checksum="8bcd3fab" isList="true" registered="" />
-					<element type="List" name="Personality Trait" requiredLevel="1" number="2" checksum="12c46e11" isList="true" registered="" />
-					<element type="List" name="Ideal" requiredLevel="1" checksum="9c023aa6" isList="true" registered="" />
-					<element type="List" name="Bond" requiredLevel="1" checksum="c8d99674" isList="true" registered="" />
-					<element type="List" name="Flaw" requiredLevel="1" checksum="77a99e34" isList="true" registered="" />
+					<element type="List" name="Personality Trait" requiredLevel="1" number="1" checksum="8bcd3fab" isList="true" registered="6">I don’t pay attention to the risks in a situation. Never tell me the odds.</element>
+					<element type="List" name="Personality Trait" requiredLevel="1" number="2" checksum="12c46e11" isList="true" registered="8">I blow up at the slightest insult.</element>
+					<element type="List" name="Ideal" requiredLevel="1" checksum="9c023aa6" isList="true" registered="2">Freedom. Chains are meant to be broken, as are those who would forge them. (Chaotic)</element>
+					<element type="List" name="Bond" requiredLevel="1" checksum="c8d99674" isList="true" registered="1">I’m trying to pay off an old debt I owe to a generous benefactor.</element>
+					<element type="List" name="Flaw" requiredLevel="1" checksum="77a99e34" isList="true" registered="2">When faced with a choice between money and my friends, I usually choose the money.</element>
 					<element type="Proficiency" name="Deception" id="ID_PROFICIENCY_SKILL_DECEPTION" />
 					<element type="Proficiency" name="Stealth" id="ID_PROFICIENCY_SKILL_STEALTH" />
 					<element type="Proficiency" name="Tool Proficiency (Thieves’ tools)" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
@@ -259,6 +259,9 @@ Although your capabilities are not much different from those of a burglar or smu
 			<element type="Level" name="4" id="ID_LEVEL_4" />
 			<element type="Level" name="5" id="ID_LEVEL_5" />
 			<element type="Level" name="6" id="ID_LEVEL_6" />
+			<element type="Armor" name="Half Plate" id="ID_WOTC_ARMOR_MEDIUM_HALF_PLATE">
+				<element type="Grants" name="Stealth Disadvantage" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			</element>
 		</elements>
 		<defenses>
 			<conditional>
@@ -307,24 +310,37 @@ Although your capabilities are not much different from those of a burglar or smu
 		<equipment>
 			<storage name="#1" />
 			<storage name="#2" />
+			<item identifier="2368a1b7-ab21-4f18-8727-b9d0042528ad" name="Half Plate" id="ID_WOTC_ARMOR_MEDIUM_HALF_PLATE">
+				<equipped location="Armor">true</equipped>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="67c0a8e7-bda9-4daf-b74b-0b1993ab24ad" name="Longsword" id="ID_WOTC_PHB_WEAPON_LONGSWORD">
+				<equipped location="Primary Hand">true</equipped>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
 		</equipment>
-		<sum element-count="131">
+		<sum element-count="134">
+			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
+			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
+			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
+			<element type="Option" id="ID_WOTC_SCAG_OPTION_BLADESINGING" />
 			<element type="Level" id="ID_LEVEL_1" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_CHARACTER_BASE" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_BASE" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_BASE" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_DEXTERITY_MODIFIER" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_HP_CONSTITUTION_MODIFIER" />
-			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
-			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
-			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
-			<element type="Option" id="ID_WOTC_SCAG_OPTION_BLADESINGING" />
-			<element type="Level" id="ID_LEVEL_2" />
-			<element type="Level" id="ID_LEVEL_3" />
-			<element type="Level" id="ID_LEVEL_4" />
-			<element type="Level" id="ID_LEVEL_5" />
-			<element type="Level" id="ID_LEVEL_6" />
 			<element type="Race" id="ID_RACE_TIEFLING" />
 			<element type="Size" id="ID_SIZE_MEDIUM" />
 			<element type="Vision" id="ID_VISION_DARKVISION" />
@@ -338,28 +354,36 @@ Although your capabilities are not much different from those of a burglar or smu
 			<element type="Spell" id="ID_PHB_SPELL_RAY_OF_FROST" />
 			<element type="Spell" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" />
 			<element type="Spell" id="ID_PHB_SPELL_DARKNESS" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
 			<element type="Spell" id="ID_PHB_SPELL_ELDRITCH_BLAST" />
-			<element type="Feat" id="ID_WOTC_XGTE_FEAT_FLAMES_OF_PHLEGETHOS" />
-			<element type="Ability Score Improvement" id="ID_PHB_FEAT_ASI_CHARISMA" />
+			<element type="Spell" id="ID_SCAG_SPELL_BOOMING_BLADE" />
+			<element type="Spell" id="ID_PHB_SPELL_WRATHFUL_SMITE" />
+			<element type="Spell" id="ID_PHB_SPELL_SHIELD" />
 			<element type="Background" id="ID_BACKGROUND_CRIMINAL" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
 			<element type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
 			<element type="Background Feature" id="ID_BACKGROUND_FEATURE_CRIMINAL_CONTACT" />
-			<element type="Background Variant" id="ID_WOTC_PHB_BACKGROUND_VARIANT_CRIMINAL_SPY" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
 			<element type="Proficiency" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET" />
-			<element type="Spell" id="ID_SCAG_SPELL_BOOMING_BLADE" />
-			<element type="Spell" id="ID_SCAG_SPELL_GREEN_FLAME_BLADE" />
-			<element type="Spell" id="ID_PHB_SPELL_WRATHFUL_SMITE" />
-			<element type="Spell" id="ID_PHB_SPELL_SHIELD" />
-			<element type="Spell" id="ID_PHB_SPELL_ARMS_OF_HADAR" />
-			<element type="Spell" id="ID_XGTE_SPELL_SHADOW_BLADE" />
-			<element type="Spell" id="ID_PHB_SPELL_MISTY_STEP" />
-			<element type="Spell" id="ID_PHB_SPELL_COUNTERSPELL" />
-			<element type="Spell" id="ID_XGTE_SPELL_SUMMON_LESSER_DEMONS" />
+			<element type="Background Variant" id="ID_WOTC_PHB_BACKGROUND_VARIANT_CRIMINAL_SPY" />
 			<element type="Alignment" id="ID_ALIGNMENT_CHAOTIC_EVIL" />
+			<element type="Level" id="ID_LEVEL_2" />
+			<element type="Level" id="ID_LEVEL_3" />
+			<element type="Spell" id="ID_XGTE_SPELL_SHADOW_BLADE" />
+			<element type="Level" id="ID_LEVEL_4" />
+			<element type="Spell" id="ID_SCAG_SPELL_GREEN_FLAME_BLADE" />
+			<element type="Spell" id="ID_PHB_SPELL_MISTY_STEP" />
+			<element type="Feat" id="ID_WOTC_XGTE_FEAT_FLAMES_OF_PHLEGETHOS" />
+			<element type="Ability Score Improvement" id="ID_PHB_FEAT_ASI_CHARISMA" />
+			<element type="Level" id="ID_LEVEL_5" />
+			<element type="Spell" id="ID_PHB_SPELL_COUNTERSPELL" />
+			<element type="Level" id="ID_LEVEL_6" />
+			<element type="Spell" id="ID_XGTE_SPELL_SUMMON_LESSER_DEMONS" />
+			<element type="Armor" id="ID_WOTC_ARMOR_MEDIUM_HALF_PLATE" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_LONGSWORD" />
+			<element type="Spell" id="ID_PHB_SPELL_HELLISH_REBUKE" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_WARLOCK" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
@@ -387,12 +411,10 @@ Although your capabilities are not much different from those of a burglar or smu
 			<element type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_OTHERWORLDLY_PATRON" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ELDRITCH_INVOCATIONS" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_ABILITY_SCORE_IMPROVEMENT_WARLOCK" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
-			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE" />
-			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_4_WARLOCK" />
 			<element type="Archetype" id="ID_WOTC_XGTE_ARCHETYPE_HEXBLADE" />
 			<element type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_EXPANDED_SPELL_LIST" />
 			<element type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_HEXBLADES_CURSE" />
@@ -437,6 +459,8 @@ Although your capabilities are not much different from those of a burglar or smu
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
 			<element type="Proficiency" id="ID_DMSG_MUSG_WEAPON_PROFICIENCY_LASSO" />
 			<element type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HEXBLADE_ACCURSED_SPECTER" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE" />
+			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_4_WARLOCK" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_BLADE" />
 			<element type="Class Feature" id="ID_WOTC_XGTE_CLASS_FEATURE_ELDRITCH_INVOCATION_CLOAK_OF_FLIES" />
 			<element type="Class Feature" id="ID_WOTC_XGTE_CLASS_FEATURE_ELDRITCH_INVOCATION_GRASP_OF_HADAR" />
@@ -450,7 +474,7 @@ Although your capabilities are not much different from those of a burglar or smu
 					<spell name="Green-Flame Blade" level="0" id="ID_SCAG_SPELL_GREEN_FLAME_BLADE" />
 				</cantrips>
 				<spells>
-					<spell name="Arms of Hadar" level="1" id="ID_PHB_SPELL_ARMS_OF_HADAR" known="true" />
+					<spell name="Hellish Rebuke" level="1" id="ID_PHB_SPELL_HELLISH_REBUKE" known="true" />
 					<spell name="Shield" level="1" id="ID_PHB_SPELL_SHIELD" known="true" />
 					<spell name="Wrathful Smite" level="1" id="ID_PHB_SPELL_WRATHFUL_SMITE" known="true" />
 					<spell name="Misty Step" level="2" id="ID_PHB_SPELL_MISTY_STEP" known="true" />
