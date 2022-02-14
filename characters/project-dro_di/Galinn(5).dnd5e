@@ -14,7 +14,7 @@
 		<archetype>
 		</archetype>
 		<background>Gladiator</background>
-		<level>3</level>
+		<level>5</level>
 		<portrait>
 			<companion>
 			</companion>
@@ -28,7 +28,7 @@
 			<name>galinn quickclaw</name>
 			<gender>Female</gender>
 			<player-name>Hunter</player-name>
-			<experience>2650</experience>
+			<experience>6500</experience>
 			<attacks>
 				<description><![CDATA[]]></description>
 				<attack identifier="95ebd78d-87de-44da-9969-0d17e832c3a0" name="Shortsword (2)" range="5 ft" attack="+7 vs AC" damage="1d6+4 piercing" displayed="true" ability="Dexterity">
@@ -101,7 +101,7 @@ A gladiator is as much an entertainer as any minstrel or circus performer, train
 			<wisdom>9</wisdom>
 			<charisma>12</charisma>
 		</abilities>
-		<elements level-count="3" registered-count="21">
+		<elements level-count="5" registered-count="25">
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
 			<element type="Option" name="Firearms" id="ID_WOTC_DMG_OPTION_FIREARMS" />
@@ -219,6 +219,13 @@ A gladiator is as much an entertainer as any minstrel or circus performer, train
 							<element type="Archetype Feature" name="Form of the Beast" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST" />
 						</element>
 					</element>
+					<element type="Class Feature" name="Ability Score Improvement" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT">
+						<element type="Class Feature" name="Improvement Option (Barbarian 4)" requiredLevel="4" checksum="f705fdef" registered="ID_INTERNAL_CLASS_FEATURE_FEAT_4_BARBARIAN">
+							<element type="Feat" name="Feat (BARBARIAN 4)" requiredLevel="4" checksum="ed96698a" registered="ID_PHB_FEAT_MOBILE" />
+						</element>
+					</element>
+					<element type="Class Feature" name="Extra Attack" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK" />
+					<element type="Class Feature" name="Fast Movement" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT" />
 				</element>
 				<element type="Background" name="Background" requiredLevel="1" checksum="6a621392" registered="ID_BACKGROUND_ENTERTAINER">
 					<element type="Proficiency" name="Musical Intrument (Entertainer)" requiredLevel="1" checksum="f6faf1a6" registered="ID_WOTC_OGA_PROFICIENCY_TOOL_PROFICIENCY_WHISTLE_STICK" />
@@ -245,6 +252,8 @@ A gladiator is as much an entertainer as any minstrel or circus performer, train
 			</element>
 			<element type="Level" name="2" id="ID_LEVEL_2" />
 			<element type="Level" name="3" id="ID_LEVEL_3" />
+			<element type="Level" name="4" id="ID_LEVEL_4" />
+			<element type="Level" name="5" id="ID_LEVEL_5" />
 			<element type="Item" name="Additional Proficiency, Skill Proficiency (Intimidation)" id="ID_PHB_INTERNAL_ITEM_PROFICIENCY_PROXY_PROFICIENCY_SKILL_INTIMIDATION">
 				<element type="Proficiency" name="Intimidation" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
 			</element>
@@ -345,7 +354,7 @@ A gladiator is as much an entertainer as any minstrel or circus performer, train
 				</details>
 			</item>
 		</equipment>
-		<sum element-count="118">
+		<sum element-count="125">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
 			<element type="Option" id="ID_WOTC_DMG_OPTION_FIREARMS" />
@@ -379,6 +388,9 @@ A gladiator is as much an entertainer as any minstrel or circus performer, train
 			<element type="Alignment" id="ID_ALIGNMENT_CHAOTIC_NEUTRAL" />
 			<element type="Level" id="ID_LEVEL_2" />
 			<element type="Level" id="ID_LEVEL_3" />
+			<element type="Level" id="ID_LEVEL_4" />
+			<element type="Feat" id="ID_PHB_FEAT_MOBILE" />
+			<element type="Level" id="ID_LEVEL_5" />
 			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_SHORTSWORD" />
 			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROFICIENCY_PROXY_PROFICIENCY_SKILL_INTIMIDATION" />
@@ -462,8 +474,12 @@ A gladiator is as much an entertainer as any minstrel or circus performer, train
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_RECKLESS_ATTACK" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_DANGER_SENSE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_PRIMAL_PATH" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_ABILITYSCOREIMPROVEMENT" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_EXTRA_ATTACK" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARBARIAN_FAST_MOVEMENT" />
 			<element type="Archetype" id="ID_HH_HE_ARCHETYPE_PATH_OF_THE_BEAST" />
 			<element type="Archetype Feature" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST" />
+			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_4_BARBARIAN" />
 		</sum>
 		<magic />
 	</build>
