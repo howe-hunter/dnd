@@ -64,8 +64,7 @@ Designation: "MANTIS" Engaged!
 Awaiting Instruction...
 This text flashes 3 or 4 times before fading away, leaving nothing but you and your unfamiliar surroundings. After examining your person, you find a journal written in a language you are not proficient in. You stand confused in a dark room with two clear objectives: 
 1) Aquire your missing memory files 
-2) Find the owner of the journal
-]]></backstory>
+2) Find the owner of the journal]]></backstory>
 			<background-trinket>A diary written in a language you don’t know</background-trinket>
 			<background-traits>I would rather make a new friend than a new enemy.
 I am always calm, no matter what the situation. I never raise my voice or let my emotions control me.</background-traits>
@@ -98,7 +97,7 @@ I am always calm, no matter what the situation. I never raise my voice or let my
 ====VISUALS====
 Upon initial inspection MANTIS would never be able to be picked out of a crowd. When not disguised, however, MANTIS sports a black cloth shirt and breeches to cover the more flexible parts of his enchanted frame. His skeleton and muscle structure are made of an intricate system of leathers, wood, and stone. Beyond his naturally dextrous frame, MANTIS often dons his preffered heavy plated armor variant providing a stylish but protective outer layer. MANTIS's head features an all metal design with a variety of state of the art magical sensors and computing hardware. His mouth protrudes into a beak-like shape and opens in the shape of a "W" and his eyes glow a strong green/blue. Protruding from his brow are two green antenna, which glow different color according to his mood. MANTIS comes equipped with a large white cloak and longbow to hide the flashier accents of his heavy plate and give him the silohuette of an average adventurer. MANTIS is accented with glowing green indicator lights while his systems are working properly and yellow accents when he is experiencing a malfunction or is damaged. When combat protocols are engaged, MANTIS's green accents quickly shift to a deep red along with his eyes and antenna. Besides his longbow, MANTIS stores his swords within his arms. When drawing his swords, he must straighten his arms in order to allow his blade compartments to open fully and despense his swords on the back/underside of his arms. MANTIS has large traditional warforged feet, and articulate humanoid hands in order to use fine tools. MANTIS model warforged fight primarily reverse-grip and enjoy catching their prey between their blades and forearms during combat/assassinations.
 ====POTENTIAL BACKSTORY====
-The MANT model warforged is the most advanced assassination bot developed by (insert nation here). MANTIS was employed by (insert nation here)'s highest officials on high priority assassination missions before being mysteriously discharged from service. With his memory banks wiped clean, MANTIS is practically a child again with only his programming and an illegible journal to lean on. The party might stumble upon him in a market storehouse in transit to a black market deal where he would be sold to the highest bidder or out and about after he has rebooted and escaped by himself. With no current memories, MANTIS is left to decide what kind of warforged he wants to be in this vast world and will look to the party to learn about emotion and the values of compassion or be shaped by the party to embrace his merciless programming. MANTIS will be on a personal journey to find his former memories in order to learn who he was in his past life. Whether he likes the answers he eventually finds or not will be up to how his adventures has shaped him. With the end goal of finding his true purpose, MANTIS will let curiosity and instinct drive him while he struggles to learn about himself and his past. </note>
+The MANT model warforged is the most advanced assassination bot developed by (insert nation here). MANTIS was employed by (insert nation here)'s highest officials on high priority assassination missions before being mysteriously discharged from service. With his memory banks wiped clean, MANTIS is practically a child again with only his programming and an illegible journal to lean on. The party might stumble upon him in a market storehouse in transit to a black market deal where he would be sold to the highest bidder or out and about after he has rebooted and escaped by himself. With no current memories, MANTIS is left to decide what kind of warforged he wants to be in this vast world and will look to the party to learn about emotion and the values of compassion or be shaped by the party to embrace his merciless programming. MANTIS will be on a personal journey to find his former memories in order to learn who he was in his past life. Whether he likes the answers he eventually finds or not will be up to how his adventures has shaped him. With the end goal of finding his true purpose, MANTIS will let curiosity and instinct drive him while he struggles to learn about himself and his past.</note>
 				<note column="right">=== SESSION 1 (2/17) ===</note>
 			</notes>
 			<quest>
@@ -473,6 +472,8 @@ Social: Emotional responses do not compute</conditional>
 			<element type="Racial Trait" id="ID_WOTC_WGTE_RACIAL_TRAIT_WARFORGED_INTEGRATED_PROTECTION_HEAVY_PLATING" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_COUNTS_AS_EQUIPPED_ARMOR" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
 			<element type="Background" id="ID_BACKGROUND_CRIMINAL" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
@@ -492,8 +493,6 @@ Social: Emotional responses do not compute</conditional>
 			<element type="Spell" id="ID_PHB_SPELL_SHIELD" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_SHORTSWORD" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_LONGSWORD" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_FIGHTER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
