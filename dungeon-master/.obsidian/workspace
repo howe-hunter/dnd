@@ -1,18 +1,249 @@
 {
   "main": {
-    "id": "1200a82655ca47ff",
+    "id": "3393b1f8b564581b",
     "type": "split",
     "children": [
       {
-        "id": "9b9ef3954172fc07",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "unseen_isles/-custom_intros/tayler.md",
-            "mode": "source"
+        "id": "d936b6916b01f884",
+        "type": "split",
+        "children": [
+          {
+            "id": "37664ad4d40d301d",
+            "type": "leaf",
+            "dimension": 66.07142857142857,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Edunnian_Succession/0-story/Overall.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "37664ad4d40d301d",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/0-story/Overall.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"scroll\":26.261904761904763}"
+                },
+                {
+                  "leaf": "37664ad4d40d301d",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/characters/NPCs.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":20},\"to\":{\"line\":2,\"ch\":20}}}"
+                },
+                {
+                  "leaf": "37664ad4d40d301d",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/cities/all-cities.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "37664ad4d40d301d",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/0-story/Overall.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":308},\"to\":{\"line\":19,\"ch\":308}},\"scroll\":13.044117647058824}"
+                },
+                {
+                  "leaf": "37664ad4d40d301d",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/characters/NPCs.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":24,\"ch\":69},\"to\":{\"line\":24,\"ch\":69}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "37664ad4d40d301d",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/0-story/Overall.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":3},\"to\":{\"line\":31,\"ch\":3}},\"scroll\":24.142857142857142}"
+                },
+                {
+                  "leaf": "37664ad4d40d301d",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/characters/NPCs.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":51},\"to\":{\"line\":21,\"ch\":51}},\"scroll\":4.274749721913237}"
+                },
+                {
+                  "leaf": "37664ad4d40d301d",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/0-story/Overall.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":541},\"to\":{\"line\":19,\"ch\":541}},\"scroll\":3.0434782608695654}"
+                },
+                {
+                  "leaf": "37664ad4d40d301d",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_templates_/lazy_dm-template.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "37664ad4d40d301d",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_templates_/npc-template.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "37664ad4d40d301d",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_templates_/lazy_dm-template.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "37664ad4d40d301d",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/characters/NPCs.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            }
+          },
+          {
+            "id": "73b2ced1efa98b39",
+            "type": "leaf",
+            "dimension": 33.92857142857143,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Edunnian_Succession/workspace.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "73b2ced1efa98b39",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/workspace.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "leaf": "73b2ced1efa98b39",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/0-story/Overall.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "3b8f096cc844dc1b",
+        "type": "split",
+        "children": [
+          {
+            "id": "c8fc14e272991d29",
+            "type": "leaf",
+            "dimension": 22.321428571428573,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Edunnian_Succession/cities/all-cities.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "c8fc14e272991d29",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/cities/all-cities.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":3},\"to\":{\"line\":12,\"ch\":3}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "c8fc14e272991d29",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/characters/NPCs.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":69},\"to\":{\"line\":22,\"ch\":69}},\"scroll\":17.346467391304348}"
+                },
+                {
+                  "leaf": "c8fc14e272991d29",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/cities/all-cities.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":3},\"to\":{\"line\":12,\"ch\":3}},\"scroll\":10.659621802002224}"
+                },
+                {
+                  "leaf": "c8fc14e272991d29",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/characters/NPCs.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":69},\"to\":{\"line\":22,\"ch\":69}},\"scroll\":14.183537263626251}"
+                },
+                {
+                  "leaf": "c8fc14e272991d29",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/cities/all-cities.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":3},\"to\":{\"line\":12,\"ch\":3}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "c8fc14e272991d29",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/characters/NPCs.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":2},\"to\":{\"line\":19,\"ch\":2}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "c8fc14e272991d29",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/characters/Viridan.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "c8fc14e272991d29",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/characters/NPCs.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":39},\"to\":{\"line\":12,\"ch\":39}},\"scroll\":0.43478260869565216}"
+                },
+                {
+                  "leaf": "c8fc14e272991d29",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/0-story/Overall.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                }
+              ]
+            }
+          },
+          {
+            "id": "c0baeec71a844c51",
+            "type": "leaf",
+            "dimension": 77.67857142857143,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Edunnian_Succession/cities/stonefalls.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "c0baeec71a844c51",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/cities/stonefalls.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":26},\"to\":{\"line\":9,\"ch\":26}},\"scroll\":0}"
+                },
+                {
+                  "leaf": "c0baeec71a844c51",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/session_notes/Notes.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"scroll\":26.215686274509803}"
+                },
+                {
+                  "leaf": "c0baeec71a844c51",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/characters/NPCs.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                }
+              ]
+            }
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -31,6 +262,10 @@
             "state": {
               "type": "file-explorer",
               "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           },
           {
@@ -39,13 +274,17 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#important",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           },
           {
@@ -54,21 +293,67 @@
             "state": {
               "type": "starred",
               "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 262
+    "width": 227.5
   },
   "right": {
     "id": "bb7fecc4e1d5c80f",
     "type": "split",
     "children": [
       {
+        "id": "933f5da2b4df30e2",
+        "type": "tabs",
+        "dimension": 36.71875,
+        "children": [
+          {
+            "id": "42d0a4b4586b5796",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "5ec9b1eece07c7b1",
+        "type": "tabs",
+        "dimension": 32.8125,
+        "children": [
+          {
+            "id": "a609403b70587b07",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          }
+        ]
+      },
+      {
         "id": "b47a267d4796dd80",
         "type": "tabs",
+        "dimension": 30.46875,
         "children": [
           {
             "id": "1b8048b86062c0ae",
@@ -76,8 +361,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "unseen_isles/-custom_intros/tayler.md",
-                "collapseAll": false,
+                "file": "Edunnian_Succession/0-story/Overall.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -85,6 +370,26 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "cf2cbd375de62a0e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Edunnian_Succession/0-story/Overall.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           },
           {
@@ -93,22 +398,32 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "unseen_isles/-custom_intros/tayler.md"
+                "file": "Edunnian_Succession/0-story/Overall.md"
               }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 274.5,
     "collapsed": true
   },
-  "active": "9b9ef3954172fc07",
+  "active": "37664ad4d40d301d",
   "lastOpenFiles": [
-    "unseen_isles/-custom_intros/tayler.md",
-    "2021-10-07.md",
-    "unseen_isles/-custom_intros/jake.md",
-    "Untitled.md"
+    "Edunnian_Succession/workspace.md",
+    "Edunnian_Succession/0-story/Overall.md",
+    "Edunnian_Succession/cities/all-cities.md",
+    "Edunnian_Succession/cities/stonefalls.md",
+    "Edunnian_Succession/session_notes/Notes.md",
+    "Edunnian_Succession/characters/NPCs.md",
+    "Edunnian_Succession/characters/Viridan.md",
+    "_templates_/npc-template.md",
+    "_templates_/lazy_dm-template.md",
+    "Edunnian_Succession/session_notes/Notes - Cave.md"
   ]
 }
