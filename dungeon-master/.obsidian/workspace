@@ -26,7 +26,7 @@
                   "leaf": "37664ad4d40d301d",
                   "group": null,
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/0-story/Overall.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":6},\"to\":{\"line\":2,\"ch\":6}}}"
                 }
               ]
             }
@@ -235,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Edunnian_Succession/cities/stonefalls.md",
+                "file": "Edunnian_Succession/0-story/Overall.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -256,7 +256,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Edunnian_Succession/cities/stonefalls.md",
+                "file": "Edunnian_Succession/0-story/Overall.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -272,7 +272,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Edunnian_Succession/cities/stonefalls.md"
+                "file": "Edunnian_Succession/0-story/Overall.md"
               }
             },
             "pane-relief:history-v1": {
@@ -287,10 +287,10 @@
     "width": 274.5,
     "collapsed": true
   },
-  "active": "4966406925c9a986",
+  "active": "37664ad4d40d301d",
   "lastOpenFiles": [
-    "Edunnian_Succession/_resources/Pasted image 20220930183749.png",
     "Edunnian_Succession/cities/stonefalls.md",
+    "Edunnian_Succession/_resources/Pasted image 20220930183749.png",
     "Edunnian_Succession/cities/all-cities.md",
     "Edunnian_Succession/0-story/Overall.md",
     "Edunnian_Succession/workspace.md",
