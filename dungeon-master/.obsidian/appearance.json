@@ -1,3 +1,16 @@
 {
-  "baseFontSize": 16
+  "baseFontSize": 15,
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "obsidian",
+    "hunters-theme",
+    "center-images",
+    "checkbox",
+    "clutter-free-headings",
+    "notation-colour-blocks",
+    "omega-hr",
+    "realistic-highlight",
+    "clutter-free-formatting",
+    "inline-block-embeds"
+  ]
 }

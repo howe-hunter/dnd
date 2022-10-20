@@ -1,4 +1,12 @@
 [
   "obsidian-git",
-  "sliding-panes-obsidian"
+  "sliding-panes-obsidian",
+  "calendar",
+  "table-editor-obsidian",
+  "templater-obsidian",
+  "obsidian-kanban",
+  "obsidian-outliner",
+  "obsidian-autocomplete-plugin",
+  "pane-relief",
+  "hotkey-helper"
 ]

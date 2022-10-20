@@ -88,7 +88,8 @@ body.plugin-sliding-panes-rotate-header .workspace > .mod-root > .workspace-leaf
   height: 100%;
 }
 body.plugin-sliding-panes-rotate-header .workspace > .mod-root > .workspace-leaf.mod-active > .workspace-leaf-content > .view-header {
-  border-right: 2px solid var(--interactive-accent);
+  border-left: 2px solid #8272d0;
+  border-right: 2px solid #8272d0;
   border-bottom: none;
 }
 body.plugin-sliding-panes-rotate-header .workspace > .mod-root > .workspace-leaf.mod-active > .workspace-leaf-content > .view-header > .view-header-title-container:after {
