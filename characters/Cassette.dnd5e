@@ -151,6 +151,7 @@
 					<element type="Proficiency" name="Saving Throw Proficiency (Dexterity)" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
 					<element type="Class Feature" name="Unarmored Defense" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_UNARMORED_DEFENSE" />
 					<element type="Class Feature" name="Martial Arts" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_MARTIAL_ARTS" />
+					<element type="Grants" name="Multiclassing Prerequisite" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 					<element type="Class Feature" name="Ki" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI">
 						<element type="Class Feature" name="Flurry of Blows" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI_FLURRY_OF_BLOWS" />
 						<element type="Class Feature" name="Patient Defense" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI_PATIENT_DEFENSE" />
@@ -179,7 +180,6 @@
 					<element type="Class Feature" name="Extra Attack" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK" />
 					<element type="Class Feature" name="Stunning Strike" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_STUNNING_STRIKE" />
 					<element type="Class Feature" name="Ki-Empowered Strikes" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI_EMPOWERED_STRIKES" />
-					<element type="Grants" name="Multiclassing Prerequisite" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 				</element>
 				<element type="Background" name="Background" requiredLevel="1" checksum="6a621392" registered="ID_WOTC_VRGTR_BACKGROUND_HAUNTED_ONE">
 					<element type="Background Feature" name="Variant Feature" requiredLevel="1" checksum="32b378fb" registered="" />
@@ -310,12 +310,6 @@
 			</item>
 		</equipment>
 		<sum element-count="93">
-			<element type="Level" id="ID_LEVEL_1" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_CHARACTER_BASE" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_BASE" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_BASE" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_DEXTERITY_MODIFIER" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_HP_CONSTITUTION_MODIFIER" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -323,6 +317,12 @@
 			<element type="Option" id="ID_WOTC_SCAG_OPTION_BLADESINGING" />
 			<element type="Option" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<element type="Option" id="ID_WOTC_DMG_OPTION_FIREARMS" />
+			<element type="Level" id="ID_LEVEL_1" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_CHARACTER_BASE" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_BASE" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_BASE" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_DEXTERITY_MODIFIER" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_HP_CONSTITUTION_MODIFIER" />
 			<element type="Race" id="ID_WOTC_VGTM_RACE_KENKU" />
 			<element type="Size" id="ID_SIZE_MEDIUM" />
 			<element type="Language" id="ID_LANGUAGE_COMMON" />
@@ -330,28 +330,28 @@
 			<element type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_EXPERT_FORGERY" />
 			<element type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_KENKU_TRAINING" />
 			<element type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_KENKU_MIMICRY" />
-			<element type="Level" id="ID_LEVEL_2" />
-			<element type="Level" id="ID_LEVEL_3" />
-			<element type="Level" id="ID_LEVEL_4" />
-			<element type="Level" id="ID_LEVEL_5" />
-			<element type="Level" id="ID_LEVEL_6" />
-			<element type="Background" id="ID_WOTC_VRGTR_BACKGROUND_HAUNTED_ONE" />
-			<element type="Background Feature" id="ID_WOTC_VRGTR_BACKGROUND_FEATURE_HEART_OF_DARKNESS" />
 			<element type="Ability Score Improvement" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2" />
 			<element type="Ability Score Improvement" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1" />
-			<element type="Language" id="ID_LANGUAGE_SYLVAN" />
-			<element type="Language" id="ID_LANGUAGE_GITH" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
 			<element type="Proficiency" id="ID_WOTC_OGA_PROFICIENCY_TOOL_PROFICIENCY_WHISTLE_STICK" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+			<element type="Background" id="ID_WOTC_VRGTR_BACKGROUND_HAUNTED_ONE" />
+			<element type="Background Feature" id="ID_WOTC_VRGTR_BACKGROUND_FEATURE_HEART_OF_DARKNESS" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<element type="Language" id="ID_LANGUAGE_SYLVAN" />
+			<element type="Language" id="ID_LANGUAGE_GITH" />
+			<element type="Level" id="ID_LEVEL_2" />
+			<element type="Level" id="ID_LEVEL_3" />
+			<element type="Level" id="ID_LEVEL_4" />
 			<element type="Feat" id="ID_WOTC_TCOE_FEAT_FEY_TOUCHED" />
 			<element type="Spell" id="ID_PHB_SPELL_MISTY_STEP" />
 			<element type="Feat Feature" id="ID_WOTC_TCOE_FEAT_FEATURE_FEY_TOUCHED_WISDOM" />
 			<element type="Spell" id="ID_PHB_SPELL_HEX" />
+			<element type="Level" id="ID_LEVEL_5" />
+			<element type="Level" id="ID_LEVEL_6" />
 			<element type="Item" id="ID_WOTC_TCOE_ITEM_OCF_MONK_DEDICATED_WEAPON" />
 			<element type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_MONK_DEDICATED_WEAPON" />
 			<element type="Item" id="ID_WOTC_TCOE_ITEM_OCF_MONK_KI_FUELED_ATTACK" />
@@ -385,6 +385,7 @@
 			<element type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_UNARMORED_DEFENSE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_MARTIAL_ARTS" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI_FLURRY_OF_BLOWS" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI_PATIENT_DEFENSE" />
@@ -397,7 +398,6 @@
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_EXTRA_ATTACK_MONK" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_STUNNING_STRIKE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_KI_EMPOWERED_STRIKES" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 			<element type="Archetype" id="ID_WOTC_PHB_ARCHETYPE_MONK_WAY_OF_SHADOW" />
 			<element type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAY_OF_SHADOW_SHADOW_ARTS" />
 			<element type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" />

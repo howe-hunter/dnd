@@ -321,12 +321,12 @@ Now you're looking for something else, perhaps greater reward for the risks you 
 				<skill name="Investigation">-4</skill>
 				<skill name="Medicine">1</skill>
 				<skill name="Nature">-4</skill>
-				<skill name="Perception">1</skill>
+				<skill name="Perception">3</skill>
 				<skill name="Performance">-4</skill>
 				<skill name="Persuasion">-4</skill>
 				<skill name="Religion">-4</skill>
 				<skill name="Sleight of Hand">3</skill>
-				<skill name="Stealth">3</skill>
+				<skill name="Stealth">5</skill>
 				<skill name="Survival">1</skill>
 			</skills>
 			<portrait location="local">Z:\github\dnd\gallery\companions\cat.jpg</portrait>

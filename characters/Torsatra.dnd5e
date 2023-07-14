@@ -4,7 +4,7 @@
 	<!-- information -->
 	<information>
 		<group>Elves</group>
-		<generationOption>1</generationOption>
+		<generationOption>3</generationOption>
 	</information>
 	<!-- display data -->
 	<display-properties favorite="false">
@@ -102,7 +102,7 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<wisdom>17</wisdom>
 			<charisma>14</charisma>
 		</abilities>
-		<elements level-count="7" registered-count="26">
+		<elements level-count="7" registered-count="44">
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
 				<element type="Grants" name="Multiclass Spellcasting" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -171,9 +171,9 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 					<element type="Proficiency" name="Saving Throw Proficiency (Wisdom)" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" />
 					<element type="Proficiency" name="Saving Throw Proficiency (Charisma)" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
 					<element type="Class Feature" name="Spellcasting" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC">
-						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="1" number="1" checksum="0b016099" registered="" />
-						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="1" number="2" checksum="531fc9b1" registered="" />
-						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="1" number="3" checksum="d23aac96" registered="" />
+						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="1" number="1" checksum="0b016099" registered="ID_XGTE_SPELL_TOLL_THE_DEAD" />
+						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="1" number="2" checksum="531fc9b1" registered="ID_PHB_SPELL_THAUMATURGY" />
+						<element type="Spell" name="Cantrip (Cleric)" requiredLevel="1" number="3" checksum="d23aac96" registered="ID_PHB_SPELL_GUIDANCE" />
 						<element type="Grants" name="Ritual Casting" id="ID_INTERNAL_RITUAL_CASTING" />
 						<element type="Proficiency" name="Spellcasting Focus Group (Holy Symbol)" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_HOLY_SYMBOL" />
 						<element type="Grants" name="Multiclass Spellcasting Slots Full" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" />
@@ -224,10 +224,10 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 						</element>
 					</element>
 					<element type="Class Feature" name="Pact Magic" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
-						<element type="Spell" name="Cantrip (Warlock)" requiredLevel="1" number="1" checksum="1cce901d" registered="" />
-						<element type="Spell" name="Cantrip (Warlock)" requiredLevel="1" number="2" checksum="6a2ba920" registered="" />
-						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="1" checksum="7bd8212f" registered="" />
-						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="2" checksum="b2ec3a22" registered="" />
+						<element type="Spell" name="Cantrip (Warlock)" requiredLevel="1" number="1" checksum="1cce901d" registered="ID_PHB_SPELL_ELDRITCH_BLAST" />
+						<element type="Spell" name="Cantrip (Warlock)" requiredLevel="1" number="2" checksum="6a2ba920" registered="ID_WOTC_TCOE_SPELL_GREENFLAME_BLADE" />
+						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="1" checksum="7bd8212f" registered="ID_PHB_SPELL_ARMOR_OF_AGATHYS" />
+						<element type="Spell" name="Spellcasting (Warlock)" requiredLevel="1" number="2" checksum="b2ec3a22" registered="ID_PHB_SPELL_HEX" />
 						<element type="Grants" name="Multiclass Spellcasting Slots Solo" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_SOLO" />
 					</element>
 					<element type="Grants" name="Multiclass" id="ID_INTERNAL_GRANT_MULTICLASS" />
@@ -298,17 +298,17 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 				<element type="Multiclass" name="Multiclass (Level 4)" requiredLevel="4" checksum="964aa9ff" registered="ID_WOTC_PHB_MULTICLASS_WIZARD">
 					<element type="Grants" name="Multiclass Spellcasting Slots Full" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" />
 					<element type="Class Feature" name="Spellcasting" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
-						<element type="Spell" name="Cantrip (Wizard)" requiredLevel="1" number="1" checksum="c828af0e" registered="" />
-						<element type="Spell" name="Cantrip (Wizard)" requiredLevel="1" number="2" checksum="90360626" registered="" />
-						<element type="Spell" name="Cantrip (Wizard)" requiredLevel="1" number="3" checksum="11136301" registered="" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="1" checksum="cdef01cb" registered="" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="2" checksum="95f1a8e3" registered="" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="3" checksum="14d4cdc4" registered="" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="4" checksum="25ccfab3" registered="" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="5" checksum="a4e99f94" registered="" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="6" checksum="fcf736bc" registered="" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="2" number="1" checksum="7a2ebd15" registered="" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="2" number="2" checksum="0456f5b3" registered="" />
+						<element type="Spell" name="Cantrip (Wizard)" requiredLevel="1" number="1" checksum="c828af0e" registered="ID_PHB_SPELL_MESSAGE" />
+						<element type="Spell" name="Cantrip (Wizard)" requiredLevel="1" number="2" checksum="90360626" registered="ID_POTA_SPELL_GUST" />
+						<element type="Spell" name="Cantrip (Wizard)" requiredLevel="1" number="3" checksum="11136301" registered="ID_PHB_SPELL_FIRE_BOLT" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="1" checksum="cdef01cb" registered="ID_PHB_SPELL_FIND_FAMILIAR" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="2" checksum="95f1a8e3" registered="ID_WOTC_IDROTF_SPELL_FROST_FINGERS" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="3" checksum="14d4cdc4" registered="ID_PHB_SPELL_BURNING_HANDS" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="4" checksum="25ccfab3" registered="ID_PHB_SPELL_CHROMATIC_ORB" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="5" checksum="a4e99f94" registered="ID_PHB_SPELL_MAGIC_MISSILE" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="6" checksum="fcf736bc" registered="ID_PHB_SPELL_RAY_OF_SICKNESS" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="2" number="1" checksum="7a2ebd15" registered="ID_PHB_SPELL_SHIELD" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="2" number="2" checksum="0456f5b3" registered="ID_WOTC_SCOC_SPELL_SILVERY_BARBS" />
 						<element type="Grants" name="Ritual Casting" id="ID_INTERNAL_RITUAL_CASTING" />
 						<element type="Proficiency" name="Spellcasting Focus Group (Arcane Focus)" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
 					</element>
@@ -405,7 +405,7 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 				</details>
 			</item>
 		</equipment>
-		<sum element-count="157">
+		<sum element-count="175">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -432,19 +432,37 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<element type="Racial Trait" id="ID_WOTC_EGTW_RACIAL_TRAIT_PALLID_BLESSING_OF_THE_MOON_WEAVER" />
 			<element type="Spell" id="ID_PHB_SPELL_LIGHT" />
 			<element type="Ability Score Improvement" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1" />
+			<element type="Spell" id="ID_XGTE_SPELL_TOLL_THE_DEAD" />
+			<element type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
+			<element type="Spell" id="ID_PHB_SPELL_GUIDANCE" />
 			<element type="Background" id="ID_BACKGROUND_ACOLYTE" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
 			<element type="Background Feature" id="ID_BACKGROUND_FEATURE_SHELTER_OF_THE_FAITHFUL" />
 			<element type="Level" id="ID_LEVEL_2" />
 			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_2" />
+			<element type="Spell" id="ID_PHB_SPELL_ELDRITCH_BLAST" />
+			<element type="Spell" id="ID_WOTC_TCOE_SPELL_GREENFLAME_BLADE" />
+			<element type="Spell" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" />
+			<element type="Spell" id="ID_PHB_SPELL_HEX" />
 			<element type="Level" id="ID_LEVEL_3" />
 			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_3" />
 			<element type="Level" id="ID_LEVEL_4" />
 			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_4" />
+			<element type="Spell" id="ID_PHB_SPELL_MESSAGE" />
+			<element type="Spell" id="ID_POTA_SPELL_GUST" />
+			<element type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" />
+			<element type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" />
+			<element type="Spell" id="ID_WOTC_IDROTF_SPELL_FROST_FINGERS" />
+			<element type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" />
+			<element type="Spell" id="ID_PHB_SPELL_CHROMATIC_ORB" />
+			<element type="Spell" id="ID_PHB_SPELL_MAGIC_MISSILE" />
+			<element type="Spell" id="ID_PHB_SPELL_RAY_OF_SICKNESS" />
 			<element type="Level" id="ID_LEVEL_5" />
 			<element type="Level" id="ID_LEVEL_6" />
 			<element type="Level" id="ID_LEVEL_7" />
+			<element type="Spell" id="ID_PHB_SPELL_SHIELD" />
+			<element type="Spell" id="ID_WOTC_SCOC_SPELL_SILVERY_BARBS" />
 			<element type="Armor" id="ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
 			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
@@ -567,39 +585,61 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 		<magic multiclass="true" level="3">
 			<spellcasting name="Cleric" ability="Wisdom" attack="7" dc="15" source="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC">
 				<slots s1="2" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
-				<cantrips />
+				<cantrips>
+					<spell name="Guidance" level="0" id="ID_PHB_SPELL_GUIDANCE" />
+					<spell name="Thaumaturgy" level="0" id="ID_PHB_SPELL_THAUMATURGY" />
+					<spell name="Toll the Dead" level="0" id="ID_XGTE_SPELL_TOLL_THE_DEAD" />
+				</cantrips>
 				<spells>
 					<spell name="Bane" level="1" id="ID_PHB_SPELL_BANE" prepared="true" always-prepared="true" known="true" />
+					<spell name="Bless" level="1" id="ID_PHB_SPELL_BLESS" prepared="true" />
+					<spell name="Command" level="1" id="ID_PHB_SPELL_COMMAND" prepared="true" />
 					<spell name="False Life" level="1" id="ID_PHB_SPELL_FALSE_LIFE" prepared="true" always-prepared="true" known="true" />
-					<spell name="Bless" level="1" id="ID_PHB_SPELL_BLESS" />
+					<spell name="Guiding Bolt" level="1" id="ID_PHB_SPELL_GUIDING_BOLT" prepared="true" />
+					<spell name="Inflict Wounds" level="1" id="ID_PHB_SPELL_INFLICT_WOUNDS" prepared="true" />
+					<spell name="Shield of Faith" level="1" id="ID_PHB_SPELL_SHIELD_OF_FAITH" prepared="true" />
 					<spell name="Ceremony" level="1" id="ID_XGTE_SPELL_CEREMONY" />
-					<spell name="Command" level="1" id="ID_PHB_SPELL_COMMAND" />
 					<spell name="Create or Destroy Water" level="1" id="ID_PHB_SPELL_CREATE_OR_DESTROY_WATER" />
 					<spell name="Cure Wounds" level="1" id="ID_PHB_SPELL_CURE_WOUNDS" />
 					<spell name="Detect Evil and Good" level="1" id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD" />
 					<spell name="Detect Magic" level="1" id="ID_PHB_SPELL_DETECT_MAGIC" />
 					<spell name="Detect Poison and Disease" level="1" id="ID_PHB_SPELL_DETECT_POISON_AND_DISEASE" />
-					<spell name="Guiding Bolt" level="1" id="ID_PHB_SPELL_GUIDING_BOLT" />
 					<spell name="Healing Word" level="1" id="ID_PHB_SPELL_HEALING_WORD" />
-					<spell name="Inflict Wounds" level="1" id="ID_PHB_SPELL_INFLICT_WOUNDS" />
 					<spell name="Protection from Evil and Good" level="1" id="ID_PHB_SPELL_PROTECTION_FROM_EVIL_AND_GOOD" />
 					<spell name="Purify Food and Drink" level="1" id="ID_PHB_SPELL_PURIFY_FOOD_AND_DRINK" />
 					<spell name="Sanctuary" level="1" id="ID_PHB_SPELL_SANCTUARY" />
-					<spell name="Shield of Faith" level="1" id="ID_PHB_SPELL_SHIELD_OF_FAITH" />
 				</spells>
 			</spellcasting>
 			<spellcasting name="Warlock" ability="Charisma" attack="6" dc="14" source="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
 				<slots s1="1" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
 				<cantrips>
+					<spell name="Eldritch Blast" level="0" id="ID_PHB_SPELL_ELDRITCH_BLAST" />
+					<spell name="Green-Flame Blade" level="0" id="ID_WOTC_TCOE_SPELL_GREENFLAME_BLADE" />
 					<spell name="Spare the Dying" level="0" id="ID_PHB_SPELL_SPARE_THE_DYING" />
 					<spell name="Spare the Dying" level="0" id="ID_PHB_SPELL_SPARE_THE_DYING" />
 				</cantrips>
-				<spells />
+				<spells>
+					<spell name="Armor of Agathys" level="1" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" known="true" />
+					<spell name="Hex" level="1" id="ID_PHB_SPELL_HEX" known="true" />
+				</spells>
 			</spellcasting>
 			<spellcasting name="Wizard" ability="Intelligence" attack="5" dc="13" source="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
 				<slots s1="3" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
-				<cantrips />
-				<spells />
+				<cantrips>
+					<spell name="Fire Bolt" level="0" id="ID_PHB_SPELL_FIRE_BOLT" />
+					<spell name="Gust" level="0" id="ID_POTA_SPELL_GUST" />
+					<spell name="Message" level="0" id="ID_PHB_SPELL_MESSAGE" />
+				</cantrips>
+				<spells>
+					<spell name="Frost Fingers" level="1" id="ID_WOTC_IDROTF_SPELL_FROST_FINGERS" prepared="true" always-prepared="true" known="true" />
+					<spell name="Magic Missile" level="1" id="ID_PHB_SPELL_MAGIC_MISSILE" prepared="true" always-prepared="true" known="true" />
+					<spell name="Shield" level="1" id="ID_PHB_SPELL_SHIELD" prepared="true" always-prepared="true" known="true" />
+					<spell name="Silvery Barbs" level="1" id="ID_WOTC_SCOC_SPELL_SILVERY_BARBS" prepared="true" always-prepared="true" known="true" />
+					<spell name="Burning Hands" level="1" id="ID_PHB_SPELL_BURNING_HANDS" always-prepared="true" known="true" />
+					<spell name="Chromatic Orb" level="1" id="ID_PHB_SPELL_CHROMATIC_ORB" always-prepared="true" known="true" />
+					<spell name="Find Familiar" level="1" id="ID_PHB_SPELL_FIND_FAMILIAR" always-prepared="true" known="true" />
+					<spell name="Ray of Sickness" level="1" id="ID_PHB_SPELL_RAY_OF_SICKNESS" always-prepared="true" known="true" />
+				</spells>
 			</spellcasting>
 			<additional>
 				<spell name="Light" level="0" id="ID_PHB_SPELL_LIGHT" source="Blessing of the Moon Weaver" />

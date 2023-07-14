@@ -669,11 +669,11 @@ Your upbringing may have prepared you to be a fierce warrior, trained in combat 
 			<element type="Item" id="ID_WOTC_TCOE_ITEM_OCF_DRUID_WILD_COMPANION" />
 			<element type="Armor" id="ID_WOTC_SCAG_ARMOR_MEDIUM_SPIKED_ARMOR" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
+			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_GREATSWORD" />
 			<element type="Class Feature" id="ID_EXPERTISE_SKILL_PERCEPTION" />
 			<element type="Language" id="ID_LANGUAGE_DRUIDIC" />
 			<element type="Language" id="ID_LANGUAGE_PRIMORDIAL" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
-			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_GREATSWORD" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_BARBARIAN" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
@@ -848,8 +848,8 @@ Your upbringing may have prepared you to be a fierce warrior, trained in combat 
 			<element type="Archetype Feature" id="ID_WOTC_VRGTR_ARCHETYPE_FEATURE_WARLOCK_UNDEAD_FORM_OF_DREAD" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_PACT_BOON_PACT_OF_THE_BLADE" />
 			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_4_WARLOCK" />
-			<element type="Class Feature" id="ID_WOTC_XGTE_CLASS_FEATURE_ELDRITCH_INVOCATION_CLOAK_OF_FLIES" />
 			<element type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_UNDYING_SERVITUDE" />
+			<element type="Class Feature" id="ID_WOTC_XGTE_CLASS_FEATURE_ELDRITCH_INVOCATION_CLOAK_OF_FLIES" />
 			<element type="Class Feature" id="ID_WOTC_XGTE_CLASS_FEATURE_ELDRITCH_INVOCATION_TOMB_OF_LEVISTUS" />
 		</sum>
 		<magic multiclass="true" level="1">

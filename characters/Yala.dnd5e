@@ -106,7 +106,7 @@ I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable
 			<hair>
 			</hair>
 		</appearance>
-		<abilities available-points="-8">
+		<abilities available-points="15">
 			<strength>12</strength>
 			<dexterity>18</dexterity>
 			<constitution>12</constitution>
@@ -127,11 +127,13 @@ I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable
 			<element type="Option" name="Firearms" id="ID_WOTC_DMG_OPTION_FIREARMS" />
 			<element type="Level" name="1" id="ID_LEVEL_1" rndhp="8,5,5,1,8,4,8,3,2,4,1,2,2,6,5,5,3,7,8,2">
 				<element type="Race" name="Race" requiredLevel="1" checksum="1597ef76" registered="ID_WOTC_VGTM_RACE_YUANTI_PUREBLOOD">
+					<element type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Yuan-Ti Pureblood)" requiredLevel="1" checksum="ef5984c3" registered="" />
+					<element type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Yuan-Ti Pureblood)" requiredLevel="1" checksum="a98bb1a7" registered="" />
+					<element type="Language" name="Customized Language" requiredLevel="1" number="1" checksum="68584f97" registered="" />
+					<element type="Language" name="Customized Language" requiredLevel="1" number="2" checksum="f1511e2d" registered="" />
+					<element type="Language" name="Customized Language" requiredLevel="1" number="3" checksum="86562ebb" registered="" />
 					<element type="Size" name="Medium" id="ID_SIZE_MEDIUM" />
 					<element type="Vision" name="Darkvision" id="ID_VISION_DARKVISION" />
-					<element type="Language" name="Common" id="ID_LANGUAGE_COMMON" />
-					<element type="Language" name="Abyssal" id="ID_LANGUAGE_ABYSSAL" />
-					<element type="Language" name="Draconic" id="ID_LANGUAGE_DRACONIC" />
 					<element type="Racial Trait" name="Innate Spellcasting" id="ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_INNATE_SPELLCASTING">
 						<element type="Spell" name="Poison Spray" id="ID_PHB_SPELL_POISON_SPRAY" />
 						<element type="Spell" name="Animal Friendship" id="ID_PHB_SPELL_ANIMAL_FRIENDSHIP" />
@@ -345,13 +347,7 @@ I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable
 				</details>
 			</item>
 		</equipment>
-		<sum element-count="112">
-			<element type="Level" id="ID_LEVEL_1" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_CHARACTER_BASE" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_BASE" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_BASE" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_DEXTERITY_MODIFIER" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_HP_CONSTITUTION_MODIFIER" />
+		<sum element-count="109">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -361,12 +357,15 @@ I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable
 			<element type="Option" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<element type="Option" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 			<element type="Option" id="ID_WOTC_DMG_OPTION_FIREARMS" />
+			<element type="Level" id="ID_LEVEL_1" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_CHARACTER_BASE" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_BASE" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_BASE" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_DEXTERITY_MODIFIER" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_HP_CONSTITUTION_MODIFIER" />
 			<element type="Race" id="ID_WOTC_VGTM_RACE_YUANTI_PUREBLOOD" />
 			<element type="Size" id="ID_SIZE_MEDIUM" />
 			<element type="Vision" id="ID_VISION_DARKVISION" />
-			<element type="Language" id="ID_LANGUAGE_COMMON" />
-			<element type="Language" id="ID_LANGUAGE_ABYSSAL" />
-			<element type="Language" id="ID_LANGUAGE_DRACONIC" />
 			<element type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_INNATE_SPELLCASTING" />
 			<element type="Spell" id="ID_PHB_SPELL_POISON_SPRAY" />
 			<element type="Spell" id="ID_PHB_SPELL_ANIMAL_FRIENDSHIP" />
@@ -374,36 +373,36 @@ I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable
 			<element type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_MAGIC_RESISTANCE" />
 			<element type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_YUANTIPUREBLOOD_POISON_IMMUNITY" />
 			<element type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" />
-			<element type="Background" id="ID_BACKGROUND_NOBLE" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
-			<element type="Background Variant" id="ID_WOTC_PHB_BACKGROUND_VARIANT_NOBLE_KNIGHT" />
-			<element type="Background Feature" id="ID_WOTC_PHB_BACKGROUND_FEATURE_KNIGHT_RETAINERS" />
-			<element type="Language" id="ID_LANGUAGE_GIANT" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+			<element type="Background" id="ID_BACKGROUND_NOBLE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_HISTORY" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
 			<element type="Proficiency" id="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET" />
+			<element type="Language" id="ID_LANGUAGE_GIANT" />
+			<element type="Background Variant" id="ID_WOTC_PHB_BACKGROUND_VARIANT_NOBLE_KNIGHT" />
+			<element type="Background Feature" id="ID_WOTC_PHB_BACKGROUND_FEATURE_KNIGHT_RETAINERS" />
+			<element type="Alignment" id="ID_ALIGNMENT_LAWFUL_EVIL" />
 			<element type="Level" id="ID_LEVEL_2" />
 			<element type="Level" id="ID_LEVEL_3" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
 			<element type="Level" id="ID_LEVEL_4" />
 			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_4" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
-			<element type="Level" id="ID_LEVEL_5" />
-			<element type="Level" id="ID_LEVEL_6" />
 			<element type="Spell" id="ID_WOTC_TCOE_SPELL_BOOMING_BLADE" />
 			<element type="Spell" id="ID_WOTC_TCOE_SPELL_GREENFLAME_BLADE" />
 			<element type="Spell" id="ID_WOTC_TCOE_SPELL_LIGHTNING_LURE" />
 			<element type="Spell" id="ID_PHB_SPELL_PRESTIDIGITATION" />
 			<element type="Spell" id="ID_PHB_SPELL_SHIELD" />
-			<element type="Spell" id="ID_WOTC_SCOC_SPELL_SILVERY_BARBS" />
 			<element type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" />
+			<element type="Level" id="ID_LEVEL_5" />
+			<element type="Spell" id="ID_WOTC_SCOC_SPELL_SILVERY_BARBS" />
+			<element type="Level" id="ID_LEVEL_6" />
 			<element type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" />
 			<element type="Armor" id="ID_WOTC_ARMOR_LIGHT_LEATHER" />
-			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_SHORTSWORD" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_DAGGER" />
-			<element type="Alignment" id="ID_ALIGNMENT_LAWFUL_EVIL" />
+			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_SHORTSWORD" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_ROGUE" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
@@ -460,7 +459,7 @@ I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC_TWINNED_SPELL" />
 		</sum>
 		<magic multiclass="true" level="3">
-			<spellcasting name="Sorcerer" ability="Charisma" attack="5" dc="13" source="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
+			<spellcasting name="Sorcerer" ability="Charisma" attack="4" dc="12" source="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER">
 				<slots s1="4" s2="2" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
 				<cantrips>
 					<spell name="Booming Blade" level="0" id="ID_WOTC_TCOE_SPELL_BOOMING_BLADE" />
@@ -506,7 +505,6 @@ I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable
 			<source id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20161212">Unearthed Arcana: Monastic Traditions</source>
 			<source id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20161219">Unearthed Arcana: Paladin: Sacred Oaths</source>
 			<source id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20170109">Unearthed Arcana: Artificer</source>
-			<source id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20170117">Unearthed Arcana: Ranger &amp; Rogue</source>
 			<source id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20170206">Unearthed Arcana: Sorcerer</source>
 			<source id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20170213">Unearthed Arcana: Warlock and Wizard</source>
 			<source id="ID_WOTC_SOURCE_UNEARTHED_ARCANA_20170313">Unearthed Arcana: The Mystic Class</source>
@@ -1709,13 +1707,6 @@ I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable
 			<element>ID_UA20170109_INTERNAL_ITEM_PROFANE_SOUL_SPELL_PROXY_SPELL_THUNDERSTONE</element>
 			<element>ID_UA20170109_INTERNAL_ITEM_PRESCIENT_KNIGHT_SPELL_PROXY_SPELL_THUNDERSTONE</element>
 			<element>ID_UA20170109_INTERNAL_ITEM_GROVE_KNIGHT_SPELL_PROXY_SPELL_THUNDERSTONE</element>
-			<element>ID_WOTC_UA_ARCHETYPE_PRIMEVAL_GUARDIAN</element>
-			<element>ID_WOTC_UA_ARCHETYPE_FEATURE_PRIMEVAL_GUARDIAN_MAGIC</element>
-			<element>ID_WOTC_UA_ARCHETYPE_FEATURE_PRIMEVAL_GUARDIAN_GUARDIAN_SOUL</element>
-			<element>ID_WOTC_UA_ARCHETYPE_FEATURE_PRIMEVAL_GUARDIAN_PIERCING_THORNS</element>
-			<element>ID_WOTC_UA_ARCHETYPE_FEATURE_PRIMEVAL_GUARDIAN_ANCIENT_FORTITUDE</element>
-			<element>ID_WOTC_UA_ARCHETYPE_FEATURE_PRIMEVAL_GUARDIAN_ROOTED_DEFENSE</element>
-			<element>ID_WOTC_UA_ARCHETYPE_FEATURE_PRIMEVAL_GUARDIAN_GUARDIAN_AURA</element>
 			<element>ID_WOTC_UA_ARCHETYPE_PHOENIX_SORCERY</element>
 			<element>ID_WOTC_UA_ARCHETYPE_FEATURE_PHOENIX_SORCERY_IGNITE</element>
 			<element>ID_WOTC_UA_ARCHETYPE_FEATURE_PHOENIX_SORCERY_MANTLEOFFLAME</element>
@@ -3332,6 +3323,7 @@ I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable
 			<element>ID_WOTC_UA20171113_SUB_RACE_AVARIEL</element>
 			<element>ID_WOTC_UA20171113_SUB_RACE_GRUGACH</element>
 			<element>ID_WOTC_UA20171113_RACIAL_TRAIT_GRUGACH_WEAPON_TRAINING</element>
+			<element>ID_WOTC_UA20171113_RACIAL_TRAIT_GRUGACH_CANTRIP</element>
 			<element>ID_WOTC_UA_ARCHETYPE_CIRCLE_SPORES</element>
 			<element>ID_WOTC_UA_ARCHETYPE_FEATURE_CIRCLE_SPORES_CIRCLE_SPELLS</element>
 			<element>ID_WOTC_UA_ARCHETYPE_FEATURE_CIRCLE_SPORES_HALO_OF_SPORES</element>
@@ -3367,15 +3359,19 @@ I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable
 			<element>ID_WOTC_UA_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDERS_DOMINION</element>
 			<element>ID_WOTC_UA_ARCHETYPE_FEATURE_ORDER_DOMAIN_DIVINE_STRIKE</element>
 			<element>ID_WOTC_UA_ARCHETYPE_FEATURE_ORDER_DOMAIN_ORDERS_WRATH</element>
-			<element>ID_WOTC_UA_RACE_CENTAUR</element>
-			<element>ID_WOTC_UA_RACIAL_TRAIT_CENTAUR_CHARGE</element>
-			<element>ID_WOTC_UA_RACIAL_TRAIT_CENTAUR_HOOVES</element>
-			<element>ID_WOTC_UA_RACIAL_TRAIT_CENTAUR_EQUINE_BUILD</element>
-			<element>ID_WOTC_UA_RACIAL_TRAIT_CENTAUR_SURVIVOR</element>
-			<element>ID_WOTC_UA_RACIAL_TRAIT_CENTAUR_HYBRID_NATURE</element>
-			<element>ID_WOTC_UA_RACIAL_TRAIT_MINOTAUR_MENACING</element>
-			<element>ID_WOTC_UA_RACIAL_TRAIT_MINOTAUR_HYBRID_NATURE</element>
-			<element>ID_WOTC_UA_LANGUAGE_MINOTAUR</element>
+			<element>ID_WOTC_UA20180514_RACE_CENTAUR</element>
+			<element>ID_WOTC_UA20180514_RACIAL_TRAIT_CENTAUR_CHARGE</element>
+			<element>ID_WOTC_UA20180514_RACIAL_TRAIT_CENTAUR_HOOVES</element>
+			<element>ID_WOTC_UA20180514_RACIAL_TRAIT_CENTAUR_EQUINE_BUILD</element>
+			<element>ID_WOTC_UA20180514_RACIAL_TRAIT_CENTAUR_SURVIVOR</element>
+			<element>ID_WOTC_UA20180514_RACIAL_TRAIT_CENTAUR_HYBRID_NATURE</element>
+			<element>ID_WOTC_UA20180514_RACE_MINOTAUR</element>
+			<element>ID_WOTC_UA20180514_RACIAL_TRAIT_MINOTAUR_HORNS</element>
+			<element>ID_WOTC_UA20180514_RACIAL_TRAIT_MINOTAUR_GORING_RUSH</element>
+			<element>ID_WOTC_UA20180514_RACIAL_TRAIT_MINOTAUR_HAMMERING_HORNS</element>
+			<element>ID_WOTC_UA20180514_RACIAL_TRAIT_MINOTAUR_MENACING</element>
+			<element>ID_WOTC_UA20180514_RACIAL_TRAIT_MINOTAUR_HYBRID_NATURE</element>
+			<element>ID_WOTC_UA20180514_LANGUAGE_MINOTAUR</element>
 			<element>ID_UA20180514_INTERNAL_ITEM_LANGUAGE_PROXY_LANGUAGE_MINOTAUR</element>
 			<element>ID_WOTC_UA_ARCHETYPE_SORCERER_GIANT_SOUL</element>
 			<element>ID_WOTC_UA_ARCHETYPE_FEATURE_GIANT_SOUL_JOTUN_RESILIENCE</element>
@@ -4605,6 +4601,9 @@ I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable
 			<element>ID_WOTC_UA20200713_FEAT_CRUSHER</element>
 			<element>ID_WOTC_UA20200713_FEAT_ELDRITCH_ADEPT</element>
 			<element>ID_WOTC_UA20200713_FEAT_FEY_TOUCHED</element>
+			<element>ID_WOTC_UA20200713_FEAT_FEATURE_FEY_TOUCHED_INTELLIGENCE</element>
+			<element>ID_WOTC_UA20200713_FEAT_FEATURE_FEY_TOUCHED_WISDOM</element>
+			<element>ID_WOTC_UA20200713_FEAT_FEATURE_FEY_TOUCHED_CHARISMA</element>
 			<element>ID_WOTC_UA20200713_FEAT_FIGHTING_INITIATE</element>
 			<element>ID_WOTC_UA20200713_FEAT_GUNNER</element>
 			<element>ID_WOTC_UA20200713_FEAT_METAMAGIC_ADEPT</element>
@@ -4612,6 +4611,9 @@ I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable
 			<element>ID_WOTC_UA20200713_FEAT_POISONER</element>
 			<element>ID_WOTC_UA20200713_FEAT_PRACTICED_EXPERT</element>
 			<element>ID_WOTC_UA20200713_FEAT_SHADOW_TOUCHED</element>
+			<element>ID_WOTC_UA20200713_FEAT_FEATURE_SHADOW_TOUCHED_INTELLIGENCE</element>
+			<element>ID_WOTC_UA20200713_FEAT_FEATURE_SHADOW_TOUCHED_WISDOM</element>
+			<element>ID_WOTC_UA20200713_FEAT_FEATURE_SHADOW_TOUCHED_CHARISMA</element>
 			<element>ID_WOTC_UA20200713_FEAT_SHIELD_TRAINING</element>
 			<element>ID_WOTC_UA20200713_FEAT_SLASHER</element>
 			<element>ID_WOTC_UA20200713_FEAT_TANDEM_TACTICIAN</element>
@@ -29867,19 +29869,6 @@ I don’t like to get my hands dirty, and I won’t be caught dead in unsuitable
 			<element>ID_DMA_INTERNAL_ITEM_PROFANE_SOUL_SPELL_PROXY_SPELL_TIME_IN_A_BOTTLE</element>
 			<element>ID_DMA_INTERNAL_ITEM_PRESCIENT_KNIGHT_SPELL_PROXY_SPELL_TIME_IN_A_BOTTLE</element>
 			<element>ID_DMA_INTERNAL_ITEM_GROVE_KNIGHT_SPELL_PROXY_SPELL_TIME_IN_A_BOTTLE</element>
-			<element>ID_WOTC_UA20170320_XLN_ARCHETYPE_THEURGY_ENTROPY_DOMAIN</element>
-			<element>ID_WOTC_UA20170320_XLN_ARCHETYPE_FEATURE_ENTROPY_DOMAIN_ENTROPY_DOMAIN_SPELLS</element>
-			<element>ID_WOTC_UA20170320_XLN_ARCHETYPE_FEATURE_ENTROPY_DOMAIN_CD_ARCANE_DISRUPTION</element>
-			<element>ID_WOTC_UA20170320_XLN_ARCHETYPE_FEATURE_ENTROPY_DOMAIN_SANCTITY_OF_BODY</element>
-			<element>ID_WOTC_UA20170320_XLN_ARCHETYPE_FEATURE_ENTROPY_DOMAIN_CD_ENTROPIC_RETALIATION</element>
-			<element>ID_WOTC_UA20170320_XLN_ARCHETYPE_FEATURE_ENTROPY_DOMAIN_EMISSARY_OF_ENTROPY</element>
-			<element>ID_WOTC_UA20170320_XLN_ARCHETYPE_THEURGY_SURVIVAL_DOMAIN</element>
-			<element>ID_WOTC_UA20170320_XLN_ARCHETYPE_FEATURE_SURVIVAL_DOMAIN_SURVIVAL_DOMAIN_SPELLS</element>
-			<element>ID_WOTC_UA20170320_XLN_ARCHETYPE_FEATURE_SURVIVAL_DOMAIN_CD_ENCOURAGE_THE_TROOPS</element>
-			<element>ID_WOTC_UA20170320_XLN_ARCHETYPE_FEATURE_SURVIVAL_DOMAIN_BONUS_PROFICIENCY</element>
-			<element>ID_WOTC_UA20170320_XLN_ARCHETYPE_FEATURE_SURVIVAL_DOMAIN_STAND_THE_FALLEN</element>
-			<element>ID_WOTC_UA20170320_XLN_ARCHETYPE_FEATURE_SURVIVAL_DOMAIN_CD_PUSH_THE_LIMITS</element>
-			<element>ID_WOTC_UA20170320_XLN_ARCHETYPE_FEATURE_SURVIVAL_DOMAIN_PROTECTION_OF_THE_TRIBE</element>
 			<element>ID_XLN_ARCHETYPE_COLLEGE_OF_KEYS</element>
 			<element>ID_XLN_ARCHETYPE_FEATURE_KEYS_BONUS_PROFICIENCY</element>
 			<element>ID_XLN_ARCHETYPE_FEATURE_KEYS_KEY_CHANGE</element>
