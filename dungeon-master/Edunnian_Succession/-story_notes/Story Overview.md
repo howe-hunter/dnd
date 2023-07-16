@@ -13,8 +13,7 @@ Related: []
 
 ## Party
 
-## Strong Start
-[[Prologue]]:
+## Strong Start (Prologue):
 
 >You find yourselves in the land of Edunn. Edunn is a vast island nation off the southwestern coast of the continent of Faerun. 
 >

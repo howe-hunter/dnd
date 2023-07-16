@@ -18,6 +18,72 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Aerelann",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Aerelann.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aerendyl (the Master)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Aerendyl (the Master).md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                },
+                {
+                  "title": "Royal Family",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Royal Family.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":13},\"to\":{\"line\":12,\"ch\":13}}}"
+                },
+                {
+                  "title": "NPCs",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/NPCs.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":10},\"to\":{\"line\":0,\"ch\":16}},\"scroll\":0}"
+                },
+                {
+                  "title": "workspace",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes/workspace.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Story Overview",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes/Story Overview.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":15,\"ch\":26},\"to\":{\"line\":15,\"ch\":26}},\"scroll\":30.518055555555556}"
+                },
+                {
+                  "title": "Prologue",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes/Prologue.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Story Overview",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes/Story Overview.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Royal Family",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Royal Family.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Aerendyl (the Master)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Aerendyl (the Master).md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
+                },
+                {
+                  "title": "Royal Family",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Royal Family.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":13},\"to\":{\"line\":11,\"ch\":13}}}"
+                },
+                {
                   "title": "Aerendyl (the Master)",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Aerendyl (the Master).md\",\"mode\":\"source\",\"source\":false}}",
@@ -69,8 +135,30 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9c887cc623f68d96",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NPC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e6a030c63c541332",
@@ -91,7 +179,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Royal Family.md",
+                "file": "NPC.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -233,7 +321,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Royal Family.md"
+                "file": "NPC.md"
               }
             }
           }
@@ -318,7 +406,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Royal Family.md",
+                "file": "NPC.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -344,7 +432,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Royal Family.md",
+                "file": "NPC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -373,16 +461,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "87c030233d81ee4a",
+  "active": "9c887cc623f68d96",
   "lastOpenFiles": [
-    "Aerendyl (the Master).md",
     "Royal Family.md",
+    "NPC.md",
+    "Aerelann.md",
+    "Aerendyl (the Master).md",
+    "Revaen.md",
     "characters/Global/NPCs.md",
-    "session_notes/Notes.md",
     "-story_notes/workspace.md",
-    "Pasted image 20220910150308.png.md",
     "-story_notes/Story Overview.md",
     "-story_notes/Prologue.md",
+    "session_notes/Notes.md",
+    "Pasted image 20220910150308.png.md",
     "-unseen_isles/0-prologue/Prologue.md",
     "Edunnian_Succession/-story_notes/Story Overview.md",
     "Edunnian_Succession/cities/all-cities.md",
@@ -400,9 +491,6 @@
     "Edunnian_Succession/characters/Ravens/arrnius.md",
     "Edunnian_Succession/workspace.md",
     "Edunnian_Succession/cities/stonefalls.md",
-    "Edunnian_Succession/_resources/Pasted image 20220930183749.png",
-    "Edunnian_Succession/session_notes/Notes.md",
-    "Edunnian_Succession/characters/Ravens/Viridan.md",
-    "_templates_/npc-template.md"
+    "Edunnian_Succession/_resources/Pasted image 20220930183749.png"
   ]
 }

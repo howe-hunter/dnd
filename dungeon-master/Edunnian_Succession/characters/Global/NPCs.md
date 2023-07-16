@@ -1,15 +1,7 @@
 **[[Royal Family]]**
-- Aerendyl (the master) decendant of Aerelann
-	- military leader
-	- keep trade open for potential profit and illegal gain
-- Revaen (the cure) descendant of Relinn
-	- political leader
-	- close the island and kill lesser races
-- Galaria - adolescent secret matrilineal heir 
-	- escorted in secret by Captain Fairhorn
 
-[[**Deities**]]
-- Corelleon Larethian - creator of all elves
+**[[Deities]]**
+- [[Corelleon Larethian]] - creator of all elves
 - Lendys - draconic god of balance + justice
 - Talona - Lady of Poisons, Mistress of Disease
 - Ramenos - god of frogs + slumber

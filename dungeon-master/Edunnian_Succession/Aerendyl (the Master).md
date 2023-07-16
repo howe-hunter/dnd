@@ -1,3 +1,4 @@
+[[Royal Family]]
 #### Lineage
 - decendant of [[Aerelann]]
 
