@@ -1,0 +1,303 @@
+{
+  "main": {
+    "id": "3393b1f8b564581b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d936b6916b01f884",
+        "type": "split",
+        "children": [
+          {
+            "id": "37664ad4d40d301d",
+            "type": "leaf",
+            "dimension": 45.982142857142854,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Edunnian_Succession/0-story/Overall.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "37664ad4d40d301d",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/0-story/Overall.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":6},\"to\":{\"line\":2,\"ch\":6}}}"
+                }
+              ]
+            }
+          },
+          {
+            "id": "73b2ced1efa98b39",
+            "type": "leaf",
+            "dimension": 54.01785714285714,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Edunnian_Succession/workspace.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "73b2ced1efa98b39",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/workspace.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":354},\"to\":{\"line\":1,\"ch\":354}}}"
+                }
+              ]
+            }
+          }
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "3b8f096cc844dc1b",
+        "type": "split",
+        "children": [
+          {
+            "id": "c8fc14e272991d29",
+            "type": "leaf",
+            "dimension": 22.321428571428573,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Edunnian_Succession/cities/all-cities.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "c8fc14e272991d29",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/cities/all-cities.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            }
+          },
+          {
+            "id": "c0baeec71a844c51",
+            "type": "leaf",
+            "dimension": 77.67857142857143,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Edunnian_Succession/cities/stonefalls.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "leaf": "c0baeec71a844c51",
+                  "group": null,
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"Edunnian_Succession/_resources/Pasted image 20220930183749.png\"}}",
+                  "eState": "{}"
+                },
+                {
+                  "leaf": "c0baeec71a844c51",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/cities/stonefalls.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{}"
+                }
+              ]
+            }
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "46cadb0192dbbde6",
+    "type": "split",
+    "children": [
+      {
+        "id": "8bdc4cce0fe6cc1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4966406925c9a986",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "b822ca51813fc3cb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#important",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "c88cbf5b7ba2fcb9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 227.5
+  },
+  "right": {
+    "id": "bb7fecc4e1d5c80f",
+    "type": "split",
+    "children": [
+      {
+        "id": "933f5da2b4df30e2",
+        "type": "tabs",
+        "dimension": 36.71875,
+        "children": [
+          {
+            "id": "42d0a4b4586b5796",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "5ec9b1eece07c7b1",
+        "type": "tabs",
+        "dimension": 32.8125,
+        "children": [
+          {
+            "id": "a609403b70587b07",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          }
+        ]
+      },
+      {
+        "id": "b47a267d4796dd80",
+        "type": "tabs",
+        "dimension": 30.46875,
+        "children": [
+          {
+            "id": "1b8048b86062c0ae",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Edunnian_Succession/0-story/Overall.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "cf2cbd375de62a0e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Edunnian_Succession/0-story/Overall.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          },
+          {
+            "id": "cc838f6679b54b21",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Edunnian_Succession/0-story/Overall.md"
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": []
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 274.5,
+    "collapsed": true
+  },
+  "active": "37664ad4d40d301d",
+  "lastOpenFiles": [
+    "Edunnian_Succession/cities/stonefalls.md",
+    "Edunnian_Succession/_resources/Pasted image 20220930183749.png",
+    "Edunnian_Succession/cities/all-cities.md",
+    "Edunnian_Succession/0-story/Overall.md",
+    "Edunnian_Succession/workspace.md",
+    "Edunnian_Succession/session_notes/Notes.md",
+    "Edunnian_Succession/characters/NPCs.md",
+    "Edunnian_Succession/characters/Viridan.md",
+    "_templates_/npc-template.md",
+    "_templates_/lazy_dm-template.md"
+  ]
+}
