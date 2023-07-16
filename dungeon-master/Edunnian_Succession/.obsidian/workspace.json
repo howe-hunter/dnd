@@ -14,21 +14,27 @@
               "pos": 1,
               "stack": [
                 {
-                  "title": "Prologue",
+                  "title": "Pasted image 20220910150308.png",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes/Prologue.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.1796875}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Pasted image 20220910150308.png.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Story Overview",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes/Story Overview.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":51,\"ch\":11},\"to\":{\"line\":51,\"ch\":11}},\"scroll\":36.14513888888889}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "-story_notes/Story Overview.md",
+                "file": "session_notes/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +61,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "-story_notes/Story Overview.md",
+                "file": "session_notes/Notes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -197,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "-story_notes/Story Overview.md"
+                "file": "session_notes/Notes.md"
               }
             }
           }
@@ -282,7 +288,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "-story_notes/Story Overview.md",
+                "file": "session_notes/Notes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -308,7 +314,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "-story_notes/Story Overview.md",
+                "file": "session_notes/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -339,8 +345,10 @@
   },
   "active": "87c030233d81ee4a",
   "lastOpenFiles": [
-    "-story_notes/Prologue.md",
+    "Pasted image 20220910150308.png.md",
+    "session_notes/Notes.md",
     "-story_notes/Story Overview.md",
+    "-story_notes/Prologue.md",
     "-unseen_isles/0-prologue/Prologue.md",
     "Edunnian_Succession/-story_notes/Story Overview.md",
     "Edunnian_Succession/cities/all-cities.md",
