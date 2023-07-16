@@ -84,15 +84,6 @@
       "key": "\\"
     }
   ],
-  "command-palette:open": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "P"
-    }
-  ],
   "graph:open-local": [
     {
       "modifiers": [

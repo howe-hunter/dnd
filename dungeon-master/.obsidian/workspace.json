@@ -1,97 +1,79 @@
 {
   "main": {
-    "id": "3393b1f8b564581b",
+    "id": "1200a82655ca47ff",
     "type": "split",
     "children": [
       {
-        "id": "d936b6916b01f884",
-        "type": "split",
+        "id": "cac53b77c4f80667",
+        "type": "tabs",
+        "dimension": 46.13564668769716,
         "children": [
           {
-            "id": "a608874756f11ca0",
-            "type": "tabs",
-            "dimension": 45.982142857142854,
-            "children": [
-              {
-                "id": "37664ad4d40d301d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Edunnian_Succession/0-story/Overall.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "87c030233d81ee4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Edunnian_Succession/characters/Ravens/Founders.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "345e5980c0c47701",
-            "type": "tabs",
-            "dimension": 54.01785714285714,
-            "children": [
-              {
-                "id": "73b2ced1efa98b39",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Edunnian_Succession/workspace.md",
-                    "mode": "source",
-                    "source": false
-                  }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "87c030233d81ee4a",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"unseen_isles/unseen_isles-home.md\",\"mode\":\"preview\"}}",
+                  "eState": "{}"
                 }
-              }
-            ]
+              ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       },
       {
-        "id": "3b8f096cc844dc1b",
-        "type": "split",
+        "id": "e6a030c63c541332",
+        "type": "tabs",
+        "dimension": 53.86435331230284,
         "children": [
           {
-            "id": "f3ac3d5395065fc8",
-            "type": "tabs",
-            "dimension": 22.321428571428573,
-            "children": [
-              {
-                "id": "c8fc14e272991d29",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Edunnian_Succession/cities/all-cities.md",
-                    "mode": "source",
-                    "source": false
-                  }
+            "id": "d04dde6841e4627f",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Edunnian_Succession/characters/Ravens/Founders.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.7881233372819796,
+                  "close": true
                 }
               }
-            ]
-          },
-          {
-            "id": "340aa2c5a553c5e8",
-            "type": "tabs",
-            "dimension": 77.67857142857143,
-            "children": [
-              {
-                "id": "c0baeec71a844c51",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Edunnian_Succession/cities/stonefalls.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,6 +85,7 @@
       {
         "id": "8bdc4cce0fe6cc1c",
         "type": "tabs",
+        "dimension": 75.61942517343905,
         "children": [
           {
             "id": "4966406925c9a986",
@@ -136,20 +119,29 @@
               "type": "starred",
               "state": {}
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "602d14e7ec86dbb1",
+        "type": "tabs",
+        "dimension": 24.380574826560952,
+        "children": [
           {
-            "id": "415799ebacc9533b",
+            "id": "cc838f6679b54b21",
             "type": "leaf",
             "state": {
-              "type": "bookmarks",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "Edunnian_Succession/characters/Ravens/Founders.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 200
   },
   "right": {
     "id": "bb7fecc4e1d5c80f",
@@ -158,10 +150,10 @@
       {
         "id": "933f5da2b4df30e2",
         "type": "tabs",
-        "dimension": 36.71875,
+        "dimension": 34.29423459244533,
         "children": [
           {
-            "id": "42d0a4b4586b5796",
+            "id": "fbb603f15b746fcd",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -171,9 +163,9 @@
         ]
       },
       {
-        "id": "5ec9b1eece07c7b1",
+        "id": "228ed5b7cb3b25c9",
         "type": "tabs",
-        "dimension": 32.8125,
+        "dimension": 27.335984095427435,
         "children": [
           {
             "id": "a609403b70587b07",
@@ -191,7 +183,7 @@
       {
         "id": "b47a267d4796dd80",
         "type": "tabs",
-        "dimension": 30.46875,
+        "dimension": 38.36978131212724,
         "children": [
           {
             "id": "1b8048b86062c0ae",
@@ -199,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Edunnian_Succession/0-story/Overall.md",
+                "file": "Edunnian_Succession/characters/Ravens/Founders.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,19 +208,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Edunnian_Succession/0-story/Overall.md",
+                "file": "Edunnian_Succession/characters/Ravens/Founders.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "cc838f6679b54b21",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Edunnian_Succession/0-story/Overall.md"
               }
             }
           }
@@ -236,7 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.5,
+    "width": 284,
     "collapsed": true
   },
   "left-ribbon": {
@@ -250,16 +232,22 @@
       "markdown-importer:Open format converter": false,
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "37664ad4d40d301d",
+  "active": "d04dde6841e4627f",
   "lastOpenFiles": [
+    "Edunnian_Succession/characters/Ravens/-Ravens_overview-.md",
+    "Edunnian_Succession/characters/Ravens/arrnius.md",
+    "Edunnian_Succession/characters/Ravens/Founders.md",
+    "Edunnian_Succession/characters/Ravens/Divisions.md",
+    "Edunnian_Succession/workspace.md",
+    "Edunnian_Succession/0-story/Overall.md",
     "Edunnian_Succession/cities/stonefalls.md",
     "Edunnian_Succession/_resources/Pasted image 20220930183749.png",
     "Edunnian_Succession/cities/all-cities.md",
-    "Edunnian_Succession/0-story/Overall.md",
-    "Edunnian_Succession/workspace.md",
     "Edunnian_Succession/session_notes/Notes.md",
     "Edunnian_Succession/characters/NPCs.md",
     "Edunnian_Succession/characters/Viridan.md",
