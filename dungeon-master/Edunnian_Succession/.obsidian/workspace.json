@@ -11,11 +11,29 @@
             "id": "87c030233d81ee4a",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 2,
               "stack": [
+                {
+                  "title": "Royal Family",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Royal Family.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":7},\"to\":{\"line\":0,\"ch\":7}}}"
+                },
+                {
+                  "title": "NPCs",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/NPCs.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":2},\"to\":{\"line\":8,\"ch\":41}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "NPCs",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/NPCs.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":20,\"ch\":0},\"to\":{\"line\":20,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "Notes",
@@ -46,7 +64,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "characters/Global/NPCs.md",
+                "file": "Royal Family.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +91,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "characters/Global/NPCs.md",
+                "file": "Royal Family.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -215,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "characters/Global/NPCs.md"
+                "file": "Royal Family.md"
               }
             }
           }
@@ -300,7 +318,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "characters/Global/NPCs.md",
+                "file": "Royal Family.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -326,7 +344,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "characters/Global/NPCs.md",
+                "file": "Royal Family.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -357,7 +375,9 @@
   },
   "active": "87c030233d81ee4a",
   "lastOpenFiles": [
+    "characters/Global/NPCs.md",
     "session_notes/Notes.md",
+    "Royal Family.md",
     "-story_notes/workspace.md",
     "Pasted image 20220910150308.png.md",
     "-story_notes/Story Overview.md",
