@@ -1,19 +1,19 @@
 ### Ancient
-King -
-Queen - 
+King - [[Emmyth]]
+Queen - [[Bemere]]
 1st Prince - [[Aerelann]]
 2nd Prince - [[Relinn]]
 Princess - [[Cithrel]]
 
 ### Modern
 **Lines of succession**
-	**current** power [[Relinn]]'s line
-King - 
-Queen - 
-Prince - [[Revaen (the Cure)]] 
+1. **current** power ([[Relinn]])
+	King - [[Neldor]]
+	Queen - [[Valindra]]
+	Prince - [[Revaen (the Cure)]] 
 
-**challenging** line ([[Aerelann]])
-Duke [[Aerendyl (the Master)]] 
+2. **challenging** line ([[Aerelann]])
+	Duke [[Aerendyl (the Master)]] 
 
-**third** line
-- [[Galaria]] 
+3. **third** line
+- princess [[Galaria]] 

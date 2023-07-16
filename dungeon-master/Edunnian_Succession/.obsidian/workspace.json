@@ -18,6 +18,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Royal Family",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Royal Family.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Galaria",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Galaria.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":2},\"to\":{\"line\":18,\"ch\":2}}}"
+                },
+                {
                   "title": "NPC template",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_resources_/NPC template.md\",\"mode\":\"source\",\"source\":false}}",
@@ -172,7 +184,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "characters/Global/Galaria.md",
+                "file": "characters/Global/Valindra.md",
                 "mode": "source",
                 "source": false
               }
@@ -199,7 +211,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "characters/Global/Galaria.md",
+                "file": "characters/Global/Valindra.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -222,7 +234,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 2.1752453378858934,
+                  "scale": 2.019411611178282,
                   "close": true
                 }
               }
@@ -341,7 +353,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "characters/Global/Galaria.md"
+                "file": "characters/Global/Valindra.md"
               }
             }
           }
@@ -426,7 +438,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "characters/Global/Galaria.md",
+                "file": "characters/Global/Valindra.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -452,7 +464,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "characters/Global/Galaria.md",
+                "file": "characters/Global/Valindra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -483,11 +495,12 @@
   },
   "active": "87c030233d81ee4a",
   "lastOpenFiles": [
-    "_resources_/NPC template.md",
-    "characters/Global/Galaria.md",
     "characters/Global/Royal Family.md",
-    "characters/Global/Revaen (the Cure).md",
+    "characters/Global/Valindra.md",
     "characters/Global/Aerelann.md",
+    "characters/Global/Galaria.md",
+    "_resources_/NPC template.md",
+    "characters/Global/Revaen (the Cure).md",
     "characters/Global/Aerendyl (the Master).md",
     "characters/Global/NPCs.md",
     "-story_notes/workspace.md",
@@ -510,7 +523,6 @@
     "Edunnian_Succession/characters/Ravens/Marine Division.md",
     "Edunnian_Succession/characters/Ravens/MANT15.md",
     "Edunnian_Succession/characters/Ravens/arrnius.md",
-    "Edunnian_Succession/workspace.md",
     "Edunnian_Succession/_resources/Pasted image 20220930183749.png"
   ]
 }
