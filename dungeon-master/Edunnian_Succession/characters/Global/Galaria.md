@@ -1,4 +1,4 @@
-home page: 
+home page: [[Royal Family]]
 
 #### Quirks
 - 
@@ -10,9 +10,10 @@ sibling:
 sibling: 
 friend:
 friend: 
+escorted in secret by Captain [[Cynthia Fairhorn]]
 
 #### Occupation
-- 
+- adolescent secret matrilineal heir 
 
 #### Motivations
 - 

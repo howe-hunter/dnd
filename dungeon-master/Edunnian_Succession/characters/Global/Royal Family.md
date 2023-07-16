@@ -1,16 +1,19 @@
-#### Ancient
+### Ancient
 King -
 Queen - 
 1st Prince - [[Aerelann]]
 2nd Prince - [[Relinn]]
 Princess - [[Cithrel]]
 
-#### Modern
+### Modern
+**Lines of succession**
+	**current** power [[Relinn]]'s line
 King - 
 Queen - 
-1st Prince - [[Aerendyl (the Master)]] 
-2nd Prince - 
-- [[Revaen]] 
-- [[Galaria]] - adolescent secret matrilineal heir 
-	- escorted in secret by Captain [[Cynthia Fairhorn]]
+Prince - [[Revaen (the Cure)]] 
 
+**challenging** line ([[Aerelann]])
+Duke [[Aerendyl (the Master)]] 
+
+**third** line
+- [[Galaria]] 

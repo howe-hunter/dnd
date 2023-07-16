@@ -18,6 +18,24 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "NPC template",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_resources_/NPC template.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":17,\"ch\":2}}}"
+                },
+                {
+                  "title": "Galaria",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Galaria.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":0},\"to\":{\"line\":2,\"ch\":0}}}"
+                },
+                {
+                  "title": "Royal Family",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Royal Family.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":18,\"ch\":14},\"to\":{\"line\":18,\"ch\":14}}}"
+                },
+                {
                   "title": "Aerelann",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Aerelann.md\",\"mode\":\"source\",\"source\":false}}",
@@ -154,35 +172,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "characters/Global/Royal Family.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7d236fe8d8af61c",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "characters/Global/Revaen.md",
+                "file": "characters/Global/Galaria.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e6a030c63c541332",
@@ -203,7 +199,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "characters/Global/Revaen.md",
+                "file": "characters/Global/Galaria.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -345,7 +341,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "characters/Global/Revaen.md"
+                "file": "characters/Global/Galaria.md"
               }
             }
           }
@@ -430,7 +426,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "characters/Global/Revaen.md",
+                "file": "characters/Global/Galaria.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -456,7 +452,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "characters/Global/Revaen.md",
+                "file": "characters/Global/Galaria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -485,13 +481,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c7d236fe8d8af61c",
+  "active": "87c030233d81ee4a",
   "lastOpenFiles": [
-    "characters/Global/Royal Family.md",
-    "characters/Global/Aerelann.md",
     "_resources_/NPC template.md",
+    "characters/Global/Galaria.md",
+    "characters/Global/Royal Family.md",
+    "characters/Global/Revaen (the Cure).md",
+    "characters/Global/Aerelann.md",
     "characters/Global/Aerendyl (the Master).md",
-    "characters/Global/Revaen.md",
     "characters/Global/NPCs.md",
     "-story_notes/workspace.md",
     "-story_notes/Story Overview.md",
@@ -514,7 +511,6 @@
     "Edunnian_Succession/characters/Ravens/MANT15.md",
     "Edunnian_Succession/characters/Ravens/arrnius.md",
     "Edunnian_Succession/workspace.md",
-    "Edunnian_Succession/cities/stonefalls.md",
     "Edunnian_Succession/_resources/Pasted image 20220930183749.png"
   ]
 }
