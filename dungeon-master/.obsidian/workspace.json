@@ -22,17 +22,6 @@
                     "mode": "source",
                     "source": false
                   }
-                },
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "37664ad4d40d301d",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/0-story/Overall.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":6},\"to\":{\"line\":2,\"ch\":6}}}"
-                    }
-                  ]
                 }
               }
             ]
@@ -52,17 +41,6 @@
                     "mode": "source",
                     "source": false
                   }
-                },
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "73b2ced1efa98b39",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/workspace.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":354},\"to\":{\"line\":1,\"ch\":354}}}"
-                    }
-                  ]
                 }
               }
             ]
@@ -89,17 +67,6 @@
                     "mode": "source",
                     "source": false
                   }
-                },
-                "pane-relief:history-v1": {
-                  "pos": 0,
-                  "stack": [
-                    {
-                      "leaf": "c8fc14e272991d29",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/cities/all-cities.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                    }
-                  ]
                 }
               }
             ]
@@ -119,23 +86,6 @@
                     "mode": "source",
                     "source": false
                   }
-                },
-                "pane-relief:history-v1": {
-                  "pos": 1,
-                  "stack": [
-                    {
-                      "leaf": "c0baeec71a844c51",
-                      "group": null,
-                      "state": "{\"type\":\"image\",\"state\":{\"file\":\"Edunnian_Succession/_resources/Pasted image 20220930183749.png\"}}",
-                      "eState": "{}"
-                    },
-                    {
-                      "leaf": "c0baeec71a844c51",
-                      "group": null,
-                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Edunnian_Succession/cities/stonefalls.md\",\"mode\":\"source\",\"source\":false}}",
-                      "eState": "{}"
-                    }
-                  ]
                 }
               }
             ]
@@ -162,10 +112,6 @@
               "state": {
                 "sortOrder": "alphabetical"
               }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           },
           {
@@ -181,10 +127,6 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           },
           {
@@ -193,10 +135,6 @@
             "state": {
               "type": "starred",
               "state": {}
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           },
           {
@@ -228,10 +166,6 @@
             "state": {
               "type": "calendar",
               "state": {}
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           }
         ]
@@ -250,10 +184,6 @@
                 "sortOrder": "frequency",
                 "useHierarchy": true
               }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           }
         ]
@@ -278,10 +208,6 @@
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           },
           {
@@ -294,10 +220,6 @@
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           },
           {
@@ -308,10 +230,6 @@
               "state": {
                 "file": "Edunnian_Succession/0-story/Overall.md"
               }
-            },
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": []
             }
           }
         ]
@@ -323,8 +241,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
