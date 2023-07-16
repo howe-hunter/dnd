@@ -10,9 +10,28 @@
           {
             "id": "87c030233d81ee4a",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 1,
+              "stack": [
+                {
+                  "title": "Prologue",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes/Prologue.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.1796875}"
+                },
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "-story_notes/Story Overview.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -24,9 +43,19 @@
           {
             "id": "d04dde6841e4627f",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "-story_notes/Story Overview.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -72,6 +101,15 @@
           {
             "id": "4966406925c9a986",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "file-explorer",
               "state": {
@@ -82,6 +120,15 @@
           {
             "id": "b822ca51813fc3cb",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "search",
               "state": {
@@ -97,6 +144,15 @@
           {
             "id": "c88cbf5b7ba2fcb9",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "starred",
               "state": {}
@@ -105,6 +161,15 @@
           {
             "id": "9f20b252a3647cac",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "bookmarks",
               "state": {}
@@ -120,16 +185,27 @@
           {
             "id": "cc838f6679b54b21",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "-story_notes/Story Overview.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 222.5
   },
   "right": {
     "id": "bb7fecc4e1d5c80f",
@@ -143,6 +219,15 @@
           {
             "id": "fbb603f15b746fcd",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "calendar",
               "state": {}
@@ -158,6 +243,15 @@
           {
             "id": "a609403b70587b07",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "tag",
               "state": {
@@ -176,9 +270,19 @@
           {
             "id": "1b8048b86062c0ae",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "backlink",
               "state": {
+                "file": "-story_notes/Story Overview.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,9 +296,19 @@
           {
             "id": "cf2cbd375de62a0e",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "-story_notes/Story Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,11 +332,15 @@
       "markdown-importer:Open format converter": false,
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "87c030233d81ee4a",
   "lastOpenFiles": [
+    "-story_notes/Prologue.md",
+    "-story_notes/Story Overview.md",
     "-unseen_isles/0-prologue/Prologue.md",
     "Edunnian_Succession/-story_notes/Story Overview.md",
     "Edunnian_Succession/cities/all-cities.md",
