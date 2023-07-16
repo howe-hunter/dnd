@@ -50,22 +50,6 @@
   ],
   "table-editor-obsidian:insert-column": [],
   "table-editor-obsidian:insert-row": [],
-  "app:go-back": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowLeft"
-    }
-  ],
-  "app:go-forward": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "ArrowRight"
-    }
-  ],
   "workspace:split-horizontal": [
     {
       "modifiers": [
@@ -145,6 +129,22 @@
         "Shift"
       ],
       "key": "O"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "app:go-forward": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowRight"
     }
   ]
 }

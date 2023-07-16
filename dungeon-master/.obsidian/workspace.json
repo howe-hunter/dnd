@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Edunnian_Succession/characters/Ravens/Founders.md",
+                "file": "Edunnian_Succession/characters/Ravens/Ullr.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Edunnian_Succession/characters/Ravens/Founders.md",
+                "file": "Edunnian_Succession/characters/Ravens/Ullr.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Edunnian_Succession/characters/Ravens/Founders.md"
+                "file": "Edunnian_Succession/characters/Ravens/Ullr.md"
               }
             }
           }
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Edunnian_Succession/characters/Ravens/Founders.md",
+                "file": "Edunnian_Succession/characters/Ravens/Ullr.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Edunnian_Succession/characters/Ravens/Founders.md",
+                "file": "Edunnian_Succession/characters/Ravens/Ullr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,12 +237,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "d04dde6841e4627f",
+  "active": "87c030233d81ee4a",
   "lastOpenFiles": [
+    "Edunnian_Succession/characters/Ravens/Founders.md",
+    "Edunnian_Succession/characters/Ravens/Ullr.md",
+    "Edunnian_Succession/characters/Ravens/Ondros.md",
+    "Edunnian_Succession/characters/Ravens/Cynthia Fairhorn.md",
+    "Edunnian_Succession/characters/Ravens/Marine Division.md",
+    "Edunnian_Succession/characters/Ravens/MANT15.md",
+    "Edunnian_Succession/characters/Ravens/Divisions.md",
     "Edunnian_Succession/characters/Ravens/-Ravens_overview-.md",
     "Edunnian_Succession/characters/Ravens/arrnius.md",
-    "Edunnian_Succession/characters/Ravens/Founders.md",
-    "Edunnian_Succession/characters/Ravens/Divisions.md",
     "Edunnian_Succession/workspace.md",
     "Edunnian_Succession/0-story/Overall.md",
     "Edunnian_Succession/cities/stonefalls.md",
