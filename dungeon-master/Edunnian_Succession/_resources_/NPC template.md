@@ -1,5 +1,7 @@
 home page: 
 
+#### Quirks
+
 #### Relations
 parent: 
 parent: 
@@ -11,3 +13,4 @@ friend:
 #### Occupation
 
 
+#### Motivations
