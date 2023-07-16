@@ -11,23 +11,23 @@
             "id": "87c030233d81ee4a",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 2,
+              "pos": 0,
               "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Aerendyl (the Master)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Aerendyl (the Master).md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":2},\"to\":{\"line\":6,\"ch\":2}}}"
+                },
                 {
                   "title": "Royal Family",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Royal Family.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":7},\"to\":{\"line\":0,\"ch\":7}}}"
-                },
-                {
-                  "title": "NPCs",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/NPCs.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":2},\"to\":{\"line\":8,\"ch\":41}}}"
-                },
-                {
-                  "state": "{}",
-                  "eState": "{}"
+                  "eState": "{\"cursor\":{\"from\":{\"line\":8,\"ch\":15},\"to\":{\"line\":8,\"ch\":15}},\"scroll\":0}"
                 },
                 {
                   "title": "NPCs",
@@ -375,9 +375,10 @@
   },
   "active": "87c030233d81ee4a",
   "lastOpenFiles": [
+    "Aerendyl (the Master).md",
+    "Royal Family.md",
     "characters/Global/NPCs.md",
     "session_notes/Notes.md",
-    "Royal Family.md",
     "-story_notes/workspace.md",
     "Pasted image 20220910150308.png.md",
     "-story_notes/Story Overview.md",
@@ -402,7 +403,6 @@
     "Edunnian_Succession/_resources/Pasted image 20220930183749.png",
     "Edunnian_Succession/session_notes/Notes.md",
     "Edunnian_Succession/characters/Ravens/Viridan.md",
-    "_templates_/npc-template.md",
-    "_templates_/lazy_dm-template.md"
+    "_templates_/npc-template.md"
   ]
 }
