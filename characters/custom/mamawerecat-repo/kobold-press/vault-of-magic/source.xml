@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.7">
+			<file name="source.xml" url="https://raw.githubusercontent.com/mamawerecat/AuroraCustomContent/main/Kobold%20Press/Vault%20of%20Magic/source.xml" />
+		</update>
+	</info>
+	<element name="Vault of Magic" type="Source" source="Core" id="ID_KBP_SOURCE_VAULT_OF_MAGIC">
+		<description>
+      			<![CDATA[<p><strong>Inside Vault of Magic, you’ll find a vast treasure trove of enchanted items of every imaginable use—more than 900 in all! There are plenty of armors, weapons, potions, rings, and wands, but that’s just for starters. From mirrors to masks, edibles to earrings, and lanterns to lockets, it’s all here, ready for you to use in your 5th Edition game.</strong></p>]]>
+    		</description>
+    		<setters>
+      			<set name="abbreviation">KBP</set>
+			<set name="url">https://koboldpress.com/kpstore/product/vault-of-magic-for-5th-edition/</set>
+			<set name="image">https://koboldpress.com/kpstore/wp-content/uploads/Vault-of-Magic-5E-COVER.jpg</set>
+			<set name="author" abbreviation="KBP" url="https://koboldpress.com/">Kobold Press</set>
+			<set name="third-party">true</set>
+			<set name="release">20211110</set>
+		</setters>
+	</element>
+</elements>

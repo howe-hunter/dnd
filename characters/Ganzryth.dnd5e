@@ -10,11 +10,11 @@
 	<display-properties favorite="false">
 		<name>Ganzryth</name>
 		<race>Githzerai</race>
-		<class>Barbarian</class>
+		<class>Barbarian (3) / Wizard (2)</class>
 		<archetype>
 		</archetype>
 		<background>Astral Drifter</background>
-		<level>3</level>
+		<level>5</level>
 		<portrait>
 			<companion>
 			</companion>
@@ -28,7 +28,7 @@
 			<name>Ganzryth</name>
 			<gender>Male</gender>
 			<player-name>Hunter</player-name>
-			<experience>900</experience>
+			<experience>6500</experience>
 			<attacks>
 				<description><![CDATA[]]></description>
 			</attacks>
@@ -93,13 +93,13 @@ In your travels, you have camped on the petrified hulks of dead gods and narrowl
 		</appearance>
 		<abilities available-points="15">
 			<strength>15</strength>
-			<dexterity>17</dexterity>
+			<dexterity>10</dexterity>
 			<constitution>15</constitution>
-			<intelligence>8</intelligence>
+			<intelligence>16</intelligence>
 			<wisdom>8</wisdom>
-			<charisma>10</charisma>
+			<charisma>8</charisma>
 		</abilities>
-		<elements level-count="3" registered-count="22">
+		<elements level-count="5" registered-count="26">
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
 				<element type="Grants" name="Multiclass Spellcasting" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -110,16 +110,17 @@ In your travels, you have camped on the petrified hulks of dead gods and narrowl
 				<element type="Race" name="Race" requiredLevel="1" checksum="1597ef76" registered="ID_WOTC_MOTM_RACE_GITHZERAI">
 					<element type="Ability Score Improvement" name="Ability Score Improvement Option (Githzerai)" requiredLevel="1" checksum="3b483e1c" registered="ID_WOTC_ASI_ABILITY_SCORE_IMPROVEMENT_OPTION_2">
 						<element type="Ability Score Improvement" name="Custom Ability Score Improvement +1" requiredLevel="1" number="1" checksum="f4118fb3" registered="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1" />
-						<element type="Ability Score Improvement" name="Custom Ability Score Improvement +1" requiredLevel="1" number="2" checksum="6d18de09" registered="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1" />
+						<element type="Ability Score Improvement" name="Custom Ability Score Improvement +1" requiredLevel="1" number="2" checksum="6d18de09" registered="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1" />
 						<element type="Ability Score Improvement" name="Custom Ability Score Improvement +1" requiredLevel="1" number="3" checksum="1a1fee9f" registered="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1" />
 					</element>
 					<element type="Language" name="Language (Githzerai)" requiredLevel="1" checksum="a292d826" registered="ID_WOTC_ERLW_LANGUAGE_QUORI" />
 					<element type="Size" name="Medium" id="ID_SIZE_MEDIUM" />
 					<element type="Language" name="Common" id="ID_LANGUAGE_COMMON" />
 					<element type="Racial Trait" name="Githzerai Psionics" id="ID_WOTC_MOTM_RACIAL_TRAIT_GITHZERAI_GITHZERAI_PSIONICS">
-						<element type="Racial Trait" name="Spellcasting Ability (Githzerai Psionics)" requiredLevel="1" checksum="17abe3ba" registered="ID_WOTC_MOTM_RACIAL_TRAIT_GITHZERAI_GITHZERAI_PSIONICS_CHARISMA" />
+						<element type="Racial Trait" name="Spellcasting Ability (Githzerai Psionics)" requiredLevel="1" checksum="17abe3ba" registered="ID_WOTC_MOTM_RACIAL_TRAIT_GITHZERAI_GITHZERAI_PSIONICS_INTELLIGENCE" />
 						<element type="Spell" name="Mage Hand" id="ID_PHB_SPELL_MAGE_HAND" />
 						<element type="Spell" name="Shield" id="ID_PHB_SPELL_SHIELD" />
+						<element type="Spell" name="Detect Thoughts" id="ID_PHB_SPELL_DETECT_THOUGHTS" />
 					</element>
 					<element type="Racial Trait" name="Mental Discipline" id="ID_WOTC_MOTM_RACIAL_TRAIT_GITHZERAI_MENTAL_DISCIPLINE" />
 					<element type="Racial Trait" name="Psychic Resilience" id="ID_WOTC_MOTM_RACIAL_TRAIT_GITHZERAI_PSYCHIC_RESILIENCE">
@@ -253,6 +254,36 @@ In your travels, you have camped on the petrified hulks of dead gods and narrowl
 			</element>
 			<element type="Level" name="2" id="ID_LEVEL_2" />
 			<element type="Level" name="3" id="ID_LEVEL_3" />
+			<element type="Level" name="4" id="ID_LEVEL_4" multiclass="true" starting="true" rndhp="2,5,4,2,3,4,3,5,4,1,2,1,2,1,6,5,4,5,6,6" class="ID_WOTC_PHB_MULTICLASS_WIZARD">
+				<element type="Multiclass" name="Multiclass (Level 4)" requiredLevel="4" checksum="964aa9ff" registered="ID_WOTC_PHB_MULTICLASS_WIZARD">
+					<element type="Class Feature" name="Spellcasting" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
+						<element type="Spell" name="Cantrip (Wizard)" requiredLevel="1" number="1" checksum="c828af0e" registered="" />
+						<element type="Spell" name="Cantrip (Wizard)" requiredLevel="1" number="2" checksum="90360626" registered="" />
+						<element type="Spell" name="Cantrip (Wizard)" requiredLevel="1" number="3" checksum="11136301" registered="" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="1" checksum="cdef01cb" registered="" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="2" checksum="95f1a8e3" registered="" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="3" checksum="14d4cdc4" registered="" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="4" checksum="25ccfab3" registered="" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="5" checksum="a4e99f94" registered="" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="6" checksum="fcf736bc" registered="" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="2" number="1" checksum="7a2ebd15" registered="" />
+						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="2" number="2" checksum="0456f5b3" registered="" />
+						<element type="Grants" name="Ritual Casting" id="ID_INTERNAL_RITUAL_CASTING" />
+						<element type="Proficiency" name="Spellcasting Focus Group (Arcane Focus)" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
+					</element>
+					<element type="Class Feature" name="Arcane Recovery" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" />
+					<element type="Grants" name="Multiclass" id="ID_INTERNAL_GRANT_MULTICLASS" />
+					<element type="Grants" name="Multiclass Spellcasting Slots Full" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" />
+					<element type="Class Feature" name="Arcane Tradition" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION">
+						<element type="Archetype" name="Arcane Tradition" requiredLevel="1" checksum="0d475b31" registered="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_ABJURATION">
+							<element type="Archetype Feature" name="Abjuration Savant" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ABJURATION_SAVANT" />
+							<element type="Archetype Feature" name="Arcane Ward" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ARCANE_WARD" />
+						</element>
+					</element>
+				</element>
+				<element type="Grants" name="Multiclassing (Level 4)" id="ID_INTERNAL_MULTICLASS_LEVEL_4" />
+			</element>
+			<element type="Level" name="5" id="ID_LEVEL_5" multiclass="true" class="ID_WOTC_PHB_MULTICLASS_WIZARD" />
 		</elements>
 		<defenses>
 			<conditional>
@@ -302,7 +333,7 @@ In your travels, you have camped on the petrified hulks of dead gods and narrowl
 			<storage name="#1" />
 			<storage name="#2" />
 		</equipment>
-		<sum element-count="125">
+		<sum element-count="140">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -320,12 +351,12 @@ In your travels, you have camped on the petrified hulks of dead gods and narrowl
 			<element type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_GITHZERAI_GITHZERAI_PSIONICS" />
 			<element type="Spell" id="ID_PHB_SPELL_MAGE_HAND" />
 			<element type="Spell" id="ID_PHB_SPELL_SHIELD" />
+			<element type="Spell" id="ID_PHB_SPELL_DETECT_THOUGHTS" />
 			<element type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_GITHZERAI_MENTAL_DISCIPLINE" />
 			<element type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_GITHZERAI_PSYCHIC_RESILIENCE" />
 			<element type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_PSYCHIC" />
 			<element type="Ability Score Improvement" id="ID_WOTC_ASI_ABILITY_SCORE_IMPROVEMENT_OPTION_2" />
 			<element type="Ability Score Improvement" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1" />
-			<element type="Ability Score Improvement" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_1" />
 			<element type="Ability Score Improvement" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_1" />
 			<element type="Language" id="ID_WOTC_ERLW_LANGUAGE_QUORI" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
@@ -340,7 +371,11 @@ In your travels, you have camped on the petrified hulks of dead gods and narrowl
 			<element type="Language" id="ID_WOTC_ERLW_LANGUAGE_RIEDRAN" />
 			<element type="Level" id="ID_LEVEL_2" />
 			<element type="Level" id="ID_LEVEL_3" />
-			<element type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_GITHZERAI_GITHZERAI_PSIONICS_CHARISMA" />
+			<element type="Ability Score Improvement" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_INTELLIGENCE_INCREASE_1" />
+			<element type="Level" id="ID_LEVEL_4" />
+			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_4" />
+			<element type="Level" id="ID_LEVEL_5" />
+			<element type="Racial Trait" id="ID_WOTC_MOTM_RACIAL_TRAIT_GITHZERAI_GITHZERAI_PSIONICS_INTELLIGENCE" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_BARBARIAN" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
@@ -428,11 +463,28 @@ In your travels, you have camped on the petrified hulks of dead gods and narrowl
 			<element type="Spell" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" />
 			<element type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT" />
 			<element type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_BEAR" />
+			<element type="Multiclass" id="ID_WOTC_PHB_MULTICLASS_WIZARD" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
+			<element type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+			<element type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" />
+			<element type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			<element type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" />
+			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" />
+			<element type="Archetype" id="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_ABJURATION" />
+			<element type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ABJURATION_SAVANT" />
+			<element type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ARCANE_WARD" />
 		</sum>
-		<magic>
+		<magic multiclass="true" level="2">
+			<spellcasting name="Wizard" ability="Intelligence" attack="6" dc="14" source="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
+				<slots s1="3" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
+				<cantrips />
+				<spells />
+			</spellcasting>
 			<additional>
 				<spell name="Mage Hand" level="0" id="ID_PHB_SPELL_MAGE_HAND" source="Githzerai Psionics" />
 				<spell name="Shield" level="1" id="ID_PHB_SPELL_SHIELD" source="Githzerai Psionics" />
+				<spell name="Detect Thoughts" level="2" id="ID_PHB_SPELL_DETECT_THOUGHTS" source="Githzerai Psionics" />
 				<spell name="Beast Sense" level="2" id="ID_PHB_SPELL_BEAST_SENSE" source="Spirit Seeker" />
 				<spell name="Speak with Animals" level="1" id="ID_PHB_SPELL_SPEAK_WITH_ANIMALS" source="Spirit Seeker" />
 			</additional>

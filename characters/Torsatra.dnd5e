@@ -10,11 +10,11 @@
 	<display-properties favorite="false">
 		<name>Torsatra</name>
 		<race>Pallid Elf</race>
-		<class>Cleric (1) / Warlock (1) / Monk (3) / Wizard (2)</class>
+		<class>Cleric (1) / Warlock (1) / Monk (3)</class>
 		<archetype>
 		</archetype>
 		<background>Acolyte</background>
-		<level>7</level>
+		<level>5</level>
 		<portrait>
 			<companion>
 			</companion>
@@ -28,10 +28,10 @@
 			<name>Torsatra</name>
 			<gender>Female</gender>
 			<player-name>Hunter</player-name>
-			<experience>33950</experience>
+			<experience>6500</experience>
 			<attacks>
 				<description><![CDATA[]]></description>
-				<attack identifier="e5cc8611-08d3-4012-b67d-c7491d9ba42c" name="Shortsword" range="5 ft" attack="+5 vs AC" damage="1d6+2 piercing" displayed="true" ability="Dexterity">
+				<attack identifier="e5cc8611-08d3-4012-b67d-c7491d9ba42c" name="Shortsword" range="5 ft" attack="+7 vs AC" damage="1d6+4 piercing" displayed="true" ability="Dexterity">
 					<description><![CDATA[Finesse, Light]]></description>
 				</attack>
 			</attacks>
@@ -94,15 +94,15 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<hair>
 			</hair>
 		</appearance>
-		<abilities available-points="15">
+		<abilities available-points="-14">
 			<strength>8</strength>
-			<dexterity>14</dexterity>
-			<constitution>11</constitution>
-			<intelligence>15</intelligence>
+			<dexterity>16</dexterity>
+			<constitution>13</constitution>
+			<intelligence>11</intelligence>
 			<wisdom>17</wisdom>
-			<charisma>14</charisma>
+			<charisma>15</charisma>
 		</abilities>
-		<elements level-count="7" registered-count="44">
+		<elements level-count="5" registered-count="33">
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
 				<element type="Grants" name="Multiclass Spellcasting" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -110,7 +110,7 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<element type="Option" name="Customized Ability Score Increases" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<element type="Level" name="1" id="ID_LEVEL_1" rndhp="8,1,3,2,7,4,3,5,3,7,5,6,4,2,8,1,2,3,5,8">
 				<element type="Race" name="Race" requiredLevel="1" checksum="1597ef76" registered="ID_RACE_ELF">
-					<element type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Elf)" requiredLevel="1" checksum="3a9971cb" registered="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2" />
+					<element type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Elf)" requiredLevel="1" checksum="3a9971cb" registered="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2" />
 					<element type="Size" name="Medium" id="ID_SIZE_MEDIUM" />
 					<element type="Vision" name="Darkvision" id="ID_VISION_DARKVISION" />
 					<element type="Language" name="Common" id="ID_LANGUAGE_COMMON" />
@@ -131,8 +131,8 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 					</element>
 				</element>
 				<element type="Class" name="Class" requiredLevel="1" checksum="33a7b15b" registered="ID_WOTC_PHB_CLASS_CLERIC">
-					<element type="Proficiency" name="Skill Proficiency (Cleric)" requiredLevel="1" number="1" checksum="137ee46c" registered="" />
-					<element type="Proficiency" name="Skill Proficiency (Cleric)" requiredLevel="1" number="2" checksum="8a77b5d6" registered="" />
+					<element type="Proficiency" name="Skill Proficiency (Cleric)" requiredLevel="1" number="1" checksum="137ee46c" registered="ID_PROFICIENCY_SKILL_PERSUASION" />
+					<element type="Proficiency" name="Skill Proficiency (Cleric)" requiredLevel="1" number="2" checksum="8a77b5d6" registered="ID_PROFICIENCY_SKILL_MEDICINE" />
 					<element type="Proficiency" name="Armor Proficiency (Light Armor)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR">
 						<element type="Proficiency" name="Armor Proficiency (Padded)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
 						<element type="Proficiency" name="Armor Proficiency (Leather)" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LEATHER" />
@@ -193,8 +193,8 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 					<element type="Grants" name="Multiclassing Prerequisite" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 				</element>
 				<element type="Background" name="Background" requiredLevel="1" checksum="6a621392" registered="ID_BACKGROUND_ACOLYTE">
-					<element type="Language" name="Language (Acolyte)" requiredLevel="1" number="1" checksum="335a9891" registered="" />
-					<element type="Language" name="Language (Acolyte)" requiredLevel="1" number="2" checksum="aa53c92b" registered="" />
+					<element type="Language" name="Language (Acolyte)" requiredLevel="1" number="1" checksum="335a9891" registered="ID_WOTC_ALSOH_LANGUAGE_NETHERESE" />
+					<element type="Language" name="Language (Acolyte)" requiredLevel="1" number="2" checksum="aa53c92b" registered="ID_LANGUAGE_ABYSSAL" />
 					<element type="Background Feature" name="Variant Feature" requiredLevel="1" checksum="4188fc3f" registered="" />
 					<element type="List" name="Personality Trait" requiredLevel="1" number="1" checksum="4c3beea5" isList="true" registered="" />
 					<element type="List" name="Personality Trait" requiredLevel="1" number="2" checksum="d532bf1f" isList="true" registered="" />
@@ -294,38 +294,8 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 				</element>
 				<element type="Grants" name="Multiclassing (Level 3)" id="ID_INTERNAL_MULTICLASS_LEVEL_3" />
 			</element>
-			<element type="Level" name="4" id="ID_LEVEL_4" multiclass="true" starting="true" rndhp="5,4,6,4,3,6,4,1,1,2,2,5,4,4,1,4,1,2,4,3" class="ID_WOTC_PHB_MULTICLASS_WIZARD">
-				<element type="Multiclass" name="Multiclass (Level 4)" requiredLevel="4" checksum="964aa9ff" registered="ID_WOTC_PHB_MULTICLASS_WIZARD">
-					<element type="Grants" name="Multiclass Spellcasting Slots Full" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" />
-					<element type="Class Feature" name="Spellcasting" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
-						<element type="Spell" name="Cantrip (Wizard)" requiredLevel="1" number="1" checksum="c828af0e" registered="ID_PHB_SPELL_MESSAGE" />
-						<element type="Spell" name="Cantrip (Wizard)" requiredLevel="1" number="2" checksum="90360626" registered="ID_POTA_SPELL_GUST" />
-						<element type="Spell" name="Cantrip (Wizard)" requiredLevel="1" number="3" checksum="11136301" registered="ID_PHB_SPELL_FIRE_BOLT" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="1" checksum="cdef01cb" registered="ID_PHB_SPELL_FIND_FAMILIAR" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="2" checksum="95f1a8e3" registered="ID_WOTC_IDROTF_SPELL_FROST_FINGERS" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="3" checksum="14d4cdc4" registered="ID_PHB_SPELL_BURNING_HANDS" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="4" checksum="25ccfab3" registered="ID_PHB_SPELL_CHROMATIC_ORB" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="5" checksum="a4e99f94" registered="ID_PHB_SPELL_MAGIC_MISSILE" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="1" number="6" checksum="fcf736bc" registered="ID_PHB_SPELL_RAY_OF_SICKNESS" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="2" number="1" checksum="7a2ebd15" registered="ID_PHB_SPELL_SHIELD" />
-						<element type="Spell" name="Spellbook (Wizard)" requiredLevel="2" number="2" checksum="0456f5b3" registered="ID_WOTC_SCOC_SPELL_SILVERY_BARBS" />
-						<element type="Grants" name="Ritual Casting" id="ID_INTERNAL_RITUAL_CASTING" />
-						<element type="Proficiency" name="Spellcasting Focus Group (Arcane Focus)" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
-					</element>
-					<element type="Class Feature" name="Arcane Recovery" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" />
-					<element type="Grants" name="Multiclass" id="ID_INTERNAL_GRANT_MULTICLASS" />
-					<element type="Class Feature" name="Arcane Tradition" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION">
-						<element type="Archetype" name="Arcane Tradition" requiredLevel="1" checksum="0d475b31" registered="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_NECROMANCY">
-							<element type="Archetype Feature" name="Necromancy Savant" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_NECROMANCY_SAVANT" />
-							<element type="Archetype Feature" name="Grim Harvest" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_GRIM_HARVEST" />
-						</element>
-					</element>
-				</element>
-				<element type="Grants" name="Multiclassing (Level 4)" id="ID_INTERNAL_MULTICLASS_LEVEL_4" />
-			</element>
+			<element type="Level" name="4" id="ID_LEVEL_4" multiclass="true" class="ID_WOTC_PHB_MULTICLASS_MONK" />
 			<element type="Level" name="5" id="ID_LEVEL_5" multiclass="true" class="ID_WOTC_PHB_MULTICLASS_MONK" />
-			<element type="Level" name="6" id="ID_LEVEL_6" multiclass="true" class="ID_WOTC_PHB_MULTICLASS_MONK" />
-			<element type="Level" name="7" id="ID_LEVEL_7" multiclass="true" class="ID_WOTC_PHB_MULTICLASS_WIZARD" />
 			<element type="Armor" name="Scale Mail" id="ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL">
 				<element type="Grants" name="Stealth Disadvantage" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
 			</element>
@@ -405,7 +375,7 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 				</details>
 			</item>
 		</equipment>
-		<sum element-count="175">
+		<sum element-count="154">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -426,7 +396,6 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<element type="Racial Trait" id="ID_RACIAL_TRAIT_FEY_ANCESTRY" />
 			<element type="Racial Trait" id="ID_RACIAL_TRAIT_TRANCE" />
 			<element type="Racial Trait" id="ID_RACIAL_TRAIT_ELVEN_SUBRACE" />
-			<element type="Ability Score Improvement" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_2" />
 			<element type="Sub Race" id="ID_WOTC_EGTW_SUB_RACE_PALLID_ELF" />
 			<element type="Racial Trait" id="ID_WOTC_EGTW_RACIAL_TRAIT_PALLID_INCISIVE_SENSE" />
 			<element type="Racial Trait" id="ID_WOTC_EGTW_RACIAL_TRAIT_PALLID_BLESSING_OF_THE_MOON_WEAVER" />
@@ -447,26 +416,17 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<element type="Spell" id="ID_PHB_SPELL_HEX" />
 			<element type="Level" id="ID_LEVEL_3" />
 			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_3" />
-			<element type="Level" id="ID_LEVEL_4" />
-			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_4" />
-			<element type="Spell" id="ID_PHB_SPELL_MESSAGE" />
-			<element type="Spell" id="ID_POTA_SPELL_GUST" />
-			<element type="Spell" id="ID_PHB_SPELL_FIRE_BOLT" />
-			<element type="Spell" id="ID_PHB_SPELL_FIND_FAMILIAR" />
-			<element type="Spell" id="ID_WOTC_IDROTF_SPELL_FROST_FINGERS" />
-			<element type="Spell" id="ID_PHB_SPELL_BURNING_HANDS" />
-			<element type="Spell" id="ID_PHB_SPELL_CHROMATIC_ORB" />
-			<element type="Spell" id="ID_PHB_SPELL_MAGIC_MISSILE" />
-			<element type="Spell" id="ID_PHB_SPELL_RAY_OF_SICKNESS" />
-			<element type="Level" id="ID_LEVEL_5" />
-			<element type="Level" id="ID_LEVEL_6" />
-			<element type="Level" id="ID_LEVEL_7" />
-			<element type="Spell" id="ID_PHB_SPELL_SHIELD" />
-			<element type="Spell" id="ID_WOTC_SCOC_SPELL_SILVERY_BARBS" />
 			<element type="Armor" id="ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
 			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_SHORTSWORD" />
+			<element type="Level" id="ID_LEVEL_4" />
+			<element type="Level" id="ID_LEVEL_5" />
+			<element type="Ability Score Improvement" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_DEXTERITY_INCREASE_2" />
+			<element type="Language" id="ID_WOTC_ALSOH_LANGUAGE_NETHERESE" />
+			<element type="Language" id="ID_LANGUAGE_ABYSSAL" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_CLERIC" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
@@ -570,19 +530,8 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_MONK_DEFLECT_MISSILES" />
 			<element type="Archetype" id="ID_WOTC_SCAG_ARCHETYPE_WAY_OF_THE_LONG_DEATH" />
 			<element type="Archetype Feature" id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_WAY_OF_THE_LONG_DEATH_TOUCH_OF_DEATH" />
-			<element type="Multiclass" id="ID_WOTC_PHB_MULTICLASS_WIZARD" />
-			<element type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" />
-			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD" />
-			<element type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
-			<element type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
-			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_RECOVERY" />
-			<element type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
-			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" />
-			<element type="Archetype" id="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_NECROMANCY" />
-			<element type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_NECROMANCY_SAVANT" />
-			<element type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_NECROMANCY_GRIM_HARVEST" />
 		</sum>
-		<magic multiclass="true" level="3">
+		<magic multiclass="true" level="1">
 			<spellcasting name="Cleric" ability="Wisdom" attack="7" dc="15" source="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_SPELLCASTING_CLERIC">
 				<slots s1="2" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
 				<cantrips>
@@ -610,7 +559,7 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 					<spell name="Sanctuary" level="1" id="ID_PHB_SPELL_SANCTUARY" />
 				</spells>
 			</spellcasting>
-			<spellcasting name="Warlock" ability="Charisma" attack="6" dc="14" source="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
+			<spellcasting name="Warlock" ability="Charisma" attack="5" dc="13" source="ID_WOTC_PHB_CLASS_FEATURE_WARLOCK_SPELLCASTING_WARLOCK_PACT_MAGIC">
 				<slots s1="1" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
 				<cantrips>
 					<spell name="Eldritch Blast" level="0" id="ID_PHB_SPELL_ELDRITCH_BLAST" />
@@ -621,24 +570,6 @@ You might also have ties to a specific temple dedicated to your chosen deity or 
 				<spells>
 					<spell name="Armor of Agathys" level="1" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" known="true" />
 					<spell name="Hex" level="1" id="ID_PHB_SPELL_HEX" known="true" />
-				</spells>
-			</spellcasting>
-			<spellcasting name="Wizard" ability="Intelligence" attack="5" dc="13" source="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
-				<slots s1="3" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
-				<cantrips>
-					<spell name="Fire Bolt" level="0" id="ID_PHB_SPELL_FIRE_BOLT" />
-					<spell name="Gust" level="0" id="ID_POTA_SPELL_GUST" />
-					<spell name="Message" level="0" id="ID_PHB_SPELL_MESSAGE" />
-				</cantrips>
-				<spells>
-					<spell name="Frost Fingers" level="1" id="ID_WOTC_IDROTF_SPELL_FROST_FINGERS" prepared="true" always-prepared="true" known="true" />
-					<spell name="Magic Missile" level="1" id="ID_PHB_SPELL_MAGIC_MISSILE" prepared="true" always-prepared="true" known="true" />
-					<spell name="Shield" level="1" id="ID_PHB_SPELL_SHIELD" prepared="true" always-prepared="true" known="true" />
-					<spell name="Silvery Barbs" level="1" id="ID_WOTC_SCOC_SPELL_SILVERY_BARBS" prepared="true" always-prepared="true" known="true" />
-					<spell name="Burning Hands" level="1" id="ID_PHB_SPELL_BURNING_HANDS" always-prepared="true" known="true" />
-					<spell name="Chromatic Orb" level="1" id="ID_PHB_SPELL_CHROMATIC_ORB" always-prepared="true" known="true" />
-					<spell name="Find Familiar" level="1" id="ID_PHB_SPELL_FIND_FAMILIAR" always-prepared="true" known="true" />
-					<spell name="Ray of Sickness" level="1" id="ID_PHB_SPELL_RAY_OF_SICKNESS" always-prepared="true" known="true" />
 				</spells>
 			</spellcasting>
 			<additional>

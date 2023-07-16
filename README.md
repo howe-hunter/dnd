@@ -18,8 +18,16 @@
 * Paste the ally ***.png*** into *\Documents\5e Character Builder\gallery*
 
 
-### Installing/Updating *hunters-edits* Content
+### Other Resource Links from [Aurora Legacy Project](https://github.com/AuroraLegacy/elements) and mamawerecat's [AuroraCustomContent](https://github.com/mamawerecat/AuroraCustomContent/tree/main)
 
+* Use these links instead of the ones from the Aurora Builder website
+* [core](https://raw.githubusercontent.com/AuroraLegacy/elements/master/core.index)
+* [supplements](https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements.index)
+* [unearthed_arcana](https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana.index)
+* [taldorei_reborn](https://raw.githubusercontent.com/mamawerecat/AuroraCustomContent/main/taldorei-reborn.index)
+
+### Installing/Updating *hunters-edits* Content
+***Currently Broken***
 * Download hunters-edits by pasting [hunters-edits](https://raw.githubusercontent.com/howe-hunter/dnd/main/hunters-edits.index) into the additional content field
 * To update delete ***hunters-edits.index*** and the hunters-edits directory from *\Documents\5e Character Builder\custom* and repeat the above step
 * (Optional) Add Hunter's personal Aurora settings by pasting contents of [aurora-config](https://github.com/howe-hunter/dnd/tree/main/aurora-config) into *\AppData\Local*
@@ -27,3 +35,6 @@
 ### Roll20 Macros
 
 * tbd
+
+### Disclaimer
+This repository is intended as a place for easily-accessible Aurora Builder content (xml) files of products you already own. Please ensure you only access content in accordance with your local laws. This is a fan project, and isn't affiliated with the Aurora Builder or Wizards of the Coast.

@@ -1,0 +1,2339 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name></name>
+		<update version="0.1.5">
+			<file name="items-weapons.xml" url="https://raw.githubusercontent.com/mamawerecat/AuroraCustomContent/main/Kobold%20Press/Vault%20of%20Magic/items-weapons.xml" />
+		</update>
+	</info>
+
+<!-- Akaasit Blade -->
+	<element name="Akaasit Blade" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_AKAASIT_BLADE">
+		<description>
+			<p>This dagger is crafted from the arm blade of a defeated Akaasit.</p>
+			<p class="indent">You gain a +1 bonus to attack and damage rolls made with this magic weapon. You can use an action to activate a small measure of prescience within the dagger for 1 minute. If you are attacked by a creature you can see within 5 feet of you while this effect is active, you can use your reaction to make one attack with this dagger against the attacker. If your attack hits, the dagger loses its prescience, and its prescience can’t be activated again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Dagger</set>
+		</setters>
+	</element>
+
+<!-- Anchor of Striking -->
+	<element name="Anchor of Striking" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_ANCHOR_OF_STRIKING">
+		<description>
+			<p>This small rusty iron anchor feels sturdy in spite of its appearance. You gain a +1 bonus to attack and damage rolls made with this magic war pick.</p>
+			<p class="indent">When you roll a 20 on an attack roll made with this weapon, the target is wrapped in ethereal golden chains that extend from the bottom of the anchor. As an action, the chained target can make a DC 15 Strength or Dexterity check, freeing itself from the chains on a success. Alternatively, you can use a bonus action to command the chains to disappear, freeing the target. The chains are constructed of magical force and can’t be damaged, though they can be destroyed with a disintegrate spell. While the target is wrapped in these chains, you and the target can’t move further than 50 feet from each other.</p>
+	  	</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="war pick">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">War Pick</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+
+<!-- Angry Hornet -->
+	<element name="Angry Hornet" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_ANGRY_HORNET">
+		<description>
+		  	<p>This black ammunition has yellow fletching or yellow paint.</p>
+		  	<p class="indent">When you fire this magic ammunition, it makes an angry buzzing sound, and it multiplies in flight. As it flies, 2d4 identical pieces of ammunition magically appear around it, all speeding toward your target. Roll separate attack rolls for each additional arrow or bullet. Duplicate ammunition disappears after missing or after dealing its damage. If the angry hornet and all its duplicates miss, the angry hornet remains magical and can be fired again, otherwise it is destroyed.</p>
+		</description>
+		<setters>
+		  	<set name="category">Ammunition</set>
+		  	<set name="cost" currency="gp">0</set>
+		  	<set name="weight" lb="0">0 lb.</set>
+		  	<set name="type" addition="any ammunition">Ammunition</set>
+		  	<set name="rarity">Uncommon</set>
+		  	<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Anointing Mace -->
+
+	<element name="Anointing Mace" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_ANOINTING_MACE">
+		<description>
+		  	<p>Also called an anointing gada, you gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+		  	<p class="indent">In addition, the ornately decorated head of the mace holds a reservoir perforated with small holes. As an action, you can fill the reservoir with a single potion or vial of liquid, such as holy water or alchemist’s fire. You can press a button on the haft of the weapon as a bonus action, which opens the holes. If you hit a target with the weapon while the holes are open, the weapon deals damage as normal and the target suffers the effects of the liquid. For example, an anointing mace filled with holy water deals an extra 2d6 radiant damage if it hits a fiend or undead. After you press the button and make an attack roll, the liquid is expended, regardless if your attack hits.</p>
+		</description>
+		<setters>
+		  	<set name="category">Magic Weapons</set>
+		  	<set name="cost" currency="gp">0</set>
+		  	<set name="weight" lb="0">0 lb.</set>
+		  	<set name="type" addition="maul">Weapon</set>
+		  	<set name="rarity">Uncommon</set>
+		  	<set name="enhancement">1</set>
+		  	<set name="weapon">Maul</set>
+		  	<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Arrow of Grabbing -->
+
+	<element name="Arrow of Grabbing" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_ARROW_OF_GRABBING">
+		<description>
+			<p>This arrow has a barbed head and is wound with a fine but strong thread that unravels as the arrow soars. If a creature takes damage from the arrow, the creature must succeed on a DC 17 Constitution saving throw or take 4d6 damage and have the arrowhead lodged in its flesh. A creature grabbed by this arrow can’t move farther away from you. At the end of its turn, the creature can attempt a DC 17 Constitution saving throw, taking 4d6 piercing damage and dislodging the arrow on a success.</p>
+			<p class="indent">As an action, you can attempt to pull the grabbed creature up to 10 feet in a straight line toward you, forcing the creature to repeat the saving throw. If the creature fails, it moves up to 10 feet closer to you. If it succeeds, it takes 4d6 piercing damage and the arrow is dislodged.</p>
+		</description>
+		<setters>
+		  	<set name="category">Ammunition</set>
+		  	<set name="cost" currency="gp">0</set>
+		  	<set name="weight" lb="0">0 lb.</set>
+		  	<set name="type" addition="arrow">Ammunition</set>
+		  	<set name="rarity">Very Rare</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Arrow of Unpleasant Herbs -->
+
+	<element name="Arrow of Unpleasant Herbs" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_ARROW_OF_UNPLEASANT_HERBS">
+		<description>
+		  	<p>This arrow’s tip is filled with magically preserved, poisonous herbs. When a creature takes damage from the arrow, the arrowhead breaks, releasing the herbs. The creature must succeed on a DC 15 Constitution saving throw or be incapacitated until the end of its next turn as it retches and reels from the poison.</p>
+		</description>
+		<setters>
+		  	<set name="category">Ammunition</set>
+		  	<set name="cost" currency="gp">0</set>
+		  	<set name="weight" lb="0">0 lb.</set>
+		  	<set name="type" addition="arrow">Ammunition</set>
+		  	<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Asp’s Kiss -->
+
+	<element name="Asp's Kiss" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_ASPS_KISS">
+		<description>
+			<p>This haladie features two short, slightly curved blades attached to a single hilt with a short, blue-sheened spike on the hand guard. You gain a +2 bonus to attack and damage rolls made with this magic weapon. While attuned to this sword, you have immunity to poison damage, and, when you take the Dash action, the extra movement you gain is double your speed instead of equal to your speed. When you use the Attack action with this sword, you can make one attack with its hand guard spike (treat as a dagger) as a bonus action. You can use an action to cause indigo poison to coat the blades of this sword. </p>
+			<p class="indent">The poison remains for 1 minute or until two attacks using the blade of this weapon hit one or more creatures. The target must succeed on a DC 17 Constitution saving throw or take 2d10 poison damage and its hit point maximum is reduced by an amount equal to the poison damage taken. This reduction lasts until the target finishes a long rest.</p>
+			<p class="indent">The target dies if this effect reduces its hit point maximum to 0. The sword can’t be used this way again until the next dawn. </p>
+			<p class="indent">When you kill a creature with this weapon, it sheds a single, blue tear as it takes its last breath.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Shortsword</set>
+			<set name="attunement" addition="by a bard, fighter, ranger, or rogue">true</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" />
+		</rules>
+	</element>
+
+<!-- Axe of the Ancients -->
+	<element name="Axe of the Ancients" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_AXE_OF_THE_ANCIENTS">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">When you draw this weapon, you can use a bonus action to cast the thaumaturgy spell from it. You can have only one of the spell’s effects active at a time when you cast it in this way.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="handaxe">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Handaxe</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Black and White Daggers -->
+	<element name="Black and White Daggers" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BLACK_AND_WHITE_DAGGERS">
+		<description>
+			<p>These matched daggers are identical except for the stones set in their pommels. One pommel is chalcedony (opaque white), the other is obsidian (opaque black).</p>
+			<p class="indent">You gain a +1 bonus to attack and damage rolls with both magic weapons. </p>
+			<p class="indent">The bonus increases to +3 when you use the white dagger to attack a monstrosity, and it increases to +3 when you use the black dagger to attack an undead.</p>
+			<p class="indent">When you hit a monstrosity or undead with both daggers in the same turn, that creature takes an extra 1d6 piercing damage from the second attack.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+		    <set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Dagger</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Blackguard’s Blade -->
+
+	<element name="Blackguard's Blade" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BLACKGUARDS_BLADE">
+		<description>
+			<p>You have advantage on attack rolls made with this weapon against a target if another enemy of the target is within 5 feet of it, and it has no allies within 5 feet of it</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="dagger or shortsword">Weapon</set>
+			<set name="rarity">Common</set>
+			<set name="weapon">Dagger||Shortsword</set>
+			<set name="name-format">Blackguard's {{parent}}</set>
+		</setters>
+	</element>
+
+<!-- Blade of Petals -->
+	<element name="Blade of Petals" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BLADE_OF_PETALS">
+		<description>
+			<p>You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">This brightly-colored shortsword is kept in a wooden scabbard with eternally blooming flowers. The blade is made of dull green steel, and its pommel is fashioned from hard rosewood. As a bonus action, you can conjure a flowery mist which fills a 20-foot area around you with pleasant-smelling perfume. The scent dissipates after 1 minute. </p>
+			<p class="indent">A creature damaged by the blade must succeed on a DC 15 Charisma saving throw or be charmed by you until the end of its next turn. A creature can’t be charmed this way more than once every 24 hours.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Shortsword</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Blade of the Dervish -->
+
+	<element name="Blade of the Dervish" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BLADE_OF_THE_DERVISH">
+		<description>
+			<p>This magic scimitar is empowered by your movements. For every 10 feet you move before making an attack, you gain a +1 bonus to the attack and damage rolls of that attack, and the scimitar deals an extra 1d6 slashing damage if the attack hits (maximum of +3 and 3d6). </p>
+			<p class="indent">In addition, if you use the Dash action and move within 5 feet of a creature, you can attack that creature as a bonus action. On a hit, the target takes an extra 2d6 slashing damage.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="scimitar">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">Scimitar</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Blade of the Temple Guardian -->
+	<element name="Blade of the Temple Guardian" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BLADE_OF_THE_TEMPLE_GUARDIAN">
+		<description>
+			<p>This simple but elegant shortsword is a magic weapon. When you are wielding it and use the Flurry of Blows class feature, you can make your bonus attacks with the sword rather than unarmed strikes. If you deal damage to a creature with this weapon and reduce it to 0 hit points, you absorb some of its energy, regaining 1 expended ki point.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">Shortsword</set>
+			<set name="attunement" addition="by a monk">true</set>
+		</setters>
+	</element>
+
+<!-- Bloodbow -->
+
+	<element name="Bloodbow" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BLOODBOW">
+		<description>
+			<p>This longbow is carved of a light, sturdy wood such as hickory or yew, and it is almost always stained a deep maroon hue, lacquered and aged under layers of sundried blood. The bow is sometimes decorated with reptilian teeth, centaur tails, or other battle trophies. </p>
+			<p class="indent">The bow is designed to harm the particular type of creature whose blood most recently soaked the weapon. When you make a ranged attack roll with this magic weapon against a creature of that type, you have a +1 bonus to the attack and damage rolls. If the attack hits, the target must succeed on a DC 15 Wisdom saving throw or become enraged until the end of your next turn. While enraged, the target suffers a random short-term madness. Bloodbows are most commonly soaked in the blood of bandits, thieves, or other humanoids. If you soak this weapon in the blood of a different type of creature for at least 1 hour, it ceases to affect the previous type of creature. The bow affects the new type of creature after you finish a long rest.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="longbow">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">Longbow</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+
+<!-- Blooddrinker Spear -->
+	<element name="Blooddrinker Spear" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BLOODDRINKER_SPEAR">
+		<description>
+			<p>Prized by gnolls, the upper haft of this spear is decorated with tiny animal skulls, feathers, and other adornments. You gain a +1 bonus to attack and damage rolls with this magic weapon.</p>
+			<p class="indent">When you hit a creature with this spear, you mark that creature for 1 hour. Until the mark ends, you deal an extra 1d6 damage to the target whenever you hit it with the spear, an dyou have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find the target. If the target drops to 0 hit points, the mark ends. This property can't be used on a different creature until you spend a short rest cleaning the previous target's blood from the spear.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="attunement">true</set>
+			<set name="weapon">Spear</set>
+			<set name="enhancement">1</set>
+		</setters>
+	</element>
+
+<!-- Bloodfuel Weapon -->
+
+	<element name="Bloodfuel Weapon" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BLOODFUEL_WEAPON">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. The first time you attack with the weapon on each of your turns, you can spend one or more Hit Dice, up to your maximum Hit Dice. For each Hit Die spent in this way, you roll the die and add your Constitution modifier to it. You lose hit points equal to the total, and the target takes extra necrotic damage equal to the total. You can’t use this feature of the weapon if you don’t have blood. </p>
+			<p class="indent">Hit Dice spent using this weapon’s feature can’t be used to regain hit points during a short rest. You regain spent Hit Dice as normal.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any that deals piercing or slashing">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_DAMAGE_TYPE_PIERCING||ID_INTERNAL_DAMAGE_TYPE_SLASHING</set>
+			<set name="attunement">true</set>
+			<set name="name-format">Bloodfuel {{parent}}</set>
+		</setters>
+	</element>
+
+<!-- Bloodthirsty Weapon -->
+	<element name="Bloodthirsty Weapon" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BLOODTHIRSTY_WEAPON">
+		<description>
+			<p>This magic weapon bears long, branching channels inscribed into its blade or head, and it gives off a coppery scent. When you damage a creature that has blood with this weapon, it loses an additional 2d6 hit points from blood loss. </p>
+			<p class="indent"><b><i>Thirsting.</i></b> The weapon acquires a taste for creatures it damaged. When you miss an attack with this weapon against a creature you damaged with this weapon within the last 1 minute, the target loses 2d6 hit points due to blood loss as the weapon draws blood out of open wounds as it passes. If the wounded creature uses an action to stanch the wound with a successful DC 15 Wisdom (Medicine) check or the creature receives magical healing, the blade no longer has a taste for it, preventing this property from triggering. This property doesn’t work against creatures that don’t have blood.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any weapon that deals piercing or slashing damage">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">ID_INTERNAL_DAMAGE_TYPE_PIERCING|ID_INTERNAL_DAMAGE_TYPE_SLASHING</set>
+			<set name="attunement">true</set>
+			<set name="name-format">Bloodthirsty {{parent}}</set>
+		</setters>
+	</element>
+
+<!-- Bludgeon of Nightmares -->
+	<element name="Bludgeon of Nightmares" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BLUDGEON_OF_NIGHTMARES">
+		<description>
+			<p>You gain a +2 bonus to attack and damage rolls made with this weapon. The weapon appears to be a mace of disruption, and an identify spell reveals it to be such.</p>
+			<p class="indent"><b><i>Curse.</i></b> This weapon is cursed. Becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the weapon, keeping it on your person at all times. While attuned to this weapon, you have disadvantage on attack rolls made with weapons other than this one.</p>
+			<p class="indent">The first time you use this weapon to kill a creature that has an Intelligence score of 5 or higher, you begin having nightmares and disturbing visions that disrupt your rest. Each time you complete a long rest, you must make a Wisdom saving throw. The DC equals 10 + the total number of creatures with Intelligence 5 or higher that you’ve reduced to 0 hit points with this weapon. On a failure, you gain no benefits from that long rest, and you gain one level of exhaustion.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="flail, mace, or morningstar">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Flail||Mace||Morningstar</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Bone Whip -->
+	<element name="Bone Whip" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BONE_WHIP">
+		<description>
+			<p>This whip is constructed of humanoid vertebrae with their edges magically sharpened and pointed. The bones are joined together into a coiled line by strands of steel wire. The handle is half a femur wrapped in soft leather of tanned humanoid skin. You gain a +1 bonus to attack and damage rolls with this weapon.</p>
+			<p class="indent">You can use an action to cause fiendish energy to coat the whip. For 1 minute, you gain 5 temporary hit points the first time you hit a creature on each turn. In addition, when you deal damage to a creature with this weapon, the creature must succeed on a DC 17 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage dealt. This reduction lasts until the creature finishes a long rest. Once used, this property of the whip can’t be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="whip">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="weapon">Whip</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">1</set>
+		</setters>
+	</element>
+
+<!-- Bonebreaker Mace -->
+	<element name="Bonebreaker Mace" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BONEBREAKER_MACE">
+		<description>
+			<p>You gain a +1 bonus on attack and damage rolls made with this magic weapon. The bonus increases to +3 when you use it to attack an undead creature. Often given to the grim enforcers of great necropolises, these weapons can reduce the walking dead to splinters with a single strike.</p>
+			<p class="indent">When you hit an undead creature with this magic weapon, treat that creature as if it is vulnerable to bludgeoning damage. If it is already vulnerable to bludgeoning damage, your attack deals an additional 1d6 radiant damage.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any weapon that deals bludgeoning damage">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Bow of Accuracy -->
+	<element name="Bow of Accuracy" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BOW_OF_ACCURACY">
+		<description>
+			<p>The normal range of this bow is doubled, but its long range remains the same.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any bow">Weapon</set>
+			<set name="rarity">Common</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_BOWS</set>
+		</setters>
+	</element>
+
+<!-- Breaker Lance -->
+	<element name="Breaker Lance" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BREAKER_LANCE">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls with this magic weapon. When you attack an object or structure with this magic lance and hit, maximize your weapon damage dice against the target.</p>
+			<p class="indent">The lance has 3 charges. As part of an attack action with the lance, you can expend a charge while striking a barrier created by a spell, such as a wall of fire or wall of force, or an entryway protected by the arcane lock spell. You must make a Strength check against a DC equal to 10 + the spell’s level. On a successful check, the spell ends. The lance regains 1d3 expended charges daily at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="lance">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Lance</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Bullseye Arrow -->
+	<element name="Bullseye Arrow" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BULLSEYE_ARROW">
+		<description>
+			<p>This arrow has bright red fletching and a blunt, red tip. You gain a +1 bonus to attack rolls made with this magic arrow. On a hit, the arrow deals no damage, but it paints a magical red dot on the target for 1 minute. While the dot lasts, the target takes an extra 1d4 damage of the weapon’s type from any ranged attack that hits it. In addition, ranged weapon attacks against the target score a critical hit on a roll of 19 or 20. When this arrow hits a target, the arrow vanishes in a flash of red light and is destroyed.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="arrow">Ammunition</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Buzzing Blade -->
+	<element name="Buzzing Blade" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_BUZZING_BLADE">
+		<description>
+			<p>You can use a bonus action to speak this weapon’s command word, causing the blade to emit a loud buzzing sound. The buzzing noise is audible out to 100 feet. While the sword is buzzing, it deals an extra 2d6 thunder damage to any target it hits. The buzzing lasts until you use a bonus action to speak the command word again or until you drop or sheathe the weapon.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any sword or axe">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS||ID_INTERNAL_WEAPON_GROUP_AXES</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Candied Axe -->
+	<element name="Candied Axe" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_CANDIED_AXE">
+		<description>
+			<p>This battleaxe bears a golden head spun from crystalized honey. Its wooden handle is carved with reliefs of bees. You gain a +2 bonus to attack and damage rolls made with this magic weapon. </p>
+			<p class="indent"><b><i>Blessing of the Bee.</i></b> While you are attuned to the axe, you have immunity to poison damage, and you have advantage on any Charisma check to interact with beasts.</p>
+			<p class="indent"><b><i>Honey Drip.</i></b> While you are holding the battleaxe, you can use an action to cast the slow spell (save DC 15) from the weapon. Once used, this property can’t be used again until the next dawn. </p>
+			<p class="indent"><b><i>Curse.</i></b> The axe bears a curse that affects any non bearfolk that attunes to it. Even if the attunement ends, the curse remains. With each passing day, the creature’s physical appearance and stature become more bearlike. After 7 days, the creature looks like a typical bearfolk, but the creature neither loses its racial traits nor gains the racial traits of a bearfolk. </p>
+			<p class="indent">The physical changes wrought by the axe can’t be dispelled, but they can be undone by any effect that removes a curse, such as the remove curse spell.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="battleaxe">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Battleaxe</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" />
+		</rules>
+	</element>
+
+<!-- Chainbreaker Blade -->
+	<element name="Chainbreaker Blade" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_CHAINBREAKER_BLADE">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you use this weapon to attack or break chains, manacles, or similar metal objects restraining creatures, you have advantage on the attack roll or ability check. In addition, such items have vulnerability to this sword’s weapon damage.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any sword">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+			<set name="name-format">Chainbreaker {{parent}}</set>
+		</setters>
+	</element>
+
+<!-- Chieftain’s Axe -->
+	<element name="Chieftain's Axe" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_CHIEFTAINS_AXE">
+		<description>
+			<p>Furs conceal the worn runes lining the haft of this oversized, silver-headed battleaxe. You gain a +2 bonus to attack and damage rolls made with this silvered, magic weapon. Chieftain’s Rally. You can use an action to raise the axe while shouting a rallying cry. All allies who can hear and see you can use a reaction to make a melee attack. Once used, this property can’t be used again until the next dawn. </p>
+			<p class="indent"><b><i>Bearfolk Belonging.</i></b> If you aren’t a bearfolk, bearfolk who see you carrying the chieftain’s axe are immediately hostile. In addition, you have disadvantage on Charisma checks to influence bearfolk. However, if you turn the axe over to bearfolk, provided you haven’t used the axe against bearfolk to their knowledge, they become friendly and, at the GM’s discretion, might provide aid to you and your allies.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="battleaxe">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Battleaxe</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Clockwork Mace of Divinity -->
+	<element name="Clockwork Mace of Divinity" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_CLOCKWORK_MACE_OF_DIVINITY">
+		<description>
+			<p>This clockwork mace is composed of several different metals. While attuned to this magic weapon, you have proficiency with it. As a bonus action, you can command the mace to transform into a trident. When you hit with an attack using this weapon’s trident form, the target takes an extra 1d6 radiant damage.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="mace">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">Mace</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" />
+		</rules>
+	</element>
+
+<!-- Constant Dagger -->
+	<element name="Constant Dagger" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_CONSTANT_DAGGER">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you roll a 20 on an attack roll made with this weapon, the target loses its resistance to bludgeoning, piercing, and slashing damage until the start of your next turn. If it has immunity to bludgeoning, piercing, and slashing damage, its immunity instead becomes resistance to such damage until the start of your next turn. If the creature doesn’t have resistance or immunity to such damage, you roll your damage dice three times, instead of twice.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Dagger</set>
+		</setters>
+	</element>
+
+<!-- Consuming Rod -->
+	<element name="Consuming Rod" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_CONSUMING_ROD">
+		<description>
+			<p>This bone mace is crafted from a humanoid femur. One end is carved to resemble a ghoulish face, its mouth open wide and full of sharp fangs. The mace has 8 charges, and it recovers 1d6 + 2 charges daily at dawn. You gain a +1 bonus to attack and damage rolls made with this magic mace. When it hits a creature, the mace’s mouth stretches gruesomely wide and bites the target, adding 3 (1d6) piercing damage to the attack. As a reaction, you can expend 1 charge to regain hit points equal to the piercing damage dealt.</p>
+			<p class="indent">Alternatively, you can use your reaction to expend 5 charges when you hit a Medium or smaller creature and force the mace to swallow the target. The target must succeed on a DC 15 Dexterity saving throw or be swallowed into an extra-dimensional space within the mace. While swallowed, the target is blinded and restrained, and it has total cover against attacks and other effects outside the mace. The target can still breathe. As an action, you can force the mace to regurgitate the creature, which falls prone in a space within 5 feet of the mace. The mace automatically regurgitates a trapped creature at dawn when it regains charges.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="mace">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Mace</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Crimson Starfall Arrow -->
+	<element name="Crimson Starfall Arrow" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_CRIMSON_STARFALL_ARROW">
+		<description>
+			<p>This arrow is a magic weapon powered by the sacrifice of your own life energy and explodes upon impact. If you hit a creature with this arrow, you can spend one or more Hit Dice, up to your maximum Hit Dice. For each Hit Die spent in this way, you roll the die and add your Constitution modifier to it. You lose hit points equal to the total, and each creature within 10 feet of the target, including the target, must make a DC 15 Dexterity saving throw, taking necrotic damage equal to the hit points you lost on a failed save, or half as much damage on a successful one. </p>
+			<p class="indent">You can’t use this feature of the arrow if you don’t have blood. Hit Dice spent on this arrow’s feature can’t be used to regain hit points during a short rest. You regain spent Hit Dice as normal.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="arrow">Ammunition</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Dagger of the Barbed Devil -->
+	<element name="Dagger of the Barbed Devil" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_DAGGER_OF_THE_BARBED_DEVIL">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">You can use an action to cause sharp, pointed barbs to sprout from this blade. The barbs remain for 1 minute. When you hit a creature while the barbs are active, the creature must succeed on a DC 15 Dexterity saving throw or a barb breaks off into its flesh and the dagger loses its barbs. At the start of each of its turns, a creature with a barb in its flesh must make a DC 15 Constitution saving throw. On a failure, it has disadvantage on attack rolls and ability checks until the start of its next turn as it is wracked with pain. The barb remains until a creature uses its action to remove the barb, dealing 1d4 piercing damage to the barbed creature. Once you cause barbs to sprout from the dagger, you can’t do so again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Dagger</set>
+		</setters>
+	</element>
+
+<!-- Dawn Shard -->
+	<element name="Dawn Shard" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_DAWN_SHARD">
+		<description>
+			<p>The blade of this magic weapon gleams with a faint golden shine, and the pommel is etched with a sunburst. As a bonus action, you can command the weapon to shed dim light out to 5 feet, to shed bright light out to 20 feet and dim light for an additional 20 feet, or to douse the light.</p>
+			<p class="indent">The weapon deals an extra 1d6 radiant damage to any creature it hits. This increases to 2d6 radiant damage if the target is undead or a creature of shadow.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any sword or dagger">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS||ID_INTERNAL_WEAPON_GROUP_DAGGERS</set>
+			<set name="attunement">true</set>
+			<set name="name-format">Dawn Shard {{parent}}</set>
+		</setters>
+	</element>
+
+<!-- Deadfall Arrow -->
+	<element name="Deadfall Arrow" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_DEADFALL_ARROW">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic arrow. On a hit, the arrow transforms into a 10-foot-long wooden log centered on the target, destroying the arrow. The target and each creature in the log’s area must make a DC 15 Dexterity saving throw. On a failure, a creature takes 3d6 bludgeoning damage and is knocked prone and restrained under the log. On a success, a creature takes half the damage and isn’t knocked prone or restrained. A restrained creature can take its action to free itself by succeeding on a DC 15 Strength check. The log lasts for 1 minute then crumbles to dust, freeing those restrained by it.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Ammunition</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Dimensional Net -->
+	<element name="Dimensional Net" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_DIMENSIONAL_NET">
+		<description>
+			<p>Woven from the hair of celestials and fiends, this shimmering iridescent net can subdue and capture otherworldly creatures. You have a +1 bonus to attack rolls with this magic weapon. In addition to the normal effects of a net, this net prevents any Large or smaller aberration, celestial, or fiend hit by it from using any method of extradimensional movement, including teleportation or travel to a different plane of existence. When such a creature is bound in this way, a creature must succeed on a DC 30 Strength (Athletics) check to free the bound creature.</p>
+			<p class="indent">The net has immunity to damage dealt by the bound creature, but another creature can deal 20 slashing damage to the net and free the bound creature, ending the effect.</p>
+			<p class="indent">The net has AC 15 and 30 hit points. It regains 1 hit point every 5 minutes as long as it has at least 1 hit point. If the net drops to 0 hit points, it is destroyed.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="net">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Net</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Dirgeblade -->
+	<element name="Dirgeblade" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_DIRGEBLADE">
+		<description>
+			<p>This weapon is an exquisitely crafted rapier set in a silver and leather scabbard. The blade glows a faint stormy blue and is encircled by swirling wisps of clouds. You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">This weapon, when unsheathed, sheds dim blue light in a 20-foot radius. When you hit a creature with it, you can expend 1 Bardic Inspiration to impart a sense of overwhelming grief in the target. A creature affected by this grief must succeed on a DC 15 Wisdom saving throw or fall prone and become incapacitated by sadness until the end of its next turn. </p>
+			<p class="indent">Once a month under an open sky, you can use a bonus action to speak this magic sword’s command word and cause the sword to sing a sad dirge. This dirge conjures heavy rain (or snow in freezing temperatures) in the region for 2d6 hours. The precipitation falls in an X-mile radius around you, where X is equal to your level.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="rapier">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Rapier</set>
+			<set name="attunement" addition="by a bard">true</set>
+		</setters>
+	</element>
+
+<!-- Dirk of Daring -->
+	<element name="Dirk of Daring" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_DIRK_OF_DARING">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. While holding the dagger, you have advantage on saving throws against being frightened.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Dagger</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Dragonstooth Blade -->
+	<element name="Dragonstooth Blade" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_DRAGONSTOOTH_BLADE">
+		<description>
+			<p>This razor-sharp blade, little more than leather straps around the base of a large tooth, still carries the power of a dragon. This weapon’s properties are determined by the type of dragon that once owned this tooth. The GM chooses the dragon type or determines it randomly from the options below. When you hit with an attack using this magic sword, the target takes an extra 1d6 damage of a type determined by the kind of dragon that once owned the tooth. In addition, you have resistance to the type of damage associated with that dragon.</p>
+			<table>
+				<thead>
+					<tr><td>d6</td><td>Dragon</td><td>Damage</td></tr>
+				</thead>
+				<tr><td>1</td><td>Black or Copper</td><td>Acid</td></tr>
+				<tr><td>2</td><td>Brass, Gold, or Red</td><td>Fire</td></tr>
+				<tr><td>3</td><td>Green</td><td>Poison</td></tr>
+				<tr><td>4</td><td>Blue or Bronze</td><td>Lightning</td></tr>
+				<tr><td>5</td><td>Silver or White</td><td>Cold</td></tr>
+				<tr><td>6</td><td>Undead</td><td>Necrotic</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="greatsword or longsword">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="attunement">true</set>
+			<set name="weapon">Greatsword||Longsword</set>
+			<set name="name-format">Dragonstooth {{parent}}</set>
+		</setters>
+	</element>
+
+<!-- Enraging Ammunition  -->
+	<element name="Enraging Ammunition" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_ENRAGING_AMMUNITION">
+		<description>
+			<p>When you hit a creature with a ranged attack using this magical ammunition, the target must succeed on a DC 13 Wisdom saving throw or become enraged for 1 minute. On its turn, an enraged creature moves toward you by the most direct route, trying to get within 5 feet of you. It doesn’t avoid opportunity attacks, but it moves around or avoids damaging terrain, such as lava or a pit. If the enraged creature is within 5 feet of you, it attacks you. An enraged creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any ammunition">Ammunition</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Ensnaring Ammunition -->
+	<element name="Ensnaring Ammunition" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_ENSNARING_AMMUNITION">
+		<description>
+			<p>When you hit a creature with a ranged attack using this magical ammunition, the target takes only half the damage from the attack, and the target is restrained as the ammunition bursts into entangling strands that wrap around it. As an action, the restrained target can make a DC 13 Strength check, bursting the bonds on a success. The strands can also be attacked and destroyed (AC 10; hp 5; immunity to bludgeoning, poison, and psychic damage).</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any ammunition">Ammunition</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Entrenching Mattock -->
+	<element name="Entrenching Weapon" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_ENTRENCHING_MATTOCK">
+		<description>
+			<p>You gain a +1 to attack and damage rolls with this magic weapon. This bonus increases to +3 when you use the pick to attack a creature made of earth or stone, such as an earth elemental or stone golem. As a bonus action, you can slam the head of the pick into earth, sand, mud, or rock within 5 feet of you to create a wall of that material up to 30 feet long, 3 feet high, and 1 foot thick along that surface. The wall provides half cover to creatures behind it. The pick can’t be used this way again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="war pick">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">War Pick</set>
+		</setters>
+	</element>
+
+<!-- Exsanguinating Blade -->
+	<element name="Exsanguinating Blade" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_EXSANGUINATING_BLADE">
+		<description>
+			<p>This double-bladed dagger has an ivory hilt, and its gold pommel is shaped into a woman’s head with ruby eyes and a fanged mouth opened in a scream. You gain a +1 bonus to attack and damage rolls made with this magic weapon. </p>
+			<p class="indent">When you roll a 20 on an attack roll made with this weapon against a creature that has blood, the dagger gains 1 charge. The dagger can hold 1 charge at a time. You can use a bonus action to expend 1 charge from the dagger to cause one of the following effects: </p>
+			<p class="indent">You or a creature you touch with the blade regains 2d8 hit points. </p>
+			<p class="indent">The next time you hit a creature that has blood with this weapon, it deals an extra 2d8 necrotic damage.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Dagger</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Flash Bullet -->
+	<element name="Flash Bullet" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_FLASH_BULLET">
+		<description>
+			<p>When you hit a creature with a ranged attack using this shiny, polished stone, it releases a sudden flash of bright light. The target takes damage as normal and must succeed on a DC 11 Constitution saving throw or be blinded until the end of its next turn. Creatures with the Sunlight Sensitivity trait have disadvantage on this saving throw.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="sling bullet">Ammunition</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Fog Stone -->
+	<element name="Fog Stone" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_FOG_STONE">
+		<description>
+			<p>This sling stone is carved to look like a fluffy cloud. Typically, 1d4 + 1 fog stones are found together. When you fire the stone from a sling, it transforms into a miniature cloud as it flies through the air, and it creates a 20-foot-radius sphere of fog centered on the target or point of impact. The sphere spreads around corners, and its area is heavily obscured. It lasts for 10 minutes or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="sling bullet">Ammunition</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Forgefire Hammer -->
+	<element name="Forgefire Hammer" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_FORGEFIRE_HAMMER">
+		<description>
+			<p>The head of this weapon is shaped like an anvil, and engravings of fire and arcane runes decorate it. You can use a bonus action to speak this magic weapon’s command word, causing its head to glow red-hot. While red-hot, the weapon deals an extra 1d6 fire damage to any target it hits. The weapon’s anvil-like head remains red-hot until you use a bonus action to speak the command word again or until you drop or sheathe the weapon.</p>
+			<p class="indent">When you roll a 20 on an attack roll made with this weapon against a target holding or wearing a metal object, such as a metal weapon or metal armor, the target takes an extra 1d4 fire damage and the metal object becomes red-hot for 1 minute. While the object is red-hot and the creature still wears or carries it, the creature takes 1d4 fire damage at the start of each of its turns.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="maul or warhammer">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">Maul||Warhammer</set>
+		</setters>
+	</element>
+
+<!-- Gale Javelin -->
+	<element name="Gale Javelin" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_GALE_JAVELIN">
+		<description>
+			<p>The metallic head of this javelin is embellished with three small wings. When you speak a command word while making a ranged weapon attack with this magic weapon, a swirling vortex of wind follows its path through the air. Draw a line between you and the target of your attack; each creature within 10 feet of this line must make a DC 13 Strength saving throw. On a failed save, the creature is pushed backward 10 feet and falls prone. In addition, if this ranged weapon attack hits, the target must make a DC 13 Strength saving throw. On a failed save, the target is pushed backward 15 feet and falls prone. </p>
+			<p class="indent">The javelin’s property can’t be used again until the next dawn. In the meantime, it can still be used as a magic weapon.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="javelin">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">Javelin</set>
+		</setters>
+	</element>
+
+
+<!-- Glazed Blade -->
+	<element name="Glazed Blade" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_GLAZED_BLADE">
+		<description>
+			<p>A pleasant scent emerges from this weapon. While it is on your person, you have advantage on Charisma (Persuasion) checks made to interact with humanoids and fey.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any sword or axe">Weapon</set>
+			<set name="rarity">Common</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS||ID_INTERNAL_WEAPON_GROUP_AXES</set>
+			<set name="name-format">Glazed {{parent}}</set>
+		</setters>
+	</element>
+
+<!-- Gnawing Spear -->
+	<element name="Gnawing Spear" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_GNAWING_SPEAR">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls with this magic weapon. </p>
+			<p class="indent">When you roll a 20 on an attack roll made with this spear, its head animates, grows serrated teeth, and lodges itself in the target. While the spear is lodged in the target and you are wielding the spear, the target is grappled by you. At the start of each of your turns, the spear twists and grinds, dealing 2d6 piercing damage to the grappled target. If you release the spear, it remains lodged in the target, dealing damage each round as normal, but the target is no longer grappled by you. While the spear is lodged in a target, you can’t make attacks with it. A creature, including the restrained target, can take its action to remove the spear by succeeding on a DC 15 Strength check. The target takes 1d6 piercing damage when the spear is removed. You can use an action to speak the spear’s command word, causing it to dislodge itself and fall into an unoccupied space within 5 feet of the target.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Spear</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Golden Bolt -->
+	 <element name="Golden Bolt" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_GOLDEN_BOLT">
+		 <description>
+			 <p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. This crossbow doesn’t have the loading property, and it doesn’t require ammunition. Immediately after firing a bolt from this weapon, another golden bolt forms to take its place.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="heavy crossbow">Weapon</set>
+			 <set name="rarity">Uncommon</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">ID_INTERNAL_WEAPON_GROUP_HEAVY_CROSSBOWS</set>
+			 <set name="attunement">true</set>
+		 </setters>
+	 </element>
+
+<!-- Hammer of Throwing -->
+	<element name="Hammer of Throwing" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_HAMMER_OF_THROWING">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls with this magic weapon. In addition, when you throw the hammer, it returns to your hand at the end of your turn. If you have no hand free, it falls to the ground at your feet.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="light hammer">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Light Hammer</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Hexen Blade -->
+	<element name="Hexen Blade" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_HEXEN_BLADE">
+		<description>
+			<p>The colorful surface of this sleek adamantine shortsword exhibits a perpetually shifting, iridescent sheen. You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">The sword has 5 charges and regains 1d4 + 1 charges daily at dawn. While holding it, you can use an action and expend 1 or more of its charges to cast one of the following spells from it, using spell save DC 15: disguise self (1 charge), hypnotic pattern (3 charges), or mirror image (2 charges).</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Shortsword</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Hidden Armament -->  <!-- MADE WEAPON GROUP ID_KBP_VOM_WEAPON_GROUP_ONE_HANDED_MELEE SEE IF IT WORKS -->
+	<element name="Hidden Armament" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_HIDDEN_ARMAMENT">
+		<description>
+			<p>While holding this magic weapon, you can use an action to transform it into a tattoo on the palm of your hand. You can use a bonus action to transform the tattoo back into a weapon.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any melee weapon that isn't two-handed">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_KBP_VOM_WEAPON_GROUP_ONE_HANDED_MELEE</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Humble Cudgel of Temperance -->
+	<element name="Humble Cudgel of Temperance" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_HUMBLE_CUDGEL_OF_TEMPERANCE">
+		<description>
+			<p>This simple, polished club has a studded iron band around one end. When you attack a poisoned creature with this magic weapon, you have advantage on the attack roll.</p>
+			<p class="indent">When you roll a 20 on an attack roll made with this weapon, the target becomes poisoned for 1 minute. If the target was already poisoned, it becomes incapacitated instead. The target can make a DC 13 Constitution saving throw at the end of each of its turns, ending the poisoned or incapacitated condition on itself on a success.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="club">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">Club</set>
+		</setters>
+	</element>
+
+<!-- Iceblink -->
+	<element name="Iceblink" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_ICEBLINK">
+		<description>
+			<p>The blade of this weapon is cool to the touch and gives off a yellow-white radiance, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. In temperatures above freezing, vapor wafts off the chilled blade. When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage.</p>
+			<p class="indent"><b><i>Freeze Water.</i></b> While holding the sword, you can use an action to plunge the blade into a body of water, causing its surface to freeze over. The water freezes to a depth of 3 inches within a 60-foot radius of the point where you plunged the blade. Creatures that were swimming on the surface of the water must succeed on a DC 15 Dexterity saving throw or be restrained by the ice. A restrained creature can use an action to make a DC 15 Strength check, breaking free on a success. The ice is not magical and melts after 1 minute if temperatures in the area are not cold enough to sustain it. Once used, this property can’t be used again until the next dawn.</p>
+			<p class="indent"><b><i>Snowblind.</i></b> While holding the sword, you can use an action to generate a bright flash of light from the blade at one creature you can see within 5 feet of you. The target must succeed on a DC 15 Constitution saving throw or be blinded for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Once used, this property can’t be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any sword">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Impact Club -->
+	<element name="Impact Club" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_IMPACT_CLUB">
+		<description>
+			<p>This magic weapon has 3 charges and regains 1d3 expended charges daily at dawn. When you hit a target on your turn, you can take a bonus action to spend 1 charge and attempt to shove the target. The club grants you a +1 bonus on your Strength (Athletics) check to shove the target. If you roll a 20 on your attack roll with the club, you have advantage on your Strength (Athletics) check to shove the target, and you can push the target up to 10 feet away.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="club">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">Club</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Impaling Weapon -->
+	<element name="Impaling Weapon" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_IMPALING_WEAPON">
+		<description>
+			<p>When you attack a creature with this magic weapon and roll a 20 on the attack roll, you embed the weapon in the target. If the target is Medium or smaller and is within 5 feet of a wall or other solid object when you hit with this weapon, it is also restrained while the weapon is embedded. At the end of the target’s turn while the weapon is embedded in it, the target takes damage equal to the weapon’s damage, with no additional modifiers. A creature, including the target, can use its action to make a DC 13 Strength check, removing the weapon from the target on a success. You can remove the embedded weapon from the target by speaking the weapon’s command word.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any melee weapon that deals piercing damage">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">ID_KBP_VOM_WEAPON_GROUP_MELEE_PIERCING</set>
+			<set name="attunement">true</set>
+			<set name="name-format">Impaling {{parent}}</set>
+		</setters>
+	</element>
+
+<!-- Knockabout Billet -->
+
+	<element name="Knockabout Billet" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_KNOCKABOUT_BILLET">
+		<description>
+			<p>This stout, oaken cudgel helps you knock your opponents to the ground or away from you. When you hit a creature with this magic weapon, you can shove the target as part of the same attack, using your attack roll in place of a Strength (Athletics) check. The weapon deals damage as normal, regardless of the result of the shove. This property of the club can be used no more than once per hour.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="club">Weapon</set>
+			<set name="rarity">Common</set>
+			<set name="weapon">Club</set>
+		</setters>
+	</element>
+
+<!-- Kyshaarth’s Fang -->
+	<element name="Kyshaarth's Fang" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_KYSHAARTHS_FANG">
+		<description>
+			<p>This dagger’s blade is composed of black, bone-like material. Tales suggest the weapon is fashioned from a Voidling’s tendril barb. When you hit with an attack using this magic weapon, the target takes an extra 2d6 necrotic damage. If you are in dim light or darkness, you regain a number of hit points equal to half the necrotic damage dealt.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">Dagger</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Labyrs of the Raging Bull -->
+	<element name="Labyrs of the Raging Bull" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_LABYRS_OF_THE_RAGING_BULL">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. While you wield the axe, you have advantage on Strength (Athletics) checks to shove a creature, and you can shove a creature up to two sizes larger than you.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="battleaxe or greataxe">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Battleaxe||Greataxe</set>
+		</setters>
+	</element>
+
+<!-- Leaf-Bladed Sword -->
+	<element name="Leaf-Bladed Sword" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_LEAF_BLADED_SWORD">
+		<description>
+			<p>This thin, curved blade has a bell guard shaped like a curled, golden leaf. You gain a +1 bonus to attack and damage rolls with this magic weapon. </p>
+			<p class="indent">When you hit an aberration or undead creature with it, that target takes an extra 1d8 damage of the weapon’s type.You can use an action to cast the barkskin spell on yourself for 1 hour, requiring no concentration. Once used, this property can’t be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any sword">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+			<set name="attunement">true</set>
+			<set name="name-format">Leaf-Bladed {{parent}}</set>
+		</setters>
+	</element>
+<!-- Lockbreaker -->
+	<element name="Lockbreaker" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_LOCKBREAKER">
+		<description>
+			<p>You can use this stiletto-bladed dagger to open locks by using an action and making a Strength check. The DC is 5 less than the DC to pick the lock (minimum DC 10). On a success, the lock is broken.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Common</set>
+			<set name="weapon">Dagger</set>
+		</setters>
+	</element>
+
+<!-- Manticore’s Tail -->
+	<element name="Manticore’s Tail" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_MANTICORES_TAIL">
+		<description>
+			<p>Ten spikes stick out of the head of this magic weapon. While holding the morningstar, you can fire one of the spikes as a ranged attack, using your Strength modifier for the attack and damage rolls. This attack has a normal range of 100 feet and a long range of 200 feet. On a hit, the spike deals 1d8 piercing damage. Once all of the weapon’s spikes have been fired, the morningstar deals bludgeoning damage instead of the piercing damage normal for a morningstar until the next dawn, at which time the spikes regrow.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="morningstar">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">Morningstar</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Masher Basher -->
+	  <element name="Masher Basher" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_MASHER_BASHER">
+		  <description>
+			  <p>A favored weapon of hill giants, this greatclub appears to be little more than a thick tree branch. When you hit a giant with this magic weapon, the giant takes an extra 1d8 bludgeoning damage. When you roll a 20 on an attack roll made with this weapon, the target is stunned until the end of its next turn.</p>
+		  </description>
+		  <setters>
+			  <set name="category">Magic Weapons</set>
+			  <set name="cost" currency="gp">0</set>
+			  <set name="weight" lb="0">0 lb.</set>
+			  <set name="type" addition="greatclub">Weapon</set>
+			  <set name="rarity">Uncommon</set>
+			  <set name="weapon">Greatclub</set>
+		  </setters>
+	  </element>
+
+<!-- Moonsteel Weapon -->
+	<element name="Moonsteel Weapon" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_MOONSTEEL_WEAPON">
+		<description>
+			<p>The blade of this magic weapon seems to shine from within with a pale, white light. The weapon deals an extra 1d6 radiant damage to any creature it hits. If the creature is a shapechanger or any other creature not in its true form, it becomes frightened until the start of your next turn. At the start of its turn, a creature frightened in this way must succeed on a DC 13 Charisma saving throw or immediately return to its true form. For the purpose of this weapon, “shapechanger” refers to any creature with the Shapechanger trait.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="rapier or dagger">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">Rapier||Dagger</set>
+			<set name="name-format">Moonsteel {{parent}}</set>
+		</setters>
+	</element>
+
+<!-- Mordant Blade -->
+	<element name="Mordant Blade" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_MORDANT_BLADE">
+		<description>
+			<p>You can use a bonus action to speak this magic weapon's command word, causing the blade to weep a caustic, green acid. While weeping acid, the weapon deals an extra 2d6 acid damage to any target it hits. The weapon continues to weep acid until you use a bonus action to speak the command word again or you sheathe or drop the weapon.</p>
+			<p class="indent"><b><i>Acid Arc.</i></b> While holding the weapon, you can use an action to swing it in a wide arc, spraying acid in a 15-foot cone. Each creature in the cone must make a DC 15 Dexterity saving throw, taking 4d6 acid damage on a failed save, or half as much damage on a successful one. Once used, this property can’t be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any weapon that deals slashing damage">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">ID_INTERNAL_DAMAGE_TYPE_SLASHING</set>
+			<set name="attunement">true</set>
+			<set name="name-format">Mordant {{parent}}</set>
+		</setters>
+	</element>
+
+<!-- Mountain Hewer -->
+	<element name="Mountain Hewer" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_MOUNTAIN_HEWER">
+		<description>
+			<p>You gain a +2 bonus to attack and damage rolls made with this magic weapon. The massive head of this axe is made from chiseled stone lashed to its haft by thick rope and leather strands. Small chips of stone fall from its edge intermittently, though it shows no sign of damage or wear. You can use your action to speak the command word to cause small stones to float and swirl around the axe, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. The light remains until you use a bonus action to speak the command word again or until you drop or sheathe the axe.</p>
+			<p class="indent">As a bonus action, choose a creature you can see. For 1 minute, that creature must succeed on a DC 15 Wisdom saving throw each time it is damaged by the axe or become frightened until the end of your next turn. Creatures of Large size or greater have disadvantage on this save. Once used, this property of the axe can’t be used again until the next dawn. </p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="greataxe">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Greataxe</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Mountaineer’s Crossbow -->
+	<element name="Mountaineer's Crossbow" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_MOUNTAINEERS_CROSSBOW">
+		<description>
+			<p>This crossbow has a weathered look, and scenes of mountains are etched across its stock. An adamantine grappling hook and cable are built into this magic crossbow. While no ammunition is loaded in the crossbow, you can use an action to fire the grappling hook at a surface, structure, precipice, or other similar location that you can see within 60 feet of you. The grappling hook magically attaches to the surface and connects to the crossbow via an adamantine cable. While the grappling hook is attached to a surface and you are holding the crossbow, you can use an action to speak a command word to reel yourself and up to 1,000 pounds of willing creatures and objects connected to you to the surface. Speaking a second command word as a bonus action releases the grappling hook from the surface, reattaching it to the crossbow, and winds the cable back into a tiny pocket dimension inside the crossbow. </p>
+			<p class="indent">This cable has AC 12, 20 hit points, and immunity to all damage except acid, lightning, and slashing damage from adamantine weapons. If the cable drops to 0 hit points, the crossbow can’t be used in this way again until 24 hours have passed.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any crossbow">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_CROSSBOWS</set>
+		</setters>
+	</element>
+
+<!-- Mutineer’s Blade -->
+	<element name="Mutineer's Blade" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_MUTINEERS_BLADE">
+		<description>
+			<p>This finely balanced scimitar has an elaborate brass hilt. You gain a +2 bonus on attack and damage rolls made with this magic weapon. You can use a bonus action to speak the scimitar’s command word, causing the blade to shed bright green light in a 10-foot radius and dim light for an additional 10 feet. The light lasts until you use a bonus action to speak the command word again or until you drop or sheathe the scimitar.</p>
+			<p class="indent">When you roll a 20 on an attack roll made with this weapon, the target is overcome with the desire for mutiny. On the target’s next turn, it must make one attack against its nearest ally, then the effect ends, whether or not the attack was successful.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="scimitar">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Scimitar</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Odd Bodkin -->
+	 <element name="Odd Bodkin" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_ODD_BODKIN">
+		 <description>
+			 <p>This dagger has a twisted, jagged blade. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature other than a construct or an undead with this weapon, it loses 1d4 hit points at the start of each of its turns from a jagged wound. Each time you successfully hit the wounded target with this dagger, the damage dealt by the wound increases by 1d4. Any creature can take an action to stanch the wound with a successful DC 11 Wisdom (Medicine) check. The wound also closes if the wounded creature receives magical healing.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="dagger">Weapon</set>
+			 <set name="rarity">Rare</set>
+			 <set name="weapon">Dagger</set>
+			 <set name="enhancement">1</set>
+		 </setters>
+	 </element>
+
+<!-- Pestilent Spear -->
+	<element name="Pestilent Spear" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_PESTILENT_SPEAR">
+		<description>
+			<p>The head of this spear is deadly sharp, despite the rust and slimy residue on it that always accumulate no matter how well it is cleaned. When you hit a creature with this magic weapon, it must succeed on a DC 13 Constitution saving throw or contract the sewer plague disease.</p>
+			<p class="indent">After the attack, the spinner flies up to 60 feet and tries to return to your hand. If you have no hand free, it falls to the ground at your feet. </p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">Spear</set>
+		</setters>
+	</element>
+
+<!-- Phidjetz Spinner -->
+	<element name="Phidjetz Spinner" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_PHIDJETZ_SPINNER">
+		<description>
+			<p>This dart was crafted by the monk Phidjetz, a martial recluse obsessed with dragons. The spinner consists of a golden central disk with four metal dragon heads protruding symmetrically from its center point: one red, one white, one blue and one black. </p>
+			<p class="indent">As an action, you can spin the disk using the pinch grip in its center. You choose a single target within 30 feet and make a ranged attack roll. The spinner then flies at the chosen target. </p>
+			<p class="indent">Once airborne, each dragon head emits a blast of elemental energy appropriate to its type. When you hit a creature, determine which dragon head affects it by rolling a d4 on the following chart.</p>
+			<table>
+				<thead>
+					<tr><td>d4</td><td>Effect</td></tr>
+				</thead>
+				<tr><td>1</td><td><b><i>Red.</i></b> The target takes 1d6 fire damage and combustible materials on the target ignite, doing 1d4 fire damage each turn until it is put out.</td></tr>
+				<tr><td>2</td><td><b><i>White.</i></b> The target takes 1d6 cold damage and is restrained until the start of your next turn.</td></tr>
+				<tr><td>3</td><td><b><i>Blue.</i></b> The target takes 1d6 lightning damage and is paralyzed until the start of your next turn.</td></tr>
+				<tr><td>4</td><td><b><i>Black.</i></b> The target takes 1d6 acid damage and is poisoned until the start of your next turn.</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="dart">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">Dart</set>
+			<set name="attunement" addition="by a monk">true</set>
+		</setters>
+	</element>
+
+<!-- Pick of Ice Breaking -->
+	 <element name="Pick of Ice Breaking" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_PICK_OF_ICE_BREAKING">
+		 <description>
+			 <p>The metal head of this war pick is covered in tiny arcane runes. You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bonus increases to +3 when you use the war pick to attack a construct, elemental, fey, or other creature made almost entirely of ice or snow. When you roll a 20 on an attack roll made with this weapon against such a creature, the target takes an extra 2d8 piercing damage. When you hit an object made of ice or snow with this weapon, the object doesn’t have a damage threshold when determining the damage you deal to it with this weapon.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="war pick">Weapon</set>
+			 <set name="rarity">Uncommon</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">War Pick</set>
+		 </setters>
+	 </element>
+
+<!-- Pistol of the Umbral Court -->
+	<element name="Pistol of the Umbral Court" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_PISTOL_OF_THE_UMBRAL_COURT">
+		<description>
+			<p>This hand crossbow is made from coal-colored wood. Its limb is made from cold steel and boasts engravings of sharp teeth. The barrel is magically oiled and smells faintly of ash. The grip is made from rough leather. </p>
+			<p class="indent">You gain a +2 bonus on attack and damage rolls made with this magic weapon. When you hit with an attack with this weapon, you can force the target of your attack to succeed on a DC 15 Strength saving throw or be pushed 5 feet away from you. The target takes damage, as normal, whether it was pushed away or not.</p>
+			<p class="indent">As a bonus action, you can increase the distance creatures are pushed to 20 feet for 1 minute. If the creature strikes a solid object before the movement is complete, it takes 1d6 bludgeoning damage for every 10 feet traveled. Once used, this property of the crossbow can’t be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="hand crossbow">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_HAND_CROSSBOWS</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Poison Strand -->
+	 <element name="Poison Strand" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_POISON_STRAND">
+		 <description>
+			 <p>When you hit with an attack using this magic whip, the target takes an extra 2d4 poison damage. If you hold one end of the whip and use an action to speak its command word, the other end magically extends and darts forward to entangle a creature you can see within 20 feet of you. The target must succeed on a DC 17 Dexterity saving throw or become restrained. While restrained, the target takes 2d4 poison damage at the start of each of its turns, and you can use an action to pull the target up to 20 feet toward you. If you would move the target into damaging terrain, such as lava or a pit, it can make a DC 17 Strength saving throw. On a success, the target isn’t pulled toward you.</p>
+			 <p class="indent">You can’t use the whip to make attacks while it is restraining a target, and if you release your end of the whip, the target is no longer restrained. The restrained target can use an action to make a DC 17 Strength (Athletics) or Dexterity (Acrobatics) check (target’s choice). On a success, the target is no longer restrained by the whip.When the whip has restrained creatures for a total of 1 minute, you can’t restrain a creature with the whip again until the next dawn.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="whip">Weapon</set>
+			 <set name="rarity">Very Rare</set>
+			 <set name="weapon">Whip</set>
+			 <set name="attunement">true</set>
+		 </setters>
+	 </element>
+
+<!-- Rain of Chaos -->
+	<element name="Rain of Chaos" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_RAIN_OF_CHAOS">
+		<description>
+			<p>This magic weapon imbues arrows fired from it with random energies. When you hit with an attack using this magic bow, the target takes an extra 1d6 damage. Roll a d8. The number rolled determines the damage type of the extra damage.</p>
+			<table>
+				<thead>
+					<tr><td>d8</td><td>Damage Type</td></tr>
+				</thead>
+				<tr><td>1</td><td>Acie</td></tr>
+				<tr><td>2</td><td>Cold</td></tr>
+				<tr><td>3</td><td>Fire</td></tr>
+				<tr><td>4</td><td>Lightning</td></tr>
+				<tr><td>5</td><td>Necrotic</td></tr>
+				<tr><td>6</td><td>Poison</td></tr>
+				<tr><td>7</td><td>Radiant</td></tr>
+				<tr><td>8</td><td>Thunder</td></tr>
+			</table>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="longbow">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">Longbow</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Ravager’s Axe -->
+	 <element name="Ravager's Axe" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_RAVAGERS_AXE">
+		 <description>
+			 <p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. Any attack with this axe that hits a structure or an object that isn’t being worn or carried is a critical hit.</p>
+			 <p class="indent">When you roll a 20 on an attack roll made with this axe, the target takes an extra 1d10 cold damage and 1d10 necrotic damage as the axe briefly becomes a rift to the Void.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="greataxe">Weapon</set>
+			 <set name="rarity">Very Rare</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">Greataxe</set>
+		 </setters>
+	 </element>
+
+<!-- Reef Splitter -->
+	 <element name="Reef Splitter" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_REEF_SPLITTER">
+		 <description>
+			 <p>The head of this warhammer is constructed of undersea volcanic rock and etched with images of roaring flames and boiling water. You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you roll a 20 on an attack roll made with this weapon, the hammer erupts with magma, and the target takes an extra 4d6 fire damage. In addition, if the target is underwater, the water around it begins to boil with the heat of your blow, and each creature other than you within 5 feet of the target takes 2d6 fire damage.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="warhammer">Weapon</set>
+			 <set name="rarity">Very Rare</set>
+			 <set name="enhancement">3</set>
+			 <set name="weapon">Warhammer</set>
+			 <set name="attunement">true</set>
+		 </setters>
+	 </element>
+
+
+<!-- Riverine Blade -->
+	  <element name="Riverine Blade" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_RIVERINE_BLADE">
+		  <description>
+			  <p>The crossguard of this distinctive sword depicts a stylized Garroter Crab with claws extended, and the pommel is set with a smooth, spherical, blue-black river rock. You gain a +2 bonus to attack and damage rolls made with this magic weapon. While on a boat or while standing in any depth of water, you have advantage on Dexterity checks and saving throws.</p>
+		  </description>
+		  <setters>
+			  <set name="category">Magic Weapons</set>
+			  <set name="cost" currency="gp">0</set>
+			  <set name="weight" lb="0">0 lb.</set>
+			  <set name="type" addition="longsword">Weapon</set>
+			  <set name="rarity">Rare</set>
+			  <set name="enhancement">2</set>
+			  <set name="weapon">Longsword</set>
+		  </setters>
+	  </element>
+
+<!-- Rowdy’s Club -->
+	 <element name="Rowdy's Club" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_ROWDYS_CLUB">
+		 <description>
+			 <p>This knobbed stick is marked with nicks, scratches, and notches. You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			 <p class="indent">While wielding the club, you can use an action to tap it against your open palm, the side of your leg, a surface within reach, or similar. If you do, you have advantage on your next Charisma (Intimidation) check. If you are also wearing a Rowdy’s Ring, you can use an action to frighten a creature you can see within 30 feet of you instead. The target must succeed on a DC 13 Wisdom saving throw or be frightened of you until the end of its next turn. Once this special action has been used three times, it can’t be used again until the next dawn.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="club">Weapon</set>
+			 <set name="rarity">Uncommon</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">Club</set>
+		 </setters>
+	 </element>
+
+<!-- Ruby Crusher -->
+	<element name="Ruby Crusher" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_RUBY_CRUSHER">
+		<description>
+			<p>This greatclub is made entirely of fused rubies with a grip wrapped in manticore hide A roaring fire burns behind its smooth facets.</p>
+			<p class="indent">You gain a +3 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">You can use a bonus action to speak this magic weapon’s command word, causing it to be engulfed in flame. These flames shed bright light in a 30-foot radius and dim light for an additional 30 feet. While the greatclub is aflame, it deals fire damage instead of bludgeoning damage. The flames last until you use a bonus action to speak the command word again or until you drop the weapon. When you hit a Large or larger creature with this greatclub, the creature must succeed on a DC 17 Constitution saving throw or be pushed up to 30 feet away from you. If the creature strikes a solid object, such as a door or wall, during this movement, it and the object take 1d6 bludgeoning damage for each 10 feet the creature traveled before hitting the object.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="greatclube">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Greatclub</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+
+<!-- Sacrificial Knife -->
+
+	<element name="Sacrifical Knife" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SACRIFICIAL_KNIFE">
+		<description>
+			<p>Runes dance along the blade of this keen knife.</p>
+			<p class="indent">While attuned to it, you can use this magic, rune-inscribed dagger as a spellcasting focus.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Common</set>
+			<set name="weapon">Dagger</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Ceremonial Sacrifical Knife -->
+	<element name="Ceremonial Sacrifical Knife" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_CEREMONIAL_SACRIFICIAL_KNIFE">
+		<description>
+			<p>Runes dance along the blade of this keen knife.</p>
+			<p class="indent">While attuned to it, you can use this magic, rune-inscribed dagger as a spellcasting focus. While holding the greater version of this dagger, you can use it to perform a sacrificial ritual during a short rest. If you sacrifice a Tiny or Small creature, you regain one expended 1st-level spell slot. If you sacrifice a Medium or larger creature, you regain one expended 2nd-level spell slot.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">Dagger</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Sand Arrow -->
+	<element name="Sand Arrow" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SAND_ARROW">
+		<description>
+			<p>The shaft of this arrow is made of tightly packed white sand that discorporates into a blast of grit when it strikes a target. On a hit, the sand catches in the fittings and joints of metal armor, and the target’s speed is reduced by 10 feet until it cleans or removes the armor.</p>
+			 <p class="indent">In addition, the target must succeed on a DC 11 Constitution saving throw or be blinded until the end of its next turn.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="arrow">Ammunition</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Sanguine Lance -->
+	 <element name="Sanguine Lance" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SANGUINE_LANCE">
+		 <description>
+			 <p>This fiendish lance runs red with blood. You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			 <p class="indent">When you hit a creature that has blood with this lance, the target takes an extra 1d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. </p>
+			 <p class="indent"><b><i>Curse.</i></b> This lance is cursed, and becoming attuned to it extends the curse to you. Each day, as long as you remain cursed, you have disadvantage on Constitution saving throws until you draw blood from another creature with the lance. Once the lance has done damage to another creature or its surface has been in contact with the blood of another creature, this effect of the curse is suppressed until the next dawn.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="lance">Weapon</set>
+			 <set name="rarity">Uncommon</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">Lance</set>
+			 <set name="attunement">true</set>
+		 </setters>
+	 </element>
+
+<!-- Scimitar of the Desert Winds -->
+	<element name="Scimitar of the Desert Winds" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SCIMITAR_OF_THE_DESERT_WINDS">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. While holding or carrying this scimitar, you can tolerate temperatures as low as –50 degrees Fahrenheit or as high as 150 degrees Fahrenheit without any additional protection.</p>
+			<p class="indent"><b><i>Wind Strike.</i></b> When you hit a creature with the scimitar, you can use a bonus action to call upon the power of the desert winds. The target must succeed on a DC 15 Strength saving throw or be pushed up to 15 feet away from you in the direction of your choice and knocked prone. The scimitar can’t be used this way again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="scimitar">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Scimitar</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Scourge of Devotion -->
+	<element name="Scourge of Devotion" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SCOURGE_OF_DEVOTION">
+		<description>
+			<p>This cat o’ nine tails is used primarily for self-flagellation, and its tails have barbs of silver woven into them. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and the weapon deals slashing damage instead of bludgeoning damage.</p>
+			<p class="indent">You can spend 10 minutes using the scourge in a self-flagellating ritual, which can be done during a short rest. If you do so, your hit point maximum is reduced by 2d8. In addition, you have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage while your hit point maximum is reduced. This hit point maximum reduction can’t be removed with the greater restoration spell or similar magic and lasts until you finish a long rest.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="flail">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">Flail</set>
+			<set name="attunement">true</set>
+			<set name="enhancement">1</set>
+		</setters>
+	</element>
+
+<!-- Sea Witch’s Blade -->
+	<element name="Sea Witch's Blade" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SEA_WITCHS_BLADE">
+		<description>
+			<p>This slim, slightly curved blade has a ghostly sheen and a wickedly sharp edge. You can use a bonus action to speak this magic sword’s command word (“memory”) and cause the air around the blade to shimmer with a pale, violet glow. This glow sheds bright light in a 20-foot radius and dim light for an additional 20 feet. While the sword is glowing, it deals an extra 2d6 psychic damage to any target it hits. The glow lasts until you use a bonus action to speak the command word again or until you drop or sheathe the sword. </p>
+			<p class="indent">When a creature takes psychic damage from the sword, you can choose to have the creature make a DC 15 Wisdom saving throw. On a failure, you take 2d6 psychic damage, and the creature is stunned until the end of its next turn. Once used, this feature of the sword shouldn’t be used again until the next dawn. Each time it is used before then, the psychic damage you take increases by 2d6.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="shortsword">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="weapon">Shortsword</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Searing Whip -->
+	<element name="Searing Whip" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SEARING_WHIP">
+		<description>
+			<p>Inspired by the searing breath weapon of a Light Drake, this whip seems to have filaments of light interwoven within its strands. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature with this weapon, the creature takes an extra 1d4 radiant damage. When you roll a 20 on an attack roll made with this weapon, the target is blinded until the end of its next turn.</p>
+			<p class="indent">The whip has 3 charges, and it regains 1d3 expended charges daily at dawn or when exposed to a daylightspell for 1 minute. While wielding the whip, you can use an action to expend 1 of its charges to transform the whip into a searing beam of light. Choose one creature you can see within 30 feet of you and make one attack roll with this whip against that creature. If the attack hits, that creature and each creature in a line that is 5 feet wide between you and the target takes damage as if hit by this whip. All of this damage is radiant. If the target is undead, you have advantage on the attack roll.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="whip">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Whip</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Serpent’s Tooth -->
+	<element name="Serpent's Teeth" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SERPENTS_TEETH">
+		<description>
+			<p>When you hit with an attack using this magic spear, the target takes an extra 1d6 poison damage. In addition, while you hold the spear, you have advantage on Dexterity (Acrobatics) checks.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">Spear</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Shepherd’s Flail -->
+	<element name="Shepherd's Flail" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SHEPHERDS_FLAIL">
+		<description>
+			<p>The handle of this simple flail is made of smooth lotus wood. The three threshers are made of carved and painted wooden beads. You gain a + 1 bonus to attack and damage rolls made with this magic weapon.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="flail">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Flail</set>
+		</setters>
+	</element>
+
+	<element name="Shepherd's Flail (Attuned)" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SHEPHERDS_FLAIL_ATTUNED">
+		<description>
+			<p>The handle of this simple flail is made of smooth lotus wood. The three threshers are made of carved and painted wooden beads. You gain a + 1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent"><b><i>True Authority (Requires Attunement).</i></b> You must be attuned to a Crook of the Flock (rod) to attune to this weapon. The attunement ends if you are no longer attuned to the crook. While you are attuned to this weapon and holding it, your Charisma score increases by 4 and can exceed 20, but not 30. When you hit a beast with this weapon, the beast takes an extra 3d6 bludgeoning damage. For the purpose of this weapon, “beast” refers to any creature with the beast type. </p>
+			<p class="indent">The flail also has 5 charges. When you reduce a humanoid to 0 hit points with an attack from this weapon, you can expend 1 charge. If you do so, the humanoid stabilizes, regains 1 hit point, and is charmed by you for 24 hours. While charmed in this way, the humanoid regards you as its trusted leader, but it otherwise retains its statistics and regains hit points as normal. If harmed by you or your companions, or commanded to do something contrary to its nature, the target ceases to be charmed in this way. The flail regains 1d4 + 1 expended charges daily at dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="flail">Weapon</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Flail</set>
+			<set name="attunement">true</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="4" />
+		</rules>
+	</element>
+
+<!-- Sickle of Thorns -->
+	<element name="Sickle of Thorns" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SICKLE_OF_THORNS">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this weapon. As an action, you can swing the sickle to cut nonmagical vegetation up to 60 feet away from you. Each cut is a separate action with one action equaling one swing of your arm. Thus, you can lead a party through a jungle or briar thicket at a normal pace, simply swinging the sickle back and forth ahead of you to clear the path. It can’t be used to cut trunks of saplings larger than 1 inch in diameter. It also can’t cut through unliving wood (such as a door or wall). When you hit a plant creature with a melee attack with this weapon, that target takes an extra 1d6 slashing damage. This weapon can make very precise cuts, such as to cut fruit or flowers high up in a tree without damaging the tree.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="sickle">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Sickle</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Siege Arrow -->
+	<element name="Siege Arrow" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SIEGE_ARROW">
+		<description>
+			<p>This magic arrow’s tip is enchanted to soften stone and warp wood. When this arrow hits an object or structure, it deals double damage then becomes a nonmagical arrow.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="arrow">Ammunition</set>
+			<set name="rarity">Common</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Signaling Ammunition -->
+	<element name="Signaling Ammunition" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SIGNALING_AMMUNITION">
+		<description>
+			<p>This magic ammunition creates a trail of light behind it as it flies through the air. If the ammunition flies through the air and doesn’t hit a creature, it releases a burst of light that can be seen for up to 1 mile. If the ammunition hits a creature, the creature must succeed on a DC 13 Dexterity saving throw or be outlined in golden light until the end of its next turn. While the creature is outlined in light, it can’t benefit from being invisible and any attack against it has advantage if the attacker can see the outlined creature.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any ammunition">Ammunition</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Slimeblade -->
+	<element name="Slimeblade" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SLIMEBLADE">
+		<description>
+			<p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. The blade of the sword is coated in an endless supply of violet-colored slime. Despite the sword’s tendency to drip, the slime does not flow over the pommel, regardless of the angle at which it is held. You are immune to the effect of the slime while attuned to this sword. While holding this sword, you can communicate telepathically with ooze creatures, and you have advantage on Charisma (Deception, Intimidation, and Persuasion) checks against ooze creatures.</p>
+			<p class="indent">In addition, you can use an action to fling some of the sword’s slime at a creature you can see within 30 feet of you. The target must make a DC 15 Constitution saving throw. On a failure, the target takes 2d4 poison damage and is poisoned until the end of its next turn. On a success, the target takes half the damage and isn’t poisoned. The sword can’t be used this way again until 1 hour has passed.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="any sword">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Sling Stone of Screeching -->
+	<element name="Sling Stone of Screeching" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SLING_STONE_OF_SCREECHING">
+		<description>
+			<p>This sling stone is carved with an open mouth that screams in hellish torment when hurled with a sling.</p>
+			<p class="indent"> Typically, 1d4 + 1 sling stones of screeching are found together. When you fire the stone from a sling, it changes into a screaming bolt, forming a line 5 feet wide that extends out from you to a target within 30 feet. Each creature in the line excluding you and the target must make a DC 13 Constitution saving throw. On a failure, a creature takes 2d8 thunder damage and is knocked prone. On a success, a creature takes half the damage and isn’t knocked prone. Make a ranged weapon attack against the target. On a hit, the target takes damage from the sling stone plus 3d8 thunder damage and is knocked prone.</p>
+			<p class="indent">Once a sling stone of screeching has dealt its damage to a creature, it becomes a nonmagical sling stone.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="sling bullet">Ammunition</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Slipshod Hammer -->
+	 <element name="Slipshod Hammer" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SLIPSHOD_HAMMER">
+		 <description>
+			 <p>This large smith’s hammer appears well-used and rough in make and maintenance. If you use this hammer as part of a set of smith’s tools, you can repair metal items in half the time, but the appearance of the item is always sloppy and haphazard.</p>
+			 <p class="indent">When you roll a 20 on an attack roll made with this magic weapon against a target wearing metal armor, the target’s armor is partly damaged and takes a permanent and cumulative –2 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="light hammer">Weapon</set>
+			 <set name="rarity">Uncommon</set>
+			 <set name="weapon">Light Hammer</set>
+		 </setters>
+	 </element>
+
+<!-- Spear of the North -->
+	<element name="Spear of the North" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SPEAR_OF_THE_NORTH">
+		<description>
+			<p>This spear has an ivory haft, and tiny snowflakes occasionally fall from its tip. You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent">When you hit with an attack using this magic spear, the target takes an extra 1d6 cold damage. You can use an action to transform the spear into a pair of snow skis. While wearing the snow skis, you have a walking speed of 40 feet when you walk across snow or ice, and you can walk across icy surfaces without needing to make an ability check. You can use a bonus action to transform the skis back into the spear. While the spear is transformed into a pair of skis, you can’t make attacks with it.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="spear">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Spear</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Spear of the Stilled Heart -->
+	  <element name="Spear of the Stilled Heart" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SPEAR_OF_THE_STILLED_HEART">
+		  <description>
+			  <p>This rowan wood spear has a thick knot in the center of the haft that uncannily resembles a petrified human heart. When you hit with an attack using this magic spear, the target takes an extra 1d6 necrotic damage.</p>
+			  <p class="indent">The spear has 3 charges, and it regains all expended charges daily at dusk. When you hit a creature with an attack using it, you can expend 1 charge to deal an extra 3d6 necrotic damage to the target. You regain hit points equal to the necrotic damage dealt. Curse. This spear is cursed, and becoming attuned to it extends the curse to you until you are targeted by the remove curse spell or similar magic. As long as you remain cursed, you are unwilling to part with the spear, keeping it within reach at all times. When you expend a charge from the spear, you must succeed on a DC 12 Constitution saving throw or become sensitive to bright light and distracted by a thirst for blood for 1d4 hours. If you are already suffering from this effect when you fail the saving throw, increase the duration by 1d4 hours. For the duration, you have disadvantage on Wisdom and Intelligence checks.</p>
+		  </description>
+		  <setters>
+			  <set name="category">Magic Weapons</set>
+			  <set name="cost" currency="gp">0</set>
+			  <set name="weight" lb="0">0 lb.</set>
+			  <set name="type" addition="spear">Weapon</set>
+			  <set name="rarity">Very Rare</set>
+			  <set name="weapon">Spear</set>
+			  <set name="attunement">true</set>
+		  </setters>
+	  </element>
+
+<!-- Spear of the Western Whale -->
+	 <element name="Spear of the Western Whale" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SPEAR_OF_THE_WESTERN_WHALE">
+		 <description>
+			 <p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. Fashioned in the style of a whaling spear, this long, barbed weapon is made from bone and heavy, yet pliant, ash wood. Its point is lined with decorative engravings of fish, clam shells, and waves. While you carry this spear, you have advantage on any Wisdom (Survival) checks to acquire food via fishing, and you have advantage on all Strength (Athletics) checks to swim. When set on the ground, the spear always spins to point west. When thrown in a westerly direction, the spear deals an extra 2d6 cold damage to the target.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="spear">Weapon</set>
+			 <set name="rarity">Very Rare</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">Spear</set>
+			 <set name="attunement">true</set>
+		 </setters>
+	 </element>
+
+<!-- Spectral Blade -->
+	 <element name="Spectral Blade" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SPECTRAL_BLADE">
+		 <description>
+			 <p>This blade seems to flicker in and out of existence but always strikes true. You gain a +1 bonus to attack and damage rolls made with this magic weapon, and you can choose for its attacks to deal force damage instead of piercing damage.</p>
+			 <p class="indent">As an action while holding this sword or as a reaction when you deal damage to a creature with it, you can turn incorporeal until the start of your next turn. While incorporeal, you can move through other creatures and objects as if they were difficult terrain. You take 1d10 force damage if you end your turn inside an object.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="shortsword">Weapon</set>
+			 <set name="rarity">Rare</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">Shortsword</set>
+			 <set name="attunement">true</set>
+		 </setters>
+	 </element>
+
+<!-- Standard of Divinity -->
+	 <element name="Standard of Divinity" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_STANDARD_OF_DIVINITY">
+		 <description>
+			 <p>This weapon was created in a long-forgotten holy war. A woven banner bearing the symbol of a god hangs from it. When you attune to it, the banner changes to the colors and symbol of your deity. You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="glaive, halberd, lance, or pike">Weapon</set>
+			 <set name="rarity">Rare</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">Glaive||Halberd||Lance||Pike</set>
+			 <set name="attunement" addition="by a cleric or paladin">true</set>
+			 <set name="name-format"> Standard of Divinity ({{parent}})</set>
+		 </setters>
+	 </element>
+
+<!-- Stinger -->
+	 <element name="Stinger" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_STINGER">
+		 <description>
+			 <p>You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature with an attack using this weapon, you can use a bonus action to inject paralyzing venom in the target. The target must succeed on a DC 15 Constitution saving throw or become paralyzed for 1 minute. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Creatures immune to poison are also immune to this dagger’s paralyzing venom. The dagger can’t be used this way again until the next dawn.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="dagger">Weapon</set>
+			 <set name="rarity">Rare</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">Dagger</set>
+		 </setters>
+	 </element>
+
+<!-- Survival Knife -->
+	 <element name="Survival Knife" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SURVIVAL_KNIFE">
+		 <description>
+			 <p>When holding this sturdy knife, you can use an action to transform it into a crowbar, a fishing rod, a hunting trap, or a hatchet (mainly a chopping tool; if wielded as a weapon, it uses the same statistics as this dagger, except it deals slashing damage). While holding or touching the transformed knife, you can use an action to transform it into another form or back into its original shape.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="dagger">Weapon</set>
+			 <set name="rarity">Common</set>
+			 <set name="weapon">Dagger</set>
+		 </setters>
+	 </element>
+
+<!-- Sweet Nature -->
+	<element name="Sweet Nature" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SWEET_NATURE">
+		<description>
+			<p>You have a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a humanoid with this weapon, the humanoid takes an extra 1d6 slashing damage. If you use the axe to damage a plant creature or an object made of wood, the axe’s blade liquifies into harmless honey, and it can’t be used again until 24 hours have passed.</p>
+			<p class="indent"><b><i>Plant Standard.</i></b> You can use an action to thrust one end of the weapon into the ground and create a safeguard for yourself and your allies. Choose up to six creatures, which can include yourself. While within 30 feet of the standard, each creature you chose has advantage on saving throws for 1 minute. While the weapon is planted in the ground, you can’t use it to make attacks. You can’t use this property of the weapon again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="battleaxe">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Battleaxe</set>
+		</setters>
+	</element>
+
+<!-- Sword of Fallen Saints -->
+	 <element name="Sword of Fallen Saints" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SWORD_OF_FALLEN_SAINTS">
+		 <description>
+			 <p>This enchanted blade is infused with the spirits of fallen warriors who carried it in battle long ago. You gain a +1 bonus to attack and damage rolls made with this magic weapon. If you die while attuned to the sword, you gain the effect of the gentle repose spell. This effect lasts until another creature attunes to the sword.</p>
+			 <p class="indent"></p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="any sword">Weapon</set>
+			 <set name="rarity">Uncommon</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">ID_INTERNAL_WEAPON_GROUP_SWORDS</set>
+			 <set name="attunement">true</set>
+		 </setters>
+	 </element>
+
+<!-- Sword of Volsung -->
+	 <element name="Sword of Volsung" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_SWORD_OF_VOLSUNG">
+		 <description>
+			<p>Legends tell of a dragon whose hide was impenetrable and so robust that only a blow to the heart would kill it. An unnamed hero finally defeated it and tore its heart into two. The dragon’s name was lost, but its legacy remains. This sword is one of two items that were crafted to hold its heart. </p>
+			<p class="indent">The black blade is adorned with glittering silver runes, and its guard has a shallow opening at the center with grooves connecting it to the first rune. The sword’s pommel is a large, clear crystal held fast by silver scales. You gain a +2 bonus to attack and damage rolls made with this magic weapon. When you hit a dragon with an attack using this sword, that creature takes an extra 1d6 slashing damage.</p>
+    		<p class="indent"><i><b>Runes of Courage.</b></i> You can’t be frightened while holding or carrying this sword. </p>
+    		<p class="indent"><i><b>Fragment of Gram Awakened.</b></i> You can use a bonus action to awaken a fragment of the spirit of the great wyrm that inhabits this blade. For 24 hours, you gain a +3 bonus to attack and damage rolls with this magic sword, and when you hit a dragon with an attack using this sword, that creature takes an extra 3d6 slashing damage. Once used, this property can’t be used again until 3 days have passed. If you have performed the Dragon Heart Ritual, you can use a bonus action to expend 2 of the sword’s charges to activate this property, and you can use this property as often as you want, as long as you have the charges to do so.</p>
+    		<p class="indent"><i><b>Dragon Heart Ritual.</b></i> If you are also attuned to the Locket of Dragon Vitality, you can drain 3 charges from the locket into the sword, turning the crystal pommel a deep red and rendering the locket broken and irreparable. Doing this requires a long rest where you also re-attune with the newly charged sword of volsung. </p>
+    		<p class="indent">Upon completing the Dragon Heart Ritual, the sword contains all remaining charges from the locket, and you gain the locket’s effects while holding or carrying the sword. When you are reduced to 0 hit points and trigger the locket’s temporary hit points, the sword isn’t destroyed, but you can’t trigger that effect again until 24 hours have passed. </p>
+    		<p class="indent">The sword regains all expended charges after you slay any dragon. For the purpose of this sword, “dragon” refers to any creature with the dragon type, including drakes and wyverns.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="longsword or greatsword">Weapon</set>
+			 <set name="rarity">Very Rare</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">Longsword||Greatsword</set>
+			 <set name="attunement" addition="by a fighter or paladin">true</set>
+		 </setters>
+	 </element>
+
+<!-- Tamer’s Whip -->
+	 <element name="Tamer's Whip" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_TAMERS_WHIP">
+		 <description>
+			 <p>This whip is braided from leather tanned from the hides of a dozen different, dangerous beasts. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you attack a beast using this weapon, you have advantage on the attack roll. When you roll a 20 on the attack roll made with this weapon and the target is a beast, the beast must succeed on a DC 15 Wisdom saving throw or become charmed or frightened (your choice) for 1 minute. If the creature is charmed, it understands and obeys one-word commands, such as “attack,” “approach,” “stay,” or similar. If it is charmed and understands a language, it obeys any command you give it in that language. The charmed or frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="whip">Weapon</set>
+			 <set name="rarity">Rare</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">Whip</set>
+			 <set name="attunement">true</set>
+		 </setters>
+	 </element>
+
+<!-- Tenebrous Flail of Screams -->
+	 <element name="Tenebrous Flail of Screams" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_TENEBROUUS_FLAIL_OF_SCREAMS">
+		 <description>
+			 <p>The handle of this flail is made of mammoth bone wrapped in black leather made from bat wings. Its pommel is adorned with raven’s claws, and the head of the flail dangles from a flexible, preserved braid of entrails. The head is made of petrified wood inlaid with owlbear and raven beaks. When swung, the flail lets out an otherworldly screech.</p>
+			 <p class="indent">You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a creature with this flail, the target takes an extra 1d6 psychic damage.</p>
+			 <p class="indent">When you roll a 20 on an attack roll made with this weapon, the target must succeed on a DC 15 Wisdom saving throw or be incapacitated until the end of its next turn.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="flail">Weapon</set>
+			 <set name="rarity">Rare</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">Flail</set>
+			 <set name="attunement">true</set>
+		 </setters>
+	 </element>
+
+<!-- Thirsting Scalpel -->
+	 <element name="Thirsting Scalpel" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_THIRSTING_SCALPEL">
+		 <description>
+			 <p>You gain a +1 bonus to attack and damage rolls with this magic weapon, which deals slashing damage instead of piercing damage.</p>
+			 <p class="indent">When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 2d6 slashing damage. If the target is a creature other than an undead or construct, it must succeed on a DC 13 Constitution saving throw or lose 2d6 hit points at the start of each of its turns from a bleeding wound. Any creature can take an action to stanch the wound with a successful DC 11 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.</p>
+			 <p class="indent"><b><i>Curse.</i></b> This scalpel is cursed and contains a bearded devil’s essence. Becoming attuned to it extends the curse to you. As long as you remain cursed, you are unwilling to part with the scalpel, keeping it on your person at all times. While attuned to this weapon, you have disadvantage on attack rolls made with weapons other than this one.</p>
+			 <p class="indent">In addition, once every 7 days while the scalpel is on your person, you must succeed on a DC 15 Charisma saving throw or become driven to feed blood to the scalpel. You have advantage on attack rolls with the scalpel until it is sated. The dagger is sated when you roll a 20 on an attack roll with it, after you deal 14 slashing damage with it, or after 1 hour elapses. If the hour elapses and you haven’t sated its thirst for blood, the dagger deals 14 slashing damage to you. If the dagger deals damage to you as a result of the curse, you can’t heal the damage for 24 hours.</p>
+			 <p class="indent">The remove curse spell removes your attunement to the item and frees you from the curse. Alternatively, casting the banishment spell on the dagger forces the bearded devil’s essence to leave it. The scalpel then becomes a +1 dagger with no other properties.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="dagger">Weapon</set>
+			 <set name="rarity">Uncommon</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">Dagger</set>
+			 <set name="attunement">true</set>
+		 </setters>
+	 </element>
+
+<!-- Thirsting Thorn -->
+	 <element name="Thirsting Thorn" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_THIRSTING_THORN">
+		 <description>
+			 <p>You gain a +1 bonus to attack and damage rolls made with this weapon. In addition, while carrying the sword, you have resistance to necrotic damage.</p>
+			 <p class="indent"><b><i>Curse.</i></b> Made from the twisted wood of a corrupted treant, this living shortsword must be pruned regularly, as small branches grow from it whenever it draws blood. Made from one continuous piece of dark-colored wood, this single-edged blade occasionally haunts you with disturbing images of rotting forests.</p>
+			 <p class="indent">Each time you reduce a creature to 0 hit points with this weapon, you can regain 2d8+2 hit points. Each time you regain hit points this way, you must succeed a DC 12 Wisdom saving throw or be incapacitated by terrible visions until the end of your next turn. If you reach your maximum hit points using this effect, you automatically fail the saving throw.</p>
+			 <p class="indent">As long as you remain cursed, you are unwilling to part with the sword, keeping it within reach at all times. If you have not damaged a creature with this sword within the past 24 hours, you have disadvantage on attack rolls with weapons other than this one as its hunger for blood drives you to slake its thirst.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="shortsword">Weapon</set>
+			 <set name="rarity">Rare</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">Shortsword</set>
+			 <set name="attunement">true</set>
+		 </setters>
+		 <rules>
+			 <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+		 </rules>
+	 </element>
+
+<!-- Tipstaff -->
+	<element name="Tipstaff" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_TIPSTAFF">
+		<description>
+			<p>To the uninitiated, this short ebony baton resembles a heavy-duty truncheon with a cord-wrapped handle and silver-capped tip. The weapon has 5 charges, and it regains 1d4 + 1 expended charges daily at dawn.</p>
+			<p class="indent">When you hit a creature with a melee attack with this magic weapon, you can expend 1 charge to force the target to make a DC 15 Constitution saving throw. If the creature took 20 damage or more from this attack, it has disadvantage on the saving throw. On a failure, the target is paralyzed for 1 minute. It can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>
+			<p class="indent"><b><i>Warrant. </i></b> You can use an action to slip an officially issued warrant under the cords of the grip of this weapon. While it has a warrant in it, the weapon deals an extra 1d6 bludgeoning damage when you hit the creature listed in the warrant with this weapon. The tipstaff can have only one warrant in it at a time, and the warrant can name no more than three creatures. </p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="club">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">Club</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Tracking Dart -->
+	<element name="Tracking Dart" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_TRACKING_DART">
+		<description>
+			<p>When you hit a Large or smaller creature with an attack using this colorful magic dart, the target is splattered with magical paint, which outlines the target in a dim glow (your choice of color) for 1 minute. Any attack roll against a creature outlined in the glow has advantage if the attacker can see the creature, and the creature can’t benefit from being invisible. The creature outlined in the glow can end the effect early by using an action to wipe off the splatter of paint.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="dart">Weapon</set>
+			<set name="rarity">Common</set>
+			<set name="weapon">Dart</set>
+		</setters>
+	</element>
+
+<!-- Trident of the Vortex -->
+	 <element name="Trident of the Vortex" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_TRIDENT_OF_THE_VORTEX">
+		 <description>
+			 <p>This bronze trident has a shaft of inlaid blue pearl. You gain a +2 bonus to attack and damage rolls with this magic weapon.</p>
+			 <p class="indent"><b><i>Whirlpool.</i></b> While wielding the trident underwater, you can use an action to speak its command word and cause the water around you to whip into a whirlpool for 1 minute. For the duration, each creature that enters or starts its turn in a space within 10 feet of you must succeed on a DC 15 Strength saving throw or be restrained by the whirlpool. The whirlpool moves with you, and creatures restrained by it move with it. A creature within 5 feet of the whirlpool can pull a creature out of it by taking an action to make a DC 15 Strength check and succeeding. A restrained creature can try to escape by taking an action to make a DC 15 Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the whirlpool. Once used, this property can’t be used again until the next dawn.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="trident">Weapon</set>
+			 <set name="rarity">Very Rare</set>
+			 <set name="enhancement">2</set>
+			 <set name="weapon">Trident</set>
+			 <set name="attunement">true</set>
+		 </setters>
+	 </element>
+
+<!-- Trident of the Yearning Tide -->
+	<element name="Trident of the Yearning Tide" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_TRIDENT_OF_THE_YEARNING_TIDE">
+		<description>
+			<p>The barbs of this trident are forged from mother-of-pearl and its shaft is fashioned from driftwood. You gain a +2 bonus on attack and damage rolls made with this magic weapon. While holding the trident, you can breathe underwater.</p>
+			<p class="indent">The trident has 3 charges for the following other properties. It regains 1d3 expended charges daily at dawn.</p>
+			<p class="indent"><i><b>Call Sealife.</b></i> While holding the trident, you can use an action to expend 3 of its charges to cast the conjure animals spell from it. The creatures you summon must be beasts that can breathe water.</p>
+			<p class="indent"><b><i>Yearn for the Tide.</i></b> When you hit a creature with a melee attack using the trident, you can use a bonus action to expend 1 charge to force the target to make a DC 17 Wisdom saving throw. On a failure, the target must spend its next turn leaping into the nearest body of water and swimming toward the bottom. A creature that can breathe underwater automatically succeeds on the saving throw. If no water is in the target’s line of sight, the target automatically succeeds on the saving throw.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="trident">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Trident</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Tyrant’s Whip -->
+	<element name="Tyrant's Whip" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_TYRANTS_WHIP">
+		<description>
+			<p>This wicked whip has 3 charges and regains all expended charges daily at dawn. When you hit with an attack using this magic whip, you can use a bonus action to expend 1 of its charges to cast the command spell (save DC 13) from it on the creature you hit. If the attack is a critical hit, the target has disadvantage on the saving throw.</p>
+			<p class="indent"></p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="whip">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="weapon">Whip</set>
+		</setters>
+	</element>
+
+<!-- Umbral Chopper -->
+	 <element name="Umbral Chopper" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_UMBRAL_CHOPPER">
+		 <description>
+			 <p>This simple axe looks no different from a standard forester’s tool. A single-edged head is set into a slot in the haft and bound with strong cord. The axe was found by a timber-hauling crew who disappeared into the shadows of a cave deep in an old forest. Retrieved in the dark of the cave, the axe was found to possess disturbing magical properties.</p>
+			 <p class="indent">You gain a +1 bonus to attack and damage rolls made with this weapon, which deals necrotic damage instead of slashing damage. When you hit a plant creature with an attack using this weapon, the target must make a DC 15 Constitution saving throw. On a failure, the creature takes 4d6 necrotic damage and its speed is halved until the end of its next turn. On a success, the creature takes half the damage and its speed isn’t reduced.</p>
+			 <p class="indent"><b><i>Darkness.</i></b> While carrying this axe, you can use an action to cast the darkness spell from it. Once used, this property can’t be used again until the next sunset.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="any axe">Weapon</set>
+			 <set name="rarity">Rare</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">ID_INTERNAL_WEAPON_GROUP_AXES</set>
+			 <set name="attunement">true</set>
+		 </setters>
+	 </element>
+
+<!-- Unquiet Dagger -->
+	<element name="Unquiet Dagger" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_UNQUIET_DAGGER">
+		<description>
+			<p>Forged by creatures with firsthand knowledge of what lies between the stars, this dark gray blade sometimes appears to twitch or ripple like water when not directly observed. You gain a +1 bonus to attack and damage rolls with this magic weapon. In addition, when you hit with an attack using this dagger, the target takes an extra 2d6 psychic damage.</p>
+			<p class="indent">You can use an action to cause the blade to ripple for 1 minute. While the blade is rippling, each creature that takes psychic damage from the dagger must succeed on a DC 15 Charisma saving throw or become frightened of you for 1 minute. A frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The dagger can’t be used this way again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Dagger</set>
+			<set name="attunement" addition="by a spellcaster of evil alignment">true</set>
+		</setters>
+	</element>
+
+<!-- Valkyrie’s Bite -->
+	<element name="Valkyrie's Bite" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_VALKYRIES_BITE">
+		<description>
+			<p>This black-bladed scimitar has a guard that resembles outstretched raven wings, and a polished amethyst sits in its pommel. You have a +2 bonus to attack and damage rolls made with this magic weapon. While attuned to the scimitar, you have advantage on initiative rolls. While you hold the scimitar, it sheds dim purple light in a 10-foot radius.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="scimitar">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Scimitar</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Vile Razor -->
+	<element name="Vile Razor" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_VILE_RAZOR">
+		<description>
+			<p>This perpetually blood-stained straight razor deals slashing damage instead of piercing damage. You gain a +1 bonus to attack and damage rolls made with this magic weapon.</p>
+			<p class="indent"><b><i>Inhuman Alacrity.</i></b> While holding the dagger, you can take two bonus actions on your turn, instead of one. Each bonus action must be different; you can’t use the same bonus action twice in a single turn. Once used, this property can’t be used again until the next dusk.</p>
+			<p class="indent"><b><i>Unclean Cut.</i></b> When you hit a creature with a melee attack using the dagger, you can use a bonus action to deal an extra 2d4 necrotic damage. If you do so, the target and each of its allies that can see this attack must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. Once used, this property can’t be used again until the next dusk.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="dagger">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Dagger</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Web Arrows -->
+	<element name="Web Arrows" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_WEB_ARROWS">
+		<description>
+			<p>Carvings of spiderwebs decorate the arrowhead and shaft of these arrows, which always come in pairs.</p>
+			<p class="indent">When you fire the arrows from a bow, they become the two anchor points for a 20-foot cube of thick, sticky webbing. Once you fire the first arrow, you must fire the second arrow within 1 minute. The arrows must land within 20 feet of each other, or the magic fails.The webs created by the arrows are difficult terrain and lightly obscure the area. Each creature that starts its turn in the webs or enters them during its turn must make a DC 13 Dexterity saving throw. On a failed save, the creature is restrained as long as it remains in the webs or until it breaks free. A creature, including the restrained creature, can take its action to break the creature free from the webbing by succeeding on a DC 13 Strength check. </p>
+			<p class="indent">The webs are flammable. Any 5-foot cube of webs exposed to fire burns away in 1 round, dealing 2d4 fire damage to any creature that starts its turn in the fire.</p>
+		</description>
+		<setters>
+			<set name="category">Ammunition</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="arrow">Ammunition</set>
+			<set name="rarity">Uncommon</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+
+<!-- Whip of Fangs -->
+	 <element name="Whip of Fangs" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_WHIP_OF_FANGS">
+		 <description>
+			 <p>The skin of a large asp is woven into the leather of this whip. The asp's head sits nestled among the leather tassels at its tip. You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit with an attack using this magic weapon, the target takes an extra 1d4 poison damage and must succeed on a DC 13 Constitution saving throw or be poisoned until the end of its next turn.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="whip">Weapon</set>
+			 <set name="rarity">Uncommon</set>
+			 <set name="enhancement">1</set>
+			 <set name="weapon">Whip</set>
+			 <set name="attunement">true</set>
+		 </setters>
+	 </element>
+
+<!-- Whip of the Blue Wyrm +1 -->
+	<element name="Whip of the Blue Wyrm +1" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_WHIP_OF_THE_BLUE_WYRM_UNCOMMON">
+		<description>
+			<p>Used by the half-dragon taskmasters of a long forgotten empire, these whips drew fear and hopelessness from those who felt their terrible stings.</p>
+			<p class="indent">This dark blue dragonscale leather whip is forged from the supple scales of a blue dragon's tail and enchanted by archmage forgemasters. Its handle of glyphed darkwood holds a single dragon claw on its base. You gain a bonus to attack and damage rolls made with this magic weapon, determined by the weapon’s rarity.</p>
+			<p class="indent">You can use a bonus action to speak this whip's command word, which sends arcing bolts of lightning down the length of the whip. While lightning arcs down the whip, it deals an extra 1d6 lightning damage to any target it hits. The lightning lasts until you use a bonus action to speak the command word again or until you drop or stow the whip.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="whip">Weapon</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Whip</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Whip of the Blue Wyrm +2 -->
+	<element name="Whip of the Blue Wyrm +2" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_WHIP_OF_THE_BLUE_WYRM_RARE">
+		<description>
+			<p>Used by the half-dragon taskmasters of a long forgotten empire, these whips drew fear and hopelessness from those who felt their terrible stings.</p>
+			<p class="indent">This dark blue dragonscale leather whip is forged from the supple scales of a blue dragon's tail and enchanted by archmage forgemasters. Its handle of glyphed darkwood holds a single dragon claw on its base. You gain a bonus to attack and damage rolls made with this magic weapon, determined by the weapon’s rarity.</p>
+			<p class="indent">You can use a bonus action to speak this whip's command word, which sends arcing bolts of lightning down the length of the whip. While lightning arcs down the whip, it deals an extra 1d6 lightning damage to any target it hits. The lightning lasts until you use a bonus action to speak the command word again or until you drop or stow the whip.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="whip">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="enhancement">2</set>
+			<set name="weapon">Whip</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Whip of the Blue Wyrm +3 -->
+	<element name="Whip of the Blue Wyrm +3" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_WHIP_OF_THE_BLUE_WYRM_VERY_RARE">
+		<description>
+			<p>Used by the half-dragon taskmasters of a long forgotten empire, these whips drew fear and hopelessness from those who felt their terrible stings.</p>
+			<p class="indent">This dark blue dragonscale leather whip is forged from the supple scales of a blue dragon's tail and enchanted by archmage forgemasters. Its handle of glyphed darkwood holds a single dragon claw on its base. You gain a bonus to attack and damage rolls made with this magic weapon, determined by the weapon’s rarity.</p>
+			<p class="indent">You can use a bonus action to speak this whip's command word, which sends arcing bolts of lightning down the length of the whip. While lightning arcs down the whip, it deals an extra 1d6 lightning damage to any target it hits. The lightning lasts until you use a bonus action to speak the command word again or until you drop or stow the whip.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="whip">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">3</set>
+			<set name="weapon">Whip</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+<!-- Bolas (Non-magical) -->
+	<element name="Bolas" type="Weapon" source="Vault of Magic" id="ID_KBP_VOM_WEAPON_BOLAS">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_BOLAS</supports>
+		<description>
+			<p>A bolas is a martial ranged weapon with a range of 5/15 feet. It weighs 2 pounds and costs 5 gp, and it has the thrown property in addition to the special property below.</p>
+			<div element="ID_KBP_VOM_WEAPON_PROPERTY_SPECIAL_BOLAS" />
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">5/15</set>
+			<set name="damage" type="bludgeoning">1d4</set>
+			<set name="proficiency">ID_KBP_VOM_WEAPON_PROFICIENCY_BOLAS</set>
+		</setters>
+	</element>
+	<element name="Special (Bolas)" type="Weapon Property" source="Vault of Magic" id="ID_KBP_VOM_WEAPON_PROPERTY_SPECIAL_BOLAS">
+		<description>
+			<p>A Medium or smaller creature hit by a bolas must make a DC 10 Strength saving throw or have its speed reduced to 0 and fall prone until it is freed. A bolas has no effect on formless creatures or creatures that are Large or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the bolas (AC 10) also frees the creature without harming it, ending the effect.</p>
+		</description>
+	</element>
+	<element name="Weapon Proficiency (Bolas)" type="Proficiency" source="Vault of Magic" id="ID_KBP_VOM_WEAPON_PROFICIENCY_BOLAS">
+		<supports>Weapon, Martial, Ranged, Thrown, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_SPECIAL_BOLAS</supports>
+	</element>
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_KBP_VOM_WEAPON_PROFICIENCY_BOLAS" />
+		</rules>
+	</append>
+
+<!-- Whirlwind Bolas -->
+	<element name="Whirlwind Bolas" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_WHIRLWIND_BOLAS">
+		<description>
+			<p>The metal weights of this magic weapon are inscribed with spiraling sigils of the wind. When you throw this bolas at a creature, the DC for the weapon’s Strength saving throw is 15 instead of 10. If a creature deals slashing damage to the bolas to free itself, the bolas can’t be used to reduce a creature’s speed again until the next dawn, when it knits itself back together.</p>
+			<p class="indent"><b><i>Whirling Trip.</i></b> If a creature’s speed is reduced to 0 by this weapon, you can speak a command word as a bonus action. If you do, the weights of the bolas begin to spin, creating a vortex of wind around the target. The vortex lifts the target up to 30 feet into the air, then releases it. The whirlwind bolas then flies up to 50 feet and tries to return to your hand. If you have no hand free, it falls to the ground at your feet. The bolas can’t be used this way again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="bolas">Weapon</set>
+			<set name="rarity">Rare</set>
+			<set name="weapon">Bolas</set>
+		</setters>
+	</element>
+
+<!-- Chakram (non-magical) -->
+
+	<element name="Chakram" type="Weapon" source="Vault of Magic" id="ID_KBP_VOM_WEAPON_CHAKRAM">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+		<description>
+			<p>A chakram is a martial melee weapon with the thrown property (range 20/60 feet). It weighs 1 pound and costs 15 gp, and it deals 1d6 slashing damage.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="1">1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">20/60</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="proficiency">ID_KBP_VOM_WEAPON_PROFICIENCY_CHAKRAM</set>
+		</setters>
+	</element>
+	<element name="Weapon Proficiency (Chakram)" type="Proficiency" source="Vault of Magic" id="ID_KBP_VOM_WEAPON_PROFICIENCY_CHAKRAM">
+		<supports>Weapon, Martial, Melee, Thrown, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+	</element>
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_KBP_VOM_WEAPON_PROFICIENCY_CHAKRAM" />
+		</rules>
+	</append>
+
+<!-- Witch’s Circle -->
+	 <element name="Witch's Circle" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_WITCHS_CIRCLE">
+		 <description>
+			 <p>This damask steel weapon is a simple ring with the interior edge dulled to rest comfortably in hand. You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+			 <p class="indent"><b><i>Call the Four.</i></b> When you hit with a ranged attack using this weapon, the target takes an extra 1d8 damage of one of the following types (your choice): cold, fire, lightning, or thunder. Immediately after the attack, the weapon flies up to 60 feet and tries to return to your hand. If you have no hand free, it falls to the ground at your feet.</p>
+			 <p class="indent"><b><i>Witch’s Light.</i></b> While holding this weapon, you can use an action to cast the moonbeam spell from it, using your spell save DC. You cast the 6th-level version of the spell. Once used, this property can’t be used again until the next dawn.</p>
+		 </description>
+		 <setters>
+			 <set name="category">Magic Weapons</set>
+			 <set name="cost" currency="gp">0</set>
+			 <set name="weight" lb="0">0 lb.</set>
+			 <set name="type" addition="chakram">Weapon</set>
+			 <set name="rarity">Very Rare</set>
+			 <set name="enhancement">2</set>
+			 <set name="weapon">Chakram</set>
+			 <set name="attunement" addition="by a spellcaster">true</set>
+		 </setters>
+	 </element>
+
+<!-- Wolf Brush -->
+	<element name="Wolf Brush" type="Magic Item" source="Vault of Magic" id="ID_KBP_VOM_MAGIC_ITEM_WOLF_BRUSH">
+		<description>
+			<p>From a distance, this weapon bears a passing resemblance to a fallen tree branch. This unique polearm was first crafted by a famed martial educator and military general from the collected weapons of his fallen compatriots. Each point on this branching spear has a history of its own and is infused with the pain of loss and the glory of military service. When wielded in battle, each of the small, branching spear points attached to the polearm’s shaft pulses with a warm glow and burns with the desire to protect the righteous. When not using it, you can fold the branches inward and sheathe the polearm in a leather wrap.</p>
+			<p class="indent">You gain a +1 bonus to attack and damage rolls made with this magic weapon. While you hold this weapon, it sheds dim light in a 5-foot radius. You can fold and wrap the weapon as an action, extinguishing the light. While holding or carrying the weapon, you have resistance to piercing damage.The weapon has 10 charges for the following other properties. The weapon regains 1d8 + 2 charges daily at dawn. In addition, it regains 1 charge when exposed to powerful magical sunlight, such as the light created by the sunbeam and sunburst spells, and it regains 1 charge each round it remains exposed to such sunlight.</p>
+			<p class="indent"><b><i>Spike Barrage.</i></b> While wielding this weapon, you can use an action to expend 1 or more of its charges and sweep the weapon in a small arc to release a barrage of spikes in a 15-foot cone. Each creature in the area must make a DC 17 Dexterity saving throw, taking 1d10 piercing damage for each charge you expend on a failed save, or half as much damage on a successful one.</p>
+			<p class="indent"><b><i>Spiked Wall.</i></b> While wielding this weapon, you can use an action to expend 6 charges to cast the wall of thorns spell (save DC 17) from it.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="halberd or spear">Weapon</set>
+			<set name="rarity">Very Rare</set>
+			<set name="enhancement">1</set>
+			<set name="weapon">Halberd||Spear</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+
+</elements>

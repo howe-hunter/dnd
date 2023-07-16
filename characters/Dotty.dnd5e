@@ -249,9 +249,9 @@
 					<element type="Grants" name="Multiclass" id="ID_INTERNAL_GRANT_MULTICLASS" />
 					<element type="Grants" name="Multiclass Spellcasting Slots Full" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" />
 					<element type="Class Feature" name="Arcane Tradition" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION">
-						<element type="Archetype" name="Arcane Tradition" requiredLevel="1" checksum="0d475b31" registered="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_ABJURATION">
-							<element type="Archetype Feature" name="Abjuration Savant" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ABJURATION_SAVANT" />
-							<element type="Archetype Feature" name="Arcane Ward" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ARCANE_WARD" />
+						<element type="Archetype" name="Arcane Tradition" requiredLevel="1" checksum="0d475b31" registered="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_EVOCATION">
+							<element type="Archetype Feature" name="Evocation Savant" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_EVOCATION_SAVANT" />
+							<element type="Archetype Feature" name="Sculpt Spells" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_SCULPT_SPELLS" />
 						</element>
 					</element>
 				</element>
@@ -468,9 +468,9 @@
 			<element type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
 			<element type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_ARCANE_TRADITION" />
-			<element type="Archetype" id="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_ABJURATION" />
-			<element type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ABJURATION_SAVANT" />
-			<element type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_ABJURATION_ARCANE_WARD" />
+			<element type="Archetype" id="ID_WOTC_PHB_ARCHETYPE_WIZARD_SCHOOL_OF_EVOCATION" />
+			<element type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_EVOCATION_SAVANT" />
+			<element type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EVOCATION_SCULPT_SPELLS" />
 		</sum>
 		<magic multiclass="true" level="5">
 			<spellcasting name="Artificer" ability="Intelligence" attack="7" dc="15" source="ID_WOTC_ERLW_CLASS_FEATURE_ARTIFICER_SPELLCASTING">
