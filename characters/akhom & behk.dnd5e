@@ -104,7 +104,7 @@
 			<wisdom>8</wisdom>
 			<charisma>13</charisma>
 		</abilities>
-		<elements level-count="10" registered-count="34">
+		<elements level-count="10" registered-count="37">
 			<element type="Option" name="Average Hit Points" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
@@ -191,6 +191,8 @@
 							<element type="Proficiency" name="Weapon Proficiency (Double-Bladed Scimitar)" id="ID_WOTC_ERLW_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />
 							<element type="Proficiency" name="Weapon Proficiency (Chakram)" id="ID_AW_OOTD_WEAPON_PROFICIENCY_CHAKRAM" />
 							<element type="Proficiency" name="Weapon Proficiency (Double-Bladed Scimitar)" id="ID_WOTC_WGTE_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />
+							<element type="Proficiency" name="Weapon Proficiency (Bastardsword)" id="ID_BTC_RMC_PROFICIENCY_WEAPON_PROFICIENCY_BASTARDSWORD" />
+							<element type="Proficiency" name="Weapon Proficiency (Chakram)" id="ID_KBP_VOM_WEAPON_PROFICIENCY_CHAKRAM" />
 						</element>
 						<element type="Proficiency" name="Weapon Proficiency (Martial Ranged Weapons)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS">
 							<element type="Proficiency" name="Weapon Proficiency (Blowgun)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN" />
@@ -199,6 +201,7 @@
 							<element type="Proficiency" name="Weapon Proficiency (Longbow)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
 							<element type="Proficiency" name="Weapon Proficiency (Net)" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
 							<element type="Proficiency" name="Weapon Proficiency (Lasso)" id="ID_DMSG_MUSG_WEAPON_PROFICIENCY_LASSO" />
+							<element type="Proficiency" name="Weapon Proficiency (Bolas)" id="ID_KBP_VOM_WEAPON_PROFICIENCY_BOLAS" />
 						</element>
 					</element>
 					<element type="Proficiency" name="Saving Throw Proficiency (Strength)" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
@@ -302,11 +305,14 @@
 					<element type="Class Feature" name="Jack of All Trades" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_JACK_OF_ALL_TRADES" />
 					<element type="Class Feature" name="Song of Rest" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SONG_OF_REST" />
 					<element type="Class Feature" name="Bard College" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARD_COLLEGE">
-						<element type="Archetype" name="Bard College" requiredLevel="3" checksum="15878cb4" registered="" />
+						<element type="Archetype" name="Bard College" requiredLevel="3" checksum="15878cb4" registered="ID_TALDOREI_CR_ARCHETYPE_COLLEGE_OF_TRAGEDY">
+							<element type="Archetype Feature" name="Poetry in Misery" id="ID_TALDOREI_CR_ARCHETYPE_FEATURE_BARD_COLLEGE_OF_TRAGEDY_POETRY_IN_MISERY" />
+							<element type="Archetype Feature" name="Sorrowful Fate" id="ID_TALDOREI_CR_ARCHETYPE_FEATURE_BARD_COLLEGE_OF_TRAGEDY_SORROWFUL_FATE" />
+						</element>
 					</element>
 					<element type="Class Feature" name="Expertise" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_EXPERTISE">
-						<element type="Class Feature" name="Expertise (Bard 3)" requiredLevel="3" number="1" checksum="281885ea" registered="" />
-						<element type="Class Feature" name="Expertise (Bard 3)" requiredLevel="3" number="2" checksum="b111d450" registered="" />
+						<element type="Class Feature" name="Expertise (Bard 3)" requiredLevel="3" number="1" checksum="281885ea" registered="ID_EXPERTISE_SKILL_ACROBATICS" />
+						<element type="Class Feature" name="Expertise (Bard 3)" requiredLevel="3" number="2" checksum="b111d450" registered="ID_EXPERTISE_SKILL_PERCEPTION" />
 					</element>
 				</element>
 				<element type="Grants" name="Multiclassing (Level 7)" id="ID_INTERNAL_MULTICLASS_LEVEL_7" />
@@ -393,7 +399,7 @@ HP: 23 each</conditional>
 				</details>
 			</item>
 		</equipment>
-		<sum element-count="151">
+		<sum element-count="159">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
@@ -435,11 +441,11 @@ HP: 23 each</conditional>
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
 			<element type="Proficiency" id="ID_SCAG_PROFICIENCY_TOOL_PROFICIENCY_TOCKEN" />
 			<element type="Level" id="ID_LEVEL_8" />
+			<element type="Level" id="ID_LEVEL_9" />
+			<element type="Level" id="ID_LEVEL_10" />
 			<element type="Armor" id="ID_WOTC_ARMOR_MEDIUM_SCALE_MAIL" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_STEALTH_DISADVANTAGE" />
 			<element type="Weapon" id="ID_WOTC_WGTE_WEAPON_DOUBLE_BLADED_SCIMITAR" />
-			<element type="Level" id="ID_LEVEL_9" />
-			<element type="Level" id="ID_LEVEL_10" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_FIGHTER" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
@@ -500,6 +506,8 @@ HP: 23 each</conditional>
 			<element type="Proficiency" id="ID_WOTC_ERLW_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />
 			<element type="Proficiency" id="ID_AW_OOTD_WEAPON_PROFICIENCY_CHAKRAM" />
 			<element type="Proficiency" id="ID_WOTC_WGTE_WEAPON_PROFICIENCY_DOUBLE_BLADED_SCIMITAR" />
+			<element type="Proficiency" id="ID_BTC_RMC_PROFICIENCY_WEAPON_PROFICIENCY_BASTARDSWORD" />
+			<element type="Proficiency" id="ID_KBP_VOM_WEAPON_PROFICIENCY_CHAKRAM" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_RANGED_WEAPONS" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
@@ -507,6 +515,7 @@ HP: 23 each</conditional>
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
 			<element type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_NET" />
 			<element type="Proficiency" id="ID_DMSG_MUSG_WEAPON_PROFICIENCY_LASSO" />
+			<element type="Proficiency" id="ID_KBP_VOM_WEAPON_PROFICIENCY_BOLAS" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE" />
@@ -545,6 +554,11 @@ HP: 23 each</conditional>
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_SONG_OF_REST" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_BARD_COLLEGE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_BARD_EXPERTISE" />
+			<element type="Archetype" id="ID_TALDOREI_CR_ARCHETYPE_COLLEGE_OF_TRAGEDY" />
+			<element type="Archetype Feature" id="ID_TALDOREI_CR_ARCHETYPE_FEATURE_BARD_COLLEGE_OF_TRAGEDY_POETRY_IN_MISERY" />
+			<element type="Archetype Feature" id="ID_TALDOREI_CR_ARCHETYPE_FEATURE_BARD_COLLEGE_OF_TRAGEDY_SORROWFUL_FATE" />
+			<element type="Class Feature" id="ID_EXPERTISE_SKILL_PERCEPTION" />
+			<element type="Class Feature" id="ID_EXPERTISE_SKILL_ACROBATICS" />
 		</sum>
 		<magic multiclass="true" level="5">
 			<spellcasting name="Wizard" ability="Intelligence" attack="6" dc="14" source="ID_WOTC_PHB_CLASS_FEATURE_WIZARD_SPELLCASTING_WIZARD">
