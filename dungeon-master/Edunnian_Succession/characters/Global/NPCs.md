@@ -1,4 +1,4 @@
-**Royal Family**
+**[[Royal Family]]**
 - Aerendyl (the master) decendant of Aerelann
 	- military leader
 	- keep trade open for potential profit and illegal gain
@@ -8,7 +8,7 @@
 - Galaria - adolescent secret matrilineal heir 
 	- escorted in secret by Captain Fairhorn
 
-**Deities**
+[[**Deities**]]
 - Corelleon Larethian - creator of all elves
 - Lendys - draconic god of balance + justice
 - Talona - Lady of Poisons, Mistress of Disease

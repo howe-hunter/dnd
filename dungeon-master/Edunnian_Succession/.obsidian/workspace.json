@@ -11,17 +11,29 @@
             "id": "87c030233d81ee4a",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 1,
+              "pos": 0,
               "stack": [
-                {
-                  "title": "Pasted image 20220910150308.png",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Pasted image 20220910150308.png.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
-                },
                 {
                   "state": "{}",
                   "eState": "{}"
+                },
+                {
+                  "title": "Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"session_notes/Notes.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "workspace",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes/workspace.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"session_notes/Notes.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":40,\"ch\":36},\"to\":{\"line\":40,\"ch\":36}},\"scroll\":25.185654008438817}"
                 },
                 {
                   "title": "Story Overview",
@@ -34,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "session_notes/Notes.md",
+                "file": "characters/Global/NPCs.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +73,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "session_notes/Notes.md",
+                "file": "characters/Global/NPCs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -203,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "session_notes/Notes.md"
+                "file": "characters/Global/NPCs.md"
               }
             }
           }
@@ -288,7 +300,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "session_notes/Notes.md",
+                "file": "characters/Global/NPCs.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,7 +326,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "session_notes/Notes.md",
+                "file": "characters/Global/NPCs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -345,8 +357,9 @@
   },
   "active": "87c030233d81ee4a",
   "lastOpenFiles": [
-    "Pasted image 20220910150308.png.md",
     "session_notes/Notes.md",
+    "-story_notes/workspace.md",
+    "Pasted image 20220910150308.png.md",
     "-story_notes/Story Overview.md",
     "-story_notes/Prologue.md",
     "-unseen_isles/0-prologue/Prologue.md",
