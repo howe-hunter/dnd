@@ -1,10 +1,6 @@
-**[[Royal Family]]**
+**[[-Royal Family-]]**
 
 **[[Deities]]**
-- [[Corelleon Larethian]] - creator of all elves
-- Lendys - draconic god of balance + justice
-- Talona - Lady of Poisons, Mistress of Disease
-- Ramenos - god of frogs + slumber
 
 **Mages**
 - Ullr - very powerful sorcerer who helped Thorinn use his new powers and learn to harness his dragon breath 

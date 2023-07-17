@@ -1,13 +1,13 @@
 home page: [[-Royal Family-]]
 
 #### Quirks
-- 
+- poisoned by [[Talona]] due to deal made with [[Revaen (the Cure)]]
 
 #### Relations
-- escorted in secret by Captain [[Cynthia Fairhorn]]
+- 
 
 #### Occupation
-- adolescent secret matrilineal heir 
+- 
 
 #### Motivations
 - 

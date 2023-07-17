@@ -1,4 +1,4 @@
-home page: [[Royal Family]]
+home page: [[-Royal Family-]]
 
 #### Quirks
 

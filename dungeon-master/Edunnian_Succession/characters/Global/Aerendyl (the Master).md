@@ -1,15 +1,10 @@
-home page: [[Royal Family]]
+home page: [[-Royal Family-]]
 
 #### Quirks
+- 
 
 #### Relations
-decendant of [[Aerelann]]
-parent: 
-parent: 
-sibling: 
-sibling: 
-friend:
-friend: 
+- decendant of [[Aerelann]]
 
 #### Occupation
 - military leader

@@ -1,0 +1,4 @@
+- [[Corelleon Larethian]] - creator of all elves
+- Lendys - draconic god of balance + justice
+- [[Talona]] - Lady of Poisons, Mistress of Disease
+- Ramenos - god of frogs + slumber
