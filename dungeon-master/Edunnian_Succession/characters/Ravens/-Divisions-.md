@@ -8,4 +8,4 @@
 
 [[Support Division]]
 
-[[Magic/Tech Division]]
+[[Magic Division]]
