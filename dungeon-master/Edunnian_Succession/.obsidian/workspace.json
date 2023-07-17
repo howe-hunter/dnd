@@ -18,6 +18,54 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "-Divisions-",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/-Divisions-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
+                },
+                {
+                  "title": "Stealth Division",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/Divisions/Stealth Division.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Tech Division",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Magic/Tech Division.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "-Divisions-",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/-Divisions-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Support Division",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/Divisions/Support Division.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "-Divisions-",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/-Divisions-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Stealth Division",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/Divisions/Stealth Division.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "-Divisions-",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/-Divisions-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "_Ravens_overview_",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/_Ravens_overview_.md\",\"mode\":\"source\",\"source\":false}}",
@@ -154,7 +202,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "characters/Ravens/ravens_characters/arrnius.md",
+                "file": "characters/Ravens/Divisions/Fighter's Division.md",
                 "mode": "source",
                 "source": false
               }
@@ -202,7 +250,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "characters/Ravens/ravens_characters/arrnius.md",
+                "file": "characters/Ravens/Divisions/Fighter's Division.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -327,7 +375,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "characters/Ravens/ravens_characters/arrnius.md"
+                "file": "characters/Ravens/Divisions/Fighter's Division.md"
               }
             }
           }
@@ -412,7 +460,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "characters/Ravens/ravens_characters/arrnius.md",
+                "file": "characters/Ravens/Divisions/Fighter's Division.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -438,7 +486,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "characters/Ravens/ravens_characters/arrnius.md",
+                "file": "characters/Ravens/Divisions/Fighter's Division.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -467,11 +515,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4966406925c9a986",
+  "active": "700c8af02d5083d7",
   "lastOpenFiles": [
-    "characters/Ravens/_Ravens_overview_.md",
-    "characters/Ravens/ravens_characters",
     "characters/Ravens/-Divisions-.md",
+    "characters/Ravens/Divisions/Stealth Division.md",
+    "Magic/Tech Division.md",
+    "Magic",
+    "characters/Ravens/Divisions/Support Division.md",
+    "characters/Ravens/_Ravens_overview_.md",
+    "characters/Ravens/ravens_characters/arrnius.md",
+    "characters/Ravens/ravens_characters",
     "characters/Ravens/Divisions",
     "characters/Ravens/ravens_characters/Iokeadra.md",
     "_resources_/NPC template.md",
@@ -494,9 +547,6 @@
     "characters/royal_family/Talona.md",
     "characters/royal_family/Revaen (the Cure).md",
     "characters/royal_family/Galaria.md",
-    "characters/royal_family/Aerendyl (the Master).md",
-    "characters/royal_family/Aerelann.md",
-    "-story_notes-/Story Overview.md",
     "Edunnian_Succession/characters/Global",
     "Edunnian_Succession/characters/Party",
     "Edunnian_Succession/_resources/Pasted image 20220930183749.png"
