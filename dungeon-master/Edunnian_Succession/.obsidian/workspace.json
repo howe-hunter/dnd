@@ -18,6 +18,60 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "Iokeadra",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/Iokeadra.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":2},\"to\":{\"line\":12,\"ch\":2}}}"
+                },
+                {
+                  "title": "Divisions",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/Divisions.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Iokeadra",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/Iokeadra.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":9,\"ch\":2},\"to\":{\"line\":9,\"ch\":2}}}"
+                },
+                {
+                  "title": "Ullr",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/Ullr.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Ondros",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/Ondros.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Marine Division",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/Marine Division.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "MANT15",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/MANT15.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Iokeadra",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/Iokeadra.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Founders",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/Founders.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Fighter's Division",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/Fighter's Division.md\",\"mode\":\"source\",\"source\":false}}",
@@ -88,7 +142,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "characters/Ravens/Founders.md",
+                "file": "characters/Ravens/Divisions.md",
                 "mode": "source",
                 "source": false
               }
@@ -136,7 +190,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "characters/Ravens/Founders.md",
+                "file": "characters/Ravens/Divisions.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -261,7 +315,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "characters/Ravens/Founders.md"
+                "file": "characters/Ravens/Divisions.md"
               }
             }
           }
@@ -346,7 +400,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "characters/Ravens/Founders.md",
+                "file": "characters/Ravens/Divisions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -372,7 +426,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "characters/Ravens/Founders.md",
+                "file": "characters/Ravens/Divisions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -403,10 +457,16 @@
   },
   "active": "700c8af02d5083d7",
   "lastOpenFiles": [
+    "characters/Ravens/Iokeadra.md",
+    "characters/Ravens/Divisions.md",
+    "_resources_/NPC template.md",
+    "characters/Ravens/Ullr.md",
+    "characters/Ravens/Ondros.md",
+    "characters/Ravens/Marine Division.md",
+    "characters/Ravens/MANT15.md",
+    "characters/Ravens/Founders.md",
     "characters/Ravens/Fighter's Division.md",
     "characters/Ravens/-Ravens_overview-.md",
-    "characters/Ravens/Divisions.md",
-    "characters/Ravens/Founders.md",
     "cities/all-cities.md",
     "cities/Stonefalls.md",
     "characters/Party/-Party Home-.md",
@@ -422,14 +482,8 @@
     "characters/royal_family/Galaria.md",
     "characters/royal_family/Aerendyl (the Master).md",
     "characters/royal_family/Aerelann.md",
-    "_resources_/NPC template.md",
     "-story_notes-/Story Overview.md",
     "-story_notes-/workspace.md",
-    "-story_notes/Prologue.md",
-    "session_notes/Notes.md",
-    "Pasted image 20220910150308.png.md",
-    "-unseen_isles/0-prologue/Prologue.md",
-    "Edunnian_Succession/-story_notes/Story Overview.md",
     "Edunnian_Succession/characters/Global",
     "Edunnian_Succession/characters/Party",
     "Edunnian_Succession/_resources/Pasted image 20220930183749.png"
