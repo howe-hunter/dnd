@@ -11,17 +11,17 @@
             "id": "700c8af02d5083d7",
             "type": "leaf",
             "pane-relief:history-v1": {
-              "pos": 0,
+              "pos": 1,
               "stack": [
+                {
+                  "title": "Tech Division",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Magic/Tech Division.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "-Divisions-",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/-Divisions-.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":0},\"to\":{\"line\":3,\"ch\":0}}}"
                 },
                 {
                   "title": "Stealth Division",
@@ -202,7 +202,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "characters/Ravens/Divisions/Fighter's Division.md",
+                "file": "characters/Ravens/-Divisions-.md",
                 "mode": "source",
                 "source": false
               }
@@ -250,7 +250,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "characters/Ravens/Divisions/Fighter's Division.md",
+                "file": "characters/Ravens/-Divisions-.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -375,7 +375,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "characters/Ravens/Divisions/Fighter's Division.md"
+                "file": "characters/Ravens/-Divisions-.md"
               }
             }
           }
@@ -460,7 +460,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "characters/Ravens/Divisions/Fighter's Division.md",
+                "file": "characters/Ravens/-Divisions-.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -486,7 +486,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "characters/Ravens/Divisions/Fighter's Division.md",
+                "file": "characters/Ravens/-Divisions-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -517,11 +517,13 @@
   },
   "active": "700c8af02d5083d7",
   "lastOpenFiles": [
-    "characters/Ravens/-Divisions-.md",
-    "characters/Ravens/Divisions/Stealth Division.md",
     "Magic/Tech Division.md",
-    "Magic",
+    "characters/Ravens/-Divisions-.md",
     "characters/Ravens/Divisions/Support Division.md",
+    "characters/Ravens/Divisions/Marine Division.md",
+    "characters/Ravens/Divisions/Stealth Division.md",
+    "characters/Ravens/Divisions/Fighter's Division.md",
+    "Magic",
     "characters/Ravens/_Ravens_overview_.md",
     "characters/Ravens/ravens_characters/arrnius.md",
     "characters/Ravens/ravens_characters",
@@ -530,10 +532,8 @@
     "_resources_/NPC template.md",
     "characters/Ravens/ravens_characters/Ullr.md",
     "characters/Ravens/ravens_characters/Ondros.md",
-    "characters/Ravens/Divisions/Marine Division.md",
     "characters/Ravens/ravens_characters/MANT15.md",
     "characters/Ravens/ravens_characters/Founders.md",
-    "characters/Ravens/Divisions/Fighter's Division.md",
     "cities/all-cities.md",
     "cities/Stonefalls.md",
     "characters/Party/-Party Home-.md",
