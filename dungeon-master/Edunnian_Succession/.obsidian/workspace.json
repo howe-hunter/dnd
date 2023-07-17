@@ -18,33 +18,105 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "-Deities-",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/-Deities-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "-Royal Family-",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/-Royal Family-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_NPCs_",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/_NPCs_.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":69},\"to\":{\"line\":14,\"ch\":69}}}"
+                },
+                {
+                  "title": "-Deities-",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/-Deities-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":34},\"to\":{\"line\":3,\"ch\":34}}}"
+                },
+                {
+                  "title": "Neldor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Neldor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Valindra",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Valindra.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "-Royal Family-",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/-Royal Family-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":25},\"to\":{\"line\":19,\"ch\":25}},\"scroll\":0}"
+                },
+                {
+                  "title": "_NPCs_",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/_NPCs_.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":69},\"to\":{\"line\":14,\"ch\":69}},\"scroll\":1.0888888888888888}"
+                },
+                {
+                  "title": "Valindra",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Valindra.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Talona",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Talona.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Revaen (the Cure)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Revaen (the Cure).md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":2},\"to\":{\"line\":5,\"ch\":2}}}"
+                },
+                {
+                  "title": "Neldor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Neldor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Galaria",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Galaria.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Galaria.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":2},\"to\":{\"line\":6,\"ch\":2}}}"
                 },
                 {
-                  "title": "Deities",
+                  "title": "-Deities-",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Deities.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/-Deities-.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "Aerendyl (the Master)",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Aerendyl (the Master).md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Aerendyl (the Master).md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":2},\"to\":{\"line\":3,\"ch\":2}}}"
                 },
                 {
                   "title": "Aerelann",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Aerelann.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Aerelann.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":13,\"ch\":3},\"to\":{\"line\":13,\"ch\":3}}}"
                 },
                 {
                   "title": "Neldor",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Neldor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Neldor.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":2},\"to\":{\"line\":6,\"ch\":2}}}"
                 },
                 {
@@ -54,45 +126,45 @@
                   "eState": "{\"cursor\":{\"from\":{\"line\":19,\"ch\":0},\"to\":{\"line\":19,\"ch\":0}}}"
                 },
                 {
-                  "title": "-NPCs-",
+                  "title": "_NPCs_",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/-NPCs-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/_NPCs_.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":69},\"to\":{\"line\":14,\"ch\":69}}}"
                 },
                 {
                   "title": "Talona",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Talona.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Talona.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "Deities",
+                  "title": "-Deities-",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Deities.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/-Deities-.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":2},\"to\":{\"line\":0,\"ch\":2}}}"
                 },
                 {
-                  "title": "-NPCs-",
+                  "title": "_NPCs_",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/-NPCs-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/_NPCs_.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":1,\"ch\":0},\"to\":{\"line\":1,\"ch\":0}}}"
                 },
                 {
-                  "title": "Deities",
+                  "title": "-Deities-",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Deities.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/-Deities-.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "Neldor",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Neldor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Neldor.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":14},\"to\":{\"line\":3,\"ch\":14}}}"
                 },
                 {
                   "title": "Valindra",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Valindra.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Valindra.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":3,\"ch\":2},\"to\":{\"line\":3,\"ch\":2}}}"
                 },
                 {
@@ -104,43 +176,43 @@
                 {
                   "title": "Valindra",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Valindra.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Valindra.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "-NPCs-",
+                  "title": "_NPCs_",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/-NPCs-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/_NPCs_.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "Galaria",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Galaria.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Galaria.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "Aerelann",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Aerelann.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Aerelann.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "Story Overview",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes/Story Overview.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes-/Story Overview.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "workspace",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes/workspace.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes-/workspace.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
                 },
                 {
                   "title": "Story Overview",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes/Story Overview.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes-/Story Overview.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":7.3}"
                 },
                 {
@@ -152,7 +224,7 @@
                 {
                   "title": "Valindra",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/Valindra.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Global/royal_family/Valindra.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":28},\"to\":{\"line\":14,\"ch\":28}}}"
                 },
                 {
@@ -166,7 +238,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "characters/Global/Neldor.md",
+                "file": "characters/Global/_NPCs_.md",
                 "mode": "source",
                 "source": false
               }
@@ -214,7 +286,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "characters/Global/Neldor.md",
+                "file": "characters/Global/_NPCs_.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -339,7 +411,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "characters/Global/Neldor.md"
+                "file": "characters/Global/_NPCs_.md"
               }
             }
           }
@@ -424,7 +496,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "characters/Global/Neldor.md",
+                "file": "characters/Global/_NPCs_.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -450,7 +522,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "characters/Global/Neldor.md",
+                "file": "characters/Global/_NPCs_.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -481,19 +553,20 @@
   },
   "active": "87c030233d81ee4a",
   "lastOpenFiles": [
-    "characters/Global/Galaria.md",
-    "characters/Global/Deities.md",
-    "characters/Global/Aerendyl (the Master).md",
-    "characters/Global/Aerelann.md",
-    "characters/Global/Neldor.md",
-    "_resources_/NPC template.md",
+    "characters/Global/-Deities-.md",
     "characters/Global/-Royal Family-.md",
-    "characters/Global/-NPCs-.md",
-    "characters/Global/Talona.md",
-    "characters/Global/Valindra.md",
-    "-story_notes/Story Overview.md",
-    "-story_notes/workspace.md",
-    "characters/Global/Revaen (the Cure).md",
+    "characters/Global/_NPCs_.md",
+    "characters/Global/royal_family/Neldor.md",
+    "characters/Global/royal_family/Valindra.md",
+    "characters/Global/royal_family",
+    "characters/Global/royal_family/Talona.md",
+    "characters/Global/royal_family/Revaen (the Cure).md",
+    "characters/Global/royal_family/Galaria.md",
+    "characters/Global/royal_family/Aerendyl (the Master).md",
+    "characters/Global/royal_family/Aerelann.md",
+    "_resources_/NPC template.md",
+    "-story_notes-/Story Overview.md",
+    "-story_notes-/workspace.md",
     "-story_notes/Prologue.md",
     "session_notes/Notes.md",
     "Pasted image 20220910150308.png.md",
@@ -508,7 +581,6 @@
     "Edunnian_Succession/characters/Ravens/-Ravens_overview-.md",
     "Edunnian_Succession/characters/Ravens/Ullr.md",
     "Edunnian_Succession/characters/Ravens/Ondros.md",
-    "Edunnian_Succession/characters/Ravens/Cynthia Fairhorn.md",
     "Edunnian_Succession/_resources/Pasted image 20220930183749.png"
   ]
 }

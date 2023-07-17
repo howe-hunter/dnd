@@ -1,6 +1,6 @@
 **[[-Royal Family-]]**
 
-**[[Deities]]**
+**[[-Deities-]]**
 
 **Mages**
 - Ullr - very powerful sorcerer who helped Thorinn use his new powers and learn to harness his dragon breath 
