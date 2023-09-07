@@ -767,7 +767,7 @@
             <file name="class-bloodhunter.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/critical-role/classes/class-bloodhunter.xml" />
         </update>
     </info>
-    <element name="Blood Hunter" type="Class" source="Critical Role" id="ID_CRIT_CLASS_BLOOD_HUNTER">
+    <element name="Blood Hunter" type="Class" source="hunters-edits" id="ID_CRIT_CLASS_BLOOD_HUNTER">
         <description>
             <p>In a landscape tormented by all manner of beasts, devils, and abominations from beyond the veil, most live in fear of the dark, of superstition, and of the unknown. Some grow hardened by this experience, instead choosing to stand up and fight against the tide of shadow. These folk are called ‘heroes’.</p>
             <p class="indent">Some, however, are so fanatical and bent on destroying the anethema that plagues the countryside that they embrace dark, forbidden knowledge. They sacrifice some of their own vital force in dubious, forgotten blood rituals to better understand their enemies. Their methods sometimes blur the line between themselves and the evils they hunt, calling their own humanity into question.</p>
