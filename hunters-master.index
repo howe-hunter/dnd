@@ -62,6 +62,6 @@
 		<file name="planeshift.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/planeshift.index" />
 <!--third-party===========================================================================================================================-->
 		<file name="critical-role.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/critical-role.index" />
-
+		<file name="taldorei-reborn.index" url="https://raw.githubusercontent.com/mamawerecat/AuroraCustomContent/main/taldorei-reborn.index" />
 	</files>
 </index>
