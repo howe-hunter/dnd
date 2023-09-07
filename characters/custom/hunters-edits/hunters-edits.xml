@@ -1,5 +1,765 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+<!--appends===========================================================================================================================-->
+  <append id="ID_PHB_SPELL_ENLARGE_REDUCE">
+    <supports> Druid </supports>
+  </append>
+  <!--broken-->
+  <append id="ID_WOTC_PHB_CLASS_BARBARIAN">
+    <select type="Proficiency" name="Skill Proficiency (Barbarian, Level 3)" number="1" supports="Skill,Barbarian" level="3" />
+  </append>
+  <append id="ID_RACIAL_TRAIT_HALFELF_STRENGTH">
+    <supports> Lizardfolk </supports>
+    <supports> Shifter </supports>
+  </append>
+  <append id="ID_RACIAL_TRAIT_HALFELF_DEXTERITY">
+    <supports> Lizardfolk </supports>
+    <supports> Shifter </supports>
+  </append>
+  <append id="ID_RACIAL_TRAIT_HALFELF_CONSTITUTION">
+    <supports> Lizardfolk </supports>
+    <supports> Shifter </supports>
+  </append>
+  <append id="ID_RACIAL_TRAIT_HALFELF_INTELLIGENCE">
+    <supports> Lizardfolk </supports>
+    <supports> Shifter </supports>
+  </append>
+  <append id="ID_RACIAL_TRAIT_HALFELF_WISDOM">
+    <supports> Lizardfolk </supports>
+    <supports> Shifter </supports>
+  </append>
+<!--feats===========================================================================================================================-->
+  <element name="Shadow Touched" type="Feat" source="hunters-edits" id="ID_HUNTER_HUNTERSEDITS_FEAT_SHADOW_TOUCHED">
+		<description>
+			<p>You learn how to bend shadows from your experience with the Shadowfell. You gain the following benefits:</p>
+			<ul>
+				<li>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</li>
+				<li>You learn the invisibility spell and one 1st-level spell of your choice. The 1st-level spell must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot. Once you cast either of these spells in this way, you can’t cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells’ spellcasting ability is the ability increased by this feat.</li>
+			</ul>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>You can cast your chosen spells without expending a spell slot. You can also cast these spells using spell slots you have of the appropriate level.</description>
+		</sheet>
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase, Shadow Touched" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" />
+			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" />
+			<select type="Spell" name="1st-level Spell, Shadow Touched" supports="1,(Illusion||Necromancy)" />
+		</rules>
+	</element>
+<!--items===========================================================================================================================-->
+  <!--Circlet of Barbed Vision-->
+  <element name="Circlet of Barbed Vision" type="Magic Item" source="hunters-edits" id="ID_HUNTER_HH_HE_MAGIC_ITEM_CIRCLET_OF_BARBED_VISION">
+		<description>
+			<p>While wearing this circlet, the wearer's Charisma score decreases by 2. They also have advantage on initiative rolls. When making an attack roll, the wearer can use their reaction to gain a +5 bonus to the roll. They make this choice after they see the roll, but before the DM says whether the attack hits or misses. The wearer cannot use this ability again until they finish a short or long rest.</p>
+		</description>
+    <!--broken-->
+    <sheet alt="Barbed Vision">
+			<description>You have advantage on initiative rolls. When making an attack roll, use your reaction to gain a +5 bonus to the roll.</description>
+		</sheet>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">head</set>
+			<set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+			<set name="rarity">Plot</set>
+		</setters>
+    <rules>
+      <stat name="charisma" value="-2" />
+      <grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
+    </rules>
+	</element>
+  <!--Jim's Missile Defense System-->
+  <element name="Jim's Missile Defense System" type="Magic Item" source="hunters-edits" id="ID_HUNTER_HH_HE_MAGIC_ITEM_JIMS_MISSILE_DEFENSE">
+		<description>
+			<p>As a bonus action, three (or however many are remaining for the day) twisting, whistling, hypoallergenic, gluten-free darts of magical force appear in a triangle floating behind your head. When an enemy gets within ten feet of you, you may target them with 1-3 missiles. Make a ranged spell attack for each missile. On a hit, the missile does 2d4 force damage. If the attack roll scores a critical, the missile does 5d4 force damage instead of the 4d4 force that you would normally get on a critical. If any of the attack roll is a natural one, all missiles turn around and hit the caster for 3 force damage per missile. Regains all missiles at dawn. Missiles can not trigger on your turn. Missiles only trigger when someone enters the radius, starting within the zone or teleporting in do not activate missiles.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">head</set>
+			<set name="type">Wondrous Item</set>
+      <set name="attunement">true</set>
+			<set name="rarity">Plot</set>
+		</setters>
+	</element>
+  <!--Ondros Weapons-->
+  <element name="Ondros' Clubs" type="Weapon" source="hunters-edits" id="ID_HH_HE_WEAPON_ONDROS_CLUBS">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_GROUP_CLUBS</supports>
+		<description>
+			<p> Ondros used to wield a quarterstaff on his travels. That staff is long since broken and now serves as these two clubs. Adorned with years of experience and use, these clubs have served Ondros well and could tell a lifetime worth of stories.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">1</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="bludgeoning">1d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB</set>
+      <set name="stackable">true</set>
+		</setters>
+  </element>
+  <element name="Ondros' Pistols" type="Weapon" source="hunters-edits" id="ID_HH_HE_WEAPON_ONDROS_PISTOLS">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING</supports>
+		<description>
+      <p> Ondros has taken to collecting the pistols off of his notable enemies. Whether it was the novelty of the new technology or knowing that he doesn't know how to use them, Ondros seems driven to hoarding these metal contraptions.</p>
+    </description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">250</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">30/90</set>
+			<set name="damage" type="piercing">1d10</set>
+			<set name="proficiency">ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL</set>
+      <set name="stackable">true</set>
+			<!-- <set name="ammunition">ID_WOTC_DMG_ITEM_BULLET</set> -->
+		</setters>
+	</element>
+  <element name="Ondros' Shield" type="Armor" source="hunters-edits" id="ID_HH_HE_GEAR_ONDROS_SHIELD">
+		<supports>ID_INTERNAL_ARMOR_GROUP_SHIELD</supports>
+		<description>
+			<p>A shield is made from wood that has seen years of abuse. The gouges and dents in the wood have been filled in by magical vines over the years. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time.</p>
+		</description>
+		<setters>
+			<set name="category">Armor</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="slot">onehand,secondary</set>
+			<set name="type">Shield</set>
+			<set name="armor">Shield</set>
+			<set name="armorClass">+2</set>
+			<set name="proficiency">ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELD</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="2" bonus="shield" />
+		</rules>
+	</element>
+<!--spells===========================================================================================================================-->
+  <!--Shadow Whip-->
+  <element name="Shadow Whip" type="Spell" source="hunters-edits" id="ID_HH_HE_SPELL_SHADOW_WHIP">
+      <supports>Druid, Artificer</supports>
+      <description>
+        <p>You create a long, shadow- like whip emanating from your right hand that lashes out at a creature in range. Make a melee spell attack against the target. If the attack hits, the creature takes 1d8 necrotic damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you.</p>
+      </description>
+      <setters>
+        <set name="keywords"></set>
+        <set name="level">0</set>
+        <set name="school">Transmutation</set>
+        <set name="time">1 action</set>
+        <set name="duration">Instantaneous</set>
+        <set name="range">30 feet</set>
+        <set name="hasVerbalComponent">true</set>
+        <set name="hasSomaticComponent">true</set>
+        <set name="hasMaterialComponent">true</set>
+        <set name="materialComponent">the stem of a plant with thorns</set>
+        <set name="isConcentration">false</set>
+        <set name="isRitual">false</set>
+      </setters>
+    </element>
+<!--races===========================================================================================================================-->
+  <!--shifter-->
+  <element name="Shifter" type="Race" source="hunters-edits" id="ID_HH_HE_RACE_SHIFTER">
+		<description>
+			<p>Shifters are sometimes called the weretouched, as many believe they are the descendants of humans and lycanthropes. Whatever their origins, shifters have evolved into a unique race. They are humanoids with a bestial aspect; while they can’t fully change shape, they can temporarily enhance their animalistic features-a state they call shifting. Each shifter walks on the knife’s edge between the wilds and the world around them. Do they embrace their primal instincts or the path of civilization?</p>
+			<h4>THE BEAST WITHIN</h4>
+			<p>Early in childhood, a shifter forms a bond with a beast within, a totemic force that shapes their body and mind. Some shifters believe that these spirits are independent entities, and they may speak of Bear or Wolf as ancestors or guides. Most just see the beast within as a formidable expression of their inner nature, something that emerges as the shifter’s personality takes shape. The beast within is a pool of powerful instincts, and its influence is revealed by a shifter’s personality: a feline shifter may be cool and distant, driven by predatory instincts, while a shifter with a lupine spirit might be drawn to find and protect a pack. When a shifter fully embraces this beast within they physically transform for a short time.</p>
+			<p class="indent">A shifter’s beast within is reflected by the shifter’s subrace. Four subraces are especially common:</p>
+			<ul class="unstyled">
+				<li><strong>Beasthide</strong> often signifies the bear or boar: stoic, stubborn, and thick-skinned.</li>
+				<li><strong>Longtooth</strong> shifters typically have lupine traits and prefer to run with a pack.</li>
+				<li><strong>Swiftstride</strong> are often predatory and feline, but a swiftstride could also be a cunning rat who darts through the shadows.</li>
+				<li><strong>Wildhunt</strong> shifters are born from any creature that tracks its prey.</li>
+			</ul>
+			<br/>
+			<p class="indent">While the beast within certainly has a physical impact on a shifter, it has a spiritual and psychological effect, as well. Two beasthide shifters share the same special ability, but if one has the aspect of the boar and the other is more like a bear, they’ll be quite different in personality. With any shifter, identifying the beast within is a crucial part of understanding the character.</p>
+			<h4>SIMILAR AND DIVERSE</h4>
+			<p>Shifters are similar to humans in height and build but are typically more lithe and flexible. Their facial features have a bestial cast, often with large eyes, flat noses, and pointed ears; most shifters also have prominent canine teeth. They grow fur-like hair on nearly every part of their bodies.</p>
+			<p class="indent">The traits of the beast within affect a shifter’s appearance as well. A swiftstride shifter may have catlike eyes and delicate build, while a beasthide shifter might be a massive brute built like a bear. While a shifter’s appearance might remind an onlooker of an animal, they remain clearly identifiable as shifters even when at their most feral.</p>
+			<h4>THE JOURNEY YET TO COME</h4>
+			<p>Shifters have a strong presence in the Eldeen Reaches but can be found in rural areas across Khorvaire, where they often live among humans. While they form powerful bonds to friends and kin, shifters place great value on self-reliance and freedom. It’s a shifter proverb to "always be prepared for the journey yet to come," and most shifters strive to be ready for change or opportunity.</p>
+			<p class="indent">Shifters have a natural inclination toward classes with a primal connection. A shifter barbarian draws their rage from the beast within. A shifter ranger indulges their urge to wander and hunt. A shifter rogue harnesses their own predatory instincts. But shifters can pursue any path or faith.</p>
+			<h4>SHIFTER NAMES</h4>
+			<p>Shifters have no language of their own and often live in blended communities. Their names typically overlap with the names of other cultures in their region. Many shifters prefer to keep their personal names for their friends and use "wandering names" with strangers. These are usually tied to a physical or personality trait.</p>
+			<p><strong>Shifter Names:</strong> Badger, Bear, Cat, Fang, Grace, Grim, Moon, Rain, Red, Scar, Stripe, Swift, Talon, Wolf</p>
+			<h4>SHIFTER TRAITS</h4>
+			<p>Your shifter character has the following traits.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Shifters are quick to mature both physically and emotionally, reaching young adulthood at age 10. They rarely live to be more than 70 years old.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Shifters tend toward neutrality, being more focused on survival than concepts of good and evil. A love of personal freedom can drive shifters toward chaotic alignments.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Your size is Medium. To set your height and weight randomly, start with rolling a size modifier:</p>
+			<p style="margin-left:10px;padding-bottom:10px;">Size modifier = 2d8<br/>Height = 5 feet + 6 inches + your size modifier in inches<br/>Weight in pounds = 90 + (2d4 x your size modifier)</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Shifting.</em></strong> As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain additional benefits that depend on your shifter subrace, described below.</p>
+			<p class="indent">Once you shift, you can’t do so again until you finish a short or long rest.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common.</p>
+			<p class="indent"><strong><em>Subrace.</em></strong> The beast within shapes each shifter physically and mentally. The four major subraces of shifter include: beasthide, longtooth, swiftstride, and wildhunt. Choose a subrace for your shifter.</p>
+		</description>
+		<setters>
+			<set name="names" type="custom">Badger, Bear, Cat, Fang, Grace, Grim, Moon, Rain, Red, Scar, Stripe, Swift, Talon, Wolf</set>
+			<set name="names-format">{{custom}}</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+      <select type="Racial Trait" name="Ability Score Increase, Shifter" supports="Shifter" number="3" />
+			<grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_SHIFTER_SHIFTING" />
+      <grant type="Language" id="ID_WOTC_ERLW_LANGUAGE_QUORI" />
+      <select type="Language" name="Language, Shifter" number="2" supports="Standard||Exotic" />
+			<select type="Sub Race" name="Shifter Subrace" supports="Shifter" />
+		</rules>
+	</element>
+	<element name="Shifting" type="Racial Trait" source="hunters-edits" id="ID_HH_HE_RACIAL_TRAIT_SHIFTER_SHIFTING">
+		<description>
+			<p>As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain additional benefits that depend on your shifter subrace, described below.</p>
+			<p class="indent">Once you shift, you can’t do so again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1/Short Rest">
+			<description>You can assume a more bestial appearance for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain {{shifting:temp hp}} temporary hit points.</description>
+		</sheet>
+		<rules>
+			<stat name="shifting:temp hp" value="level" />
+			<stat name="shifting:temp hp" value="constitution:modifier" bonus="base" />
+		</rules>
+	</element>
+
+	<element name="Beasthide" type="Sub Race" source="hunters-edits" id="ID_HH_HE_SUB_RACE_SHIFTER_BEASTHIDE">
+		<supports>Shifter</supports>
+		<description>
+			<p>Stoic and solid, a beasthide shifter draws strength and stability from the beast within. Beasthide shifters are typically tied to the bear or the boar, but this subrace could embody any creature known for its toughness.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2, and your Strength score increases by 1.</p>
+			<p class="indent"><strong><em>Natural Athlete.</em></strong> You have proficiency in the Athletics skill.</p>
+			<p class="indent"><strong><em>Shifting Feature.</em></strong> Whenever you shift, you gain 1d6 additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class.</p>
+		</description>
+		<sheet alt="Beasthide Shifter" display="false" />
+		<rules>
+      <grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_BEASTHIDE_NATURAL_ATHLETE" />
+			<grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_BEASTHIDE_SHIFTING_FEATURE" />
+		</rules>
+	</element>
+	<element name="Natural Athlete" type="Racial Trait" source="hunters-edits" id="ID_HH_HE_RACIAL_TRAIT_BEASTHIDE_NATURAL_ATHLETE">
+		<description>
+			<p>You have proficiency in the Athletics skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Athletics skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+		</rules>
+	</element>
+	<element name="Shifting Feature" type="Racial Trait" source="hunters-edits" id="ID_HH_HE_RACIAL_TRAIT_BEASTHIDE_SHIFTING_FEATURE">
+		<description>
+			<p>Whenever you shift, you gain 1d6 additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class.</p>
+		</description>
+		<sheet>
+			<description>Whenever you shift, you gain 1d6 additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class.</description>
+		</sheet>
+	</element>
+
+	<element name="Longtooth" type="Sub Race" source="hunters-edits" id="ID_HH_HE_SUB_RACE_SHIFTER_LONGTOOTH">
+		<supports>Shifter</supports>
+		<description>
+			<p>Longtooth shifters are fierce and aggressive, but they form deep bonds with their friends. Many longtooth shifters have canine traits that become more pronounced as they shift, but they might instead draw on tigers, hyenas, or other predators.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2, and your Dexterity score increases by 1.</p>
+			<p class="indent"><strong><em>Fierce.</em></strong> You have proficiency in the Intimidation skill.</p>
+			<p class="indent"><strong><em>Shifting Feature.</em></strong> While shifted, you can use your elongated fangs to make an unarmed strike as a bonus action. If you hit with your fangs, you can deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet alt="Longtooth Shifter" display="false" />
+		<rules>
+      <grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_LONGTOOTH_FIERCE" />
+			<grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_LONGTOOTH_SHIFTING_FEATURE" />
+		</rules>
+	</element>
+	<element name="Fierce" type="Racial Trait" source="hunters-edits" id="ID_HH_HE_RACIAL_TRAIT_LONGTOOTH_FIERCE">
+		<description>
+			<p>You have proficiency in the Intimidation skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Intimidation skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+		</rules>
+	</element>
+	<element name="Shifting Feature" type="Racial Trait" source="hunters-edits" id="ID_HH_HE_RACIAL_TRAIT_LONGTOOTH_SHIFTING_FEATURE">
+		<description>
+			<p>While shifted, you can use your elongated fangs to make an unarmed strike as a bonus action. If you hit with your fangs, you can deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>While shifted, you can use your elongated fangs to make an unarmed strike (1d6+{{strength:modifier}} piercing damage).</description>
+		</sheet>
+	</element>
+
+	<element name="Swiftstride" type="Sub Race" source="hunters-edits" id="ID_HH_HE_SUB_RACE_SHIFTER_SWIFTSTRIDE">
+		<supports>Shifter</supports>
+		<description>
+			<p>Swiftstride shifters are graceful and quick. Typically feline in nature, swiftstride shifters are often aloof and difficult to pin down physically or socially.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2, and your Charisma score increases by 1.</p>
+			<p class="indent"><strong><em>Graceful.</em></strong> You have proficiency in the Acrobatics skill.</p>
+			<p class="indent"><strong><em>Shifting Feature.</em></strong> While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn’t provoke opportunity attacks.</p>
+		</description>
+		<sheet alt="Swiftstride Shifter" display="false" />
+		<rules>
+      <grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_SWIFTSTRIDE_GRACEFUL" />
+			<grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_SWIFTSTRIDE_SHIFTING_FEATURE" />
+      <grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_SWIFTSTRIDE_SWIFT_STRIDE" />
+		</rules>
+	</element>
+	<element name="Graceful" type="Racial Trait" source="hunters-edits" id="ID_HH_HE_RACIAL_TRAIT_SWIFTSTRIDE_GRACEFUL">
+		<description>
+			<p>You have proficiency in the Acrobatics skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Acrobatics skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+		</rules>
+	</element>
+  <element name="Swift Stride" type="Racial Trait" source="hunters-edits" id="ID_HH_HE_RACIAL_TRAIT_SWIFTSTRIDE_SWIFT_STRIDE">
+		<description>
+			<p>Your walking speed increases by 5 feet.</p>
+		</description>
+		<sheet display="false">
+			<description>Your walking speed increases by 5 feet.</description>
+		</sheet>
+		<rules>
+      <stat name="innate speed" value="35" bonus="base" />
+		</rules>
+	</element>
+	<element name="Shifting Feature" type="Racial Trait" source="hunters-edits" id="ID_HH_HE_RACIAL_TRAIT_SWIFTSTRIDE_SHIFTING_FEATURE">
+		<description>
+			<p>While shifted, your walking speed increases an additional 5 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn’t provoke opportunity attacks.</p>
+		</description>
+		<sheet>
+			<description>While shifted, your walking speed increases an additional 5 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn’t provoke opportunity attacks.</description>
+		</sheet>
+	</element>
+
+	<element name="Wildhunt" type="Sub Race" source="hunters-edits" id="ID_HH_HE_SUB_RACE_SHIFTER_WILDHUNT">
+		<supports>Shifter</supports>
+		<description>
+			<p>Wildhunt shifters are sharp and insightful. Many are constantly alert, ever wary for possible threats. Others focus on their intuition, searching within. Wildhunt shifters are excellent hunters, and they also tend to become the spiritual leaders of shifter communities.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 2, and your Dexterity increases by 1.</p>
+			<p class="indent"><strong><em>Natural Tracker.</em></strong> You have proficiency in the Survival skill.</p>
+			<p class="indent"><strong><em>Shifting Feature.</em></strong> While shifted, you have advantage on Wisdom checks, and no creature within 30 feet of you can make an attack roll with advantage against you, unless you’re incapacitated.</p>
+		</description>
+		<sheet alt="Wildhunt Shifter" display="false" />
+		<rules>
+      <grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_WILDHUNT_NATURAL_TRACKER" />
+			<grant type="Racial Trait" id="ID_HH_HE_RACIAL_TRAIT_WILDHUNT_SHIFTING_FEATURE" />
+		</rules>
+	</element>
+	<element name="Natural Tracker" type="Racial Trait" source="hunters-edits" id="ID_HH_HE_RACIAL_TRAIT_WILDHUNT_NATURAL_TRACKER">
+		<description>
+			<p>You have proficiency in the Survival skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Survival skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+  <element name="Mark the Scent" type="Racial Trait" source="hunters-edits" id="ID_HH_HE_RACIAL_TRAIT_WILDHUNT_MARK_THE_SCENT">
+		<description>
+			<p>As a bonus action, you can mark one creature you can see within 10 feet of you. Until the end of your next long rest, your proficiency bonus is doubled for any ability check you make to find the marked creature, and you always know the location of that creature if it is within 60 feet of you. You can’t use this trait again until you finish a short or long rest.</p>
+		</description>
+    <sheet action="Bonus Action" usage="1/Short Rest">
+			<description>As a bonus action, you can mark one creature you can see within 10 feet of you. Until the end of your next long rest, your proficiency bonus is doubled for any ability check you make to find the marked creature, and you always know the location of that creature if it is within 60 feet of you. You can’t use this trait again until you finish a short or long rest.</description>
+		</sheet>
+	</element>
+	<element name="Shifting Feature" type="Racial Trait" source="hunters-edits" id="ID_HH_HE_RACIAL_TRAIT_WILDHUNT_SHIFTING_FEATURE">
+		<description>
+			<p>While shifted, you have advantage on Wisdom checks.</p>
+		</description>
+		<sheet>
+			<description>While shifted, you have advantage on Wisdom checks.</description>
+		</sheet>
+	</element>
+  <!--Lizardfolk-->
+  <element name="Lizardfolk" type="Race" source="hunters-edits" id="ID_HH_HE_RACE_LIZARDFOLK">
+		<description>
+			<p class="flavor">Only a fool looks at the lizardfolk and sees nothing more than scaly humanoids. Their physical shape notwithstanding, lizardfolk have more in common with iguanas or dragons than they do with humans, dwarves, or elves. Lizardfolk possess an alien and inscrutable mindset, their desires and thoughts driven by a different set of basic principles than those of warm-blooded creatures. Their dismal swamp homes might lie hundreds of miles from the nearest human settlement, but the gap between their way of thinking and that of the smooth-skins is far greater.</p>
+			<p class="indent flavor">Despite their alien outlook, some lizardfolk make an effort to understand and, in their own manner, befriend people of other races. Such lizardfolk make faithful and skilled allies.</p>
+			<h4>ALIEN MINDS</h4>
+			<p>The lizardfolk's reptilian nature comes through not only in their appearance, but also in how they think and act. Lizardfolk experience a more limited emotional life than other humanoids. Like most reptiles, their feelings largely revolve around fear, aggression, and pleasure.</p>
+			<p class="indent">Lizardfolk experience most feelings as detached descriptions of creatures and situations. For example, humans confronted by an angry troll experience fear on a basic level. Their limbs shake, their thinking becomes panicked and jumbled, and they react by instinct. The emotion of fear takes hold and controls their actions. In contrast, lizardfolk see emotions as traits assigned to other creatures, objects, and situations. A lizardfolk doesn't think, "I'm scared." Instead, aggressive, stronger creatures register to the lizardfolk as fearsome beings to be avoided if possible. If such creatures attack, lizardfolk flee, fighting only if cornered. Lizardfolk aren't scared of a troll; instead, they understand that a troll is a fearsome, dangerous creature and react accordingly.</p>
+			<p class="indent">Lizardfolk never become angry in the way others do, but they act with aggression toward creatures that they could defeat in a fight and that can't be dealt with in some other manner. They are aggressive toward prey they want to eat, creatures that want to harm them, and so on.</p>
+			<p class="indent">Pleasurable people and things make life easier for lizardfolk. Pleasurable things should be preserved and protected, sometimes at the cost of the lizardfolk's own safety. The most pleasurable creatures and things are ones that allow lizardfolk to assess more situations as benign rather than fearsome.</p>
+			<h4>COLD AND CALCULATING</h4>
+			<p>Most humanoids describe cold-blooded people as lacking in emotion and empathy. The same label serves as an apt depiction of lizardfolk.</p>
+			<p class="indent">Lacking any internal emotional reactions, lizardfolk behave in a distant manner. They don't mourn fallen comrades or rage against their enemies. They simply observe and react as a situation warrants.</p>
+			<p class="indent">Lizardfolk lack meaningful emotional ties to the past. They assess situations based on their current and future utility and importance. Nowhere does this come through as strongly as when lizardfolk deal with the dead. To a lizardfolk, a comrade who dies becomes a potential source of food. That companion might have once been a warrior or hunter, but now the body is just freshly killed meat.</p>
+			<p class="indent">A lizard folk who lives among other humanoids can, over time, learn to respect other creatures' emotions. The lizardfolk doesn't share those feelings, but instead assesses them in the same clinical manner. Yes, the fallen dwarf might be most useful as a meal, but hacking the body into steaks provokes aggression in the other humanoids and makes them less helpful in battle.</p>
+			<h4>UTILITY AND SURVIVAL</h4>
+			<p>The lizardfolk mindset might seem unnecessarily cruel, but it helps them survive in a hostile environment. The swamps they inhabit are filled with a staggering variety of threats. Lizardfolk focus on survival above all, without sentiment.</p>
+			<p class="indent">Lizardfolk assess everyone and everything in terms of utility. Art and beauty have little meaning for them. A sharp sword serves a useful and good purpose, while a dull sword is a dead weight without a whetstone.</p>
+			<p class="indent">Lizardfolk see little need to plan more than a season or so into the future. This approach allows them to maintain their current level of influence in the world, but it limits their growth. Lizardfolk have no interest in developing writing, making long-term plans, or cultivating other methods to progress beyond their simpie existence as hunters and gatherers.</p>
+			<h4>HAPLESS SOFT ONES</h4>
+			<p>At their core, lizardfolk view other humanoids with an indifference verging on pity. Born into the world lacking stout scales and sharp teeth, it's a wonder they have managed to survive for so long. The typical human would barely make it through a day in the swamps.</p>
+			<p class="indent">Still, if other creatures prove useful to lizardfolk, those creatures can trigger a prote,ctive response made all the stronger by their apparent weakness. The lizardfolk assess such beings as hatchlings, young ones incapable of protecting themselves but who might prove useful in the future if they receive care.</p>
+			<h4>LIZARDFOLK PERSONALITY</h4>
+			<p>You can use the Lizardfolk Quirks table to determine a personality quirk for a lizardfolk character or to inspire a unique mannerism.</p>
+			<h5>LIZARDFOLK QUIRKS</h5>
+			<table>
+			<thead>
+				<tr><td>d8</td><td>Quirk</td></tr>
+			</thead>
+			<tr><td>1</td><td>You hate waste and see no reason not to scavenge fallen enemies. Fingers are tasty and portable!</td></tr>
+			<tr><td>2</td><td>You sleep best while mostly submerged in water.</td></tr>
+			<tr><td>3</td><td>Money is meaningless to you.</td></tr>
+			<tr><td>4</td><td>You think there are only two species of humanoid: lizardfolk and meat.</td></tr>
+			<tr><td>5</td><td>You have learned to laugh. You use this talent in response to all emotional situations, to better fit in with your comrades.</td></tr>
+			<tr><td>6</td><td>You still don't understand how metaphors work. That doesn't stop you from using them at every opportunity.</td></tr>
+			<tr><td>7</td><td>You appreciate the soft humanoids who realize they need chain mail and swords to match the gifts you were born with.</td></tr>
+			<tr><td>8</td><td>You enjoy eating your food while it's still wriggling.</td></tr>
+			</table>
+			<h4>LIZARDFOLK NAMES</h4>
+			<p>Lizardfolk take their names from the Draconic language. They use simple descriptives granted by the tribe based on an individual's notable deeds or actions. For example, Garurt translates as "axe," a name given to a lizardfolk warrior who defeated an orc and claimed his foe's weapon. A lizardfolk who likes to hide in a stand of reeds before ambushing an animal might be called Achuak, which means "green" to describe how she blends into the foliage.</p>
+			<p class="indent">Lizardfolk make no distinction between male and female in their naming conventions. Each example name includes its translation in parenthesis.</p>
+			<p>
+			<b>Lizardfolk Names: </b>Achuak (green), Aryte (war), Baeshra (animal), Darastrix (dragon), Garurt (axe), Irhtos (secret), Jhank (hammer), Kepesk (storm), Kethend (gem), Korth (danger), Kosj (small), Kothar (demon), Litrix (armor), Mirik (song), Othokent (smart), Sauriv (eye), Throden (many), Thurkear (night), Usk (iron), Valignat (burn), Vargach (battle), Verthica (mountain), Vutha (black), Vyth (steel)
+			</p>
+			<h4>LIZARDFOLK TRAITS</h4>
+			<p>Your lizardfolk character has the following racial traits.</p>
+			<p>
+			<span class="feature">Ability Score Increase.</span>Your Constitution score increases by 2, and your Wisdom score increases by 1.
+			<br/>
+			<span class="feature">Age.</span>Lizardfolk reach maturity arqund age 14 and rarely live longer than 60 years.
+			<br/>
+			<span class="feature">Alignment.</span>Most lizardfolk are neutral. They see the world as a place of predators and prey, where life and death are natural processes. They wish only to survive, and prefer to leave other creatures to their own devices.
+			<br/>
+			<span class="feature">Size.</span>Lizardfolk are a little bulkier and taller than humans, and their colorful frills make them appear even larger. Your size is Medium.
+			<br/>
+			<span class="feature">Speed.</span>Your base walking speed is 30 feet, and you have a swimming speed of 30 feet.
+			<br/>
+			<span class="feature">Bite.</span>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.
+			<br/>
+			<span class="feature">Cunning Artisan.</span>As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.
+			<br/>
+			<span class="feature">Hold Breath.</span>You can hold your breath for up to 15 minutes at a time.
+			<br/>
+			<span class="feature">Hunter's Lore.</span>You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.
+			<br/>
+			<span class="feature">Natural Armor.</span>You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.
+			<br/>
+			<span class="feature">Hungry Jaws.</span>In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.
+			<br/>
+			<span class="feature">Languages.</span>You can speak, read, and write Common and Draconic.
+			<br/>
+			</p>
+		</description>
+		<sheet display="false"/>
+		<setters>
+			<set name="names" type="custom">Achuak, Aryte, Baeshra, Darastrix, Garurt, Irhtos, Jhank, Kepesk, Kethend, Korth, Kosj, Kothar, Litrix, Mirik, Othokent, Sauriv, Throden, Thurkear, Usk, Valignat, Vargach, Verthica, Vutha, Vyth</set>
+			<set name="names-format">{{custom}}</set>
+			<set name="height" modifier="2d12">4'8"</set>
+			<set name="weight" modifier="2d6">110 lb.</set>
+		</setters>
+		<rules>
+			<select type="Racial Trait" name="Ability Score Increase, Shifter" supports="Shifter" number="3" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<stat name="innate speed:swim" value="30" bonus="base"/>
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_BITE" />
+			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_CUNNING_ARTISAN" />
+			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HOLD_BREATH" />
+			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNTERS_LORE" />
+			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_NATURAL_ARMOR" />
+			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNGRY_JAWS" />
+		</rules>
+	</element>
+	<element name="Bite" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_BITE">
+		<description>
+			<p>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet>
+			<description>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. 1d6+{{lizardfolk bite:damage}} piercing damage.</description>
+		</sheet>
+		<rules>
+			<stat name="lizardfolk bite:damage" value="strength:modifier" />
+		</rules>
+	</element>
+	<element name="Cunning Artisan" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_CUNNING_ARTISAN">
+		<description>
+			<p>As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or 1d4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.</p>
+		</description>
+		<sheet>
+			<description>As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature.</description>
+		</sheet>
+	</element>
+	<element name="Hold Breath" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HOLD_BREATH">
+		<description>
+			<p>You can hold your breath for up to 15 minutes at a time.</p>
+		</description>
+		<sheet>
+			<description>You can hold your breath for up to 15 minutes at a time.</description>
+		</sheet>
+	</element>
+	<element name="Hunter's Lore" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNTERS_LORE">
+		<description>
+			<p>You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.</p>
+		</description>
+		<sheet display="false">
+			<description>You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Hunter's Lore" supports="ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" />
+		</rules>
+	</element>
+	<element name="Natural Armor" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_NATURAL_ARMOR">
+		<description>
+			<p>You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p>
+		</description>
+		<sheet>
+			<description>You have tough, scaly skin. When you aren't wearing armor, your AC is {{ac:natural armor lizardfolk}}.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:natural armor lizardfolk:base" value="13" />
+			<stat name="ac:natural armor lizardfolk:dexterity" value="dexterity:modifier" />
+			<stat name="ac:natural armor lizardfolk" value="ac:natural armor lizardfolk:base" />
+			<stat name="ac:natural armor lizardfolk" value="ac:natural armor lizardfolk:dexterity" />
+			<stat name="ac:calculation" value="ac:natural armor lizardfolk" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (Lizardfolk)" />
+		</rules>
+	</element>
+	<element name="Hungry Jaws" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_LIZARDFOLK_HUNGRY_JAWS">
+		<description>
+			<p>In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.</p>
+		</description>
+		<sheet>
+			<description>As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain {{hungry jaws:hp:temp}} temporary hit points. 1/ short rest.</description>
+		</sheet>
+		<rules>
+			<stat name="hungry jaws:hp:temp" value="1" bonus="hungry jaws" />
+			<stat name="hungry jaws:hp:temp" value="constitution:modifier" bonus="hungry jaws" />
+		</rules>
+	</element>
+<!--backgrounds===========================================================================================================================-->
+  <!--Druid of Ravnica-->
+  <element name="Druid of Ravnica" type="Background" source="hunters-edits" id="ID_HH_HE_BACKGROUND_DRUID_OF_RAVNICA">
+  		<description>
+  			<p>A Loxodon druid from the eastern savannahs of Rodethan, Ondros the Healer studies the druidic ideals of love and respect for nature. After learning all he could from his home tribe, he set off on a pilgrimage in search of the fabled druidic circle of the shepherd. Ondros spent one last night with his wife, Rena, before he departed and promised to return to her following the completion of his training. During his travels he stumbled upon the Rubicon Corporation trying to establish a loggin camp on a sacred and ancient grove. Ondros sabotaged the loggers equipment and quickly fled feeling good about saving the grove. He quickly realized that Rubicon had put a hit out on him, and that he was being hunted by mercenaries. Through luck and sheer force of will, Ondros was able to make it to the Kingdom of Kariellum. With mercenaries quick on his tail, he was forced to forgo an immediate trip to the druidic circle and sought refuge in the dwarven/gnome city of Twincrown. Unfortunately, while posing as a horse in front of a tavern, they were discovered. The hired thugs attacked, and all seemed lost. With a merry tune and an angelic voice, a halfling bard named Wayne stepped in to help. The two couldn't defeat all the mercenaries, but managed to bartered for their lives. They were thrown into an indentured servitude camp, deep below Twincrown. Over the next three months they became close with a pirate who organized an escape plan with the two. Finally free, Ondros and Wayne fled to Chinook fearing the Rubicon Corporation. Now they find themselves in Rigmoore thanks to an unusual sign you received from the Wildmother.</p>
+  			<ul class="unstyled">
+  				<li><strong>Skill Proficiencies:</strong> Athletics, Intimidation</li>
+  				<li><strong>Tool Proficiencies:</strong> One type of gaming set</li>
+  				<li><strong>Languages:</strong> Choose one of Celestial, Draconic, Goblin, or Minotaur</li>
+  				<li><strong>Equipment:</strong> Your wits and whatever you were able to hold onto between shipwrecks.</li>
+  			</ul>
+  			<div element="ID_HH_HE_BACKGROUND_FEATURE_DRUID_OF_RAVNICA_PYROMANIAC" />
+  			<div element="ID_HH_HE_BACKGROUND_FEATURE_DRUID_OF_RAVNICA_PYROMANIAC_SPELLS" />
+  			<h5>SUGGESTED CHARACTERISTICS</h5>
+  			<p> Coming from a land of peace, where nature reigns, never forget your connection to home.</p>
+  		</description>
+  		<setters>
+  			<set name="short">Athletics, Intimidation, Language</set>
+  		</setters>
+  		<rules>
+  			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+  			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+  			<select type="Proficiency" name="Tool Proficiency, Druid of Ravnica" supports="Gaming Set" />
+  			<select type="Language" name="Language, Druid of Ravnica" supports="ID_LANGUAGE_CELESTIAL|ID_LANGUAGE_DRACONIC|ID_LANGUAGE_GOBLIN|ID_GGTR_LANGUAGE_MINOTAUR" />
+  			<grant type="Background Feature" id="ID_HH_HE_BACKGROUND_FEATURE_DRUID_OF_RAVNICA_PYROMANIAC" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+  			<grant type="Background Feature" id="ID_HH_HE_BACKGROUND_FEATURE_DRUID_OF_RAVNICA_PYROMANIAC_SPELLS" />
+  			<select name="Personality Trait" type="List" number="1">
+  				<item id="1">Your love for nature and its versatility inspires you to find new uses for its materials, you love scavenging natural materials for your crafts.</item>
+  				<item id="2">...</item>
+  				<item id="3">...</item>
+  				<item id="4">...</item>
+  				<item id="5">...</item>
+  				<item id="6">...</item>
+  				<item id="7">...</item>
+  				<item id="8">...</item>
+  			</select>
+  			<select name="Ideal" type="List">
+  				<item id="1">I must protect what I care about, but life on the run has made me wary for my own survival. (Chaotic) </item>
+  				<item id="2">...</item>
+  				<item id="3">...</item>
+  				<item id="4">...</item>
+  				<item id="5">...</item>
+  				<item id="6">...</item>
+  			</select>
+  			<select name="Bond" type="List">
+  				<item id="1">The last few years have felt like several lifetimes, I have become accustomed to loosing friends.</item>
+  				<item id="2">...</item>
+  				<item id="3">...</item>
+  				<item id="4">...</item>
+  				<item id="5">...</item>
+  				<item id="6">...</item>
+  			</select>
+  			<select name="Flaw" type="List">
+  				<item id="1">My time on the run has made me forget about the past.</item>
+  				<item id="2">...</item>
+  				<item id="3">...</item>
+  				<item id="4">...</item>
+  				<item id="5">...</item>
+  				<item id="6">...</item>
+  			</select>
+  		</rules>
+  	</element>
+  	<element name="Feature: Pyromaniac" type="Background Feature" source="hunters-edits" id="ID_HH_HE_BACKGROUND_FEATURE_DRUID_OF_RAVNICA_PYROMANIAC">
+  		<supports>Background Feature, Primary</supports>
+  		<description>
+  			<p>You have long enjoyed the power and curiosity of flame. Acting both predictibly and erratic the nature of flame has always loomed in the back of your mind. Over many years your have sought to learn more about the primordial nature of fire itself granting you limited number of extra fire spells to your available spell list.</p>
+  		</description>
+  		<sheet alt="Pyromaniac">
+  			<description>You have long enjoyed the power and curiosity of flame. Acting both predictibly and erratic the nature of flame has always loomed in the back of your mind. Over many years your have sought to learn more about the primordial nature of fire itself granting you limited number of extra fire spells to your available spell list.</description>
+  		</sheet>
+  	</element>
+  	<element name="Pyromaniac Spells" type="Background Feature" source="hunters-edits" id="ID_HH_HE_BACKGROUND_FEATURE_DRUID_OF_RAVNICA_PYROMANIAC_SPELLS">
+  		<description>
+  			<p><em>Prerequisite: Spellcasting or Pact Magic class feature</em></p>
+  			<p>For you, the spells on the Pyromaniac Spells table are added to the spell list of your spellcasting class. (If you are a multiclass character with multiple spell lists, these spells are added to all of them.)</p>
+  			<h5>Boros Guild Spells</h5>
+  			<table>
+  				<thead>
+  					<tr><td>Spell Level</td><td>Spells</td></tr>
+  				</thead>
+  				<tr><td>Cantrip</td><td><em>fire bolt, sacred flame</em></td></tr>
+  				<tr><td>1st</td><td><em>guiding bolt, heroism</em></td></tr>
+  				<tr><td>2nd</td><td><em>aid, scorching ray</em></td></tr>
+  				<tr><td>3rd</td><td><em>beacon of hope, blinding smite</em></td></tr>
+  				<tr><td>4th</td><td><em>death ward, wall of fire</em></td></tr>
+  				<tr><td>5th</td><td><em>flame strike</em></td></tr>
+  			</table>
+  			<p class="indent">Your magic often features dramatic bursts of flame or radiance. When you cast beneficial spells on your allies, they appear momentarily surrounded with halos of bright fire.</p>
+  		</description>
+  		<sheet>
+  			<description>Your magic often features dramatic bursts of flame or radiance. When you cast beneficial spells on your allies, they appear momentarily surrounded with halos of bright fire.</description>
+  		</sheet>
+  		<spellcasting all="true" extend="true">
+  			<extend>ID_PHB_SPELL_FIRE_BOLT</extend>
+  			<extend>ID_PHB_SPELL_SACRED_FLAME</extend>
+  			<extend>ID_PHB_SPELL_GUIDING_BOLT</extend>
+  			<extend>ID_PHB_SPELL_HEROISM</extend>
+  			<extend>ID_PHB_SPELL_AID</extend>
+  			<extend>ID_PHB_SPELL_SCORCHING_RAY</extend>
+  			<extend>ID_PHB_SPELL_BEACON_OF_HOPE</extend>
+  			<extend>ID_PHB_SPELL_BLINDING_SMITE</extend>
+  			<extend>ID_PHB_SPELL_DEATH_WARD</extend>
+  			<extend>ID_PHB_SPELL_WALL_OF_FIRE</extend>
+  			<extend>ID_PHB_SPELL_FLAME_STRIKE</extend>
+  		</spellcasting>
+  	</element>
+<!--subclasses===========================================================================================================================-->
+    <element name="Path of the Beast" type="Archetype" source="hunters-edits" id="ID_HH_HE_ARCHETYPE_PATH_OF_THE_BEAST">
+		<supports>Primal Path</supports>
+		<description>
+			<p>Barbarians who walk the Path of Beast draw their rage from a bestial spark burning within their souls. That beast howls to be released and bursts forth in the throes of rage.</p>
+			<p class="indent">Those who tread this path might be inhabited by a primal spirit or descended from shapeshifters. You can choose the origin of your feral might or determine it randomly by rolling on the Origin of the Beast table.</p>
+			<h5 class="caption">ORIGIN OF THE BEAST</h5>
+			<table>
+				<thead>
+					<tr><td class="col-10">d4</td><td>Origin</td></tr>
+				</thead>
+				<tr><td>1</td><td>One of your parents is a lycanthrope, and you’ve inherited some of the curse.</td></tr>
+				<tr><td>2</td><td>You are descended from a legendary druid, a fact manifested by your ability to partially change shape.</td></tr>
+				<tr><td>3</td><td>A fey spirit gifted you with the ability to adopt different bestial aspects.</td></tr>
+				<tr><td>4</td><td>An ancient animal spirit dwells within you, allowing you to walk this path.</td></tr>
+			</table>
+			<div element="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST" />
+			<div element="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_BESTIAL_SOUL" />
+			<div element="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_INFECTIOUS_FURY" />
+			<div element="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_CALL_THE_HUNT" />
+		</description>
+		<sheet display="false">
+			<description>You draw their rage from a bestial spark burning within their souls.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST" level="3" />
+			<grant type="Archetype Feature" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_BESTIAL_SOUL" level="6" />
+			<grant type="Archetype Feature" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_INFECTIOUS_FURY" level="10" />
+			<grant type="Archetype Feature" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_CALL_THE_HUNT" level="14" />
+		</rules>
+	</element>
+	<element name="Form of the Beast" type="Archetype Feature" source="hunters-edits" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_FORM_OF_THE_BEAST">
+		<description>
+			<p><em>3rd-level Path of the Beast feature</em></p>
+			<p>Starting when you choose this path at 3rd level, when you enter your rage, you can transform, revealing the bestial power within you. Until the rage ends, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal. You choose the weapon’s form each time you rage:</p>
+			<ul class="unstyled">
+				<li><strong>Bite.</strong> Your mouth transforms into a bestial muzzle or great mandibles (your choice). It deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with this bite, you regain a number of hit points equal to your proficiency bonus, provided you have less than half your hit points when you hit.</li>
+				<li><strong>Claws.</strong> Each of your hands transforms into a claw, which you can use as a weapon if it’s empty. It deals 1d6 slashing damage on a hit. Once on each of your turns when you attack with a claw using the Attack action, you can make one additional claw attack as part of the same action.</li>
+				<li><strong>Tail.</strong> You grow a lashing, spiny tail, which deals 1d8 piercing damage on a hit and has the reach property. If a creature you can see within 10 feet of you hits you with an attack roll, you can use your reaction to swipe your tail and roll a d8, applying a bonus to your AC equal to the number rolled, potentially causing the attack to miss you.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>When you enter your rage, you can transform. Until the rage ends, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal. You manifest a natural melee weapon each time you rage:
+			Bite. Your bite deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with your bite, you regain {{proficiency}} hp, if you are at half health or lower.
+			Claws. Your claws deal 1d6 slashing damage on a hit. When you take the Attack action on your turn and make an attack with your claws, you can make one additional attack using your claws as part of the same action.
+			Tail. Your tail deals 1d8 piercing damage on a hit and has the reach property. If a creature you can see within 10 feet of you hits you with an attack roll, you can use your reaction to swipe your tail and roll a d8, applying a bonus to your AC equal to the number rolled, potentially causing the attack to miss you.</description>
+		</sheet>
+		<rules>
+			<stat name="form of the beast:hp" value="1" bonus="base" />
+			<stat name="form of the beast:hp" value="constitution:modifier" bonus="base" />
+		</rules>
+	</element>
+	<element name="Bestial Soul" type="Archetype Feature" source="hunters-edits" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_BESTIAL_SOUL">
+		<description>
+			<p><em>6th-level Path of the Beast feature</em></p>
+			<p>The feral spirit within you grows in power, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+			<p class="indent">You can also call on the feral spirit to help you adapt to your surroundings. When you finish a short or long rest, choose one of the following benefits, which lasts until you finish a short or long rest:</p>
+			<ul>
+				<li>You gain a swimming speed equal to your walking speed, and you can breathe underwater.</li>
+				<li>You gain a climbing speed equal to your walking speed, and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</li>
+				<li>When you jump, you can make a Strength (Athletics) check and extend your jump by a number of feet equal to the check’s total. You can make this special check only once per turn.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.
+			When you finish a short or long rest, choose one of the following benefits, which lasts until you finish a short or long rest:
+			You gain a swimming speed of {{speed}}ft, and you can breathe underwater.
+			You gain a climbing speed of {{speed}}ft, and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+			When you jump, you can make a Athletics check and extend your jump by a number of feet equal to the check’s total. You can make this special check only once per turn.</description>
+		</sheet>
+	</element>
+	<element name="Infectious Fury" type="Archetype Feature" source="hunters-edits" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_INFECTIOUS_FURY">
+		<description>
+			<p><em>10th-level Path of the Beast feature</em></p>
+			<p>When you hit a creature with your natural weapons while you are raging, the spirit within you can curse your target with rabid fury. The target must succeed on a Wisdom saving throw (DC equal to 8 + your Constitution modifier + your proficiency bonus) or suffer one of the following effects (your choice):</p>
+			<ul>
+				<li>The target must use its reaction to make a melee attack against another creature of your choice that you can see.</li>
+				<li>Target takes 2d12 psychic damage.</li>
+			</ul>
+			<p class="indent">You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="{{infectious fury:usage}}/Long Rest">
+			<description>When you hit a creature with your natural weapons while you are raging, the spirit within you can curse your target with rabid fury. The target must succeed on a DC {{infectious fury:dc}} Wisdom save or suffer one of the following effects:
+			The target must use its reaction to make a melee attack against another creature of your choice that you can see.
+			Target takes 2d12 psychic damage.</description>
+		</sheet>
+		<rules>
+			<stat name="infectious fury:dc" value="8" />
+			<stat name="infectious fury:dc" value="proficiency" />
+			<stat name="infectious fury:dc" value="constitution:modifier" />
+			<stat name="infectious fury:usage" value="1" bonus="base" />
+			<stat name="infectious fury:usage" value="constitution:modifier" bonus="base" />
+		</rules>
+	</element>
+	<element name="Call the Hunt" type="Archetype Feature" source="hunters-edits" id="ID_HH_HE_ARCHETYPE_FEATURE_BEAST_CALL_THE_HUNT">
+		<description>
+			<p><em>14th-level Path of the Beast feature</em></p>
+			<p>The beast within grows so powerful that you can spread its ferocity to your allies. When you enter your rage, you can choose a number of willing creatures you can see within 30 feet of you equal to your Constitution modifier (minimum of one creature). Until your rage ends, the chosen creatures gain the Reckless Attack feature and you have advantage on saving throws against being frightened. You also gain 5 temporary hit points for each creature that accepts the benefit.</p>
+			<p class="indent">You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="{{call the hunt:usage}}/Long Rest">
+			<description>When you enter your rage, you can choose {{call the hunt:creatures}} willing creatures you can see within 30 feet of you. Until your rage ends, the chosen creatures gain the Reckless Attack feature and you have advantage on saving throws against being frightened. You also gain 5 temporary hit points for each creature that accepts the benefit.</description>
+		</sheet>
+		<rules>
+			<stat name="call the hunt:creatures" value="1" bonus="base" />
+			<stat name="call the hunt:creatures" value="constitution:modifier" bonus="base" />
+			<stat name="call the hunt:usage" value="1" bonus="base" />
+			<stat name="call the hunt:usage" value="constitution:modifier" bonus="base" />
+		</rules>
+	</element>
+<!--subclasses===========================================================================================================================-->
+	<elements>
     <info>
         <name>Blood Hunter</name>
         <description>The Blood Hunter class (v2.0).</description>
@@ -1248,5 +2008,6 @@
             <stat name="wariness formula:initiative" value="mutation score" />
         </rules>
     </element>
-    <!-- /Mutagens -->
+	</elements>
+<!--end===========================================================================================================================-->
 </elements>
