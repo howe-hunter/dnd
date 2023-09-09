@@ -18,6 +18,72 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "all-cities",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cities/all-cities.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Viridan",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Party/Viridan.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "-Party Home-",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Party/-Party Home-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "-Royal Family-",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Home-Pages/-Royal Family-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "-Deities-",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Home-Pages/-Deities-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_NPCs_",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Home-Pages/_NPCs_.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "workspace",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes-/workspace.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "all-cities",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cities/all-cities.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.6729857819905213}"
+                },
+                {
+                  "title": "Story Overview",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes-/Story Overview.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Notes",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"session_notes/Notes.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Magic Division",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/Divisions/Magic Division.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
                   "title": "Support Division",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/Divisions/Support Division.md\",\"mode\":\"source\",\"source\":false}}",
@@ -226,7 +292,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "characters/Ravens/Divisions/Magic Division.md",
+                "file": "cities/Stonefalls.md",
                 "mode": "source",
                 "source": false
               }
@@ -274,7 +340,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "characters/Ravens/Divisions/Magic Division.md",
+                "file": "cities/Stonefalls.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -407,7 +473,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "characters/Ravens/Divisions/Magic Division.md"
+                "file": "cities/Stonefalls.md"
               }
             }
           }
@@ -415,7 +481,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 254.5
   },
   "right": {
     "id": "bb7fecc4e1d5c80f",
@@ -492,7 +558,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "characters/Ravens/Divisions/Magic Division.md",
+                "file": "cities/Stonefalls.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -518,7 +584,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "characters/Ravens/Divisions/Magic Division.md",
+                "file": "cities/Stonefalls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -549,10 +615,19 @@
   },
   "active": "700c8af02d5083d7",
   "lastOpenFiles": [
+    "cities/all-cities.md",
+    "characters/Party/Viridan.md",
+    "characters/Party/-Party Home-.md",
+    "characters/Home-Pages/-Royal Family-.md",
+    "characters/Home-Pages/-Deities-.md",
+    "characters/Home-Pages/_NPCs_.md",
+    "-story_notes-/workspace.md",
+    "-story_notes-/Story Overview.md",
+    "session_notes/Notes.md",
+    "characters/Ravens/Divisions/Magic Division.md",
     "characters/Ravens/Divisions/Support Division.md",
     "characters/Ravens/Divisions/Stealth Division.md",
     "characters/Ravens/Divisions/Marine Division.md",
-    "characters/Ravens/Divisions/Magic Division.md",
     "characters/Ravens/-Divisions-.md",
     "Magic/Tech Division.md",
     "Magic",
@@ -567,18 +642,9 @@
     "characters/Ravens/ravens_characters/Ondros.md",
     "characters/Ravens/ravens_characters/MANT15.md",
     "characters/Ravens/ravens_characters/Founders.md",
-    "cities/all-cities.md",
     "cities/Stonefalls.md",
-    "characters/Party/-Party Home-.md",
-    "characters/Party/Viridan.md",
-    "characters/Home-Pages/-Royal Family-.md",
-    "characters/Home-Pages/_NPCs_.md",
-    "characters/Home-Pages/-Deities-.md",
     "characters/royal_family/Neldor.md",
-    "characters/royal_family/Valindra.md",
     "characters/royal_family",
-    "characters/royal_family/Talona.md",
-    "characters/royal_family/Revaen (the Cure).md",
     "Edunnian_Succession/characters/Global",
     "Edunnian_Succession/characters/Party",
     "Edunnian_Succession/_resources/Pasted image 20220930183749.png"
