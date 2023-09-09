@@ -353,7 +353,6 @@ sketch of lotus's longboat]]></treasure>
 								<element type="Archetype Feature" name="Feral Might" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_LYCAN_FERAL_MIGHT" />
 								<element type="Archetype Feature" name="Resilient Hide" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_LYCAN_RESILIENT_HIDE" />
 								<element type="Archetype Feature" name="Predatory Strikes" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_LYCAN_PREDATORY_STRIKES" />
-								<element type="Archetype Feature" name="Cursed Weakness" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_LYCAN_CURSED_WEAKNESS" />
 								<element type="Archetype Feature" name="Bloodlust" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_LYCAN_BLOODLUST" />
 							</element>
 						</element>
@@ -551,7 +550,7 @@ one blue</notes>
 				</details>
 			</item>
 		</equipment>
-		<sum element-count="228">
+		<sum element-count="227">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -592,6 +591,12 @@ one blue</notes>
 			<element type="Level" id="ID_LEVEL_3" />
 			<element type="Level" id="ID_LEVEL_4" />
 			<element type="Feat" id="ID_PHB_FEAT_SENTINEL" />
+			<element type="Level" id="ID_LEVEL_5" />
+			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_5" />
+			<element type="Level" id="ID_LEVEL_6" />
+			<element type="Level" id="ID_LEVEL_7" />
+			<element type="Level" id="ID_LEVEL_8" />
+			<element type="Feat" id="ID_PHB_FEAT_SHIELDMASTER" />
 			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_WHIP" />
 			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
 			<element type="Item" id="ID_WOTC_TCOE_ITEM_OCF_BARBARIAN_PRIMAL_KNOWLEDGE" />
@@ -599,12 +604,6 @@ one blue</notes>
 			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROFICIENCY_PROXY_PROFICIENCY_SKILL_SURVIVAL" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
-			<element type="Level" id="ID_LEVEL_5" />
-			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_5" />
-			<element type="Level" id="ID_LEVEL_6" />
-			<element type="Level" id="ID_LEVEL_7" />
-			<element type="Level" id="ID_LEVEL_8" />
-			<element type="Feat" id="ID_PHB_FEAT_SHIELDMASTER" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_BARBARIAN" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
@@ -777,7 +776,6 @@ one blue</notes>
 			<element type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_LYCAN_FERAL_MIGHT" />
 			<element type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_LYCAN_RESILIENT_HIDE" />
 			<element type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_LYCAN_PREDATORY_STRIKES" />
-			<element type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_LYCAN_CURSED_WEAKNESS" />
 			<element type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_LYCAN_BLOODLUST" />
 			<element type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_FEAT_4_BLOOD_HUNTER" />
 		</sum>
