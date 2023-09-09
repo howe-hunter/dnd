@@ -18,6 +18,78 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "-Party Home-",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Party/-Party Home-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Viridan",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Party/Viridan.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Support Division",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/Divisions/Support Division.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "_Ravens_overview_",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/_Ravens_overview_.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "-Divisions-",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Ravens/-Divisions-.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aerelann",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/royal_family/Aerelann.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Aerendyl (the Master)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/royal_family/Aerendyl (the Master).md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Galaria",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/royal_family/Galaria.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Neldor",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/royal_family/Neldor.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Revaen (the Cure)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/royal_family/Revaen (the Cure).md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Talona",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/royal_family/Talona.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "Stonefalls",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cities/Stonefalls.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":39.90167865707434}"
+                },
+                {
                   "title": "all-cities",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cities/all-cities.md\",\"mode\":\"source\",\"source\":false}}",
@@ -292,7 +364,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cities/Stonefalls.md",
+                "file": "-story_notes-/Story Overview.md",
                 "mode": "source",
                 "source": false
               }
@@ -340,7 +412,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "cities/Stonefalls.md",
+                "file": "-story_notes-/Story Overview.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -473,7 +545,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cities/Stonefalls.md"
+                "file": "-story_notes-/Story Overview.md"
               }
             }
           }
@@ -558,7 +630,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cities/Stonefalls.md",
+                "file": "-story_notes-/Story Overview.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -584,7 +656,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cities/Stonefalls.md",
+                "file": "-story_notes-/Story Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -615,9 +687,19 @@
   },
   "active": "700c8af02d5083d7",
   "lastOpenFiles": [
-    "cities/all-cities.md",
-    "characters/Party/Viridan.md",
     "characters/Party/-Party Home-.md",
+    "characters/Party/Viridan.md",
+    "characters/Ravens/Divisions/Support Division.md",
+    "characters/Ravens/_Ravens_overview_.md",
+    "characters/Ravens/-Divisions-.md",
+    "characters/royal_family/Aerelann.md",
+    "characters/royal_family/Aerendyl (the Master).md",
+    "characters/royal_family/Galaria.md",
+    "characters/royal_family/Neldor.md",
+    "characters/royal_family/Revaen (the Cure).md",
+    "characters/royal_family/Talona.md",
+    "cities/Stonefalls.md",
+    "cities/all-cities.md",
     "characters/Home-Pages/-Royal Family-.md",
     "characters/Home-Pages/-Deities-.md",
     "characters/Home-Pages/_NPCs_.md",
@@ -625,25 +707,15 @@
     "-story_notes-/Story Overview.md",
     "session_notes/Notes.md",
     "characters/Ravens/Divisions/Magic Division.md",
-    "characters/Ravens/Divisions/Support Division.md",
     "characters/Ravens/Divisions/Stealth Division.md",
     "characters/Ravens/Divisions/Marine Division.md",
-    "characters/Ravens/-Divisions-.md",
     "Magic/Tech Division.md",
     "Magic",
     "characters/Ravens/Divisions/Fighter's Division.md",
-    "characters/Ravens/_Ravens_overview_.md",
     "characters/Ravens/ravens_characters/arrnius.md",
     "characters/Ravens/ravens_characters",
     "characters/Ravens/Divisions",
     "characters/Ravens/ravens_characters/Iokeadra.md",
-    "_resources_/NPC template.md",
-    "characters/Ravens/ravens_characters/Ullr.md",
-    "characters/Ravens/ravens_characters/Ondros.md",
-    "characters/Ravens/ravens_characters/MANT15.md",
-    "characters/Ravens/ravens_characters/Founders.md",
-    "cities/Stonefalls.md",
-    "characters/royal_family/Neldor.md",
     "characters/royal_family",
     "Edunnian_Succession/characters/Global",
     "Edunnian_Succession/characters/Party",
