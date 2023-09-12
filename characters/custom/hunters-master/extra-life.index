@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Extra Life</name>
+		<update version="0.0.3">
+			<file name="extra-life.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/extra-life.index" />
+		</update>
+	</info>
+	<files>
+		<file name="tortle-package.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/extra-life/tortle-package.xml" />
+		<file name="one-grung-above.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/extra-life/one-grung-above.xml" />
+		<file name="lost-laboratory-of-kwalish.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/extra-life/lost-laboratory-of-kwalish.xml" />
+		<file name="locathah-rising.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/extra-life/locathah-rising.xml" />
+		<file name="adventure-with-muk.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/extra-life/adventure-with-muk.xml" />
+	</files>
+</index>
