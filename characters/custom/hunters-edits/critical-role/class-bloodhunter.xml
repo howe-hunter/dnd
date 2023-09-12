@@ -18,10 +18,10 @@
             <h4>ALMOST AS FEARED AS THEIR PREY</h4>
             <p>The nature of their abilities and training has bred many rumors across the lands, some of which aren’t too far from the truth. Common folk consider them cursed, often turning them away at the door. Nobles see them as occasionally convenient, but a generally reviled nuisance. Mages find them useful allies if kept at arm’s length, while pious clerics and paladins keep their distance with a watchful eye. To be a blood hunter is to accept a life of solitude until proven trustworthy and dependable.</p>
             <h4>CREATING A BLOOD HUNTER</h4>
-            <p>As you create your blood hunter, keep in mind how your character relates to society and why they have taken to a life of monster hunting. Do they inth to protect society and as such have paid the ulitmate price? Do they have a family they inth to protect at all costs? Did they make a mistake that cost them greatly, and they inth to make amends for their folly? Or are they bent on vengeance for some past wounds or loss that drove them to choose this dark warrior’s path?</p>
+            <p>As you create your blood hunter, keep in mind how your character relates to society and why they have taken to a life of monster hunting. Do they wish to protect society and as such have paid the ulitmate price? Do they have a family they wish to protect at all costs? Did they make a mistake that cost them greatly, and they wish to make amends for their folly? Or are they bent on vengeance for some past wounds or loss that drove them to choose this dark warrior’s path?</p>
             <p class="indent">While a blood hunter begins their journey alone, they also acknowledge the strength in numbers and the benefits of trusted companions. Many blood hunters keep allies to both ensure that they succeed at their hunts, and to keep a watchful eye to prevent them from losing touch with their humanity. A blood hunter without conviction in lost, and often an honest friend is enough to keep them from straying.</p>
             <h5>QUICK BUILD</h5>
-            <p>You can make a blood hunter quickly by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons, or ranged and finesse weapons. Make intelligence your next highest if you plan to focus on the potency of blood curses and mystical powers. Choose a higher Constitution next if you inth to use Crimson Rite on multiple weapons or want to have extra hit points to burn on amplifying blood curses. Then, select the Haunted One or Acolyte background.</p>
+            <p>You can make a blood hunter quickly by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons, or ranged and finesse weapons. Make Wisdom your next highest if you plan to focus on the potency of blood curses and mystical powers. Choose a higher Constitution next if you wish to use Crimson Rite on multiple weapons or want to have extra hit points to burn on amplifying blood curses. Then, select the Haunted One or Acolyte background.</p>
             <h3>CLASS FEATURES</h3>
             <p>As a blood hunter, you gain the following class features.</p>
             <h5>HIT POINTS</h5>
@@ -41,7 +41,7 @@
                 <span class="emphasis">Tools:</span>Alchemist’s supplies 
             </p>
             <p>
-                <span class="emphasis">Saving Throws:</span>Strength, intelligence 
+                <span class="emphasis">Saving Throws:</span>Strength, Wisdom 
                 <br />
                 <span class="emphasis">Skills:</span>Choose two skills from Athletics, Acrobatics, Arcana, History, Insight, Investigation, and Survival 
             </p>
@@ -88,7 +88,7 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_CRIT_MULTICLASS_BLOOD_HUNTER"/>
             <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES" requirements="!ID_CRIT_MULTICLASS_BLOOD_HUNTER"/>
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_CRIT_MULTICLASS_BLOOD_HUNTER"/>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_intelligence" requirements="!ID_CRIT_MULTICLASS_BLOOD_HUNTER"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_CRIT_MULTICLASS_BLOOD_HUNTER"/>
             <select type="Proficiency" name="Skill Proficiency (Blood Hunter)" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" requirements="!ID_CRIT_MULTICLASS_BLOOD_HUNTER"/>
             <grant type="Class Feature" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_HUNTERS_BANE" level="1" />
             <grant type="Class Feature" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_CRIMSON_RITE" level="1" />
@@ -103,8 +103,8 @@
             <grant type="Class Feature" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_SANGUINE_MASTERY" level="20" />
         </rules>
         <multiclass id="ID_CRIT_MULTICLASS_BLOOD_HUNTER">
-            <prerequisite>Strength 13 or Dexterity 13, and intelligence 13</prerequisite>
-            <requirements>([str:13]||[dex:13]),[int:13],!ID_DMSG_MMBH_CLASS_BLOOD_HUNTER,!ID_DMSG_MMBH_MULTICLASS_BLOOD_HUNTER</requirements>
+            <prerequisite>Strength 13 or Dexterity 13, and Wisdom 13</prerequisite>
+            <requirements>([str:13]||[dex:13]),[wis:13],!ID_DMSG_MMBH_CLASS_BLOOD_HUNTER,!ID_DMSG_MMBH_MULTICLASS_BLOOD_HUNTER</requirements>
             <setters>
                 <set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, martial weapons, alchemical supplies</set>
             </setters>
@@ -122,8 +122,8 @@
     <element name="Hunter’s Bane" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_HUNTERS_BANE">
         <description>
             <p>Beginning at 1st level, you have survived the inbibing of the Hunter’s Bane, a poisonous alchemical concoction that alters your life’s blood, forever binding you to the darkness and honing your senses against it.</p>
-            <p class="indent">You have advantage on intelligence (Survival) checks to track Fey, Fiends, and Undead, as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creatures types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.</p>
-            <p class="indent">Upon reaching 11th level, you can flare the internal toxic scars from the ritual, using the pain to give clarity, or promote anger. You can choose to suffer damage equal to a roll of your crimson rite damage die to gain advantage on a intelligence (Insight) check or Charisma (Intimidation) check.</p>
+            <p class="indent">You have advantage on Wisdom (Survival) checks to track Fey, Fiends, and Undead, as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creatures types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.</p>
+            <p class="indent">Upon reaching 11th level, you can flare the internal toxic scars from the ritual, using the pain to give clarity, or promote anger. You can choose to suffer damage equal to a roll of your crimson rite damage die to gain advantage on a Wisdom (Insight) check or Charisma (Intimidation) check.</p>
         </description>
         <sheet>
             <description>You have advantage on Survival checks to track Fey, Fiends, and Undead as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creatures types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.</description>
@@ -134,7 +134,7 @@
         <description>
             <p>At 1st level, you learn to invoke a rite of blood magic within your weapon at the cost of your own vitality. Choose to learn one rite from the Primal Rites list below. You cannot change this choice.</p>
             <p class="indent">As a bonus action, you imbue a single weapon with the elemental energy of a known rite until your next short or long rest. While active, attacks from this weapon deal an additional 1d4 rite damage of the chosen elemental type. Rite damage is considered magical. The rite damage die changes as you gain blood hunter levels, as shown in the crimson rite damage die column of the blood hunter table. Should your weapon leave your grip, the rite fades immediately. An active rite on a weapon thrown fades directly after the attack is complete.</p>
-            <p class="indent">When a crimson rite is activated, you suffer damage equal to your character level, and you reduce your maximum hit points by an amount equal to your character level. These lost maximum hit points return once the rite fades and cannot be restored otherinte. When a rite fades, no hit points are regained as part of the restoring of maximum hit points.</p>
+            <p class="indent">When a crimson rite is activated, you suffer damage equal to your character level, and you reduce your maximum hit points by an amount equal to your character level. These lost maximum hit points return once the rite fades and cannot be restored otherwise. When a rite fades, no hit points are regained as part of the restoring of maximum hit points.</p>
             <p class="indent">Crimson rite can be used on multiple weapons, costing additional hit points loss. Most weapons can only be subject to a single rite at any given time. Each end of a polearm or quarterstaff is treated as a seperate weapon for the purposes of this feature. A rite can be allowed to fade at any time on your turn (no action required).</p>
             <p class="indent">You gain access to an additional Primal Rite at 6th level and 11th level. You may learn an Esoteric Rite at 14th level.</p>
         </description>
@@ -284,7 +284,7 @@
     </element>
     <element name="Grim Psychometry" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_GRIM_PSYCHOMETRY">
         <description>
-            <p>When you reach 9th level, you can take 10 minutes to meditate on an object to discern vague details regarding any lingering evil or wicked past surrounding it. Make a intelligence ability check. Based on the result, the DM may reveal obscure information about dark events that may have previously surrounded the object, or hints towards a sinister purpose. This feature has no effect on objects untouched by evil. An object can only be targeted by this feature once, and future attempts reveal no further details.</p>
+            <p>When you reach 9th level, you can take 10 minutes to meditate on an object to discern vague details regarding any lingering evil or wicked past surrounding it. Make a Wisdom ability check. Based on the result, the DM may reveal obscure information about dark events that may have previously surrounded the object, or hints towards a sinister purpose. This feature has no effect on objects untouched by evil. An object can only be targeted by this feature once, and future attempts reveal no further details.</p>
         </description>
         <sheet>
             <description>You can take 10 minutes to meditate on an object to discern vague details regarding any lingering evil or wicked past surrounding it.</description>
@@ -322,13 +322,13 @@
     <element name="Blood Curse of Binding" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_BINDING">
         <supports>Blood Curse</supports>
         <description>
-            <p>As a bonus action, you can attempt to bind an enemy no more than one size larger than you within 30 feet. The target must succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your intelligence modifier) or have their speed be reduced to 0 until the end of your next turn.</p>
+            <p>As a bonus action, you can attempt to bind an enemy no more than one size larger than you within 30 feet. The target must succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or have their speed be reduced to 0 until the end of your next turn.</p>
             <p class="indent"><b><i>Amplify.</i></b> This curse becomes ongoing, and can affect a creature regardless of their size category. At the end of each of its turns, the cursed can make another Strength saving throw. On a success, this curse ends. You can end the curse whenever you like (no action required).
                                     
             </p>
         </description>
         <sheet>
-            <description>As a bonus action, you can attempt to bind an enemy no more than one size larger than you within 30 feet. The target must succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your intelligence modifier) or have their speed be reduced to 0 until the end of your next turn.</description>
+            <description>As a bonus action, you can attempt to bind an enemy no more than one size larger than you within 30 feet. The target must succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or have their speed be reduced to 0 until the end of your next turn.</description>
         </sheet>
     </element>
     <element name="Blood Curse of the Eyeless" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_THE_EYELESS">
@@ -347,7 +347,7 @@
         <supports>Blood Curse</supports>
         <description>
             <p>The moment a creature falls unconscious or dies within 30 feet of you, you can use your reaction to give that creature a final act of aggression. That creature immediately makes a single weapon attack against a target of your choice within its attack range. After the attack, the creature returns to being unconscious or dead.</p>
-            <p class="indent"><b><i>Amplify.</i></b> You grant a bonus to the attack roll and damage roll of the cursed creature’s attack equal to your intelligence modifier (minimum of 1).
+            <p class="indent"><b><i>Amplify.</i></b> You grant a bonus to the attack roll and damage roll of the cursed creature’s attack equal to your Wisdom modifier (minimum of 1).
                                     
             </p>
         </description>
@@ -358,13 +358,13 @@
     <element name="Blood Curse of the Fending Rite" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_THE_FENDING_RITE">
         <supports>Blood Curse</supports>
         <description>
-            <p>When an enemy casts a spell that requires a Dexterity saving throw, you can use your reaction to deflect the spell with your crimson rite. You gain a bonus to the initial saving throw against that spell equall to your intelligence modifier (minimum of 1). This curse is invoked before the saving throw is rolled.</p>
+            <p>When an enemy casts a spell that requires a Dexterity saving throw, you can use your reaction to deflect the spell with your crimson rite. You gain a bonus to the initial saving throw against that spell equall to your Wisdom modifier (minimum of 1). This curse is invoked before the saving throw is rolled.</p>
             <p class="indent"><b><i>Amplify.</i></b> You grant all allies within 5 feet of you this bonus to their saving throw against the triggering spell as well.
                                     
             </p>
         </description>
         <sheet>
-            <description>When an enemy casts a spell that requires a Dexterity saving throw, you can use your reaction to deflect the spell with your crimson rite. You gain a +{{intelligence:modifier}} bonus to the initial saving throw against that spell.</description>
+            <description>When an enemy casts a spell that requires a Dexterity saving throw, you can use your reaction to deflect the spell with your crimson rite. You gain a +{{wisdom:modifier}} bonus to the initial saving throw against that spell.</description>
         </sheet>
     </element>
     <element name="Blood Curse of the Marked" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_THE_MARKED">
@@ -403,7 +403,7 @@
         <supports>Blood Curse</supports>
         <description>
             <p>When an enemy casts a spell within 60 feet that requires a spell attack roll and targets you, you can use your reaction to rend the spell from the air, imposing disadvantage on the spell attack roll.</p>
-            <p class="indent"><b><i>Amplify.</i></b> You make a intelligence ability check. The DC equals 10 + the spell’s level. On a success, the creature’s spel misses you automatically.
+            <p class="indent"><b><i>Amplify.</i></b> You make a Wisdom ability check. The DC equals 10 + the spell’s level. On a success, the creature’s spel misses you automatically.
                                     
             </p>
         </description>
@@ -444,12 +444,12 @@
             <p class="indent"><b><i>Rite of the Dawn.</i></b> Your rite damage is radiant type.
                                     
             </p>
-            <p class="indent">If you hit an Undead creature with your Rite of the Dawn, it suffers additional radiant damage equal to your intelligence modifier.</p>
+            <p class="indent">If you hit an Undead creature with your Rite of the Dawn, it suffers additional radiant damage equal to your Wisdom modifier.</p>
             <p class="indent">Upon reaching 11th level, any creature you hit with your Rite of the Dawn suffers this additional radiant damage.</p>
         </description>
         <sheet>
-            <description>If you hit an Undead creature with your Rite of the Dawn, it suffers {{intelligence:modifier}} additional radiant damage.</description>
-            <description level="11">If you hit a creature with your Rite of the Dawn, it suffers {{intelligence:modifier}} additional radiant damage.</description>
+            <description>If you hit an Undead creature with your Rite of the Dawn, it suffers {{wisdom:modifier}} additional radiant damage.</description>
+            <description level="11">If you hit a creature with your Rite of the Dawn, it suffers {{wisdom:modifier}} additional radiant damage.</description>
         </sheet>
         <rules>
             <grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_ESOTERIC_RITE_DAWN" />
@@ -467,19 +467,19 @@
     <element name="Hallowed Veins" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_HALLOWED_VEINS">
         <description>
             <p>Beginning at 7th level, your blood curses become honed to the fabric of a creature’s essence. Your blood curses can now affect any creature, regardless of their form or lack of blood.</p>
-            <p class="indent">In addition, when you target an undead creature with a blood curse, it must succeed on a intelligence saving throw (DC equal to 8 + your proficiency bonus + your intelligence modifier) or it cannot target you with an attack until the end of your next turn.</p>
+            <p class="indent">In addition, when you target an undead creature with a blood curse, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or it cannot target you with an attack until the end of your next turn.</p>
         </description>
         <sheet>
-            <description>Your blood curses can now affect any creature, regardless of their form or lack of blood. In addition, when you target an undead creature with a blood curse, it must succeed on a intelligence saving throw (DC equal to 8 + your proficiency bonus + your intelligence modifier) or it cannot target you with an attack until the end of your next turn.</description>
+            <description>Your blood curses can now affect any creature, regardless of their form or lack of blood. In addition, when you target an undead creature with a blood curse, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or it cannot target you with an attack until the end of your next turn.</description>
         </sheet>
     </element>
     <element name="Supernal Surge" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_SUPERNAL_SURGE">
         <description>
             <p>Upon reaching 11th level, you’ve learned to briefly step into the spirit world, enabling a swift and deadly strike. When you use that Attack action, you can make one weapon attack as a bonus action, and you temporarily become spectral. Until the end of your next turn, you can move through other creatures and objects as if they were difficult terrain. You take 1d10 force damage if you end your turn inside an object. If you are inside an object when and you are no longer spectral, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you moved. You may expend a use of this feature as a bonus action instead of making an attack.</p>
-            <p class="indent">You can use this feature a number of times equal to your intelligence modifier (a minimum of once). You regain all expended uses when you finish a short or long rest.</p>
+            <p class="indent">You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a short or long rest.</p>
         </description>
         <sheet>
-            <description>When you use that Attack action, you can make one weapon attack as a bonus action, and you temporarily become spectral. Until the end of your next turn, you can move through other creatures and objects as if they were difficult terrain. You take 1d10 force damage if you end your turn inside an object. If you are inside an object when and you are no longer spectral, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you moved. You may expend a use of this feature as a bonus action instead of making an attack. ({{intelligence:modifier}}/SR)</description>
+            <description>When you use that Attack action, you can make one weapon attack as a bonus action, and you temporarily become spectral. Until the end of your next turn, you can move through other creatures and objects as if they were difficult terrain. You take 1d10 force damage if you end your turn inside an object. If you are inside an object when and you are no longer spectral, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you moved. You may expend a use of this feature as a bonus action instead of making an attack. ({{wisdom:modifier}}/SR)</description>
         </sheet>
     </element>
     <element name="Gravesight" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_GRAVESIGHT">
@@ -548,16 +548,16 @@
 			<p class="indent"><strong><em>Spells Known of 1st Level and Higher.</em></strong> At 3rd level, you know two 1st-level spells of your choice from the warlock spell list.</p>
 			<p class="indent">The Spells Known column of the Profane Soul table shows when you learn more warlock spells of your choice of 1st-level and higher. A spell you choose must be of a level no higher than what’s shown in the table’s Slot Level column for your level. When you reach 11th-level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.</p>
 			<p class="indent">Additionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.</p>
-			<p class="indent"><strong><em>Spellcasting Ability.</em></strong> intelligence is your spellcasting ability for your warlock spells, so you use your intelligence whenever a spell refers to your spellcasting ability. In addition, you use your intelligence modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.</p>
+			<p class="indent"><strong><em>Spellcasting Ability.</em></strong> Wisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.</p>
 			<center>
-				<p><strong>Spell save DC = 8</strong> + your proficiency bonus + your intelligence modifier</p>
-				<p><strong>Spell attack modifier =</strong> your proficiency bonus + your intelligence modifier</p>
+				<p><strong>Spell save DC = 8</strong> + your proficiency bonus + your Wisdom modifier</p>
+				<p><strong>Spell attack modifier =</strong> your proficiency bonus + your Wisdom modifier</p>
 			</center>
 		</description>
 		<sheet display="false">
 			<description>You can augment your combat techniques with the ability to cast spells.</description>
 		</sheet>
-		<spellcasting name="Profane Soul" ability="intelligence" allowReplace="true">
+		<spellcasting name="Profane Soul" ability="Wisdom" allowReplace="true">
 			<list>Warlock</list>
 		</spellcasting>
 		<rules>
@@ -595,9 +595,9 @@
 			<p>Begining at 3rd level, your weapon becomes a core to your pact with your chosen dark patron. While you have an active rite, you can use your weapon as a spellcasting focus (found in chapter 5, player’s hand book) for your spells. Your chosen pact also enhances your rite (outlined below).</p>
 			<p class="indent"><strong><em>The Archfey.</em></strong> If you deal rite damage to a creature, that creature loses any half or three-quarters cover bonuses, as well as invisibility, until the beginning of your next turn.</p>
 			<p class="indent"><strong><em>The Fiend.</em></strong> While using the Rite of the Flame, if you roll a 1 on your rite damage die, you may reroll the die. You may reroll only once per attack.</p>
-			<p class="indent"><strong><em>The Great Old One.</em></strong> Whenever you deal a critical hit to a creature, that creature must make a intelligence saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn.</p>
+			<p class="indent"><strong><em>The Great Old One.</em></strong> Whenever you deal a critical hit to a creature, that creature must make a Wisdom saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn.</p>
 			<p class="indent"><strong><em>The Undying.</em></strong> Whenever you reduce a hostile creature to 0 hit points with a weapon attack, and kill it, you regain hit points equal to your crimson rite damage die.</p>
-			<p class="indent"><strong><em>The Celestial.</em></strong> You can expend a use of your blood maledict feature as a bonus action to heal one creature within 60 feet of you. They regain hit points equal to your crimson rite damage die rolled twice + your intelligence modifier (minimum of 1).</p>
+			<p class="indent"><strong><em>The Celestial.</em></strong> You can expend a use of your blood maledict feature as a bonus action to heal one creature within 60 feet of you. They regain hit points equal to your crimson rite damage die rolled twice + your Wisdom modifier (minimum of 1).</p>
 			<p class="indent"><strong><em>The Hexblade.</em></strong> Whenever you target a creature with a blood curse, your next attack against the cursed creature is a critical hit on a roll of 19 or 20 on the d20.</p>
 		</description>
 		<sheet display="false">
@@ -776,11 +776,11 @@
 	<element name="Rite Focus (The Great Old One)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_GREAT_OLD_ONE">
 		<description>
 			<p>While you have an active rite, you can use your weapon as a spellcasting focus for your spells.</p>
-			<p>Whenever you deal a critical hit to a creature, that creature must make a intelligence saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn.</p>
+			<p>Whenever you deal a critical hit to a creature, that creature must make a Wisdom saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn.</p>
 		</description>
 		<sheet alt="Rite Focus">
 			<description>While you have an active rite, you can use your weapon as a spellcasting focus for your spells.
-			Whenever you deal a critical hit to a creature, that creature must make a intelligence saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn.</description>
+			Whenever you deal a critical hit to a creature, that creature must make a Wisdom saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn.</description>
 		</sheet>
 	</element>
 	<element name="Rite Focus (The Undying)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_UNDYING">
@@ -796,7 +796,7 @@
 	<element name="Rite Focus (The Celestial)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_CELESTIAL">
 		<description>
 			<p>While you have an active rite, you can use your weapon as a spellcasting focus for your spells.</p>
-			<p>You can expend a use of your blood maledict feature as a bonus action to heal one creature within 60 feet of you. They regain hit points equal to your crimson rite damage die rolled twice + your intelligence modifier (minimum of 1).</p>
+			<p>You can expend a use of your blood maledict feature as a bonus action to heal one creature within 60 feet of you. They regain hit points equal to your crimson rite damage die rolled twice + your Wisdom modifier (minimum of 1).</p>
 		</description>
 		<sheet alt="Rite Focus">
 			<description>While you have an active rite, you can use your weapon as a spellcasting focus for your spells.
@@ -804,7 +804,7 @@
 		</sheet>
 		<rules>
 			<stat name="celestial-rite-focus:hit points" value="1" />
-			<stat name="celestial-rite-focus:hit points" value="intelligence:modifier" />
+			<stat name="celestial-rite-focus:hit points" value="wisdom:modifier" />
 		</rules>
 	</element>
 	<element name="Rite Focus (The Hexblade)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_HEXBLADE">
@@ -1060,16 +1060,16 @@
         <supports>Mutagen Formula</supports>
         <description>
             <p>Your Dexterity score increases by an amount equal to your mutation score, as does your Dexterity maximum.</p>
-            <p class="indent"><b><i>Side effect:</i></b> Your intelligence score decreases by amount equal to your mutation score.
+            <p class="indent"><b><i>Side effect:</i></b> Your Wisdom score decreases by amount equal to your mutation score.
             </p>
         </description>
         <sheet>
-            <description>Your Dexterity score increases by {{mutation score}}, as does your Dexterity maximum. Side effect: Your intelligence score decreases by {{mutation score}}.</description>
+            <description>Your Dexterity score increases by {{mutation score}}, as does your Dexterity maximum. Side effect: Your Wisdom score decreases by {{mutation score}}.</description>
         </sheet>
         <rules>
             <!-- <stat name="dexterity" value="mutation score" /> -->
             <!-- <stat name="dexterity:max" value="mutation score" /> -->
-            <!-- <stat name="intelligence" value="-mutation score" /> -->
+            <!-- <stat name="wisdom" value="-mutation score" /> -->
         </rules>
     </element>
     <element name="Conversant" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_CONVERSANT">
@@ -1198,16 +1198,16 @@
     <element name="Sagacity" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_SAGACITY">
         <supports>Mutagen Formula</supports>
         <description>
-            <p>Your intelligence score increases by an amount equal to your mutation score, as does your intelligence maximum.</p>
+            <p>Your Wisdom score increases by an amount equal to your mutation score, as does your Wisdom maximum.</p>
             <p class="indent"><b><i>Side effect:</i></b> Your armor class score decreases by amount equal to your mutation score.
             </p>
         </description>
         <sheet>
-            <description>Your intelligence score increases by {{mutation score}}, as does your intelligence maximum. Side effect: Your armor class decreases by {{mutation score}}.</description>
+            <description>Your Wisdom score increases by {{mutation score}}, as does your Wisdom maximum. Side effect: Your armor class decreases by {{mutation score}}.</description>
         </sheet>
         <rules>
-            <!-- <stat name="intelligence" value="mutation score" /> -->
-            <!-- <stat name="intelligence:max" value="mutation score" /> -->
+            <!-- <stat name="wisdom" value="mutation score" /> -->
+            <!-- <stat name="wisdom:max" value="mutation score" /> -->
             <!-- <stat name="ac:misc" value="-mutation score" /> -->
         </rules>
     </element>
@@ -1237,11 +1237,11 @@
         <supports>Mutagen Formula</supports>
         <description>
             <p>You gain a bonus to initiative equal to 2 times your mutation score.</p>
-            <p class="indent"><b><i>Side effect:</i></b> You have disadvantage on intelligence (Perception) checks.
+            <p class="indent"><b><i>Side effect:</i></b> You have disadvantage on Wisdom (Perception) checks.
             </p>
         </description>
         <sheet>
-            <description>You gain a +{{wariness formula:initiative}} bonus to initiative. Side effect: You have disadvantage on intelligence (Perception) checks.</description>
+            <description>You gain a +{{wariness formula:initiative}} bonus to initiative. Side effect: You have disadvantage on Wisdom (Perception) checks.</description>
         </sheet>
         <rules>
             <stat name="wariness formula:initiative" value="mutation score" />
