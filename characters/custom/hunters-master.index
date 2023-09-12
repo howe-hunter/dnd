@@ -61,9 +61,7 @@
 <!--unearthed-arcana===========================================================================================================================-->
 		<file name="planeshift.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/planeshift.index" />
 <!--third-party===========================================================================================================================-->
-		<file name="bard-maestro.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/critical-role/classes/bard-maestro.xml" />
-		<file name="fighter-gunslinger.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/critical-role/classes/fighter-gunslinger.xml" />
-		<file name="barbarian-totem-duck.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/critical-role/classes/barbarian-totem-duck.xml" />
+		<file name="critical-role.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/critical-role.index" />
 		<file name="taldorei-reborn.index" url="https://raw.githubusercontent.com/mamawerecat/AuroraCustomContent/main/taldorei-reborn.index" />
 	</files>
 </index>
