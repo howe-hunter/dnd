@@ -5,7 +5,7 @@
 		<description>hunter's personal master index for Aurora Builder v2.0 2023.</description>
 		<author url="https://github.com/howe-hunter">howe-hunter</author>
 		<update version="2.0">
-			<file name="hunters-edits.index" url="https://raw.githubusercontent.com/howe-hunter/dnd/main/hunters-edits.index" />
+			<file name="hunters-master.index" url="https://raw.githubusercontent.com/howe-hunter/dnd/main/hunters-master.index" />
 		</update>
 	</info>
 	<files>

@@ -1469,7 +1469,7 @@
         </rules>
     </element>
 
-<!-- Lycans -->
+	<!-- Lycans -->
 	<element name="Order of the Lycan" type="Archetype" source="Critical Role" id="ID_CRIT_ARCHETYPE_BLOOD_HUNTER_ORDER_OF_THE_LYCAN">
         <supports>Blood Hunter Order</supports>
         <description>
