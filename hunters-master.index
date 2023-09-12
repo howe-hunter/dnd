@@ -11,7 +11,7 @@
 	<files>
 <!--hunters-edits===========================================================================================================================-->
 		<file name="source.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/main/hunters-edits/source.xml" />
-        <file name="hunters-edits.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/main/hunters-edits/hunters-edits.xml" />
+        <file name="hunters-edits.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/main/hunters-edits/hunters-edits.index" />
 <!--core===========================================================================================================================-->
 		<file name="internal.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/internal.xml" />
 		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide.index" />
