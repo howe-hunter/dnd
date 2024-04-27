@@ -18,6 +18,18 @@
                   "eState": "{}"
                 },
                 {
+                  "title": "all-cities",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"cities/all-cities.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":2.029535864978903}"
+                },
+                {
+                  "title": "Story Overview",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"-story_notes-/Story Overview.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":4,\"ch\":0},\"to\":{\"line\":4,\"ch\":0}}}"
+                },
+                {
                   "title": "-Party Home-",
                   "icon": "lucide-file",
                   "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"characters/Party/-Party Home-.md\",\"mode\":\"source\",\"source\":false}}",
@@ -364,28 +376,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "-story_notes-/Story Overview.md",
+                "file": "cities/Stonefalls.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "8faba49397013c5e",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                }
-              ]
-            },
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.5"
               }
             }
           },
@@ -410,8 +403,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e6a030c63c541332",
@@ -432,7 +424,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "-story_notes-/Story Overview.md",
+                "file": "cities/Stonefalls.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -509,7 +501,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#important",
+                "query": "file:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -543,7 +535,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "602d14e7ec86dbb1",
@@ -565,7 +558,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "-story_notes-/Story Overview.md"
+                "file": "cities/Stonefalls.md"
               }
             }
           }
@@ -650,7 +643,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "-story_notes-/Story Overview.md",
+                "file": "cities/Stonefalls.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -676,7 +669,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "-story_notes-/Story Overview.md",
+                "file": "cities/Stonefalls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -705,8 +698,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8faba49397013c5e",
+  "active": "b822ca51813fc3cb",
   "lastOpenFiles": [
+    "cities/all-cities.md",
+    "-story_notes-/Story Overview.md",
     "characters/Party/-Party Home-.md",
     "characters/Party/Viridan.md",
     "characters/Ravens/Divisions/Support Division.md",
@@ -719,12 +714,10 @@
     "characters/royal_family/Revaen (the Cure).md",
     "characters/royal_family/Talona.md",
     "cities/Stonefalls.md",
-    "cities/all-cities.md",
     "characters/Home-Pages/-Royal Family-.md",
     "characters/Home-Pages/-Deities-.md",
     "characters/Home-Pages/_NPCs_.md",
     "-story_notes-/workspace.md",
-    "-story_notes-/Story Overview.md",
     "session_notes/Notes.md",
     "characters/Ravens/Divisions/Magic Division.md",
     "characters/Ravens/Divisions/Stealth Division.md",
