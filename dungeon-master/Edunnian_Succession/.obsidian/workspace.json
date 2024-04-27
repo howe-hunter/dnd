@@ -371,6 +371,25 @@
             }
           },
           {
+            "id": "8faba49397013c5e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
+          },
+          {
             "id": "5df97e624d3eb9eb",
             "type": "leaf",
             "pane-relief:history-v1": {
@@ -391,7 +410,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "e6a030c63c541332",
@@ -685,7 +705,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "700c8af02d5083d7",
+  "active": "8faba49397013c5e",
   "lastOpenFiles": [
     "characters/Party/-Party Home-.md",
     "characters/Party/Viridan.md",
