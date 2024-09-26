@@ -1,2 +1,0 @@
-# Rose Chaser
-Tags: #npcs 

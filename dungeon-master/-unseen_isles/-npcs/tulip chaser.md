@@ -1,3 +1,0 @@
-# Tulip chaser
-Tags: #npcs 
-

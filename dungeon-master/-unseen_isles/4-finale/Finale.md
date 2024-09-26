@@ -1,2 +1,0 @@
-# Finale
-Tags: #story 

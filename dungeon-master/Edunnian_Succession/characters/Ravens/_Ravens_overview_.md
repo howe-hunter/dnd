@@ -1,4 +1,0 @@
-
-[[Founders]]
-
-[[-Divisions-]]

@@ -1,1 +1,0 @@
-leader of [[Magic/Tech Division]]
