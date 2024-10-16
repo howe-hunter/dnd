@@ -10,7 +10,7 @@
 
 ### hunter's master index for Additional Content
 
-* Download hunter's recommended Additional Content by pasting [hunters-master.index](https://raw.githubusercontent.com/howe-hunter/dnd/main/hunters-master.index) into the additional content field under the ***Start*** tab
+* Download hunter's recommended Additional Content by pasting [hunters-master.index](https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-master.index) into the additional content field under the ***Start*** tab
 * Click *Update Content Files* and wait for the download
 * Click *Restart Application* 
 * If you are replacing old content ***DELETE*** all contents of *\Documents\5e Character Builder\custom* then close the app and reopen before downloading the new additional content
