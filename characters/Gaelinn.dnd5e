@@ -8,7 +8,7 @@
 	</information>
 	<!-- display data -->
 	<display-properties favorite="false">
-		<name>galinn quickclaw</name>
+		<name>gaelinn quickclaw</name>
 		<race>Swiftstride Shifter</race>
 		<class>Barbarian</class>
 		<archetype>
@@ -25,7 +25,7 @@
 	<!-- build data -->
 	<build>
 		<input>
-			<name>galinn quickclaw</name>
+			<name>gaelinn quickclaw</name>
 			<gender>Female</gender>
 			<player-name>Hunter</player-name>
 			<experience>6500</experience>
@@ -343,7 +343,7 @@ Once a noblewoman, now a ruthless pirate. Marina wears her bloodstained gloves a
 			<item identifier="d8ba9bdf-62c1-4a68-bb89-684e2f09f65a" name="Boots of Elvenkind" id="ID_WOTC_DMG_MAGIC_ITEM_BOOTS_OF_ELVENKIND" sidebar="true">
 				<equipped>true</equipped>
 				<details card="true">
-					<name>Boots of the Sea Reaver (Uncommon) </name>
+					<name>Boots of the Sea Reaver (Uncommon)</name>
 					<notes>Grants +10 feet to movement speed and allows Galinn to walk on water for 1 minute once per day.</notes>
 				</details>
 			</item>

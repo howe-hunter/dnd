@@ -31,14 +31,17 @@
 			<experience>6450</experience>
 			<attacks>
 				<description><![CDATA[]]></description>
+				<attack identifier="025dca24-19ab-41dd-8dba-16cec770d81a" name="Darksteel Longsword" range="5 ft" attack="+5 vs AC" damage="1d10+3 slashing (Versatile)" displayed="true" ability="Strength">
+					<description><![CDATA[This sword is a +1 magical longsword, granting +1 to attack and damage rolls. It has a unique property: the ability to use Shadowstep. In darkness or dim light, the wielder can teleport up to 30 feet to an unoccupied space they can see as a bonus action. This power recharges on a short or long rest.]]></description>
+				</attack>
 				<attack identifier="8ac03737-0861-4d96-a0b2-986ac615604a" name="Greatsword" range="5 ft" attack="+5 vs AC" damage="2d6+3 slashing + rage" displayed="true" ability="Strength">
 					<description><![CDATA[Heavy, Two-Handed]]></description>
 				</attack>
-				<attack identifier="366ae94a-382f-43f8-879d-23a741172f33" name="Whip" range="10 ft" attack="+5 vs AC" damage="1d4+3 slashing + rage" displayed="true" ability="Strength">
-					<description><![CDATA[Finesse, Reach]]></description>
-				</attack>
 				<attack identifier="885f12a9-01d0-411d-887d-394d252aa3a7" name="Handaxe" range="20/60" attack="+5 vs AC" damage="1d6+3 slashing + rage" displayed="true" ability="Strength">
 					<description><![CDATA[Light, Thrown]]></description>
+				</attack>
+				<attack identifier="366ae94a-382f-43f8-879d-23a741172f33" name="Whip" range="10 ft" attack="+5 vs AC" damage="1d4+3 slashing + rage" displayed="true" ability="Strength">
+					<description><![CDATA[Finesse, Reach]]></description>
 				</attack>
 				<attack identifier="7d89cecc-51c0-41d4-951a-dd0c9def0deb" name="Javelin" range="30/120" attack="+5 vs AC" damage="1d6+3 piercing" displayed="true" ability="Strength">
 					<description><![CDATA[Thrown]]></description>
@@ -101,7 +104,7 @@ sketch of lotus's longboat]]></treasure>
 			<wisdom>8</wisdom>
 			<charisma>10</charisma>
 		</abilities>
-		<elements level-count="4" registered-count="32">
+		<elements level-count="4" registered-count="33">
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
 				<element type="Grants" name="Multiclass Spellcasting" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -315,16 +318,6 @@ Shift: 0</conditional>
 			<storage name="#1" />
 			<storage name="#2" />
 			<item identifier="366ae94a-382f-43f8-879d-23a741172f33" name="Whip" id="ID_WOTC_PHB_WEAPON_WHIP">
-				<equipped location="Primary Hand">true</equipped>
-				<details card="true">
-					<name>
-					</name>
-					<notes>
-					</notes>
-				</details>
-			</item>
-			<item identifier="94c4fa0f-da60-4f71-82ad-ac700b86f2af" name="Shield" id="ID_WOTC_GEAR_SHIELD">
-				<equipped location="Secondary Hand">true</equipped>
 				<details card="true">
 					<name>
 					</name>
@@ -429,8 +422,31 @@ Shift: 0</conditional>
 one blue</notes>
 				</details>
 			</item>
+			<item identifier="e195c2f5-e98e-4d52-99a1-037b0d05d942" name="Shield" id="ID_WOTC_GEAR_SHIELD" sidebar="true">
+				<attunement>true</attunement>
+				<items>
+					<adorner name="Animated Shield" id="ID_WOTC_DMG_MAGIC_ITEM_ANIMATED_SHIELD" />
+				</items>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="025dca24-19ab-41dd-8dba-16cec770d81a" name="Longsword" id="ID_WOTC_PHB_WEAPON_LONGSWORD" sidebar="true">
+				<equipped versatile="true" location="Two-Handed (Versatile)">true</equipped>
+				<attunement>true</attunement>
+				<items>
+					<adorner name="Armblade" id="ID_WOTC_ERLW_MAGIC_ITEM_ARMBLADE" />
+				</items>
+				<details card="true">
+					<name>Darksteel Longsword</name>
+					<notes>This sword is a +1 magical longsword, granting +1 to attack and damage rolls. It has a unique property: the ability to use Shadowstep. In darkness or dim light, the wielder can teleport up to 30 feet to an unoccupied space they can see as a bonus action. This power recharges on a short or long rest.</notes>
+				</details>
+			</item>
 		</equipment>
-		<sum element-count="132">
+		<sum element-count="133">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
 			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASS_SPELLCASTING" />
@@ -451,6 +467,12 @@ one blue</notes>
 			<element type="Vision" id="ID_VISION_DARKVISION" />
 			<element type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_SHIFTER_SHIFTING" />
 			<element type="Language" id="ID_LANGUAGE_SYLVAN" />
+			<element type="Sub Race" id="ID_WOTC_ERLW_SUB_RACE_SHIFTER_BEASTHIDE" />
+			<element type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_BEASTHIDE_NATURAL_ATHLETE" />
+			<element type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_BEASTHIDE_SHIFTING_FEATURE" />
+			<element type="Ability Score Improvement" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2" />
+			<element type="Ability Score Improvement" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ANIMALHANDLING" />
 			<element type="Background" id="ID_WOTC_GOS_BACKGROUND_SHIPWRIGHT" />
@@ -464,20 +486,15 @@ one blue</notes>
 			<element type="Level" id="ID_LEVEL_2" />
 			<element type="Level" id="ID_LEVEL_3" />
 			<element type="Level" id="ID_LEVEL_4" />
-			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_WHIP" />
-			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
+			<element type="Feat" id="ID_PHB_FEAT_TOUGH" />
 			<element type="Item" id="ID_WOTC_TCOE_ITEM_OCF_BARBARIAN_PRIMAL_KNOWLEDGE" />
 			<element type="Class Feature" id="ID_WOTC_TCOE_CLASS_FEATURE_BARBARIAN_PRIMAL_KNOWLEDGE" />
 			<element type="Item" id="ID_PHB_INTERNAL_ITEM_PROFICIENCY_PROXY_PROFICIENCY_SKILL_SURVIVAL" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_ANIMATED_SHIELD" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
-			<element type="Feat" id="ID_PHB_FEAT_TOUGH" />
-			<element type="Sub Race" id="ID_WOTC_ERLW_SUB_RACE_SHIFTER_BEASTHIDE" />
-			<element type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_BEASTHIDE_NATURAL_ATHLETE" />
-			<element type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_BEASTHIDE_SHIFTING_FEATURE" />
-			<element type="Ability Score Improvement" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CONSTITUTION_INCREASE_2" />
-			<element type="Ability Score Improvement" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_STRENGTH_INCREASE_1" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_ACROBATICS" />
+			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_LONGSWORD" />
+			<element type="Magic Item" id="ID_WOTC_ERLW_MAGIC_ITEM_ARMBLADE" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_BARBARIAN" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />

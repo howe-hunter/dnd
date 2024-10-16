@@ -34,6 +34,9 @@
 				<attack identifier="13c6cfa6-7858-42f7-b4b6-ae653305fb47" name="Dagger" range="20/60" attack="+3 vs AC" damage="1d4+1 piercing" displayed="true" ability="Dexterity">
 					<description><![CDATA[Finesse, Light, Thrown]]></description>
 				</attack>
+				<attack identifier="cb9aab98-cf12-47e4-855e-8ec912a6782b" name="Quarterstaff (Shillelagh)" range="5 ft" attack="+5 vs AC" damage="1d8+3 bludgeoning" displayed="true" ability="Wisdom">
+					<description><![CDATA[Versatile]]></description>
+				</attack>
 			</attacks>
 			<backstory><![CDATA[You grew up in the Feywild after disappearing from your home plane as a child. Perhaps you were spirited away by kindly Fey who thought you were destined for great things. Perhaps you stumbled through a fey crossing by chance during a twilight stroll in the woods. Perhaps you were kidnapped by evil Fey but escaped from their clutches. Whatever the manner of your disappearance, you gradually fell under the Feywild’s spell and learned a little about the nature of the mercurial tricksters that dwell there.
 
@@ -57,7 +60,7 @@ I have never lost my childlike sense of wonder.</background-traits>
 				</symbol>
 				<allies><![CDATA[]]></allies>
 			</organization>
-			<additional-features><![CDATA[The character is a tall, slender figure with a strikingly elegant and otherworldly appearance. She has pale, almost luminescent skin contrasted by deep green, leafy armor that clings to her form, adorned with intricate patterns of vines, flowers, and natural elements. Her long, silvery hair is swept up into a high bun, framed by majestic antlers that grow from her head, curling gracefully and sprouting delicate leaves. Her face is captivating, with piercing yellow eyes that seem to glow with a soft inner light, sharp cheekbones, and pointed ears that add to her fey-like, regal presence.]]></additional-features>
+			<additional-features><![CDATA[]]></additional-features>
 			<currency>
 				<copper>0</copper>
 				<silver>0</silver>
@@ -65,7 +68,8 @@ I have never lost my childlike sense of wonder.</background-traits>
 				<gold>0</gold>
 				<platinum>0</platinum>
 				<equipment><![CDATA[]]></equipment>
-				<treasure><![CDATA[]]></treasure>
+				<treasure><![CDATA[Feywild Seeds – Tiny magical seeds that can sprout instant flowers or create small magical effects once planted.
+Selûne’s Tear – A small vial containing enchanted moonlit water, can be used to bless a single weapon for 1 minute.]]></treasure>
 			</currency>
 			<notes>
 				<note column="left">
@@ -93,7 +97,7 @@ I have never lost my childlike sense of wonder.</background-traits>
 			<wisdom>14</wisdom>
 			<charisma>15</charisma>
 		</abilities>
-		<elements level-count="4" registered-count="37">
+		<elements level-count="4" registered-count="38">
 			<element type="Option" name="Average Hit Points" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" name="Feats" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" name="Multiclassing" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING">
@@ -233,10 +237,10 @@ I have never lost my childlike sense of wonder.</background-traits>
 							<element type="Archetype Feature" name="Channel Divinity: Twilight Sanctuary" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_DOMAIN_CD_TWILIGHT_SANCTUARY" />
 						</element>
 					</element>
+					<element type="Grants" name="Multiclassing Prerequisite" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 					<element type="Class Feature" name="Channel Divinity" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY">
 						<element type="Class Feature" name="Channel Divinity: Turn Undead" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURN_UNDEAD" />
 					</element>
-					<element type="Grants" name="Multiclassing Prerequisite" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 				</element>
 				<element type="Background" name="Background" requiredLevel="1" checksum="6a621392" registered="ID_WOTC_WBW_BACKGROUND_FEYLOST">
 					<element type="Proficiency" name="Musical Intrument (Feylost)" requiredLevel="1" checksum="93fd81b7" registered="ID_PROFICIENCY_TOOL_PROFICIENCY_FLUTE" />
@@ -267,7 +271,7 @@ I have never lost my childlike sense of wonder.</background-traits>
 						<element type="Language" name="Druidic" id="ID_LANGUAGE_DRUIDIC" />
 					</element>
 					<element type="Class Feature" name="Spellcasting" id="ID_WOTC_PHB_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID">
-						<element type="Spell" name="Cantrip (Druid)" requiredLevel="1" number="1" checksum="68890990" registered="ID_XGTE_SPELL_SHAPE_WATER" />
+						<element type="Spell" name="Cantrip (Druid)" requiredLevel="1" number="1" checksum="68890990" registered="ID_PHB_SPELL_SHILLELAGH" />
 						<element type="Spell" name="Cantrip (Druid)" requiredLevel="1" number="2" checksum="3097a0b8" registered="ID_PHB_SPELL_THORN_WHIP" />
 						<element type="Grants" name="Ritual Casting" id="ID_INTERNAL_RITUAL_CASTING" />
 						<element type="Grants" name="Multiclass Spellcasting Slots Full" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" />
@@ -350,15 +354,6 @@ I have never lost my childlike sense of wonder.</background-traits>
 		<equipment>
 			<storage name="#1" />
 			<storage name="#2" />
-			<item identifier="0ba49957-80bd-44c8-b0ae-fe24ce41e58b" name="Studded Leather" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER">
-				<equipped location="Armor">true</equipped>
-				<details card="true">
-					<name>
-					</name>
-					<notes>
-					</notes>
-				</details>
-			</item>
 			<item identifier="78443a42-75e5-4b8e-bc7a-adec0cff664d" name="Shield" id="ID_WOTC_GEAR_SHIELD">
 				<equipped location="Secondary Hand">true</equipped>
 				<details card="true">
@@ -369,7 +364,6 @@ I have never lost my childlike sense of wonder.</background-traits>
 				</details>
 			</item>
 			<item identifier="13c6cfa6-7858-42f7-b4b6-ae653305fb47" name="Dagger" id="ID_WOTC_PHB_WEAPON_DAGGER">
-				<equipped location="Primary Hand">true</equipped>
 				<details card="true">
 					<name>
 					</name>
@@ -385,14 +379,35 @@ I have never lost my childlike sense of wonder.</background-traits>
 					</notes>
 				</details>
 			</item>
+			<item identifier="cb9aab98-cf12-47e4-855e-8ec912a6782b" name="Quarterstaff" id="ID_WOTC_PHB_WEAPON_QUARTERSTAFF">
+				<equipped location="Primary Hand">true</equipped>
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
+			<item identifier="e869538a-7a7b-4998-86fa-305bfc350d47" name="Studded Leather" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER" sidebar="true">
+				<equipped location="Armor">true</equipped>
+				<items>
+					<adorner name="Armor, +1" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_1" />
+				</items>
+				<details card="true">
+					<name>Leafweave Armor</name>
+					<notes>Her armor is crafted from enchanted Feywild leaves, counting as +1 Studded Leather Armor.</notes>
+				</details>
+			</item>
+			<item identifier="c44c773f-50e2-40c2-b611-4fd9b8d811b2" name="Potion of Healing" id="ID_WOTC_DMG_MAGIC_ITEM_POTION_OF_HEALING" amount="2">
+				<details card="true">
+					<name>
+					</name>
+					<notes>
+					</notes>
+				</details>
+			</item>
 		</equipment>
-		<sum element-count="169">
-			<element type="Level" id="ID_LEVEL_1" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_CHARACTER_BASE" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_BASE" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_BASE" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_DEXTERITY_MODIFIER" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_HP_CONSTITUTION_MODIFIER" />
+		<sum element-count="170">
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_AVERAGE_HP" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_FEATS" />
 			<element type="Option" id="ID_INTERNAL_OPTION_ALLOW_MULTICLASSING" />
@@ -401,7 +416,12 @@ I have never lost my childlike sense of wonder.</background-traits>
 			<element type="Option" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<element type="Option" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
 			<element type="Option" id="ID_WOTC_DMG_OPTION_FIREARMS" />
-			<element type="Level" id="ID_LEVEL_2" />
+			<element type="Level" id="ID_LEVEL_1" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_CHARACTER_BASE" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_SPELLCASTING_BASE" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_BASE" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_ARMOR_CLASS_DEXTERITY_MODIFIER" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_HP_CONSTITUTION_MODIFIER" />
 			<element type="Race" id="ID_WOTC_WBW_RACE_FAIRY" />
 			<element type="Racial Trait" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_FEY" />
 			<element type="Racial Trait" id="ID_INTERNAL_RACIAL_TRAIT_SMALL" />
@@ -410,33 +430,35 @@ I have never lost my childlike sense of wonder.</background-traits>
 			<element type="Racial Trait" id="ID_WOTC_WBW_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC" />
 			<element type="Spell" id="ID_PHB_SPELL_DRUIDCRAFT" />
 			<element type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" />
-			<element type="Racial Trait" id="ID_WOTC_WBW_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC_WISDOM" />
 			<element type="Ability Score Improvement" id="ID_WOTC_ASI_ABILITY_SCORE_IMPROVEMENT_OPTION_1" />
 			<element type="Ability Score Improvement" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_2" />
 			<element type="Ability Score Improvement" id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1" />
-			<element type="Level" id="ID_LEVEL_3" />
-			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_3" />
-			<element type="Level" id="ID_LEVEL_4" />
+			<element type="Language" id="ID_LANGUAGE_GIANT" />
+			<element type="Language" id="ID_GGTR_LANGUAGE_MERFOLK" />
+			<element type="Racial Trait" id="ID_WOTC_WBW_RACIAL_TRAIT_FAIRY_FAIRY_MAGIC_WISDOM" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
+			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
+			<element type="Spell" id="ID_PHB_SPELL_SPARE_THE_DYING" />
+			<element type="Spell" id="ID_PHB_SPELL_GUIDANCE" />
+			<element type="Spell" id="ID_PHB_SPELL_MENDING" />
 			<element type="Background" id="ID_WOTC_WBW_BACKGROUND_FEYLOST" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
 			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
 			<element type="Background Feature" id="ID_WOTC_WBW_BACKGROUND_FEATURE_FEYWILD_CONNECTION" />
-			<element type="Language" id="ID_LANGUAGE_GIANT" />
-			<element type="Language" id="ID_GGTR_LANGUAGE_MERFOLK" />
-			<element type="Language" id="ID_LANGUAGE_GNOMISH" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_MEDICINE" />
-			<element type="Proficiency" id="ID_PROFICIENCY_SKILL_RELIGION" />
 			<element type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_FLUTE" />
-			<element type="Spell" id="ID_PHB_SPELL_SPARE_THE_DYING" />
-			<element type="Spell" id="ID_PHB_SPELL_GUIDANCE" />
-			<element type="Spell" id="ID_PHB_SPELL_MENDING" />
-			<element type="Spell" id="ID_XGTE_SPELL_SHAPE_WATER" />
-			<element type="Spell" id="ID_PHB_SPELL_THORN_WHIP" />
-			<element type="Armor" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER" />
-			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
-			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_DAGGER" />
+			<element type="Language" id="ID_LANGUAGE_GNOMISH" />
 			<element type="Alignment" id="ID_ALIGNMENT_CHAOTIC_GOOD" />
 			<element type="Deity" id="ID_WOTC_PHB_DEITY_SELUNE" />
+			<element type="Level" id="ID_LEVEL_2" />
+			<element type="Level" id="ID_LEVEL_3" />
+			<element type="Grants" id="ID_INTERNAL_MULTICLASS_LEVEL_3" />
+			<element type="Spell" id="ID_PHB_SPELL_SHILLELAGH" />
+			<element type="Spell" id="ID_PHB_SPELL_THORN_WHIP" />
+			<element type="Level" id="ID_LEVEL_4" />
+			<element type="Armor" id="ID_WOTC_GEAR_SHIELD" />
+			<element type="Weapon" id="ID_WOTC_PHB_WEAPON_QUARTERSTAFF" />
+			<element type="Armor" id="ID_WOTC_ARMOR_LIGHT_STUDDED_LEATHER" />
+			<element type="Magic Item" id="ID_WOTC_DMG_MAGIC_ITEM_ARMOR_1" />
 			<element type="Class" id="ID_WOTC_PHB_CLASS_CLERIC" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
 			<element type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_PADDED" />
@@ -475,9 +497,9 @@ I have never lost my childlike sense of wonder.</background-traits>
 			<element type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_HOLY_SYMBOL" />
 			<element type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_DIVINEDOMAIN" />
+			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY" />
 			<element type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_CLERIC_CHANNELDIVINITY_TURN_UNDEAD" />
-			<element type="Grants" id="ID_INTERNAL_GRANTS_MULTICLASSING_PREREQUISITE" />
 			<element type="Archetype" id="ID_WOTC_TCOE_ARCHETYPE_CLERIC_TWILIGHT_DOMAIN" />
 			<element type="Archetype Feature" id="ID_WOTC_TCOE_ARCHETYPE_FEATURE_TWILIGHT_DOMAIN_DOMAIN_SPELLS" />
 			<element type="Spell" id="ID_PHB_SPELL_SLEEP" />
@@ -590,7 +612,7 @@ I have never lost my childlike sense of wonder.</background-traits>
 			<spellcasting name="Druid" ability="Wisdom" attack="5" dc="13" source="ID_WOTC_PHB_CLASS_FEATURE_DRUID_SPELLCASTING_DRUID">
 				<slots s1="3" s2="0" s3="0" s4="0" s5="0" s6="0" s7="0" s8="0" s9="0" />
 				<cantrips>
-					<spell name="Shape Water" level="0" id="ID_XGTE_SPELL_SHAPE_WATER" />
+					<spell name="Shillelagh" level="0" id="ID_PHB_SPELL_SHILLELAGH" />
 					<spell name="Thorn Whip" level="0" id="ID_PHB_SPELL_THORN_WHIP" />
 				</cantrips>
 				<spells>

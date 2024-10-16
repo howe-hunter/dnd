@@ -91,6 +91,25 @@
 			<stat name="ac:shield" value="2" bonus="shield" />
 		</rules>
 	</element>
+	<!--Cress's Weapons-->
+	<element name="Darksteel Longsword" type="Weapon" source="hunters-edits" id="ID_HH_HE_DARKSTEEL_LONGSWORD">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p>This sword is a +1 magical longsword, granting +1 to attack and damage rolls. It has a unique property: the ability to use Shadowstep. In darkness or dim light, the wielder can teleport up to 30 feet to an unoccupied space they can see as a bonus action. This power recharges on a short or long rest.</p>
+		</description>
+		<setters>
+			<set name="category">Magic Weapons</set>			
+			<set name="attunement">true</set>
+			<set name="rarity">Uncommon</set>
+			<set name="enhancement">1</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d8</set>
+			<set name="versatile">1d10</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
+		</setters>
+	</element>
 <!--spells===========================================================================================================================-->
   <!--Shadow Whip-->
   <element name="Shadow Whip" type="Spell" source="hunters-edits" id="ID_HH_HE_SPELL_SHADOW_WHIP">
