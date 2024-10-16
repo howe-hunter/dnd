@@ -9,8 +9,7 @@
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/main/hunters-edits/source.xml" />
-
-		<file name="hunters-edits.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/main/hunters-edits/hunters-edits.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/source.xml" />
+        <file name="hunters-edits.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/hunters-edits.index" />
 	</files>
 </index>
