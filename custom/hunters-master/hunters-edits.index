@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>hunters-edits</name>
+		<description>hunter's personal tweaks and fixes for The Isles of Eight Campaign 2021.</description>
+		<author url="https://github.com/howe-hunter">howe-hunter</author>
+		<update version="0.11.1">
+			<file name="hunters-edits.index" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/hunters-edits.index" />
+		</update>
+	</info>
+	<files>
+		<file name="source.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/source.xml" />
+        <file name="hunters-edits.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/hunters-edits.xml" />
+		<file name="hunters_bloodhunter.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/hunters_bloodhunter.xml" />
+		<file name="hunters_order-of-lycans.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/hunters_order-of-lycans.xml" />
+	</files>
+</index>
