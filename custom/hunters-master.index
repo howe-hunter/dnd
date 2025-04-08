@@ -5,13 +5,15 @@
 		<description>hunter's personal master index for Aurora Builder v2.0 2023.</description>
 		<author url="https://github.com/howe-hunter">howe-hunter</author>
 		<update version="2.0">
-			<file name="hunters-master.index" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-master.index" />
+			<file name="hunters-master.index" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/custom/hunters-master.index" />
 		</update>
 	</info>
 	<files>
 <!--hunters-edits===========================================================================================================================-->
-		<file name="source.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/source.xml" />
-        <file name="hunters-edits.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/hunters-edits.index" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/custom/hunters-edits/source.xml" />
+        <file name="hunters-edits.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/custom/hunters-edits/hunters-edits.xml" />
+		<file name="hunters_bloodhunter.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/custom/hunters-edits/hunters_bloodhunter.xml" />
+		<file name="hunters_order-of-lycans.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/custom/hunters-edits/hunters_order-of-lycans.xml" />
 <!--core===========================================================================================================================-->
 		<file name="internal.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/internal.xml" />
 		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide.index" />
