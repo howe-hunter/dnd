@@ -11,9 +11,7 @@
 	<files>
 <!--hunters-edits===========================================================================================================================-->
 		<file name="source.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/source.xml" />
-        <file name="hunters-edits.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/hunters-edits.index" />
-		<file name="hunters_bloodhunter.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/hunters_bloodhunter.xml" />
-		<file name="hunters_order-of-lycans.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/hunters_order-of-lycans.xml" />
+        <file name="hunters-edits.index" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/hunters-edits.index" />
 <!--core===========================================================================================================================-->
 		<file name="internal.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/internal.xml" />
 		<file name="dungeon-masters-guide.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core/dungeon-masters-guide.index" />
@@ -63,7 +61,8 @@
 <!--unearthed-arcana===========================================================================================================================-->
 		<file name="planeshift.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/unearthed-arcana/planeshift.index" />
 <!--third-party===========================================================================================================================-->
-		<file name="critical-role.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/critical-role.index" />
-		<file name="taldorei-reborn.index" url="https://raw.githubusercontent.com/mamawerecat/AuroraCustomContent/main/taldorei-reborn.index" />
+		<file name="bard-maestro.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/critical-role/classes/bard-maestro.xml" />
+ 		<file name="fighter-gunslinger.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/critical-role/classes/fighter-gunslinger.xml" />
+ 		<file name="barbarian-totem-duck.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/critical-role/classes/barbarian-totem-duck.xml" /><file name="taldorei-reborn.index" url="https://raw.githubusercontent.com/mamawerecat/AuroraCustomContent/main/taldorei-reborn.index" />
 	</files>
 </index>
