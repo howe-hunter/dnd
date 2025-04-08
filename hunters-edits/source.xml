@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="sources.xml" url="" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/source.xml" />
 		</update>
 	</info>
 	<element name="hunters-edits" type="Source" source="hunters-edits" id="ID_HUNTER_SOURCE_HUNTERS_EDITS">
