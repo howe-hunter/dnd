@@ -2,26 +2,26 @@
 <elements>
     <info>
         <name>Blood Hunter</name>
-        <description>The Blood Hunter class (v2.0).</description>
-        <author url="http://www.dmsguild.com/product/170777/Blood-Hunter-Class">Matthew Mercer</author>
-        <update version="0.1.9">
-            <file name="class-bloodhunter.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/third-party/critical-role/classes/class-bloodhunter.xml" />
+        <description>the blood hunter class from Critical Role</description>
+        <author url="https://github.com/howe-hunter">howe-hunter</author>
+        <update version="0.11.1">
+            <file name="hunters_bloodhunter.xml" url="https://raw.githubusercontent.com/howe-hunter/dnd/refs/heads/main/hunters-edits/hunters_bloodhunter.xml" />
         </update>
     </info>
-    <element name="Blood Hunter" type="Class" source="Critical Role" id="ID_CRIT_CLASS_BLOOD_HUNTER">
+    <element name="Blood Hunter" type="Class" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_BLOOD_HUNTER">
         <description>
-            <p>In a landscape tormented by all manner of beasts, devils, and abominations from beyond the veil, most live in fear of the dark, of superstition, and of the unknown. Some grow hardened by this experience, instead choosing to stand up and fight against the tide of shadow. These folk are called ‘heroes’.</p>
+            <p>In a landscape tormented by all manner of beasts, devils, and abominations from beyond the veil, most live in fear of the dark, of superstition, and of the unknown. Some grow hardened by this experience, instead choosing to stand up and fight against the tide of shadow. These folk are called 'heroes'.</p>
             <p class="indent">Some, however, are so fanatical and bent on destroying the anethema that plagues the countryside that they embrace dark, forbidden knowledge. They sacrifice some of their own vital force in dubious, forgotten blood rituals to better understand their enemies. Their methods sometimes blur the line between themselves and the evils they hunt, calling their own humanity into question.</p>
-            <p class="indent">These folk are called ‘Blood Hunters’.</p>
+            <p class="indent">These folk are called 'Blood Hunters'.</p>
             <h4>BECOME THE ENEMY TO UNDERSTAND THE ENEMY</h4>
-            <p>These warriors have chosen to merge the martial pursuit of deadly weapon paly with elements of vicious blood magic to create impressively effective combat techniques. They surrender their own vitality to form a bond with their weapon, allowing them to harness the elements in a whirlwind of dangerous strikes. Their deep knowledge and unnatural connection with wicked creatures allows them an advantage in tracking, hunting, and destroying even the most resilient of abhorrent fiends. By mastering control over their own lifeblood and the lifeblood of others, they gain insight into their foes and the ability to manipulate them from the inside. Some brew crude, poisonous alchemical tonics from the harvested organs of felled monsters, mutating their blood and bodies to be even further in tune with their quarry, becoming something other than human themselves. Others go further, reaching out and making a pact with lesser dark entities in hopes of using their grim gifts against greaters evils. Many blood hunters push too far for their goals, falling to their own hubris and becoming the monsters they’ve chosen to hunt. This is the greatest feat of a blood hunter, and of the societies at large that shun them.</p>
+            <p>These warriors have chosen to merge the martial pursuit of deadly weapon paly with elements of vicious blood magic to create impressively effective combat techniques. They surrender their own vitality to form a bond with their weapon, allowing them to harness the elements in a whirlwind of dangerous strikes. Their deep knowledge and unnatural connection with wicked creatures allows them an advantage in tracking, hunting, and destroying even the most resilient of abhorrent fiends. By mastering control over their own lifeblood and the lifeblood of others, they gain insight into their foes and the ability to manipulate them from the inside. Some brew crude, poisonous alchemical tonics from the harvested organs of felled monsters, mutating their blood and bodies to be even further in tune with their quarry, becoming something other than human themselves. Others go further, reaching out and making a pact with lesser dark entities in hopes of using their grim gifts against greaters evils. Many blood hunters push too far for their goals, falling to their own hubris and becoming the monsters they've chosen to hunt. This is the greatest feat of a blood hunter, and of the societies at large that shun them.</p>
             <h4>ALMOST AS FEARED AS THEIR PREY</h4>
-            <p>The nature of their abilities and training has bred many rumors across the lands, some of which aren’t too far from the truth. Common folk consider them cursed, often turning them away at the door. Nobles see them as occasionally convenient, but a generally reviled nuisance. Mages find them useful allies if kept at arm’s length, while pious clerics and paladins keep their distance with a watchful eye. To be a blood hunter is to accept a life of solitude until proven trustworthy and dependable.</p>
+            <p>The nature of their abilities and training has bred many rumors across the lands, some of which aren't too far from the truth. Common folk consider them cursed, often turning them away at the door. Nobles see them as occasionally convenient, but a generally reviled nuisance. Mages find them useful allies if kept at arm's length, while pious clerics and paladins keep their distance with a watchful eye. To be a blood hunter is to accept a life of solitude until proven trustworthy and dependable.</p>
             <h4>CREATING A BLOOD HUNTER</h4>
-            <p>As you create your blood hunter, keep in mind how your character relates to society and why they have taken to a life of monster hunting. Do they inth to protect society and as such have paid the ulitmate price? Do they have a family they inth to protect at all costs? Did they make a mistake that cost them greatly, and they inth to make amends for their folly? Or are they bent on vengeance for some past wounds or loss that drove them to choose this dark warrior’s path?</p>
+            <p>As you create your blood hunter, keep in mind how your character relates to society and why they have taken to a life of monster hunting. Do they inth to protect society and as such have paid the ulitmate price? Do they have a family they inth to protect at all costs? Did they make a mistake that cost them greatly, and they inth to make amends for their folly? Or are they bent on vengeance for some past wounds or loss that drove them to choose this dark warrior's path?</p>
             <p class="indent">While a blood hunter begins their journey alone, they also acknowledge the strength in numbers and the benefits of trusted companions. Many blood hunters keep allies to both ensure that they succeed at their hunts, and to keep a watchful eye to prevent them from losing touch with their humanity. A blood hunter without conviction in lost, and often an honest friend is enough to keep them from straying.</p>
             <h5>QUICK BUILD</h5>
-            <p>You can make a blood hunter quickly by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons, or ranged and finesse weapons. Make Wisdom your next highest if you plan to focus on the potency of blood curses and mystical powers. Choose a higher Constitution next if you inth to use Crimson Rite on multiple weapons or want to have extra hit points to burn on amplifying blood curses. Then, select the Haunted One or Acolyte background.</p>
+            <p>You can make a blood hunter quickly by following these suggestions. First, make Strength or Dexterity your highest ability score, depending on whether you want to focus on melee weapons, or ranged and finesse weapons. Make intelligence your next highest if you plan to focus on the potency of blood curses and mystical powers. Choose a higher Constitution next if you inth to use Crimson Rite on multiple weapons or want to have extra hit points to burn on amplifying blood curses. Then, select the Haunted One or Acolyte background.</p>
             <h3>CLASS FEATURES</h3>
             <p>As a blood hunter, you gain the following class features.</p>
             <h5>HIT POINTS</h5>
@@ -38,10 +38,10 @@
                 <br />
                 <span class="emphasis">Weapons:</span>Simple weapons, martial weapons 
                 <br />
-                <span class="emphasis">Tools:</span>Alchemist’s supplies 
+                <span class="emphasis">Tools:</span>Alchemist's supplies 
             </p>
             <p>
-                <span class="emphasis">Saving Throws:</span>Strength, Wisdom 
+                <span class="emphasis">Saving Throws:</span>Strength, Intelligence 
                 <br />
                 <span class="emphasis">Skills:</span>Choose two skills from Athletics, Acrobatics, Arcana, History, Insight, Investigation, and Survival 
             </p>
@@ -60,19 +60,19 @@
                     <i>(a)</i> studded leather armor or 
                     <i>(b)</i> scale mail armor 
                 </li>
-                <li> an explorer’s pack </li>
+                <li> an explorer's pack </li>
             </ul>
-            <div element="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_HUNTERS_BANE" />
-            <div element="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_CRIMSON_RITE" />
-            <div element="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_FIGHTING_STYLE" />
-            <div element="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_MALEDICT" />
-            <div element="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_HUNTER_ORDER" />
-            <div element="ID_CRIT_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_BLOODHUNTER" />
-            <div element="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_EXTRA_ATTACK" />
-            <div element="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_GRIM_PSYCHOMETRY" />
-            <div element="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_DARK_VELOCITY" />
-            <div element="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_HARDENED_SOUL" />
-            <div element="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_SANGUINE_MASTERY" />
+            <div element="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_HUNTERS_BANE" />
+            <div element="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_CRIMSON_RITE" />
+            <div element="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_FIGHTING_STYLE" />
+            <div element="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_MALEDICT" />
+            <div element="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_HUNTER_ORDER" />
+            <div element="ID_HUNTER_HH_HE_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_BLOODHUNTER" />
+            <div element="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_EXTRA_ATTACK" />
+            <div element="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_GRIM_PSYCHOMETRY" />
+            <div element="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_DARK_VELOCITY" />
+            <div element="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_HARDENED_SOUL" />
+            <div element="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_SANGUINE_MASTERY" />
         </description>
         <setters>
             <set name="short">A hunter that sacrifices his own vitality and humanity to protect the realms.</set>
@@ -88,22 +88,22 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_CRIT_MULTICLASS_BLOOD_HUNTER"/>
             <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES" requirements="!ID_CRIT_MULTICLASS_BLOOD_HUNTER"/>
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_CRIT_MULTICLASS_BLOOD_HUNTER"/>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_CRIT_MULTICLASS_BLOOD_HUNTER"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_CRIT_MULTICLASS_BLOOD_HUNTER"/>
             <select type="Proficiency" name="Skill Proficiency (Blood Hunter)" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" requirements="!ID_CRIT_MULTICLASS_BLOOD_HUNTER"/>
-            <grant type="Class Feature" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_HUNTERS_BANE" level="1" />
-            <grant type="Class Feature" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_CRIMSON_RITE" level="1" />
-            <grant type="Class Feature" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_FIGHTING_STYLE" level="2" />
-            <grant type="Class Feature" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_MALEDICT" level="2" />
-            <grant type="Class Feature" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_HUNTER_ORDER" level="3" />
-            <grant type="Class Feature" id="ID_CRIT_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_BLOODHUNTER" level="4" />
-            <grant type="Class Feature" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_EXTRA_ATTACK" level="5" />
-            <grant type="Class Feature" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_GRIM_PSYCHOMETRY" level="9" />
-            <grant type="Class Feature" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_DARK_VELOCITY" level="10" />
-            <grant type="Class Feature" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_HARDENED_SOUL" level="14" />
-            <grant type="Class Feature" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_SANGUINE_MASTERY" level="20" />
+            <grant type="Class Feature" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_HUNTERS_BANE" level="1" />
+            <grant type="Class Feature" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_CRIMSON_RITE" level="1" />
+            <grant type="Class Feature" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_FIGHTING_STYLE" level="2" />
+            <grant type="Class Feature" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_MALEDICT" level="2" />
+            <grant type="Class Feature" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_HUNTER_ORDER" level="3" />
+            <grant type="Class Feature" id="ID_HUNTER_HH_HE_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_BLOODHUNTER" level="4" />
+            <grant type="Class Feature" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_EXTRA_ATTACK" level="5" />
+            <grant type="Class Feature" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_GRIM_PSYCHOMETRY" level="9" />
+            <grant type="Class Feature" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_DARK_VELOCITY" level="10" />
+            <grant type="Class Feature" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_HARDENED_SOUL" level="14" />
+            <grant type="Class Feature" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_SANGUINE_MASTERY" level="20" />
         </rules>
         <multiclass id="ID_CRIT_MULTICLASS_BLOOD_HUNTER">
-            <prerequisite>Strength 13 or Dexterity 13, and Wisdom 13</prerequisite>
+            <prerequisite>Strength 13 or Dexterity 13, and Intelligence 13</prerequisite>
             <requirements>([str:13]||[dex:13]),[int:13],!ID_DMSG_MMBH_CLASS_BLOOD_HUNTER,!ID_DMSG_MMBH_MULTICLASS_BLOOD_HUNTER</requirements>
             <setters>
                 <set name="multiclass proficiencies">Light armor, medium armor, shields, simple weapons, martial weapons, alchemical supplies</set>
@@ -119,18 +119,18 @@
             </rules>
         </multiclass>
     </element>
-    <element name="Hunter’s Bane" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_HUNTERS_BANE">
+    <element name="Hunter's Bane" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_HUNTERS_BANE">
         <description>
-            <p>Beginning at 1st level, you have survived the inbibing of the Hunter’s Bane, a poisonous alchemical concoction that alters your life’s blood, forever binding you to the darkness and honing your senses against it.</p>
-            <p class="indent">You have advantage on Wisdom (Survival) checks to track Fey, Fiends, and Undead, as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creatures types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.</p>
-            <p class="indent">Upon reaching 11th level, you can flare the internal toxic scars from the ritual, using the pain to give clarity, or promote anger. You can choose to suffer damage equal to a roll of your crimson rite damage die to gain advantage on a Wisdom (Insight) check or Charisma (Intimidation) check.</p>
+            <p>Beginning at 1st level, you have survived the inbibing of the Hunter's Bane, a poisonous alchemical concoction that alters your life's blood, forever binding you to the darkness and honing your senses against it.</p>
+            <p class="indent">You have advantage on Intelligence (Survival) checks to track Fey, Fiends, and Undead, as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creatures types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.</p>
+            <p class="indent">Upon reaching 11th level, you can flare the internal toxic scars from the ritual, using the pain to give clarity, or promote anger. You can choose to suffer damage equal to a roll of your crimson rite damage die to gain advantage on a Intelligence (Insight) check or Charisma (Intimidation) check.</p>
         </description>
         <sheet>
             <description>You have advantage on Survival checks to track Fey, Fiends, and Undead as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creatures types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time.</description>
             <description level="11">You have advantage on Survival checks to track Fey, Fiends, and Undead as well as on Intelligence checks to recall information about them. If you are actively tracking one of these creatures types, you cannot be surprised by any creatures of that type. You can only be tracking one type of creature at a time. You can choose to suffer damage equal to a roll of your crimson rite damage die to gain advantage on a Insight check or Intimidation check.</description>
         </sheet>
     </element>
-    <element name="Crimson Rite" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_CRIMSON_RITE">
+    <element name="Crimson Rite" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_CRIMSON_RITE">
         <description>
             <p>At 1st level, you learn to invoke a rite of blood magic within your weapon at the cost of your own vitality. Choose to learn one rite from the Primal Rites list below. You cannot change this choice.</p>
             <p class="indent">As a bonus action, you imbue a single weapon with the elemental energy of a known rite until your next short or long rest. While active, attacks from this weapon deal an additional 1d4 rite damage of the chosen elemental type. Rite damage is considered magical. The rite damage die changes as you gain blood hunter levels, as shown in the crimson rite damage die column of the blood hunter table. Should your weapon leave your grip, the rite fades immediately. An active rite on a weapon thrown fades directly after the attack is complete.</p>
@@ -153,7 +153,7 @@
         </rules>
     </element>
     <!-- Primal Rites -->
-    <element name="Rite of the Flame" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_PRIMAL_RITE_FLAME">
+    <element name="Rite of the Flame" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_PRIMAL_RITE_FLAME">
         <supports>Blood Hunter, Primal Rite</supports>
         <description>
             <p>Your rite damage is fire type.</p>
@@ -162,7 +162,7 @@
             <description>Your rite damage is fire type.</description>
         </sheet>
     </element>
-    <element name="Rite of the Frozen" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_PRIMAL_RITE_FROZEN">
+    <element name="Rite of the Frozen" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_PRIMAL_RITE_FROZEN">
         <supports>Blood Hunter, Primal Rite</supports>
         <description>
             <p>Your rite damage is cold type.</p>
@@ -171,7 +171,7 @@
             <description>Your rite damage is cold type.</description>
         </sheet>
     </element>
-    <element name="Rite of the Storm" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_PRIMAL_RITE_STORM">
+    <element name="Rite of the Storm" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_PRIMAL_RITE_STORM">
         <supports>Blood Hunter, Primal Rite</supports>
         <description>
             <p>Your rite damage is lightning type.</p>
@@ -181,7 +181,7 @@
         </sheet>
     </element>
     <!-- Esoteric Rites -->
-    <element name="Rite of the Roar" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_ESOTERIC_RITE_ROAR">
+    <element name="Rite of the Roar" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_ESOTERIC_RITE_ROAR">
         <supports>Blood Hunter, Esoteric Rite</supports>
         <description>
             <p>Your rite damage is thunder type.</p>
@@ -190,7 +190,7 @@
             <description>Your rite damage is thunder type.</description>
         </sheet>
     </element>
-    <element name="Rite of the Oracle" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_ESOTERIC_RITE_ORACLE">
+    <element name="Rite of the Oracle" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_ESOTERIC_RITE_ORACLE">
         <supports>Blood Hunter, Esoteric Rite</supports>
         <description>
             <p>Your rite damage is psychic type.</p>
@@ -199,7 +199,7 @@
             <description>Your rite damage is psychic type.</description>
         </sheet>
     </element>
-    <element name="Rite of the Dead" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_ESOTERIC_RITE_DEAD">
+    <element name="Rite of the Dead" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_ESOTERIC_RITE_DEAD">
         <supports>Blood Hunter, Esoteric Rite</supports>
         <description>
             <p>Your rite damage is necrotic type.</p>
@@ -209,9 +209,9 @@
         </sheet>
     </element>
     <!-- /Esoteric Rites -->
-    <element name="Fighting Style" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_FIGHTING_STYLE">
+    <element name="Fighting Style" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_FIGHTING_STYLE">
         <description>
-            <p>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
+            <p>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
             <h5 class="caption">ARCHERY</h5>
             <p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
             <h5 class="caption">DUELING</h5>
@@ -226,10 +226,10 @@
             <select type="Class Feature" name="Fighting Style" supports="ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_ARCHERY|ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_DUELING|ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_GREAT_WEAPON_FIGHTING|ID_WOTC_PHB_CLASS_FEATURE_FIGHTINGSTYLE_TWOWEAPON_FIGHTING" level="1"/>
         </rules>
     </element>
-    <element name="Blood Maledict" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_MALEDICT">
+    <element name="Blood Maledict" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_MALEDICT">
         <description>
-            <p>At 2nd level, you gain the knowledge to further channel, and sacrifice, a part of your vital essence to curse and manipulate your enemies. You gain one blood curse of your choice, detailed in the “blood curses” section below. You learned one additional blood curse of your choice at 5th, 9th, 13th, 16th, and 20th level.</p>
-            <p class="indent">When you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to <i>amplify</i> the curse by suffering damage equal to a roll of your crimson rite damage die. An amplified curse gains an additional effect, noted in the curse’s description. Creatures that do not have blood in their bodies are immune to the blood curses (DM’s discretion).</p>
+            <p>At 2nd level, you gain the knowledge to further channel, and sacrifice, a part of your vital essence to curse and manipulate your enemies. You gain one blood curse of your choice, detailed in the "blood curses" section below. You learned one additional blood curse of your choice at 5th, 9th, 13th, 16th, and 20th level.</p>
+            <p class="indent">When you use your Blood Maledict, you choose which curse to invoke. While invoking a blood curse, but before it affects the target, you may choose to <i>amplify</i> the curse by suffering damage equal to a roll of your crimson rite damage die. An amplified curse gains an additional effect, noted in the curse's description. Creatures that do not have blood in their bodies are immune to the blood curses (DM's discretion).</p>
             <p class="indent">You can use this feature once. You regain expended uses when you finish a short or long rest. Beginning at 6th level, you can use your Blood Maledict feature twice between rests, at 11th level you can use it three times between rests, and at 17th level you can use it four times between rests.</p>
         </description>
         <sheet>
@@ -248,7 +248,7 @@
             <stat name="blood maledict:curse count" value="1" level="17" />
         </rules>
     </element>
-    <element name="Blood Hunter Order" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_HUNTER_ORDER">
+    <element name="Blood Hunter Order" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_HUNTER_ORDER">
         <description>
             <p>At 3rd level, you commit to an order of blood hunter martial focus. Choose Order of the Mutant, Order of the Ghostslayer, or Order of the Profane Soul, all detailed at the end of the class description. The order you choose grants you features at 3rd level, and again at 7th, 11th, 15th, and 18th level.</p>
         </description>
@@ -257,10 +257,10 @@
             <select type="Archetype" name="Blood Hunter Order" supports="Blood Hunter Order" />
         </rules>
     </element>
-    <element name="Ability Score Improvement" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_BLOODHUNTER">
+    <element name="Ability Score Improvement" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_BLOODHUNTER">
 		<compendium display="false" />
         <description>
-            <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+            <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
         </description>
         <sheet display="false" />
         <rules>
@@ -271,7 +271,7 @@
             <select type="Class Feature" name="Improvement Option (Blood Hunter 19)" supports="Improvement Option,Blood Hunter,19" level="19" />
         </rules>
     </element>
-    <element name="Extra Attack" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_EXTRA_ATTACK">
+    <element name="Extra Attack" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_EXTRA_ATTACK">
         <description>
             <p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
         </description>
@@ -282,15 +282,15 @@
 			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
 		</rules>
     </element>
-    <element name="Grim Psychometry" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_GRIM_PSYCHOMETRY">
+    <element name="Grim Psychometry" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_GRIM_PSYCHOMETRY">
         <description>
-            <p>When you reach 9th level, you can take 10 minutes to meditate on an object to discern vague details regarding any lingering evil or wicked past surrounding it. Make a Wisdom ability check. Based on the result, the DM may reveal obscure information about dark events that may have previously surrounded the object, or hints towards a sinister purpose. This feature has no effect on objects untouched by evil. An object can only be targeted by this feature once, and future attempts reveal no further details.</p>
+            <p>When you reach 9th level, you can take 10 minutes to meditate on an object to discern vague details regarding any lingering evil or wicked past surrounding it. Make an Intelligence ability check. Based on the result, the DM may reveal obscure information about dark events that may have previously surrounded the object, or hints towards a sinister purpose. This feature has no effect on objects untouched by evil. An object can only be targeted by this feature once, and future attempts reveal no further details.</p>
         </description>
         <sheet>
             <description>You can take 10 minutes to meditate on an object to discern vague details regarding any lingering evil or wicked past surrounding it.</description>
         </sheet>
     </element>
-    <element name="Dark Velocity" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_DARK_VELOCITY">
+    <element name="Dark Velocity" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_DARK_VELOCITY">
         <description>
             <p>Upon reaching 10th level, you beckon the surrounding shadows to grant you unnatural swiftness on the battlefield. You gain darkvision out to 30 feet, or if you have darkvision, extend it out an additional 30 feet. While in dim light or darkness, your speed increases by 10 feet, and attacks of opportunity made against you have disadvantage.</p>
         </description>
@@ -301,7 +301,7 @@
             <grant type="Vision" id="ID_VISION_DARKVISION" />
         </rules>
     </element>
-    <element name="Hardened Soul" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_HARDENED_SOUL">
+    <element name="Hardened Soul" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_HARDENED_SOUL">
         <description>
             <p>When you reach 14th level, you can no longer become Frightened, and you have advantage on saving throws against magical Charm effects.</p>
         </description>
@@ -309,7 +309,7 @@
             <description>You can no longer become Frightened, and you have advantage on saving throws against magical Charm effects.</description>
         </sheet>
     </element>
-    <element name="Sanguine Mastery" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_SANGUINE_MASTERY">
+    <element name="Sanguine Mastery" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_SANGUINE_MASTERY">
         <description>
             <p>Upon becoming 20th level, your ability to harness your pain, and the pain of your foes, is perfected. When you are below one fourth of your current maximum hit points, all of your crimson rite damage dice are maximized.</p>
             <p class="indent">In addition, when you critically hit when a weapon attack that bears your crimson rite, you regain a use of your blood maledict feature.</p>
@@ -319,19 +319,19 @@
         </sheet>
     </element>
     <!-- Blood Curses -->
-    <element name="Blood Curse of Binding" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_BINDING">
+    <element name="Blood Curse of Binding" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_BINDING">
         <supports>Blood Curse</supports>
         <description>
-            <p>As a bonus action, you can attempt to bind an enemy no more than one size larger than you within 30 feet. The target must succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or have their speed be reduced to 0 until the end of your next turn.</p>
+            <p>As a bonus action, you can attempt to bind an enemy no more than one size larger than you within 30 feet. The target must succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your Intelligence modifier) or have their speed be reduced to 0 until the end of your next turn.</p>
             <p class="indent"><b><i>Amplify.</i></b> This curse becomes ongoing, and can affect a creature regardless of their size category. At the end of each of its turns, the cursed can make another Strength saving throw. On a success, this curse ends. You can end the curse whenever you like (no action required).
                                     
             </p>
         </description>
         <sheet>
-            <description>As a bonus action, you can attempt to bind an enemy no more than one size larger than you within 30 feet. The target must succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or have their speed be reduced to 0 until the end of your next turn.</description>
+            <description>As a bonus action, you can attempt to bind an enemy no more than one size larger than you within 30 feet. The target must succeed on a Strength saving throw (DC equal to 8 + your proficiency bonus + your Intelligence modifier) or have their speed be reduced to 0 until the end of your next turn.</description>
         </sheet>
     </element>
-    <element name="Blood Curse of the Eyeless" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_THE_EYELESS">
+    <element name="Blood Curse of the Eyeless" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_THE_EYELESS">
         <supports>Blood Curse</supports>
         <description>
             <p>When an enemy who is not immune to blindness within 60 feet makes a weapon attack, you can use your reaction to impose disadvantage on the attack roll.</p>
@@ -343,11 +343,11 @@
             <description>When an enemy who is not immune to blindness within 60 feet makes a weapon attack, you can use your reaction to impose disadvantage on the attack roll.</description>
         </sheet>
     </element>
-    <element name="Blood Curse of the Fallen Puppet" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_THE_FALLEN_PUPPET">
+    <element name="Blood Curse of the Fallen Puppet" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_THE_FALLEN_PUPPET">
         <supports>Blood Curse</supports>
         <description>
             <p>The moment a creature falls unconscious or dies within 30 feet of you, you can use your reaction to give that creature a final act of aggression. That creature immediately makes a single weapon attack against a target of your choice within its attack range. After the attack, the creature returns to being unconscious or dead.</p>
-            <p class="indent"><b><i>Amplify.</i></b> You grant a bonus to the attack roll and damage roll of the cursed creature’s attack equal to your Wisdom modifier (minimum of 1).
+            <p class="indent"><b><i>Amplify.</i></b> You grant a bonus to the attack roll and damage roll of the cursed creature's attack equal to your Intelligence modifier (minimum of 1).
                                     
             </p>
         </description>
@@ -355,10 +355,10 @@
             <description>You can use your reaction to give that creature a final act of aggression. That creature immediately makes a single weapon attack against a target of your choice within its attack range.</description>
         </sheet>
     </element>
-    <element name="Blood Curse of the Fending Rite" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_THE_FENDING_RITE">
+    <element name="Blood Curse of the Fending Rite" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_THE_FENDING_RITE">
         <supports>Blood Curse</supports>
         <description>
-            <p>When an enemy casts a spell that requires a Dexterity saving throw, you can use your reaction to deflect the spell with your crimson rite. You gain a bonus to the initial saving throw against that spell equall to your Wisdom modifier (minimum of 1). This curse is invoked before the saving throw is rolled.</p>
+            <p>When an enemy casts a spell that requires a Dexterity saving throw, you can use your reaction to deflect the spell with your crimson rite. You gain a bonus to the initial saving throw against that spell equall to your Intelligence modifier (minimum of 1). This curse is invoked before the saving throw is rolled.</p>
             <p class="indent"><b><i>Amplify.</i></b> You grant all allies within 5 feet of you this bonus to their saving throw against the triggering spell as well.
                                     
             </p>
@@ -367,7 +367,7 @@
             <description>When an enemy casts a spell that requires a Dexterity saving throw, you can use your reaction to deflect the spell with your crimson rite. You gain a +{{intelligence:modifier}} bonus to the initial saving throw against that spell.</description>
         </sheet>
     </element>
-    <element name="Blood Curse of the Marked" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_THE_MARKED">
+    <element name="Blood Curse of the Marked" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_THE_MARKED">
         <supports>Blood Curse</supports>
         <description>
             <p>As a bonus action, you can mark an enemy within 60 feet. Until the end of your turn, all crimson rite damage you deal to the target is doubled.</p>
@@ -379,7 +379,7 @@
             <description>As a bonus action, you can mark an enemy within 60 feet. Until the end of your turn, all crimson rite damage you deal to the target is doubled.</description>
         </sheet>
     </element>
-    <element name="Blood Curse of Mutual Suffering" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_MUTUAL_SUFFERING">
+    <element name="Blood Curse of Mutual Suffering" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_MUTUAL_SUFFERING">
         <supports>Blood Curse</supports>
         <description>
             <p>As a bonus action, you can link to a creature within 30 feet for up to a minute, forcing them to share in the pain they inflict upon you. The next time the cursed creature damages you with a weapon attack, this curse deals necrotic damage to the cursed creature equal to half of the damage you suffered. This curse then ends.</p>
@@ -389,7 +389,7 @@
             <description>As a bonus action, you can link to a creature within 30 feet for up to a minute, forcing them to share in the pain they inflict upon you. The next time the cursed creature damages you with a weapon attack, this curse deals necrotic damage to the cursed creature equal to half of the damage you suffered. This curse then ends.</description>
         </sheet>
     </element>
-    <element name="Blood Curse of Purgation" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_PURGATION">
+    <element name="Blood Curse of Purgation" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_PURGATION">
         <supports>Blood Curse</supports>
         <description>
             <p>As a bonus action, you can manipulate the vitality of a creature within 60 feet to expunge a corruption in their blood. The target creature can immediately make a saving throw against a poisoned condition afflicting it.</p>
@@ -399,11 +399,11 @@
             <description>As a bonus action, you can manipulate the vitality of a creature within 60 feet to expunge a corruption in their blood. The target creature can immediately make a saving throw against a poisoned condition afflicting it.</description>
         </sheet>
     </element>
-    <element name="Blood Curse of Spell Sunder" type="Class Feature" source="Critical Role" id="ID_CRIT_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_SPELL_SUNDER">
+    <element name="Blood Curse of Spell Sunder" type="Class Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_CLASS_FEATURE_BLOOD_HUNTER_BLOOD_CURSE_OF_SPELL_SUNDER">
         <supports>Blood Curse</supports>
         <description>
             <p>When an enemy casts a spell within 60 feet that requires a spell attack roll and targets you, you can use your reaction to rend the spell from the air, imposing disadvantage on the spell attack roll.</p>
-            <p class="indent"><b><i>Amplify.</i></b> You make a Wisdom ability check. The DC equals 10 + the spell’s level. On a success, the creature’s spel misses you automatically.
+            <p class="indent"><b><i>Amplify.</i></b> You make a Intelligence ability check. The DC equals 10 + the spell's level. On a success, the creature's spel misses you automatically.
                                     
             </p>
         </description>
@@ -414,15 +414,15 @@
     <!-- /Blood Curses -->
 
     <!-- Ghostslayer -->
-    <element name="Order of the Ghostslayer" type="Archetype" source="Critical Role" id="ID_CRIT_ARCHETYPE_BLOOD_HUNTER_ORDER_OF_THE_GHOSTSLAYER">
+    <element name="Order of the Ghostslayer" type="Archetype" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_BLOOD_HUNTER_ORDER_OF_THE_GHOSTSLAYER">
         <supports>Blood Hunter Order</supports>
         <description>
             <p>The Order of the Ghostslayer is the oldest and most driven of the orders, having rediscovered the secrets of blood magic and refined them for combat against the scourge of undeath. Ghostslayers seek out and study the moment of death, obsessing over the mysteries of the transition. Some will sit with the terminally diseased to closely witness their passing, while others go so far as to deliberately have a near-death experience, allowing them to tune their body and senses to the ethereal realms beyond.</p>
-            <div element="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_RITE_OF_THE_DAWN" />
-            <div element="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_HALLOWED_VEINS" />
-            <div element="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_SUPERNAL_SURGE" />
-            <div element="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_GRAVESIGHT" />
-            <div element="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_VENGEFUL_SPIRIT" />
+            <div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_RITE_OF_THE_DAWN" />
+            <div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_HALLOWED_VEINS" />
+            <div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_SUPERNAL_SURGE" />
+            <div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_GRAVESIGHT" />
+            <div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_VENGEFUL_SPIRIT" />
         </description>
         <setters>
             <set name="sourceUrl">http://www.dmsguild.com/product/170777/Blood-Hunter-Class</set>
@@ -431,20 +431,20 @@
             <description>The Order of the Ghostslayer is the oldest and most driven of the orders, having rediscovered the secrets of blood magic and refined them for combat against the scourge of undeath.</description>
         </sheet>
         <rules>
-            <grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_RITE_OF_THE_DAWN" level="3" />
-            <grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_HALLOWED_VEINS" level="7" />
-            <grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_SUPERNAL_SURGE" level="11" />
-            <grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_GRAVESIGHT" level="15" />
-            <grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_VENGEFUL_SPIRIT" level="18" />
+            <grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_RITE_OF_THE_DAWN" level="3" />
+            <grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_HALLOWED_VEINS" level="7" />
+            <grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_SUPERNAL_SURGE" level="11" />
+            <grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_GRAVESIGHT" level="15" />
+            <grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_VENGEFUL_SPIRIT" level="18" />
         </rules>
     </element>
-    <element name="Rite of the Dawn" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_RITE_OF_THE_DAWN">
+    <element name="Rite of the Dawn" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_RITE_OF_THE_DAWN">
         <description>
             <p>When you join this order at 3rd level, you learn the esoteric rite Rite of the Dawn (detailed below).</p>
             <p class="indent"><b><i>Rite of the Dawn.</i></b> Your rite damage is radiant type.
                                     
             </p>
-            <p class="indent">If you hit an Undead creature with your Rite of the Dawn, it suffers additional radiant damage equal to your Wisdom modifier.</p>
+            <p class="indent">If you hit an Undead creature with your Rite of the Dawn, it suffers additional radiant damage equal to your Intelligence modifier.</p>
             <p class="indent">Upon reaching 11th level, any creature you hit with your Rite of the Dawn suffers this additional radiant damage.</p>
         </description>
         <sheet>
@@ -452,10 +452,10 @@
             <description level="11">If you hit a creature with your Rite of the Dawn, it suffers {{intelligence:modifier}} additional radiant damage.</description>
         </sheet>
         <rules>
-            <grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_ESOTERIC_RITE_DAWN" />
+            <grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_ESOTERIC_RITE_DAWN" />
         </rules>
     </element>
-    <element name="Rite of the Dawn" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_ESOTERIC_RITE_DAWN">
+    <element name="Rite of the Dawn" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_ESOTERIC_RITE_DAWN">
         <!-- <supports>Blood Hunter, Esoteric Rite</supports> -->
         <description>
             <p>Your rite damage is radiant type.</p>
@@ -464,25 +464,25 @@
             <description>Your rite damage is radiant type.</description>
         </sheet>
     </element>
-    <element name="Hallowed Veins" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_HALLOWED_VEINS">
+    <element name="Hallowed Veins" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_HALLOWED_VEINS">
         <description>
-            <p>Beginning at 7th level, your blood curses become honed to the fabric of a creature’s essence. Your blood curses can now affect any creature, regardless of their form or lack of blood.</p>
-            <p class="indent">In addition, when you target an undead creature with a blood curse, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or it cannot target you with an attack until the end of your next turn.</p>
+            <p>Beginning at 7th level, your blood curses become honed to the fabric of a creature's essence. Your blood curses can now affect any creature, regardless of their form or lack of blood.</p>
+            <p class="indent">In addition, when you target an undead creature with a blood curse, it must succeed on a Intelligence saving throw (DC equal to 8 + your proficiency bonus + your Intelligence modifier) or it cannot target you with an attack until the end of your next turn.</p>
         </description>
         <sheet>
-            <description>Your blood curses can now affect any creature, regardless of their form or lack of blood. In addition, when you target an undead creature with a blood curse, it must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Wisdom modifier) or it cannot target you with an attack until the end of your next turn.</description>
+            <description>Your blood curses can now affect any creature, regardless of their form or lack of blood. In addition, when you target an undead creature with a blood curse, it must succeed on a Intelligence saving throw (DC equal to 8 + your proficiency bonus + your Intelligence modifier) or it cannot target you with an attack until the end of your next turn.</description>
         </sheet>
     </element>
-    <element name="Supernal Surge" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_SUPERNAL_SURGE">
+    <element name="Supernal Surge" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_SUPERNAL_SURGE">
         <description>
-            <p>Upon reaching 11th level, you’ve learned to briefly step into the spirit world, enabling a swift and deadly strike. When you use that Attack action, you can make one weapon attack as a bonus action, and you temporarily become spectral. Until the end of your next turn, you can move through other creatures and objects as if they were difficult terrain. You take 1d10 force damage if you end your turn inside an object. If you are inside an object when and you are no longer spectral, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you moved. You may expend a use of this feature as a bonus action instead of making an attack.</p>
-            <p class="indent">You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a short or long rest.</p>
+            <p>Upon reaching 11th level, you've learned to briefly step into the spirit world, enabling a swift and deadly strike. When you use that Attack action, you can make one weapon attack as a bonus action, and you temporarily become spectral. Until the end of your next turn, you can move through other creatures and objects as if they were difficult terrain. You take 1d10 force damage if you end your turn inside an object. If you are inside an object when and you are no longer spectral, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you moved. You may expend a use of this feature as a bonus action instead of making an attack.</p>
+            <p class="indent">You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you finish a short or long rest.</p>
         </description>
         <sheet>
             <description>When you use that Attack action, you can make one weapon attack as a bonus action, and you temporarily become spectral. Until the end of your next turn, you can move through other creatures and objects as if they were difficult terrain. You take 1d10 force damage if you end your turn inside an object. If you are inside an object when and you are no longer spectral, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you moved. You may expend a use of this feature as a bonus action instead of making an attack. ({{intelligence:modifier}}/SR)</description>
         </sheet>
     </element>
-    <element name="Gravesight" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_GRAVESIGHT">
+    <element name="Gravesight" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_GRAVESIGHT">
         <description>
             <p>At 15th level, you can see in magical darkness up to 30 feet, as well as see invisible creatures and object up to 30 feet.</p>
         </description>
@@ -490,7 +490,7 @@
             <description>You can see in magical darkness up to 30 feet, as well as see invisible creatures and object up to 30 feet.</description>
         </sheet>
     </element>
-    <element name="Vengeful Spirit" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_GHOSTSLAYER_VENGEFUL_SPIRIT">
+    <element name="Vengeful Spirit" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_GHOSTSLAYER_VENGEFUL_SPIRIT">
         <description>
             <p>Upon reaching 18th level, you learn to project your spirit to fight on while on the edge of death. Whenever your hit points drop to 0, you can choose to let your soul emerge from your body to fight on. Your body remains unconscious and subject to death saving throws per normal. At the beginning of your next turn, you manifest a spirit form in your space that picks up your weapons and continues fighting on, acting on your turn and every one of your subsequent turns under your control. Your spirit form has your physical attributes and armor class, as well as your weapons and ammunition, and can move through other creatures and objects as if they were difficult terrain. This form is immune to cold, necrotic, and non-magical weapon damage. Your spirit form has access to all of your abilities and suffers no damage from your Crimson Rite feature.</p>
             <p class="indent">If your spirit form takes any damage, your body dies, or you regain any hit points, your spirit form vanishes. If your spirit form vanishes, it drops your weapons in its space.</p>
@@ -502,62 +502,62 @@
     <!-- /Ghostslayer -->
 
     <!-- Profane Soul -->
-	<element name="Order of the Profane Soul" type="Archetype" source="Critical Role" id="ID_CRIT_ARCHETYPE_BLOOD_HUNTER_ORDER_OF_THE_PROFANE_SOUL">
+	<element name="Order of the Profane Soul" type="Archetype" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_BLOOD_HUNTER_ORDER_OF_THE_PROFANE_SOUL">
 		<supports>Blood Hunter Order</supports>
 		<description>
 			<p>The magics adopted by the wayward blood hunter prove formidable against many an evil across the realm. However, the darkest of abominations draw from an ancient well of cruel, unfathomable power. These terrors can control shadows to do their bidding, hide in plain sight among the noblest of nobles, and bend the minds of the most stalwart warrior with but a glance. These fiends are far trickier to hunt, and many lost their lives in pursuit of such wickedness.</p>
-			<p class="indent">A small sect of blood hunters had finally had enough and delved into this same well of corrupting arcane knowledge, making pacts with lesser evils to better combat the greater. While they may have lost a part of themselves, the power gained far outweighed the price, for even devils now quake when they know they’ve drawn the attention of the Order of the Profane Soul.</p>
-			<div element="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON" />
-			<div element="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_PACT_MAGIC" />
-			<div element="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS" />
-			<div element="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_MYSTIC_FRENZY" />
-			<div element="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA" />
-			<div element="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_DIABOLIC_CHANNEL" />
-			<div element="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA" />
-			<div element="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_SOUL_SYPHON" />
+			<p class="indent">A small sect of blood hunters had finally had enough and delved into this same well of corrupting arcane knowledge, making pacts with lesser evils to better combat the greater. While they may have lost a part of themselves, the power gained far outweighed the price, for even devils now quake when they know they've drawn the attention of the Order of the Profane Soul.</p>
+			<div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON" />
+			<div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_PACT_MAGIC" />
+			<div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS" />
+			<div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_MYSTIC_FRENZY" />
+			<div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA" />
+			<div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_DIABOLIC_CHANNEL" />
+			<div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA" />
+			<div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_SOUL_SYPHON" />
 		</description>
 		<sheet display="false">
 			<description>The magics adopted by the wayward blood hunter prove formidable against many an evil across the realm.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON" level="3" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_PACT_MAGIC" level="3" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS" level="3" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_MYSTIC_FRENZY" level="7" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA" level="7" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_DIABOLIC_CHANNEL" level="11" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA" level="15" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_SOUL_SYPHON" level="18" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON" level="3" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_PACT_MAGIC" level="3" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS" level="3" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_MYSTIC_FRENZY" level="7" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA" level="7" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_DIABOLIC_CHANNEL" level="11" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA" level="15" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_SOUL_SYPHON" level="18" />
 		</rules>
 	</element>
-	<element name="Otherworldly Patron" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON">
+	<element name="Otherworldly Patron" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON">
 		<description>
-			<p>At 3rd level, you strike a bargan with an other-worldy being of your choice: the Archfey, the Fiend, or the Great Old One, each detailed on page 109 of the PHB, the Undying on page 139 of the Sword Coast Adventurer’s Guide, and the Hexblade or Celestial on page 54 of Xanathar’s Guide to Everything. Your choice augments some of your order features.</p>
+			<p>At 3rd level, you strike a bargan with an other-worldy being of your choice: the Archfey, the Fiend, or the Great Old One, each detailed on page 109 of the PHB, the Undying on page 139 of the Sword Coast Adventurer's Guide, and the Hexblade or Celestial on page 54 of Xanathar's Guide to Everything. Your choice augments some of your order features.</p>
 		</description>
 		<sheet display="true" />
 		<rules>
 			<select type="Archetype Feature" name="Otherworldly Patron" supports="Profane Soul Otherworldly Patron" />
 		</rules>
 	</element>
-	<element name="Pact Magic" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_PACT_MAGIC">
+	<element name="Pact Magic" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_PACT_MAGIC">
 		<description>
 			<p>When you reach 3rd level, you can augment your combat techniques with the ability to cast spells. See chapter 10 (phb) for the general rules of spellcasting and chapter 11 (phb) for the Warlock spell list.</p>
 			<p class="indent"><strong><em>Cantrips.</em></strong> You learn two cantrips of your choice from the warlock spell list. You learn an additional warlock cantrip of your choice at 10th level.</p>
 			<p class="indent"><strong><em>Spell Slots.</em></strong> The Profane Soul Spellcasting table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.</p>
-			<p class="indent">For example, when you are 8th level, you have two 2nd­-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 2nd-level spell.</p>
+			<p class="indent">For example, when you are 8th level, you have two 2nd-level spell slots. To cast the 1st-level spell witch bolt, you must spend one of those slots, and you cast it as a 2nd-level spell.</p>
 			<p class="indent"><strong><em>Spells Known of 1st Level and Higher.</em></strong> At 3rd level, you know two 1st-level spells of your choice from the warlock spell list.</p>
-			<p class="indent">The Spells Known column of the Profane Soul table shows when you learn more warlock spells of your choice of 1st-level and higher. A spell you choose must be of a level no higher than what’s shown in the table’s Slot Level column for your level. When you reach 11th-level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.</p>
+			<p class="indent">The Spells Known column of the Profane Soul table shows when you learn more warlock spells of your choice of 1st-level and higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 11th-level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.</p>
 			<p class="indent">Additionally, when you gain a level in this class and order, you can choose one of the warlock spells you know and replace is with another spell from the warlock spell list, which also must be of a level for which you have spell slots.</p>
-			<p class="indent"><strong><em>Spellcasting Ability.</em></strong> Wisdom is your spellcasting ability for your warlock spells, so you use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.</p>
+			<p class="indent"><strong><em>Spellcasting Ability.</em></strong> Intelligence is your spellcasting ability for your warlock spells, so you use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.</p>
 			<center>
-				<p><strong>Spell save DC = 8</strong> + your proficiency bonus + your Wisdom modifier</p>
-				<p><strong>Spell attack modifier =</strong> your proficiency bonus + your Wisdom modifier</p>
+				<p><strong>Spell save DC = 8</strong> + your proficiency bonus + your Intelligence modifier</p>
+				<p><strong>Spell attack modifier =</strong> your proficiency bonus + your Intelligence modifier</p>
 			</center>
 		</description>
 		<sheet display="false">
 			<description>You can augment your combat techniques with the ability to cast spells.</description>
 		</sheet>
-		<spellcasting name="Profane Soul" ability="Wisdom" allowReplace="true">
+		<spellcasting name="Profane Soul" ability="Intelligence" allowReplace="true">
 			<list>Warlock</list>
 		</spellcasting>
 		<rules>
@@ -590,29 +590,29 @@
 			<select type="Spell" name="Pact Magic (Profane Soul)" supports="$(spellcasting:list),$(spellcasting:slots)" level="20" spellcasting="Profane Soul"/>
 		</rules>
 	</element>
-	<element name="Rite Focus" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS">
+	<element name="Rite Focus" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS">
 		<description>
-			<p>Begining at 3rd level, your weapon becomes a core to your pact with your chosen dark patron. While you have an active rite, you can use your weapon as a spellcasting focus (found in chapter 5, player’s hand book) for your spells. Your chosen pact also enhances your rite (outlined below).</p>
+			<p>Begining at 3rd level, your weapon becomes a core to your pact with your chosen dark patron. While you have an active rite, you can use your weapon as a spellcasting focus (found in chapter 5, player's hand book) for your spells. Your chosen pact also enhances your rite (outlined below).</p>
 			<p class="indent"><strong><em>The Archfey.</em></strong> If you deal rite damage to a creature, that creature loses any half or three-quarters cover bonuses, as well as invisibility, until the beginning of your next turn.</p>
 			<p class="indent"><strong><em>The Fiend.</em></strong> While using the Rite of the Flame, if you roll a 1 on your rite damage die, you may reroll the die. You may reroll only once per attack.</p>
-			<p class="indent"><strong><em>The Great Old One.</em></strong> Whenever you deal a critical hit to a creature, that creature must make a Wisdom saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn.</p>
+			<p class="indent"><strong><em>The Great Old One.</em></strong> Whenever you deal a critical hit to a creature, that creature must make a Intelligence saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn.</p>
 			<p class="indent"><strong><em>The Undying.</em></strong> Whenever you reduce a hostile creature to 0 hit points with a weapon attack, and kill it, you regain hit points equal to your crimson rite damage die.</p>
-			<p class="indent"><strong><em>The Celestial.</em></strong> You can expend a use of your blood maledict feature as a bonus action to heal one creature within 60 feet of you. They regain hit points equal to your crimson rite damage die rolled twice + your Wisdom modifier (minimum of 1).</p>
+			<p class="indent"><strong><em>The Celestial.</em></strong> You can expend a use of your blood maledict feature as a bonus action to heal one creature within 60 feet of you. They regain hit points equal to your crimson rite damage die rolled twice + your Intelligence modifier (minimum of 1).</p>
 			<p class="indent"><strong><em>The Hexblade.</em></strong> Whenever you target a creature with a blood curse, your next attack against the cursed creature is a critical hit on a roll of 19 or 20 on the d20.</p>
 		</description>
 		<sheet display="false">
 			<description>While you have an active rite, you can use your weapon as a spellcasting focus for your spells.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_FIEND" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_FIEND" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_ARCHFEY" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_ARCHFEY" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_GREAT_OLD_ONE" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_GREAT_OLD_ONE" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_UNDYING" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_UNDYING" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_CELESTIAL" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_CELESTIAL" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_HEXBLADE" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_HEXBLADE" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_FIEND" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_FIEND" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_ARCHFEY" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_ARCHFEY" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_GREAT_OLD_ONE" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_GREAT_OLD_ONE" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_UNDYING" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_UNDYING" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_CELESTIAL" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_CELESTIAL" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_HEXBLADE" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_HEXBLADE" />
 		</rules>
 	</element>
-	<element name="Mystic Frenzy" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_MYSTIC_FRENZY">
+	<element name="Mystic Frenzy" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_MYSTIC_FRENZY">
 		<description>
 			<p>Beginning at 7th level, when you use your action to cast a cantrip, you can make one weapon attack as a bonus action.</p>
 		</description>
@@ -620,64 +620,64 @@
 			<description>When you use your action to cast a cantrip, you can make one weapon attack as a bonus action.</description>
 		</sheet>
 	</element>
-	<element name="Revealed Arcana" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA">
+	<element name="Revealed Arcana" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA">
 		<description>
 			<p>At 7th level, your dark patron grants you the rare use of a dangerous arcane spell based on your pact.</p>
-			<p class="indent"><strong><em>The Archfey.</em></strong> You can cast <em>blur</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
-			<p class="indent"><strong><em>The Fiend.</em></strong> You can cast <em>scorching ray</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
-			<p class="indent"><strong><em>The Great Old One.</em></strong> You can cast <em>detect thoughts</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
-			<p class="indent"><strong><em>The Undying.</em></strong> You can cast <em>blindness/deafness</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
-			<p class="indent"><strong><em>The Celestial.</em></strong> You can cast <em>lesser restoration</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
-			<p class="indent"><strong><em>The Hexblade.</em></strong> You can cast <em>branding smite</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
+			<p class="indent"><strong><em>The Archfey.</em></strong> You can cast <em>blur</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
+			<p class="indent"><strong><em>The Fiend.</em></strong> You can cast <em>scorching ray</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
+			<p class="indent"><strong><em>The Great Old One.</em></strong> You can cast <em>detect thoughts</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
+			<p class="indent"><strong><em>The Undying.</em></strong> You can cast <em>blindness/deafness</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
+			<p class="indent"><strong><em>The Celestial.</em></strong> You can cast <em>lesser restoration</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
+			<p class="indent"><strong><em>The Hexblade.</em></strong> You can cast <em>branding smite</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
 		</description>
 		<sheet display="false">
 			<description>Your dark patron grants you the rare use of a dangerous arcane spell based on your pact.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_FIEND" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_FIEND" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_ARCHFEY" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_ARCHFEY" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_GREAT_OLD_ONE" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_GREAT_OLD_ONE" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_UNDYING" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_UNDYING" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_CELESTIAL" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_CELESTIAL" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_HEXBLADE" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_HEXBLADE" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_FIEND" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_FIEND" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_ARCHFEY" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_ARCHFEY" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_GREAT_OLD_ONE" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_GREAT_OLD_ONE" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_UNDYING" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_UNDYING" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_CELESTIAL" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_CELESTIAL" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_HEXBLADE" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_HEXBLADE" />
 		</rules>
 	</element>
-	<element name="Diabolic Channel" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_DIABOLIC_CHANNEL">
+	<element name="Diabolic Channel" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_DIABOLIC_CHANNEL">
 		<description>
-			<p>At 11th level, you can temporarily infuse your rite with the seed of a powerful spell. As an action, you can imbue your rite-enhanced weapon with one warlock spell you can cast or is already active, then make a single attack with that weapon. The spell must be using a warlock or profane soul spell slot. If that attack hits, all spell attack rolls for the imbued spell hit the target automatically and are considered part of the single weapon attack. The target takes weapon damage, and is subject to the effects of the spell, expending a spell slot accordingly. If the attack has advantage, the target’s initial saving throw against the spell has disadvantage. If the attack misses, the spell has no effect. Area spells originate from the target’s space.</p>
+			<p>At 11th level, you can temporarily infuse your rite with the seed of a powerful spell. As an action, you can imbue your rite-enhanced weapon with one warlock spell you can cast or is already active, then make a single attack with that weapon. The spell must be using a warlock or profane soul spell slot. If that attack hits, all spell attack rolls for the imbued spell hit the target automatically and are considered part of the single weapon attack. The target takes weapon damage, and is subject to the effects of the spell, expending a spell slot accordingly. If the attack has advantage, the target's initial saving throw against the spell has disadvantage. If the attack misses, the spell has no effect. Area spells originate from the target's space.</p>
 			<p class="indent">The spell must be of 1st level or higher, have a casting time of 1 action, or require an action to activate an already active concentration spell.</p>
 		</description>
 		<sheet action="Action">
-			<description>You can imbue your rite-enhanced weapon with one warlock spell you can cast or is already active, then make a single attack with that weapon. The spell must be using a warlock or profane soul spell slot. If that attack hits, all spell attack rolls for the imbued spell hit the target automatically and are considered part of the single weapon attack. The target takes weapon damage, and is subject to the effects of the spell, expending a spell slot accordingly. If the attack has advantage, the target’s initial saving throw against the spell has disadvantage. If the attack misses, the spell has no effect. Area spells originate from the target’s space.
+			<description>You can imbue your rite-enhanced weapon with one warlock spell you can cast or is already active, then make a single attack with that weapon. The spell must be using a warlock or profane soul spell slot. If that attack hits, all spell attack rolls for the imbued spell hit the target automatically and are considered part of the single weapon attack. The target takes weapon damage, and is subject to the effects of the spell, expending a spell slot accordingly. If the attack has advantage, the target's initial saving throw against the spell has disadvantage. If the attack misses, the spell has no effect. Area spells originate from the target's space.
 			The spell must be of 1st level or higher, have a casting time of 1 action, or require an action to activate an already active concentration spell.</description>
 		</sheet>
 		<rules>
 
 		</rules>
 	</element>
-	<element name="Unsealed Arcana" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA">
+	<element name="Unsealed Arcana" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA">
 		<description>
 			<p>At 15th level, your dark patron grants you the rare use of an additional arcane spell based on your pact.</p>
-			<p class="indent"><strong><em>The Archfey.</em></strong> You can cast <em>slow</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
-			<p class="indent"><strong><em>The Fiend.</em></strong> You can cast <em>fireball</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest. </p>
-			<p class="indent"><strong><em>The Great Old One.</em></strong>  You can cast <em>haste</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
-			<p class="indent"><strong><em>The Undying.</em></strong> You can cast <em>bestow curse</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
-			<p class="indent"><strong><em>The Celestial.</em></strong> You can cast <em>revivify</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
-			<p class="indent"><strong><em>The Hexblade.</em></strong> You can cast <em>blink</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
+			<p class="indent"><strong><em>The Archfey.</em></strong> You can cast <em>slow</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
+			<p class="indent"><strong><em>The Fiend.</em></strong> You can cast <em>fireball</em> once using a profane soul spell slot. You can't do so again until you finish a long rest. </p>
+			<p class="indent"><strong><em>The Great Old One.</em></strong>  You can cast <em>haste</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
+			<p class="indent"><strong><em>The Undying.</em></strong> You can cast <em>bestow curse</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
+			<p class="indent"><strong><em>The Celestial.</em></strong> You can cast <em>revivify</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
+			<p class="indent"><strong><em>The Hexblade.</em></strong> You can cast <em>blink</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
 		</description>
 		<sheet display="false">
 			<description>Your dark patron grants you the rare use of an additional arcane spell based on your pact.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_FIEND" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_FIEND" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_ARCHFEY" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_ARCHFEY" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_GREAT_OLD_ONE" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_GREAT_OLD_ONE" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_UNDYING" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_UNDYING" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_CELESTIAL" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_CELESTIAL" />
-			<grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_HEXBLADE" requirements="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_HEXBLADE" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_FIEND" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_FIEND" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_ARCHFEY" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_ARCHFEY" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_GREAT_OLD_ONE" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_GREAT_OLD_ONE" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_UNDYING" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_UNDYING" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_CELESTIAL" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_CELESTIAL" />
+			<grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_HEXBLADE" requirements="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_HEXBLADE" />
 		</rules>
 	</element>
-	<element name="Soul Syphon" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_SOUL_SYPHON">
+	<element name="Soul Syphon" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_SOUL_SYPHON">
 		<description>
 			<p>When you reach 18th level, your learn to sacrifice the souls of powerful foes to your dark patron in exchange for immediate power. When you recduce a creature to 0 hit points with an attack, kill the creature, and they have a challenge rating of 15 or above, you recover an expended spell slot.</p>
 		</description>
@@ -687,27 +687,27 @@
 	</element>
 
 	<!-- patrons -->
-	<element name="The Fiend" type="Archetype Feature" source="Player’s Handbook" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_FIEND">
+	<element name="The Fiend" type="Archetype Feature" source="Player's Handbook" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_FIEND">
 		<compendium display="false" />
 		<supports>Profane Soul Otherworldly Patron</supports>
 		<description>
-			<p>You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz’Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.</p>
+			<p>You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz'Urb-luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.</p>
 		</description>
 		<sheet>
 			<description>You have made a pact with a fiend from the lower planes of existence.</description>
 		</sheet>
 	</element>
-	<element name="The Archfey" type="Archetype Feature" source="Player’s Handbook" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_ARCHFEY">
+	<element name="The Archfey" type="Archetype Feature" source="Player's Handbook" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_ARCHFEY">
 		<compendium display="false" />
 		<supports>Profane Soul Otherworldly Patron</supports>
 		<description>
-			<p>Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being’s motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.</p>
+			<p>Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.</p>
 		</description>
 		<sheet>
 			<description>Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born.</description>
 		</sheet>
 	</element>
-	<element name="The Great Old One" type="Archetype Feature" source="Player’s Handbook" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_GREAT_OLD_ONE">
+	<element name="The Great Old One" type="Archetype Feature" source="Player's Handbook" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_GREAT_OLD_ONE">
 		<compendium display="false" />
 		<supports>Profane Soul Otherworldly Patron</supports>
 		<description>
@@ -718,7 +718,7 @@
 			<description>Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality.</description>
 		</sheet>
 	</element>
-	<element name="The Undying" type="Archetype Feature" source="Sword Coast Adventurer’s Guide" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_UNDYING">
+	<element name="The Undying" type="Archetype Feature" source="Sword Coast Adventurer's Guide" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_UNDYING">
 		<compendium display="false" />
 		<supports>Profane Soul Otherworldly Patron</supports>
 		<description>
@@ -729,7 +729,7 @@
 			<description>Death holds no sway over your patron, who has unlocked the secrets of everlasting life, although such a prize- like all power- comes at a price.</description>
 		</sheet>
 	</element>
-	<element name="The Celestial" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_CELESTIAL">
+	<element name="The Celestial" type="Archetype Feature" source="Xanathar's Guide to Everything" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_CELESTIAL">
 		<compendium display="false" />
 		<supports>Profane Soul Otherworldly Patron</supports>
 		<description>
@@ -740,7 +740,7 @@
 			<description>Your patron is a powerful being of the Upper Planes.</description>
 		</sheet>
 	</element>
-	<element name="The Hexblade" type="Archetype Feature" source="Xanathar’s Guide to Everything" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_HEXBLADE">
+	<element name="The Hexblade" type="Archetype Feature" source="Xanathar's Guide to Everything" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_OTHERWORLDLY_PATRON_HEXBLADE">
 		<compendium display="false" />
 		<supports>Profane Soul Otherworldly Patron</supports>
 		<description>
@@ -753,7 +753,7 @@
 	</element>
 
 	<!-- patron based rite focus -->
-	<element name="Rite Focus (The Fiend)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_FIEND">
+	<element name="Rite Focus (The Fiend)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_FIEND">
 		<description>
 			<p>While you have an active rite, you can use your weapon as a spellcasting focus for your spells.</p>
 			<p>If you deal rite damage to a creature, that creature loses any half or three-quarters cover bonuses, as well as invisibility, until the beginning of your next turn.</p>
@@ -763,7 +763,7 @@
 			If you deal rite damage to a creature, that creature loses any half or three-quarters cover bonuses, as well as invisibility, until the beginning of your next turn.</description>
 		</sheet>
 	</element>
-	<element name="Rite Focus (The Archfey)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_ARCHFEY">
+	<element name="Rite Focus (The Archfey)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_ARCHFEY">
 		<description>
 			<p>While you have an active rite, you can use your weapon as a spellcasting focus for your spells.</p>
 			<p>While using the Rite of the Flame, if you roll a 1 on your rite damage die, you may reroll the die. You may reroll only once per attack.</p>
@@ -773,17 +773,17 @@
 			While using the Rite of the Flame, if you roll a 1 on your rite damage die, you may reroll the die. You may reroll only once per attack.</description>
 		</sheet>
 	</element>
-	<element name="Rite Focus (The Great Old One)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_GREAT_OLD_ONE">
+	<element name="Rite Focus (The Great Old One)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_GREAT_OLD_ONE">
 		<description>
 			<p>While you have an active rite, you can use your weapon as a spellcasting focus for your spells.</p>
-			<p>Whenever you deal a critical hit to a creature, that creature must make a Wisdom saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn.</p>
+			<p>Whenever you deal a critical hit to a creature, that creature must make a Intelligence saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn.</p>
 		</description>
 		<sheet alt="Rite Focus">
 			<description>While you have an active rite, you can use your weapon as a spellcasting focus for your spells.
-			Whenever you deal a critical hit to a creature, that creature must make a Wisdom saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn.</description>
+			Whenever you deal a critical hit to a creature, that creature must make a Intelligence saving throw against your spell save DC. On a failure, the creature is frightened of you until the end of your next turn.</description>
 		</sheet>
 	</element>
-	<element name="Rite Focus (The Undying)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_UNDYING">
+	<element name="Rite Focus (The Undying)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_UNDYING">
 		<description>
 			<p>While you have an active rite, you can use your weapon as a spellcasting focus for your spells.</p>
 			<p>Whenever you reduce a hostile creature to 0 hit points with a weapon attack, and kill it, you regain hit points equal to your crimson rite damage die.</p>
@@ -793,10 +793,10 @@
 			Whenever you reduce a hostile creature to 0 hit points with a weapon attack, and kill it, you regain hit points equal to your crimson rite damage die.</description>
 		</sheet>
 	</element>
-	<element name="Rite Focus (The Celestial)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_CELESTIAL">
+	<element name="Rite Focus (The Celestial)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_CELESTIAL">
 		<description>
 			<p>While you have an active rite, you can use your weapon as a spellcasting focus for your spells.</p>
-			<p>You can expend a use of your blood maledict feature as a bonus action to heal one creature within 60 feet of you. They regain hit points equal to your crimson rite damage die rolled twice + your Wisdom modifier (minimum of 1).</p>
+			<p>You can expend a use of your blood maledict feature as a bonus action to heal one creature within 60 feet of you. They regain hit points equal to your crimson rite damage die rolled twice + your Intelligence modifier (minimum of 1).</p>
 		</description>
 		<sheet alt="Rite Focus">
 			<description>While you have an active rite, you can use your weapon as a spellcasting focus for your spells.
@@ -807,7 +807,7 @@
 			<stat name="celestial-rite-focus:hit points" value="intelligence:modifier" />
 		</rules>
 	</element>
-	<element name="Rite Focus (The Hexblade)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_HEXBLADE">
+	<element name="Rite Focus (The Hexblade)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_RITE_FOCUS_HEXBLADE">
 		<description>
 			<p>While you have an active rite, you can use your weapon as a spellcasting focus for your spells.</p>
 			<p>Whenever you target a creature with a blood curse, your next attack against the cursed creature is a critical hit on a roll of 19 or 20 on the d20.</p>
@@ -819,49 +819,49 @@
 	</element>
 	
 	<!-- patron based revealed arcana -->
-	<element name="Revealed Arcana (The Fiend)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_FIEND">
+	<element name="Revealed Arcana (The Fiend)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_FIEND">
 		<description>
-			<p>You can cast <em>blur</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
+			<p>You can cast <em>blur</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
 		</description>
 		<sheet alt="Revealed Arcana" usage="1/Long Rest">
 			<description>You can cast <em>blur</em> once using a profane soul spell slot.</description>
 		</sheet>
 	</element>
-	<element name="Revealed Arcana (The Archfey)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_ARCHFEY">
+	<element name="Revealed Arcana (The Archfey)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_ARCHFEY">
 		<description>
-			<p>You can cast <em>scorching ray</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
+			<p>You can cast <em>scorching ray</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
 		</description>
 		<sheet alt="Revealed Arcana" usage="1/Long Rest">
 			<description>You can cast <em>scorching ray</em> once using a profane soul spell slot.</description>
 		</sheet>
 	</element>
-	<element name="Revealed Arcana (The Great Old One)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_GREAT_OLD_ONE">
+	<element name="Revealed Arcana (The Great Old One)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_GREAT_OLD_ONE">
 		<description>
-			<p>You can cast <em>detect thoughts</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
+			<p>You can cast <em>detect thoughts</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
 		</description>
 		<sheet alt="Revealed Arcana" usage="1/Long Rest">
 			<description>You can cast <em>detect thoughts</em> once using a profane soul spell slot.</description>
 		</sheet>
 	</element>
-	<element name="Revealed Arcana (The Undying)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_UNDYING">
+	<element name="Revealed Arcana (The Undying)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_UNDYING">
 		<description>
-			<p>You can cast <em>blindness/deafness</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
+			<p>You can cast <em>blindness/deafness</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
 		</description>
 		<sheet alt="Revealed Arcana" usage="1/Long Rest">
 			<description>You can cast <em>blindness/deafness</em> once using a profane soul spell slot.</description>
 		</sheet>
 	</element>
-	<element name="Revealed Arcana (The Celestial)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_CELESTIAL">
+	<element name="Revealed Arcana (The Celestial)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_CELESTIAL">
 		<description>
-			<p>You can cast <em>lesser restoration</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
+			<p>You can cast <em>lesser restoration</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
 		</description>
 		<sheet alt="Revealed Arcana" usage="1/Long Rest">
 			<description>You can cast <em>lesser restoration</em> once using a profane soul spell slot.</description>
 		</sheet>
 	</element>
-	<element name="Revealed Arcana (The Hexblade)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_HEXBLADE">
+	<element name="Revealed Arcana (The Hexblade)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_REVEALED_ARCANA_HEXBLADE">
 		<description>
-			<p>You can cast <em>branding smite</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
+			<p>You can cast <em>branding smite</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
 		</description>
 		<sheet alt="Revealed Arcana" usage="1/Long Rest">
 			<description>You can cast <em>branding smite</em> once using a profane soul spell slot.</description>
@@ -869,49 +869,49 @@
 	</element>
 	
 	<!-- patron based unsealed arcana -->
-	<element name="Unsealed Arcana (The Fiend)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_FIEND">
+	<element name="Unsealed Arcana (The Fiend)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_FIEND">
 		<description>
-			<p>You can cast <em>slow</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
+			<p>You can cast <em>slow</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
 		</description>
 		<sheet alt="Unsealed Arcana" usage="1/Long Rest">
 			<description>You can cast <em>slow</em> once using a profane soul spell slot.</description>
 		</sheet>
 	</element>
-	<element name="Unsealed Arcana (The Archfey)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_ARCHFEY">
+	<element name="Unsealed Arcana (The Archfey)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_ARCHFEY">
 		<description>
-			<p>You can cast <em>fireball</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest. </p>
+			<p>You can cast <em>fireball</em> once using a profane soul spell slot. You can't do so again until you finish a long rest. </p>
 		</description>
 		<sheet alt="Unsealed Arcana" usage="1/Long Rest">
 			<description>You can cast <em>fireball</em> once using a profane soul spell slot.</description>
 		</sheet>
 	</element>
-	<element name="Unsealed Arcana (The Great Old One)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_GREAT_OLD_ONE">
+	<element name="Unsealed Arcana (The Great Old One)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_GREAT_OLD_ONE">
 		<description>
-			<p> You can cast <em>haste</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
+			<p> You can cast <em>haste</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
 		</description>
 		<sheet alt="Unsealed Arcana" usage="1/Long Rest">
 			<description> You can cast <em>haste</em> once using a profane soul spell slot.</description>
 		</sheet>
 	</element>
-	<element name="Unsealed Arcana (The Undying)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_UNDYING">
+	<element name="Unsealed Arcana (The Undying)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_UNDYING">
 		<description>
-			<p>You can cast <em>bestow curse</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
+			<p>You can cast <em>bestow curse</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
 		</description>
 		<sheet alt="Unsealed Arcana" usage="1/Long Rest">
 			<description>You can cast <em>bestow curse</em> once using a profane soul spell slot.</description>
 		</sheet>
 	</element>
-	<element name="Unsealed Arcana (The Celestial)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_CELESTIAL">
+	<element name="Unsealed Arcana (The Celestial)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_CELESTIAL">
 		<description>
-			<p>You can cast <em>revivify</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
+			<p>You can cast <em>revivify</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
 		</description>
 		<sheet alt="Unsealed Arcana" usage="1/Long Rest">
 			<description>You can cast <em>revivify</em> once using a profane soul spell slot.</description>
 		</sheet>
 	</element>
-	<element name="Unsealed Arcana (The Hexblade)" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_HEXBLADE">
+	<element name="Unsealed Arcana (The Hexblade)" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_PROFANE_SOUL_UNSEALED_ARCANA_HEXBLADE">
 		<description>
-			<p>You can cast <em>blink</em> once using a profane soul spell slot. You can’t do so again until you finish a long rest.</p>
+			<p>You can cast <em>blink</em> once using a profane soul spell slot. You can't do so again until you finish a long rest.</p>
 		</description>
 		<sheet alt="Unsealed Arcana" usage="1/Long Rest">
 			<description>You can cast <em>blink</em> once using a profane soul spell slot.</description>
@@ -921,34 +921,34 @@
     <!-- /Profane Soul -->
 
     <!-- Order of the Mutant -->
-    <element name="Order of the Mutant" type="Archetype" source="Critical Role" id="ID_CRIT_ARCHETYPE_BLOOD_HUNTER_ORDER_OF_THE_MUTANT">
+    <element name="Order of the Mutant" type="Archetype" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_BLOOD_HUNTER_ORDER_OF_THE_MUTANT">
         <supports>Blood Hunter Order</supports>
         <description>
-            <p>The process of consuming the Hunter’s Bane is a painful, scarring, and often fatal experience. Those that survive find themselves irrevocably changed, enhanced. Some found this experience exalting, embracing the ability to alter one’s own physiology through corrupted alchemy.</p>
+            <p>The process of consuming the Hunter's Bane is a painful, scarring, and often fatal experience. Those that survive find themselves irrevocably changed, enhanced. Some found this experience exalting, embracing the ability to alter one's own physiology through corrupted alchemy.</p>
             <p class="indent">Over generations of experimentation, a spliter order of blood hunters began to emerge, one that focused on brewing toxic elixirs to modify their capabilities in battle, altering their blood and, over time become something beyond human. They called themselves the Order of the Mutant.</p>
-            <div element="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_FORMULAS" />
-            <div element="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_MUTAGEN_CRAFT" />
-            <div element="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_ADVANCED_MUTAGEN_CRAFT" />
-            <div element="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_STRANGE_METABOLISM" />
-            <div element="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_ROBUST_PHYSIOLOGY" />
-            <div element="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_EXALTED_MUTATION" />
+            <div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_FORMULAS" />
+            <div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_MUTAGEN_CRAFT" />
+            <div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_ADVANCED_MUTAGEN_CRAFT" />
+            <div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_STRANGE_METABOLISM" />
+            <div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_ROBUST_PHYSIOLOGY" />
+            <div element="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_EXALTED_MUTATION" />
         </description>
         <setters>
             <set name="sourceUrl">http://www.dmsguild.com/product/170777/Blood-Hunter-Class</set>
         </setters>
         <sheet display="false">
-            <description>The process of consuming the Hunter’s Bane is a painful, scarring, and often fatal experience.</description>
+            <description>The process of consuming the Hunter's Bane is a painful, scarring, and often fatal experience.</description>
         </sheet>
         <rules>
-            <grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_FORMULAS" level="3" />
-            <grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_MUTAGEN_CRAFT" level="3" />
-            <grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_ADVANCED_MUTAGEN_CRAFT" level="7" />
-            <grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_STRANGE_METABOLISM" level="11" />
-            <grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_ROBUST_PHYSIOLOGY" level="15" />
-            <grant type="Archetype Feature" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_EXALTED_MUTATION" level="18" />
+            <grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_FORMULAS" level="3" />
+            <grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_MUTAGEN_CRAFT" level="3" />
+            <grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_ADVANCED_MUTAGEN_CRAFT" level="7" />
+            <grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_STRANGE_METABOLISM" level="11" />
+            <grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_ROBUST_PHYSIOLOGY" level="15" />
+            <grant type="Archetype Feature" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_EXALTED_MUTATION" level="18" />
         </rules>
     </element>
-    <element name="Formulas" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_FORMULAS">
+    <element name="Formulas" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_FORMULAS">
         <description>
             <p>You begin to uncover forbidden alchemical formulas that temporarily alter your mental and physical abilities.</p>
             <p class="indent">Beginning at 3rd level, you choose to learn three mutagen formulas. Your formula options are detailed at the end of this description. You gain an additional formula at 7th level, 11th level, 15th level, and 18th level.</p>
@@ -965,7 +965,7 @@
             <select type="Archetype Feature" name="Mutagen Formula (18)" supports="Mutagen Formula" level="18" />
         </rules>
     </element>
-    <element name="Mutagen Craft" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_MUTAGEN_CRAFT">
+    <element name="Mutagen Craft" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_MUTAGEN_CRAFT">
         <description>
             <p>At 3rd level, you can take a short rest to concoct a single mutagen. Consuming a single mutagen requires a bonus action, and the effects (including side effects) last until you complete a short or long rest to meditate and flush the toxins from your system.</p>
             <p class="indent">Mutagens are designed for your biology. They have no effect on large or larger creatures, and only impart the side effects on other medium or smaller creatures that drink the entire mutagen. They are also unstable by nature, losing their potency over time and becoming inert if not swallowed before you finish your next short or long rest.</p>
@@ -992,7 +992,7 @@
             <stat name="mutagen craft:amount" value="1" />
         </rules>
     </element>
-    <element name="Advanced Mutagen Craft" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_ADVANCED_MUTAGEN_CRAFT">
+    <element name="Advanced Mutagen Craft" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_ADVANCED_MUTAGEN_CRAFT">
         <description>
             <p>Upon reaching 7th level, when you take a short rest to concoct a mutagen, you can now create two. Mutagens must be different forumlas, and can be ingested with overlapping effects that last until you finish your next short or long rest. Each mutagent still takes a seperate bonus action to imbibe.</p>
             <p class="indent">Once you reach 15th level, you can now create three mutagens during a short rest.</p>
@@ -1006,7 +1006,7 @@
             <stat name="mutagen craft:amount" value="1" level="15" />
         </rules>
     </element>
-    <element name="Strange Metabolism" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_STRANGE_METABOLISM">
+    <element name="Strange Metabolism" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_STRANGE_METABOLISM">
         <description>
             <p>Beginning at 11th level, you can use a bonus action to instill a burst of adrenaline to temporarily restist the negative effects of a mutagen. You can choose to ignore the side effect of a mutagen affecting you for 1 minute.</p>
             <p class="indent">Once you use this feature, you must finish a short or long rest before you can use it again.</p>
@@ -1015,7 +1015,7 @@
             <description>You can use a bonus action to instill a burst of adrenaline to temporarily restist the negative effects of a mutagen. You can choose to ignore the side effect of a mutagen affecting you for 1 minute. (SR)</description>
         </sheet>
     </element>
-    <element name="Robust Physiology" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_ROBUST_PHYSIOLOGY">
+    <element name="Robust Physiology" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_ROBUST_PHYSIOLOGY">
         <description>
             <p>At 15th level, your body has begun to adapt to toxins and venoms, ignoring their corroding effects. You gain immunity to poison damage and the poisoned condition.</p>
             <p class="indent"></p>
@@ -1027,7 +1027,7 @@
 		    <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_IMMUNITY_POISON" />
 	    </rules>
     </element>
-    <element name="Exalted Mutation" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_EXALTED_MUTATION">
+    <element name="Exalted Mutation" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_ORDER_OF_THE_MUTANT_EXALTED_MUTATION">
         <description>
             <p>At 18th level, your body has begun producing one of your toxins naturally. Choose one of your known mutagen formulas. You gain the benefits and side effects of this mutagen permanently, at all times. You cannot change this choice of formula after this feature is aqcuired.</p>
             <p class="indent"></p>
@@ -1042,7 +1042,7 @@
     </element>
     <!-- /Mutant -->
     <!-- Mutagens -->
-    <element name="Aether" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_AETHER">
+    <element name="Aether" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_AETHER">
         <supports>Mutagen Formula</supports>
         <prerequisite>11th level</prerequisite>
         <requirements>[blood hunter:11]</requirements>
@@ -1056,15 +1056,15 @@
             <description>You gain a flying speed of 20 feet. Side effect: You have disadvantage on all Strength and Dexterity ability checks.</description>
         </sheet>
     </element>
-    <element name="Celerity" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_CELERITY">
+    <element name="Celerity" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_CELERITY">
         <supports>Mutagen Formula</supports>
         <description>
             <p>Your Dexterity score increases by an amount equal to your mutation score, as does your Dexterity maximum.</p>
-            <p class="indent"><b><i>Side effect:</i></b> Your Wisdom score decreases by amount equal to your mutation score.
+            <p class="indent"><b><i>Side effect:</i></b> Your Intelligence score decreases by amount equal to your mutation score.
             </p>
         </description>
         <sheet>
-            <description>Your Dexterity score increases by {{mutation score}}, as does your Dexterity maximum. Side effect: Your Wisdom score decreases by {{mutation score}}.</description>
+            <description>Your Dexterity score increases by {{mutation score}}, as does your Dexterity maximum. Side effect: Your Intelligence score decreases by {{mutation score}}.</description>
         </sheet>
         <rules>
             <!-- <stat name="dexterity" value="mutation score" /> -->
@@ -1072,7 +1072,7 @@
             <!-- <stat name="intelligence" value="-mutation score" /> -->
         </rules>
     </element>
-    <element name="Conversant" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_CONVERSANT">
+    <element name="Conversant" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_CONVERSANT">
         <supports>Mutagen Formula</supports>
         <description>
             <p>You gain advantage on Intelligence ability checks.</p>
@@ -1083,7 +1083,7 @@
             <description>You gain advantage on Intelligence ability checks. Side effect: You have disadvantage on Charisma ability checks.</description>
         </sheet>
     </element>
-    <element name="Cruelty" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_CRUELTY">
+    <element name="Cruelty" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_CRUELTY">
         <supports>Mutagen Formula</supports>
         <prerequisite>11th level</prerequisite>
         <requirements>[blood hunter:11]</requirements>
@@ -1097,7 +1097,7 @@
             <description>You can make a single weapon attack as a bonus action on each of your turns. Side effect: You have disadvantage on all saving throws.</description>
         </sheet>
     </element>
-    <element name="Impermeable" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_IMPERMEABLE">
+    <element name="Impermeable" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_IMPERMEABLE">
         <supports>Mutagen Formula</supports>
         <description>
             <p>You gain resistance to piercing damage.</p>
@@ -1108,7 +1108,7 @@
             <description>You gain resistance to piercing damage. Side effect: You gain vulnerability to slashing damage.</description>
         </sheet>
     </element>
-    <element name="Mobility" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_MOBILITY">
+    <element name="Mobility" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_MOBILITY">
         <supports>Mutagen Formula</supports>
         <description>
             <p>You gain immunity to the grappled and restrained conditions. At 11th level, you also are immune to the paralyzed condition.</p>
@@ -1124,7 +1124,7 @@
             <stat name="mobility formula:penalty" value="mutation score" />
         </rules>
     </element>
-    <element name="Nighteye" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_NIGHTEYE">
+    <element name="Nighteye" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_NIGHTEYE">
         <supports>Mutagen Formula</supports>
         <description>
             <p>You gain darkvision for up to 60 feet. If you already have darkvision, this increases its range by 60 additional feet.</p>
@@ -1135,7 +1135,7 @@
             <description>You gain darkvision for up to 60 feet. If you already have darkvision, this increases its range by 60 additional feet. Side effect: You gain sunlight sensitivity.</description>
         </sheet>
     </element>
-    <element name="Potency" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_POTENCY">
+    <element name="Potency" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_POTENCY">
         <supports>Mutagen Formula</supports>
         <description>
             <p>Your Strength score increases by an amount equal to your mutation score, as does your Strength maximum.</p>
@@ -1151,7 +1151,7 @@
             <!-- <stat name="dexterity" value="-mutation score" /> -->
         </rules>
     </element>
-    <element name="Precision" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_PRECISION">
+    <element name="Precision" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_PRECISION">
         <supports>Mutagen Formula</supports>
         <prerequisite>11th level</prerequisite>
         <requirements>[blood hunter:11]</requirements>
@@ -1165,7 +1165,7 @@
             <description>Your weapon attacks score a critical hit on a roll of 19-20. Side effect: All healing you receive is halved.</description>
         </sheet>
     </element>
-    <element name="Rapidity" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_RAPIDITY">
+    <element name="Rapidity" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_RAPIDITY">
         <supports>Mutagen Formula</supports>
         <description>
             <p>Your speed increases by 15 feet. At 15th level, your speed increases by 20 feet instead.</p>
@@ -1177,7 +1177,7 @@
             <description level="15">Your speed increases by 20 feet. Side effect: You have disadvantage on Dexterity ability checks.</description>
         </sheet>
     </element>
-    <element name="Reconstruction" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_RECONSTRUCTION">
+    <element name="Reconstruction" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_RECONSTRUCTION">
         <supports>Mutagen Formula</supports>
         <prerequisite>7th level</prerequisite>
         <requirements>[blood hunter:7]</requirements>
@@ -1195,15 +1195,15 @@
             <stat name="reconstruction formula:regeneration" value="mutation score" />
         </rules>
     </element>
-    <element name="Sagacity" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_SAGACITY">
+    <element name="Sagacity" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_SAGACITY">
         <supports>Mutagen Formula</supports>
         <description>
-            <p>Your Wisdom score increases by an amount equal to your mutation score, as does your Wisdom maximum.</p>
+            <p>Your Intelligence score increases by an amount equal to your mutation score, as does your Intdom maximum.</p>
             <p class="indent"><b><i>Side effect:</i></b> Your armor class score decreases by amount equal to your mutation score.
             </p>
         </description>
         <sheet>
-            <description>Your Wisdom score increases by {{mutation score}}, as does your Wisdom maximum. Side effect: Your armor class decreases by {{mutation score}}.</description>
+            <description>Your Intelligence score increases by {{mutation score}}, as does your Intdom maximum. Side effect: Your armor class decreases by {{mutation score}}.</description>
         </sheet>
         <rules>
             <!-- <stat name="intelligence" value="mutation score" /> -->
@@ -1211,7 +1211,7 @@
             <!-- <stat name="ac:misc" value="-mutation score" /> -->
         </rules>
     </element>
-    <element name="Shielded" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_SHIELDED">
+    <element name="Shielded" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_SHIELDED">
         <supports>Mutagen Formula</supports>
         <description>
             <p>You gain resistance to slashing damage.</p>
@@ -1222,7 +1222,7 @@
             <description>You gain resistance to slashing damage. Side effect: You gain vulnerability to bludgeoning damage.</description>
         </sheet>
     </element>
-    <element name="Unbreakable" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_UNBREAKABLE">
+    <element name="Unbreakable" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_UNBREAKABLE">
         <supports>Mutagen Formula</supports>
         <description>
             <p>You gain resistance to bludgeoning damage.</p>
@@ -1233,15 +1233,15 @@
             <description>You gain resistance to bludgeoning damage. Side effect: You gain vulnerability to piercing damage.</description>
         </sheet>
     </element>
-    <element name="Wariness" type="Archetype Feature" source="Critical Role" id="ID_CRIT_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_WARINESS">
+    <element name="Wariness" type="Archetype Feature" source="hunters-edits" id="ID_HUNTER_HH_HE_ARCHETYPE_FEATURE_MUTAGEN_FORMULA_WARINESS">
         <supports>Mutagen Formula</supports>
         <description>
             <p>You gain a bonus to initiative equal to 2 times your mutation score.</p>
-            <p class="indent"><b><i>Side effect:</i></b> You have disadvantage on Wisdom (Perception) checks.
+            <p class="indent"><b><i>Side effect:</i></b> You have disadvantage on Intelligence (Perception) checks.
             </p>
         </description>
         <sheet>
-            <description>You gain a +{{wariness formula:initiative}} bonus to initiative. Side effect: You have disadvantage on Wisdom (Perception) checks.</description>
+            <description>You gain a +{{wariness formula:initiative}} bonus to initiative. Side effect: You have disadvantage on Intelligence (Perception) checks.</description>
         </sheet>
         <rules>
             <stat name="wariness formula:initiative" value="mutation score" />
